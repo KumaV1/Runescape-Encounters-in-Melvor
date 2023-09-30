@@ -13,6 +13,7 @@ Thank you to the following people that helped in the development of this mod. Th
 * Please take any stats (at least pre v1.0) with a huge grain of salt, as I only recently came back to Melvor Idle and do not know what kind of DR and the like to expect at certain stages of the game
   * Because of that, basically all "initial stats"/"stat ideas" will be based on 990HP and no DR, which should make it fairly easy to convert them to a more realistic value later on
   * Aside from stats, this would also go for any sort of balancing of special attacks, buffs/debuffs, etc.
+* As of now, any effect, item, asset or what-have-you, that is used for more than one boss (folder) is put into the "_Shared" folder.
 
 # Implementation ideas / notes
 
@@ -20,6 +21,7 @@ Thank you to the following people that helped in the development of this mod. Th
 * All encounters based on bosses, even if only added as normal mob encounters (because they are just so weak, heh), would follow the spirit of having a boss pet
   * For example, I don't feel like forcing low level Dagannoths/Dinosaurs encounters before being able to battle the respective Dagannoth king / Rex matriarch
     * Or should I, just to increase the time it takes for a "clear"?
+* I'm not sure if it would have to be its own "expansion" mod, but it might be nice for higher level bosses to be able to drop some ThtH/AoD items
 
 ## Shop Purchases (all categorized into a mod-specific section?)
 * GWD2 bosses dropping sigils, being able to buy improved drop rates (if possible) specific to the bosses
