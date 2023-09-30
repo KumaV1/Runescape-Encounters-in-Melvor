@@ -1,0 +1,14 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "items": [
+      
+    ],
+    "itemUpgrades": [],
+    "combatPassives": [],
+    "combatAreas": [],
+    "monsters": [],
+    "pets": []
+  }
+}

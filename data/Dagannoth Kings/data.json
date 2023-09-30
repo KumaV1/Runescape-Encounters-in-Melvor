@@ -1,0 +1,478 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "items": [
+      {
+        "id": "Dagannoth_Bones",
+        "name": "Dagannoth bones",
+        "category": "Misc",
+        "type": "Bones",
+        "media": "assets/items/Dagannoth Kings/Dagannoth_bones.png",
+        "ignoreCompletion": false,
+        "optainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Bone",
+        "prayerPoints": 1
+      },
+      {
+        "id": "Archers_Ring",
+        "name": "Archer's Ring",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Dagannoth Kings/Archers_ring.png",
+        "ignoreCompletion": false,
+        "optainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Ring" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {
+          "increasedRangedCritChance": 1
+        },
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Seers_Ring",
+        "name": "Seer's Ring",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Dagannoth Kings/Seers_ring.png",
+        "ignoreCompletion": false,
+        "optainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Ring" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {
+          "increasedMagicCritChance": 1
+        },
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Warrior_Ring",
+        "name": "Warrior Ring",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Dagannoth Kings/Warrior_ring.png",
+        "ignoreCompletion": false,
+        "optainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Ring" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {
+          "increasedMeleeCritChance": 1
+        },
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Berserker_Ring",
+        "name": "Berserker Ring",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/Dagannoth Kings/Berserker_ring.png",
+        "ignoreCompletion": false,
+        "optainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Ring" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {
+          "increasedMeleeCritChance": 2
+        },
+        "itemType": "Equipment"
+      }
+    ],
+    "combatAreas": [
+      {
+        "id": "Dagannoth_Lair",
+        "name": "Dagannoth lair",
+        "media": "assets/Dagannoth_Kings_lair.png",
+        "difficulty": [
+          1
+        ],
+        "monsterIDs": [
+          "runescapeEncountersInMelvor:Dagannoth_Rex",
+          "runescapeEncountersInMelvor:Dagannoth_Supreme",
+          "runescapeEncountersInMelvor:Dagannoth_Prime"
+        ],
+        "entryRequirements": []
+      }
+    ],
+    "combatAreaDisplayOrder": [
+      {
+        "insertAt": "End",
+        "ids": [
+          "runescapeEncountersInMelvor:Dagannoth_Lair"
+        ]
+      }
+    ],
+	"combatPassives": [
+      {
+        "id": "RoyalDecreeSea",
+        "name": "Royal Decree - Sea",
+        "modifiers": {
+            "otherStyleImmunity": 1
+		}
+      }
+    ],
+    "monsters": [
+      {
+        "id": "Dagannoth_Rex",
+        "name": "Dagannoth Rex",
+        "media": "assets/monsters/Dagannoth Kings/Dagannoth_Rex.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": ["runescapeEncountersInMelvor:RoyalDecreeSea"],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorF:Melee_Accuracy_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Melee_Strength_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dagannoth_Bones",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Warrior_Ring",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Berserker_Ring",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "Firstborn of the legendary dagannoth kings.",
+        "bones": {
+          "itemID": "runescapeEncountersInMelvor:Dagannoth_Bones",
+          "quantity": 1
+        },
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Rex_Hatchling",
+          "quantity": 200
+        }
+      },
+      {
+        "id": "Dagannoth_Supreme",
+        "name": "Dagannoth Supreme",
+        "media": "assets/monsters/Dagannoth Kings/Dagannoth Supreme.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "ranged",
+        "specialAttacks": [],
+        "passives": ["runescapeEncountersInMelvor:RoyalDecreeSea"],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorF:Ranged_Strength_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Ranged_Assistance_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Red_Dhide_Vambraces",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Red_Dhide_Chaps",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Red_Dhide_Body",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "melvorF:Red_Dhide_Shield",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "melvorD:Bowstring",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Archers_Ring",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "The dagannoth king responsible for the death of the Bukalla.",
+        "bones": {
+          "itemID": "runescapeEncountersInMelvor:Dagannoth_Bones",
+          "quantity": 1
+        },
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Supreme_Hatchling",
+          "quantity": 200
+        }
+      },
+      {
+        "id": "Dagannoth_Prime",
+        "name": "Dagannoth Prime",
+        "media": "assets/monsters/Dagannoth Kings/Dagannoth Prime.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": ["runescapeEncountersInMelvor:RoyalDecreeSea"],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorF:Magic_Damage_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Magic_Assistance_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Death_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Water_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "melvorD:Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dagannoth_Bones",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Seers_Ring",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WaterSurge",
+        "description": "A legendary dagannoth king, rumoured to fly on the North winds.",
+        "bones": {
+          "itemID": "runescapeEncountersInMelvor:Dagannoth_Bones",
+          "quantity": 1
+        },
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Prime_Hatchling",
+          "quantity": 200
+        }
+      }
+    ],
+    "pets": [
+      {
+        "id": "Rex_Hatchling",
+        "name": "Rex Hatchling",
+        "media": "assets/pets/Dagannoth Kings/Rex_hatchling.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedMeleeAccuracyBonus": 1
+        },
+        "activeInRaid": false,
+        "hint": "Dagannoth Lair"
+      },
+      {
+        "id": "Supreme_Hatchling",
+        "name": "Supreme Hatchling",
+        "media": "assets/pets/Dagannoth Kings/Supreme_hatchling.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedRangedAccuracyBonus": 1
+        },
+        "activeInRaid": false,
+        "hint": "Dagannoth Lair"
+      },
+      {
+        "id": "Prime_Hatchling",
+        "name": "Prime Hatchling",
+        "media": "assets/pets/Dagannoth Kings/Prime_hatchling.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedMagicAccuracyBonus": 1
+        },
+        "activeInRaid": false,
+        "hint": "Dagannoth Lair"
+      }
+    ]
+  }
+}
