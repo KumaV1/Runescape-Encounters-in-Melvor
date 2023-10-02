@@ -3,6 +3,7 @@
   "icon": "assets/logo.png",
   "setup": "src/setup.mjs",
   "load": [
-    "data/Dagannoth Kings/data.json"
+    "data/Dagannoth Kings/data.json",
+    "data/Rex Matriarchs/data.json"
   ]
 }
