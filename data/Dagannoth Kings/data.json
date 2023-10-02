@@ -173,13 +173,33 @@
         ]
       }
     ],
-	"combatPassives": [
+    "combatPassives": [
       {
-        "id": "RoyalDecreeSea",
-        "name": "Royal Decree - Sea",
+        "id": "Royal_Hide_Meele_Sea",
+        "name": "Royal Hide (Melee) (Sea)",
         "modifiers": {
-            "otherStyleImmunity": 1
-		}
+          "meleeImmunity": 1,
+		  "rangedImmunity": 1
+        },
+		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+      },
+	  {
+        "id": "Royal_Hide_Ranged_Sea",
+        "name": "Royal Hide (Ranged) (Sea)",
+        "modifiers": {
+		  "rangedImmunity": 1,
+		  "magicImmunity": 1
+        },
+		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+      },
+	  {
+        "id": "Royal_Hide_Magic_Sea",
+        "name": "Royal Hide (Magic) (Sea)",
+        "modifiers": {
+          "meleeImmunity": 1,
+		  "magicImmunity": 1
+        },
+		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       }
     ],
     "monsters": [
@@ -204,7 +224,7 @@
         "ignoreCompletion": false,
         "attackType": "melee",
         "specialAttacks": [],
-        "passives": ["runescapeEncountersInMelvor:RoyalDecreeSea"],
+        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Meele_Sea" ],
         "lootChance": 100,
         "lootTable": [
           {
@@ -258,7 +278,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Rex_Hatchling",
-          "quantity": 200
+          "quantity": 1000
         }
       },
       {
@@ -282,7 +302,7 @@
         "ignoreCompletion": false,
         "attackType": "ranged",
         "specialAttacks": [],
-        "passives": ["runescapeEncountersInMelvor:RoyalDecreeSea"],
+        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Ranged_Sea" ],
         "lootChance": 100,
         "lootTable": [
           {
@@ -348,7 +368,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Supreme_Hatchling",
-          "quantity": 200
+          "quantity": 1000
         }
       },
       {
@@ -372,7 +392,7 @@
         "ignoreCompletion": false,
         "attackType": "magic",
         "specialAttacks": [],
-        "passives": ["runescapeEncountersInMelvor:RoyalDecreeSea"],
+        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Magic_Sea" ],
         "lootChance": 100,
         "lootTable": [
           {
@@ -432,7 +452,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Prime_Hatchling",
-          "quantity": 200
+          "quantity": 1000
         }
       }
     ],
