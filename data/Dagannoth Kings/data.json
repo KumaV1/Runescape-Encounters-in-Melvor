@@ -179,27 +179,27 @@
         "name": "Royal Hide (Melee) (Sea)",
         "modifiers": {
           "meleeImmunity": 1,
-		  "rangedImmunity": 1
+          "rangedImmunity": 1
         },
-		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+        "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       },
-	  {
+      {
         "id": "Royal_Hide_Ranged_Sea",
         "name": "Royal Hide (Ranged) (Sea)",
         "modifiers": {
-		  "rangedImmunity": 1,
-		  "magicImmunity": 1
+          "rangedImmunity": 1,
+          "magicImmunity": 1
         },
-		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+        "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       },
-	  {
+      {
         "id": "Royal_Hide_Magic_Sea",
         "name": "Royal Hide (Magic) (Sea)",
         "modifiers": {
           "meleeImmunity": 1,
-		  "magicImmunity": 1
+          "magicImmunity": 1
         },
-		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+        "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       }
     ],
     "monsters": [

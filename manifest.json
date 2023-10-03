@@ -1,8 +1,9 @@
 {
   "namespace": "runescapeEncountersInMelvor",
-  "icon": "assets/logo.png",
+  "icon": "assets/_Shared/Logo.png",
   "setup": "src/setup.mjs",
   "load": [
+    "data/_Shared/data.json",
     "data/Dagannoth Kings/data.json",
     "data/Rex Matriarchs/data.json"
   ]

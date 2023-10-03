@@ -1,0 +1,19 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "shopCategories": [
+      {
+        "id": "GeneralShop",
+        "name": "Runescape",
+        "media": "assets/_Shared/Shop.png"
+      }
+    ],
+    "shopCategoryOrder": [
+      {
+        "insertAt": "End",
+        "ids": [ "runescapeEncountersInMelvor:GeneralShop" ]
+      }
+    ]
+  }
+}

@@ -630,7 +630,7 @@
             "weight": 100
           },
           {
-            "itemID": "melvorF:Melee_Strength_Potion_II",
+            "itemID": "melvorF:Ranged_Assistance_Potion_II",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 100
@@ -749,7 +749,7 @@
             "weight": 100
           },
           {
-            "itemID": "melvorF:Melee_Strength_Potion_II",
+            "itemID": "melvorF:Magic_Assistance_Potion_II",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 100

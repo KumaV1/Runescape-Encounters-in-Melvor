@@ -1,0 +1,19 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "items": [],
+    "itemUpgrades": [],
+    "combatPassives": ["Telos Beams"],
+    "combatAreas": ["The first 4 bosses"],
+    "combatAreaDisplayOrder": [],
+    "dungeons": ["Telos"],
+    "dungeonDisplayOrder": [],
+    "monsters": ["The first 4 bosses, 5 entries for telos; or maybe 1-3, if I can overwrite passives and possibly special attacks for a monster inside a dungeon"],
+    "pets": ["Not sure how to deal with two pets in one fight, tbh - as in, there is probably no image to use as combined pet"],
+    "attacks": [],
+    "shopPurchases": ["Unlocking Telos (5 Phase boss fight as dungeon)"],
+    "shopDisplayOrder": [],
+    "itemSyngergies": ["Might be interesting to give combination of mainhand+offhand an additional boost"]
+  }
+}
