@@ -4,7 +4,7 @@
   "data": {
     "shopCategories": [
       {
-        "id": "GeneralShop",
+        "id": "General_Shop",
         "name": "Runescape",
         "media": "assets/_Shared/Shop.png"
       }
@@ -12,7 +12,7 @@
     "shopCategoryOrder": [
       {
         "insertAt": "End",
-        "ids": [ "runescapeEncountersInMelvor:GeneralShop" ]
+        "ids": [ "runescapeEncountersInMelvor:General_Shop" ]
       }
     ]
   }

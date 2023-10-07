@@ -689,7 +689,7 @@
           "max": 1
         },
         "canSlayer": false,
-        "isBoss": false,
+        "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
         "description": "A fierce, spiked beast. It has evolved to attack from afar, despite being a fearsome foe up close.",
         "bones": {
