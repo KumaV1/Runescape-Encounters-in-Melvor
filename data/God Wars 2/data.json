@@ -207,6 +207,189 @@
         "itemType": "Item"
       },
       {
+        "id": "Anima_Core_Helm_Of_Zamorak",
+        "name": "Anima core helm of Zamorak",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Helm_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Helmet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Body_Of_Zamorak",
+        "name": "Anima core body of Zamorak",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Body_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platebody" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Legs_Of_Zamorak",
+        "name": "Anima core legs of Zamorak",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Legs_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platelegs" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Blade_Of_Nymora",
+        "name": "Blade of Nymora",
+        "category": "Combat",
+        "type": "Melee Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Blade_Of_Nymora.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Blade_Of_Avaryss",
+        "name": "Blade of Avaryss",
+        "category": "Combat",
+        "type": "Melee Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Blade_Of_Avaryss.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Crest_Of_Zamorak",
+        "name": "Crest of Zamorak",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Crest_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
         "id": "Ancient_Sigil_Piece_Seren",
         "name": "Ancient Sigil Piece (Seren)",
         "category": "Misc",
@@ -644,6 +827,66 @@
       {
         "itemCosts": [
           {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+          "runescapeEncountersInMelvor:Crest_Of_Zamorak"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Helm_Of_Zamorak",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+          "runescapeEncountersInMelvor:Crest_Of_Zamorak"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Body_Of_Zamorak",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+          "runescapeEncountersInMelvor:Crest_Of_Zamorak"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Legs_Of_Zamorak",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
             "id": "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
             "quantity": 1
           },
@@ -774,7 +1017,8 @@
           3
         ],
         "monsterIDs": [
-          "runescapeEncountersInMelvor:Helwyr"
+          "runescapeEncountersInMelvor:Helwyr",
+          "runescapeEncountersInMelvor:Avaryss_And_Nymora"
         ],
         "entryRequirements": []
       }
@@ -969,6 +1213,144 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Lilwyr",
+          "quantity": 5000
+        }
+      },
+      {
+        "id": "Avaryss_And_Nymora",
+        "name": "Avaryss and Nymora",
+        "media": "assets/monsters/God Wars 2/Avaryss_And_Nymora.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "random",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Twin_Furies_Wall_Charge",
+          "runescapeEncountersInMelvor:Twin_Furies_Ceiling_Collapse",
+          "runescapeEncountersInMelvor:Twin_Furies_Channelled_Bomb"
+        ],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Mithril_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Blade_Of_Nymora",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Blade_Of_Avaryss",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zamorak",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "Feared for invoking Zamorak's wrath on those who have sworn a false oath.",
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Nylessa_And_Ava",
           "quantity": 5000
         }
       },
@@ -1191,6 +1573,18 @@
         "hint": "Heart of Gielinor"
       },
       {
+        "id": "Nylessa_And_Ava",
+        "name": "Nylessa and Ava",
+        "media": "assets/pets/God Wars 2/Nylessa_And_Ava.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedRangedEvasion": 1
+        },
+        "activeInRaid": false,
+        "hint": "Heart of Gielinor"
+      },
+      {
         "id": "Tess",
         "name": "Tess",
         "media": "assets/pets/God Wars 2/Tess.png",
@@ -1316,6 +1710,99 @@
         "descriptionGenerator": "Deals <Damage> <count> times. Also <hitEffect>",
         "attackTypes": [
           "melee"
+        ]
+      },
+      {
+        "id": "Twin_Furies_Wall_Charge",
+        "name": "Wall charge",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 75
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Stun",
+            "turns": 1,
+            "chance": 100,
+            "flavour": "Stun"
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 4,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Avaryss dashes between the walls. Hits ${hitCount} times for ${attackDamageMaxValue0}% of the enemy's normal damage each and applies stun for ${onHitEffect0turns} turn",
+        "descriptionGenerator": "Avaryss dashes between the walls. Hits <count> times for <damage> each and <hitEffect>",
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
+        "id": "Twin_Furies_Ceiling_Collapse",
+        "name": "Ceiling collapse",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 80
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Nymora attacks the ceiling. Stalactites hit ${hitCount} times, dealing ${attackDamageMaxValue0}% of the enemy's normal damage",
+        "descriptionGenerator": "Nymora attacks the ceiling. Stalactites hit <count> times, dealing <damage>",
+        "attackTypes": [
+          "ranged"
+        ]
+      },
+      {
+        "id": "Twin_Furies_Channelled_Bomb",
+        "name": "Channelled bomb",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 40
+          },
+          {
+            "damageType": "Normal",
+            "amplitude": 450,
+            "attackCount": 5
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 2,
+            "character": "Attacker",
+            "countsOn": "Attacker",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "increasedDamageTaken": 50
+            },
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/combat.svg"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 6,
+        "attackInterval": 300,
+        "lifesteal": 0,
+        "description": "Avaryss and Nemora charge and detonate a bomb, for a total of ${hitCount} hits across ${duration}s. First hits deal ${attackDamageMaxValue0}% of the enemy's normal damage and ${attackDamageMaxValue1}% of the enemy's normal damage on the 6th attack. Also, gives the enemy +${preHitEffect0modValue0}% more Damage taken for ${preHitEffect0turns} of the enemy's turns\n",
+        "descriptionGenerator": "Avaryss and Nemora charge and detonate a bomb, for a total of <count> hits across <duration>. First hits deal <damage>. Also, <prehitEffect>\n",
+        "attackTypes": [
+          "magic"
         ]
       },
       {

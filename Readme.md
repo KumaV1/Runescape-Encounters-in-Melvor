@@ -23,8 +23,12 @@ The following people contributed to this Mod and helped and being where it is no
 * Maybe be able to toggle whether you can see RS3/OSRS content? As there might be some people that just really don't want to deal with one version of the game...
 
 # Plans / Ideas
+* Improve images used, as some are very small, making them very blurry
 * Improve balancing across the board
-* Localization
+* Improve descriptions across the board
+* Enabling localization
+  * Can personally only provide English and German translations
+  * Updated would initially only consist those languages, having to be added by someone else (unless machine translation is used)
 * More encounters
   * Telos
     * I feel like just slapping some generic passives / special attacks on him isn't really doing im justice
@@ -42,6 +46,7 @@ The following people contributed to this Mod and helped and being where it is no
     * Weapons being (among) the generally strongest for "Melvor Full", at least purely offensively
     * If an idea comes to mind, then a Tzhaar combat area and Tzekhaar front would drop Tokkul to spend on something
     * One time shop purchase per front, akin to the elemental dungeon purchases
+  * Others (any ideas? feel free to share them and we can see what we can do)
 
 # Implementation ideas / notes
 
@@ -106,6 +111,7 @@ I am not too knowledgable, so most would have to be thought of by others, I asum
 * Reward ideas for all bosses
   * Similar to RS3, have the niche of the weapons be (comparitively to its target level area) mediocre damage but high accuracy
   * There is no "niche" for the armour though, assuming the GWD1 rewards are based on OSRS, considering Nex would only drop armour for one combat style (as the main difference between Nex armour and GWD2 armour is that the latter does not provide prayer/hp bonus)
+    * Have the niche be low defense but accuracy in exchange for that defense
 
 ### Elder God Wars
 * Reward ideas for all fronts
