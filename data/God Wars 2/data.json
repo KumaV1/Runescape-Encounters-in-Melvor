@@ -4,13 +4,216 @@
   "data": {
     "items": [
       {
+        "id": "Dormant_Anima_Core_Helm",
+        "name": "Dormant anima core helm",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Anima_Core_Helm.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dormant_Anima_Core_Body",
+        "name": "Dormant anima core body",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Anima_Core_Body.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dormant_Anima_Core_Legs",
+        "name": "Dormant anima core legs",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Anima_Core_Legs.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Anima_Core_Helm_Of_Seren",
+        "name": "Anima core helm of Seren",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Helm_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Helmet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 4
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Body_Of_Seren",
+        "name": "Anima core body of Seren",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Body_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platebody" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 4
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Legs_Of_Seren",
+        "name": "Anima core legs of Seren",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Legs_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platelegs" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 4
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Wand_Of_The_Cywir_Elders",
+        "name": "Wand of the Cywir elders",
+        "category": "Combat",
+        "type": "Magic Weapon",
+        "attackType": "magic",
+        "media": "assets/items/God Wars 2/Wand_Of_The_Cywir_Elders.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Orb_Of_The_Cywir_Elders",
+        "name": "Orb of the Cywir elders",
+        "category": "Combat",
+        "type": "Magic Weapon",
+        "attackType": "magic",
+        "media": "assets/items/God Wars 2/Orb_Of_The_Cywir_Elders.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Crest_Of_Seren",
+        "name": "Crest of Seren",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Crest_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
         "id": "Ancient_Sigil_Piece_Seren",
         "name": "Ancient Sigil Piece (Seren)",
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Seren.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -22,7 +225,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Sliske.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -34,7 +237,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Zamorak.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -46,7 +249,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Zaros.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -58,7 +261,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Orb_Of_Corrupted_Anima.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -70,7 +273,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Orb_Of_Volcanic_Anima.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -82,7 +285,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Orb_Of_Pure_Anima.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -94,7 +297,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Dormant_Seren_Godbow.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -106,7 +309,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Dormant_Staff_Of_Sliske.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -118,7 +321,7 @@
         "type": "Misc",
         "media": "assets/items/God Wars 2/Dormant_Zaros_Godsword.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -131,7 +334,7 @@
         "attackType": "ranged",
         "media": "assets/items/God Wars 2/Seren_Godbow.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -160,7 +363,7 @@
         "attackType": "magic",
         "media": "assets/items/God Wars 2/Staff_Of_Sliske.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -189,7 +392,7 @@
         "attackType": "melee",
         "media": "assets/items/God Wars 2/Zaros_Godsword.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -225,7 +428,7 @@
         "type": "Chest",
         "media": "assets/items/God Wars 2/Ancient_Sigil.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Openable",
@@ -381,6 +584,66 @@
       {
         "itemCosts": [
           {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+          "runescapeEncountersInMelvor:Crest_Of_Seren"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Helm_Of_Seren",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+          "runescapeEncountersInMelvor:Crest_Of_Seren"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Body_Of_Seren",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+          "runescapeEncountersInMelvor:Crest_Of_Seren"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Legs_Of_Seren",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
             "id": "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
             "quantity": 1
           },
@@ -502,6 +765,28 @@
         }
       }
     ],
+    "combatAreas": [
+      {
+        "id": "Godwars_Dungeon_2_Heart_Of_Gielinor",
+        "name": "Godwars Dungeon 2 - Heart of Gielinor",
+        "media": "assets/locations/Godwars_Dungeon_2_Lair.png",
+        "difficulty": [
+          3
+        ],
+        "monsterIDs": [
+          "runescapeEncountersInMelvor:Helwyr"
+        ],
+        "entryRequirements": []
+      }
+    ],
+    "combatAreaDisplayOrder": [
+      {
+        "insertAt": "End",
+        "ids": [
+          "runescapeEncountersInMelvor:Godwars_Dungeon_2_Heart_Of_Gielinor"
+        ]
+      }
+    ],
     "dungeons": [
       {
         "id": "Telos_The_Warden_Dungeon",
@@ -546,6 +831,148 @@
     ],
     "monsters": [
       {
+        "id": "Helwyr",
+        "name": "Helwyr",
+        "media": "assets/monsters/God Wars 2/Helwyr.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Helwyr_The_Aid_Of_Nature",
+          "runescapeEncountersInMelvor:Helwyr_Rake_And_Rend",
+          "runescapeEncountersInMelvor:Helwyr_Thrash"
+        ],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Mithril_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Wand_Of_The_Cywir_Elders",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Orb_Of_The_Cywir_Elders",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Seren",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "Leader of the Cywir hunters, possessing ancient powers of transformation.",
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        },
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Lilwyr",
+          "quantity": 5000
+        }
+      },
+      {
         "id": "Telos_Phase1",
         "name": "Telos (Phase 1)",
         "media": "assets/monsters/God Wars 2/Telos_The_Warden.png",
@@ -579,8 +1006,8 @@
         "lootChance": 100,
         "lootTable": [],
         "gpDrops": {
-          "min": 0,
-          "max": 0
+          "min": 1,
+          "max": 1
         },
         "canSlayer": false,
         "isBoss": false,
@@ -620,8 +1047,8 @@
         "lootChance": 100,
         "lootTable": [],
         "gpDrops": {
-          "min": 0,
-          "max": 0
+          "min": 1,
+          "max": 1
         },
         "canSlayer": false,
         "isBoss": false,
@@ -660,8 +1087,8 @@
         "lootChance": 100,
         "lootTable": [],
         "gpDrops": {
-          "min": 0,
-          "max": 0
+          "min": 1,
+          "max": 1
         },
         "canSlayer": false,
         "isBoss": false,
@@ -700,8 +1127,8 @@
         "lootChance": 100,
         "lootTable": [],
         "gpDrops": {
-          "min": 0,
-          "max": 0
+          "min": 1,
+          "max": 1
         },
         "canSlayer": false,
         "isBoss": false,
@@ -741,8 +1168,8 @@
         "lootChance": 100,
         "lootTable": [],
         "gpDrops": {
-          "min": 0,
-          "max": 0
+          "min": 1,
+          "max": 1
         },
         "canSlayer": false,
         "isBoss": true,
@@ -751,6 +1178,18 @@
       }
     ],
     "pets": [
+      {
+        "id": "Lilwyr",
+        "name": "Lilwyr",
+        "media": "assets/pets/God Wars 2/Lilwyr.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedMagicEvasion": 1
+        },
+        "activeInRaid": false,
+        "hint": "Heart of Gielinor"
+      },
       {
         "id": "Tess",
         "name": "Tess",
@@ -765,6 +1204,120 @@
       }
     ],
     "attacks": [
+      {
+        "id": "Helwyr_The_Aid_Of_Nature",
+        "name": "The aid of nature",
+        "defaultChance": 10,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "MaxHit",
+                "maxPercent": 20
+              }
+            ],
+            "chance": 100
+          },
+          {
+            "effectType": "Slow",
+            "magnitude": 20,
+            "turns": 5
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Inflicts Bleed that deals ${onHitEffect0DamageMaxValue0}% of your max hit as damage over ${onHitEffect0duration}s and gives the enemy +${onHitEffect1modValue0}% Attack Interval for ${onHitEffect1turns} of the enemy's turns",
+        "descriptionGenerator": "<HitEffect>"
+      },
+      {
+        "id": "Helwyr_Rake_And_Rend",
+        "name": "Rake and rend",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 250
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 5,
+            "interval": 200,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "MaxHit",
+                "maxPercent": 50
+              }
+            ],
+            "chance": 100
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Deals ${attackDamageMaxValue0}% of your normal damage and inflicts Bleed that deals ${onHitEffect0DamageMaxValue0}% of your max hit as damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "Deals <damage> and <hitEffect>",
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
+        "id": "Helwyr_Thrash",
+        "name": "Thrash",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 5,
+            "interval": 400,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "MaxHit",
+                "maxPercent": 35
+              }
+            ],
+            "chance": 100
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Deals ${attackDamageMaxValue0}% of your normal damage ${hitCount} times. Also inflicts Bleed that deals  as damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "Deals <Damage> <count> times. Also <hitEffect>",
+        "attackTypes": [
+          "melee"
+        ]
+      },
       {
         "id": "Telos_Discharge",
         "name": "Discharge",
@@ -903,11 +1456,11 @@
         "attackCount": 5,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "Fires ${hitCount}  arrows, dealing ${attackDamageMaxValue0}% of your normal damage each.",
+        "description": "Fires ${hitCount} arrows, dealing ${attackDamageMaxValue0}% of your normal damage each.",
         "attackTypes": [
           "ranged"
         ],
-        "descriptionGenerator": "Fires <count>  arrows, dealing <damage> each."
+        "descriptionGenerator": "Fires <count> arrows, dealing <damage> each."
       },
       {
         "id": "Staff_Of_Sliske_From_The_Shadows",
