@@ -19,8 +19,9 @@ The following people contributed to this Mod and helped and being where it is no
 * Toggling visibility of each combat area/slayer area/dungeon, to avoid cluttering the UI, if the mod happens to become bigger (alternatively/in addition, some UI customization to add new section?)
   * Probably by removing all custom entries on character load, followed by immediately recreating them through the existing "combat-area-menu" component, using a vue condition based on the respective toggle property in settings
 * Allow toggling between image paths of assets, if they exist in both OSRS and RS3, so you can choose wichever you prefer
-  * There will still be probably only one implementation respectively, with rewards based on one version (e.g. Nex would likely have the OSRS rewards, rather than RS3 and other GWD1 bosses wouldn't have items that were later added in RS3)
+  * There will still be probably only one implementation respectively, with rewards based on one version (e.g. Nex would likely have the OSRS rewards, rather than RS3, and other GWD1 bosses wouldn't have items that were later added in RS3)
 * Maybe be able to toggle whether you can see RS3/OSRS content? As there might be some people that just really don't want to deal with one version of the game...
+* Other ideas?
 
 # Plans / Ideas
 * Improve images used, as some are very small, making them very blurry
@@ -28,10 +29,10 @@ The following people contributed to this Mod and helped and being where it is no
 * Improve descriptions across the board
 * Enabling localization
   * Can personally only provide English and German translations
-  * Updated would initially only consist those languages, having to be added by someone else (unless machine translation is used)
+  * Updates would initially only consist those languages, having to be added by someone else (unless machine translation is used)
 * More encounters
   * Telos
-    * I feel like just slapping some generic passives / special attacks on him isn't really doing im justice
+    * I feel like just slapping some generic passives / special attacks on him isn't really doing him justice
     * That said, there are mechanics, that do not yet seem to exist in Melvor and might be hard (or at least a lot of effort) to implement
       * E.g. "On stun, re-roll what attack to do, if current next attack is a certain special attack"
       * E.g. "On next attack selection, if attack is certain special, greatly lower attack interval, to simulate charging up (and allow for cancellation)"
@@ -47,6 +48,9 @@ The following people contributed to this Mod and helped and being where it is no
     * If an idea comes to mind, then a Tzhaar combat area and Tzekhaar front would drop Tokkul to spend on something
     * One time shop purchase per front, akin to the elemental dungeon purchases
   * Others (any ideas? feel free to share them and we can see what we can do)
+
+# Remarks
+* Should this mod reach the realm of creating its own (combat) modifiers, then it might be worthwile to create a "Custom Modifiers" base mod, that could then be re-used by other mods as well.
 
 # Implementation ideas / notes
 
