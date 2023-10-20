@@ -26,7 +26,9 @@ The following people contributed to this Mod and helped and being where it is no
 # Plans / Ideas
 * Improve images used, as some are very small, making them very blurry
 * Improve balancing across the board
-* Improve descriptions across the board
+* Possibly making some implementations more faithful to how they work in (Old School) Runescape
+  * One example would be Gregorovic currently having a passive to represent his ghost spawn special, rather than a special that continues to stack the corresponding modifiers everytime it is used
+* Improve descriptions across the board (e.g., specifying when a special uses a different attack style than the normal attack)
 * Enabling localization
   * Can personally only provide English and German translations
   * Updates would initially only consist those languages, having to be added by someone else (unless machine translation is used)
