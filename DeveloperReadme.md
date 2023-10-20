@@ -7,3 +7,9 @@
   * Aside from stats, this would also go for any sort of balancing of special attacks, buffs/debuffs, etc.
 * As of now, any effect, item, asset or what-have-you, that is used for more than one boss (folder) is put into the "_Shared" folder.
 * I should probably check whether the data-file-patch order in the manifest.js is relevant (e.g. Rex Matriarch drops upgrading DK rings)
+
+# Helpful commands (use [dev.Console](https://mod.io/g/melvoridle/m/devconsole) mod)
+## Directly add a certain item to the bank, e.g. to quickly check a new item upgrade
+```js
+game.bank.addItemByID("runescapeEncountersInMelvor:XXXXX", 1, false, true, true)
+```

@@ -1,0 +1,5 @@
+* Helwyr
+* Vindicta and Gorvek
+* Twin Furies
+* Gregorovic
+* Setting proper stats for bosses and items, deactivating Telos

@@ -1,0 +1,3014 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "items": [
+      {
+        "id": "Dormant_Anima_Core_Helm",
+        "name": "Dormant anima core helm",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Anima_Core_Helm.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dormant_Anima_Core_Body",
+        "name": "Dormant anima core body",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Anima_Core_Body.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dormant_Anima_Core_Legs",
+        "name": "Dormant anima core legs",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Anima_Core_Legs.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Anima_Core_Helm_Of_Seren",
+        "name": "Anima core helm of Seren",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Helm_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Helmet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Body_Of_Seren",
+        "name": "Anima core body of Seren",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Body_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platebody" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Legs_Of_Seren",
+        "name": "Anima core legs of Seren",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Legs_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platelegs" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Wand_Of_The_Cywir_Elders",
+        "name": "Wand of the Cywir elders",
+        "category": "Combat",
+        "type": "Magic Weapon",
+        "attackType": "magic",
+        "media": "assets/items/God Wars 2/Wand_Of_The_Cywir_Elders.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Orb_Of_The_Cywir_Elders",
+        "name": "Orb of the Cywir elders",
+        "category": "Combat",
+        "type": "Magic Weapon",
+        "attackType": "magic",
+        "media": "assets/items/God Wars 2/Orb_Of_The_Cywir_Elders.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Crest_Of_Seren",
+        "name": "Crest of Seren",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Crest_Of_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Anima_Core_Helm_Of_Zamorak",
+        "name": "Anima core helm of Zamorak",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Helm_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Helmet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 4
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Body_Of_Zamorak",
+        "name": "Anima core body of Zamorak",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Body_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platebody" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 4
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Legs_Of_Zamorak",
+        "name": "Anima core legs of Zamorak",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Legs_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platelegs" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 4
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Blade_Of_Nymora",
+        "name": "Blade of Nymora",
+        "category": "Combat",
+        "type": "Melee Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Blade_Of_Nymora.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Blade_Of_Avaryss",
+        "name": "Blade of Avaryss",
+        "category": "Combat",
+        "type": "Melee Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Blade_Of_Avaryss.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Crest_Of_Zamorak",
+        "name": "Crest of Zamorak",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Crest_Of_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Anima_Core_Helm_Of_Zaros",
+        "name": "Anima core helm of Zaros",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Helm_Of_Zaros.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Helmet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Body_Of_Zaros",
+        "name": "Anima core body of Zaros",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Body_Of_Zaros.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platebody" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Legs_Of_Zaros",
+        "name": "Anima core legs of Zaros",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Legs_Of_Zaros.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platelegs" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Dragon_Rider_Lance",
+        "name": "Dragon Rider lance",
+        "category": "Combat",
+        "type": "Melee Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Dragon_Rider_Lance.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Crest_Of_Zaros",
+        "name": "Crest of Zaros",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Crest_Of_Zaros.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Shadow_Glaive",
+        "name": "Shadow Glaive",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Shadow_Glaive.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Offhand_Shadow_Glaive",
+        "name": "Offhand Shadow Glaive",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Offhand_Shadow_Glaive.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Helm_Of_Sliske",
+        "name": "Anima core helm of Sliske",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Helm_Of_Sliske.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Helmet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Body_Of_Sliske",
+        "name": "Anima core body of Sliske",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Body_Of_Sliske.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platebody" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Core_Legs_Of_Sliske",
+        "name": "Anima core legs of Sliske",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/items/God Wars 2/Anima_Core_Legs_Of_Sliske.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Platelegs" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 1
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 1
+          }
+        ],
+        "modifiers": {},
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Crest_Of_Sliske",
+        "name": "Crest of Zaros",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Crest_Of_Sliske.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Ancient_Sigil_Piece_Seren",
+        "name": "Ancient Sigil Piece (Seren)",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Seren.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Ancient_Sigil_Piece_Sliske",
+        "name": "Ancient Sigil Piece (Sliske)",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Sliske.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Ancient_Sigil_Piece_Zamorak",
+        "name": "Ancient Sigil Piece (Zamorak)",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Zamorak.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Ancient_Sigil_Piece_Zaros",
+        "name": "Ancient Sigil Piece (Zaros)",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Ancient_Sigil_Piece_Zaros.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Orb_Of_Corrupted_Anima",
+        "name": "Orb of corrupted anima",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Orb_Of_Corrupted_Anima.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Orb_Of_Volcanic_Anima",
+        "name": "Orb of volcanic anima",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Orb_Of_Volcanic_Anima.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Orb_Of_Pure_Anima",
+        "name": "Orb of pure anima",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Orb_Of_Pure_Anima.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dormant_Seren_Godbow",
+        "name": "Dormant Seren Godbow",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Seren_Godbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dormant_Staff_Of_Sliske",
+        "name": "Dormant Staff of Sliske",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Staff_Of_Sliske.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dormant_Zaros_Godsword",
+        "name": "Dormant Zaros Godsword",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/items/God Wars 2/Dormant_Zaros_Godsword.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Item"
+      },
+      {
+        "id": "Seren_Godbow",
+        "name": "Seren Godbow",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "attackType": "ranged",
+        "media": "assets/items/God Wars 2/Seren_Godbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [ "Shield" ],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [ "runescapeEncountersInMelvor:Seren_Godbow_Crystal_Rain" ],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Staff_Of_Sliske",
+        "name": "Staff of Sliske",
+        "category": "Combat",
+        "type": "Magic Weapon",
+        "attackType": "magic",
+        "media": "assets/items/God Wars 2/Staff_Of_Sliske.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [ "Shield" ],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [ "runescapeEncountersInMelvor:Staff_Of_Sliske_From_The_Shadows" ],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Zaros_Godsword",
+        "name": "Zaros Godsword",
+        "category": "Combat",
+        "type": "Melee Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Zaros_Godsword.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [ "Shield" ],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 2
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [ "runescapeEncountersInMelvor:Zaros_Godsword_Blackhole" ],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Anima_Trove",
+        "name": "Anima Trove",
+        "category": "Misc",
+        "type": "Chest",
+        "media": "assets/items/God Wars 2/Ancient_Sigil.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Black_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Blue_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Red_Dragonhide",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Holy_Dust",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Pigtayle_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Barrentoe_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Water_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Emerald",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Dragon_Arrowtips",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Mystic_Air_Staff",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Mystic_Water_Staff",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Mystic_Earth_Staff",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Mystic_Fire_Staff",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Orb_Of_Volcanic_Anima",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Orb_Of_Pure_Anima",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Seren_Godbow",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Staff_Of_Sliske",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Zaros_Godsword",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "itemUpgrades": [
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+          "runescapeEncountersInMelvor:Crest_Of_Seren"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Helm_Of_Seren",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+          "runescapeEncountersInMelvor:Crest_Of_Seren"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Body_Of_Seren",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+          "runescapeEncountersInMelvor:Crest_Of_Seren"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Legs_Of_Seren",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+          "runescapeEncountersInMelvor:Crest_Of_Zamorak"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Helm_Of_Zamorak",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+          "runescapeEncountersInMelvor:Crest_Of_Zamorak"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Body_Of_Zamorak",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+          "runescapeEncountersInMelvor:Crest_Of_Zamorak"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Legs_Of_Zamorak",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zaros",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+          "runescapeEncountersInMelvor:Crest_Of_Zaros"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Helm_Of_Zaros",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zaros",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+          "runescapeEncountersInMelvor:Crest_Of_Zaros"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Body_Of_Zaros",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Zaros",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+          "runescapeEncountersInMelvor:Crest_Of_Zaros"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Legs_Of_Zaros",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Sliske",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+          "runescapeEncountersInMelvor:Crest_Of_Sliske"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Helm_Of_Sliske",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Sliske",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+          "runescapeEncountersInMelvor:Crest_Of_Sliske"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Body_Of_Sliske",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Crest_Of_Sliske",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+          "runescapeEncountersInMelvor:Crest_Of_Sliske"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Anima_Core_Legs_Of_Sliske",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Volcanic_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Pure_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Seren_Godbow",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
+          "runescapeEncountersInMelvor:Orb_Of_Volcanic_Anima",
+          "runescapeEncountersInMelvor:Orb_Of_Pure_Anima",
+          "runescapeEncountersInMelvor:Dormant_Seren_Godbow"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Seren_Godbow",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Volcanic_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Pure_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Staff_Of_Sliske",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
+          "runescapeEncountersInMelvor:Orb_Of_Volcanic_Anima",
+          "runescapeEncountersInMelvor:Orb_Of_Pure_Anima",
+          "runescapeEncountersInMelvor:Dormant_Staff_Of_Sliske"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Staff_Of_Sliske",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Volcanic_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Pure_Anima",
+            "quantity": 1
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Dormant_Zaros_Godsword",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Orb_Of_Corrupted_Anima",
+          "runescapeEncountersInMelvor:Orb_Of_Volcanic_Anima",
+          "runescapeEncountersInMelvor:Orb_Of_Pure_Anima",
+          "runescapeEncountersInMelvor:Dormant_Zaros_Godsword"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Zaros_Godsword",
+        "isDowngrade": false
+      }
+    ],
+    "combatPassives": [
+      {
+        "id": "Gregorovic_Summoned_Spirits",
+        "name": "Summoned spirits",
+        "modifiers": {
+          "increasedChanceToApplyPoison": 30,
+          "increasedChanceToApplyDeadlyPoisonWhenPoisoned": 30,
+          "increasedMaxHitPercent": 30,
+          "decreasedAttackIntervalPercent": 30
+        }
+      },
+      {
+        "id": "Telos_Anima_Stream_Green",
+        "name": "Anima Stream (Green)",
+        "modifiers": {
+          "decreasedAttackIntervalPercent": 30
+        }
+      },
+      {
+        "id": "Telos_Anima_Stream_Black",
+        "name": "Anima Stream (Black)",
+        "modifiers": {
+          "decreasedDamageTaken": 20
+        }
+      },
+      {
+        "id": "Telos_Anima_Stream_Red",
+        "name": "Anima Stream (Red)",
+        "modifiers": {
+          "increasedMeleeMaxHit": 30,
+          "increasedMagicMaxHit": 30
+        }
+      },
+      {
+        "id": "Telos_Warden_Of_The_Heart",
+        "name": "Warden of the Heart",
+        "modifiers": {
+          "increasedGlobalAccuracy": 100,
+          "increasedRage": 1,
+          "increasedMinHitBasedOnMaxHit": 20
+        }
+      }
+    ],
+    "combatAreas": [
+      {
+        "id": "Godwars_Dungeon_2_Heart_Of_Gielinor",
+        "name": "Godwars Dungeon 2 - Heart of Gielinor",
+        "media": "assets/locations/Godwars_Dungeon_2_Lair.png",
+        "difficulty": [
+          3
+        ],
+        "monsterIDs": [
+          "runescapeEncountersInMelvor:Helwyr",
+          "runescapeEncountersInMelvor:Avaryss_And_Nymora",
+          "runescapeEncountersInMelvor:Gorvek_And_Vindicta",
+          "runescapeEncountersInMelvor:Gregorovic"
+        ],
+        "entryRequirements": []
+      }
+    ],
+    "combatAreaDisplayOrder": [
+      {
+        "insertAt": "End",
+        "ids": [
+          "runescapeEncountersInMelvor:Godwars_Dungeon_2_Heart_Of_Gielinor"
+        ]
+      }
+    ],
+    "dungeons": [
+      {
+        "id": "Telos_The_Warden_Dungeon",
+        "name": "Telos, the Warden",
+        "media": "assets/pets/God Wars 2/Tess.png",
+        "difficulty": [
+          3
+        ],
+        "monsterIDs": [
+          "runescapeEncountersInMelvor:Telos_Phase1",
+          "runescapeEncountersInMelvor:Telos_Phase2",
+          "runescapeEncountersInMelvor:Telos_Phase3",
+          "runescapeEncountersInMelvor:Telos_Phase4",
+          "runescapeEncountersInMelvor:Telos_Phase5"
+        ],
+        "entryRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "runescapeEncountersInMelvor:Telos_Dungeon_Unlock",
+            "count": 1
+          }
+        ],
+        "rewardItemIDs": [
+          "runescapeEncountersInMelvor:Anima_Trove"
+        ],
+        "dropBones": false,
+        "pet": {
+          "petID": "runescapeEncountersInMelvor:Tess",
+          "weight": 150
+        },
+        "fixedPetClears": false,
+        "pauseOnBosses": false
+      }
+    ],
+    "dungeonDisplayOrder": [
+      {
+        "insertAt": "End",
+        "ids": [
+          "runescapeEncountersInMelvor:Telos_The_Warden_Dungeon"
+        ]
+      }
+    ],
+    "monsters": [
+      {
+        "id": "Helwyr",
+        "name": "Helwyr",
+        "media": "assets/monsters/God Wars 2/Helwyr.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Helwyr_The_Aid_Of_Nature",
+          "runescapeEncountersInMelvor:Helwyr_Rake_And_Rend",
+          "runescapeEncountersInMelvor:Helwyr_Thrash"
+        ],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Mithril_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Wand_Of_The_Cywir_Elders",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Orb_Of_The_Cywir_Elders",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Crest_Of_Seren",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Seren",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "Leader of the Cywir hunters, possessing ancient powers of transformation.",
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        },
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Lilwyr",
+          "quantity": 5000
+        }
+      },
+      {
+        "id": "Avaryss_And_Nymora",
+        "name": "Avaryss and Nymora",
+        "media": "assets/monsters/God Wars 2/Avaryss_And_Nymora.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "random",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Twin_Furies_Wall_Charge",
+          "runescapeEncountersInMelvor:Twin_Furies_Ceiling_Collapse",
+          "runescapeEncountersInMelvor:Twin_Furies_Channelled_Bomb"
+        ],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Mithril_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Blade_Of_Nymora",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Blade_Of_Avaryss",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Crest_Of_Zamorak",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zamorak",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "Feared for invoking Zamorak's wrath on those who have sworn a false oath.",
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Nylessa_And_Ava",
+          "quantity": 5000
+        }
+      },
+      {
+        "id": "Gorvek_And_Vindicta",
+        "name": "Gorvek and Vindicta",
+        "media": "assets/monsters/God Wars 2/Gorvek_And_Vindicta.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Gorvek_And_Vindicta_Hurricane",
+          "runescapeEncountersInMelvor:Gorvek_And_Vindicta_Fire_Wall",
+          "runescapeEncountersInMelvor:Gorvek_And_Vindicta_Projectile"
+        ],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Mithril_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dragon_Rider_Lance",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Crest_Of_Zaros",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zaros",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "If one wasn't enough...",
+        "bones": {
+          "itemID": "melvorD:Dragon_Bones",
+          "quantity": 1
+        },
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Rawrvek_And_Vindiddy",
+          "quantity": 5000
+        }
+      },
+      {
+        "id": "Gregorovic",
+        "name": "Gregorovic",
+        "media": "assets/monsters/God Wars 2/Gregorovic.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "ranged",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Gregorovic_Trick_Knife",
+          "runescapeEncountersInMelvor:Gregorovic_Glaive_Throw"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Gregorovic_Summoned_Spirits"
+        ],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Mithril_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 100
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Shadow_Glaive",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Offhand_Shadow_Glaive",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Helm",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Body",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Dormant_Anima_Core_Legs",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Crest_Of_Sliske",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Sliske",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "Sliske's secret weapon, an undead creature housing the mind of a madman.",
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 1
+        },
+        "pet": {
+          "id": "runescapeEncountersInMelvor:Greg",
+          "quantity": 5000
+        }
+      },
+      {
+        "id": "Telos_Phase1",
+        "name": "Telos (Phase 1)",
+        "media": "assets/monsters/God Wars 2/Telos_The_Warden.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Telos_Discharge",
+          "runescapeEncountersInMelvor:Telos_Tendrils",
+          "runescapeEncountersInMelvor:Telos_Uppercut",
+          "runescapeEncountersInMelvor:Telos_Double_Tap",
+          "runescapeEncountersInMelvor:Telos_Anima_Bomb"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Telos_Anima_Stream_Green",
+          "runescapeEncountersInMelvor:Telos_Warden_Of_The_Heart"
+        ],
+        "lootChance": 100,
+        "lootTable": [],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "It won't stop until it can be sure the Heart is safe."
+      },
+      {
+        "id": "Telos_Phase2",
+        "name": "Telos (Phase 2)",
+        "media": "assets/monsters/God Wars 2/Telos_The_Warden.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Telos_Discharge",
+          "runescapeEncountersInMelvor:Telos_Tendrils",
+          "runescapeEncountersInMelvor:Telos_Uppercut",
+          "runescapeEncountersInMelvor:Telos_Double_Tap"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Telos_Anima_Stream_Black",
+          "runescapeEncountersInMelvor:Telos_Warden_Of_The_Heart"
+        ],
+        "lootChance": 100,
+        "lootTable": [],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "It won't stop until it can be sure the Heart is safe."
+      },
+      {
+        "id": "Telos_Phase3",
+        "name": "Telos (Phase 3)",
+        "media": "assets/monsters/God Wars 2/Telos_The_Warden.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Telos_Discharge",
+          "runescapeEncountersInMelvor:Telos_Uppercut",
+          "runescapeEncountersInMelvor:Telos_Double_Tap"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Telos_Anima_Stream_Red",
+          "runescapeEncountersInMelvor:Telos_Warden_Of_The_Heart"
+        ],
+        "lootChance": 100,
+        "lootTable": [],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "It won't stop until it can be sure the Heart is safe."
+      },
+      {
+        "id": "Telos_Phase4",
+        "name": "Telos (Phase 4)",
+        "media": "assets/monsters/God Wars 2/Telos_The_Warden.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Telos_Discharge",
+          "runescapeEncountersInMelvor:Telos_Uppercut",
+          "runescapeEncountersInMelvor:Telos_Double_Tap",
+          "runescapeEncountersInMelvor:Telos_Anima_Bomb"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Telos_Warden_Of_The_Heart"
+        ],
+        "lootChance": 100,
+        "lootTable": [],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "It won't stop until it can be sure the Heart is safe."
+      },
+      {
+        "id": "Telos_Phase5",
+        "name": "Telos (Phase 5)",
+        "media": "assets/monsters/God Wars 2/Telos_The_Warden_Phase5.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 1,
+          "Hitpoints": 1,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Telos_Discharge",
+          "runescapeEncountersInMelvor:Telos_Super_Anima_Bomb"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Telos_Anima_Stream_Green",
+          "runescapeEncountersInMelvor:Telos_Anima_Stream_Black",
+          "runescapeEncountersInMelvor:Telos_Anima_Stream_Red",
+          "runescapeEncountersInMelvor:Telos_Warden_Of_The_Heart"
+        ],
+        "lootChance": 100,
+        "lootTable": [],
+        "gpDrops": {
+          "min": 1,
+          "max": 1
+        },
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindSurge",
+        "description": "It won't stop until it can be sure the Heart is safe."
+      }
+    ],
+    "pets": [
+      {
+        "id": "Lilwyr",
+        "name": "Lilwyr",
+        "media": "assets/pets/God Wars 2/Lilwyr.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedMagicEvasion": 1
+        },
+        "activeInRaid": false,
+        "hint": "Heart of Gielinor"
+      },
+      {
+        "id": "Nylessa_And_Ava",
+        "name": "Nylessa and Ava",
+        "media": "assets/pets/God Wars 2/Nylessa_And_Ava.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedRangedEvasion": 1
+        },
+        "activeInRaid": false,
+        "hint": "Heart of Gielinor"
+      },
+      {
+        "id": "Rawrvek_And_Vindiddy",
+        "name": "Rawrvek and Vindiddy",
+        "media": "assets/pets/God Wars 2/Rawrvek_And_Vindiddy.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedMeleeEvasion": 1
+        },
+        "activeInRaid": false,
+        "hint": "Heart of Gielinor"
+      },
+      {
+        "id": "Greg",
+        "name": "Greg",
+        "media": "assets/pets/God Wars 2/Greg.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedGlobalEvasion": 1
+        },
+        "activeInRaid": false,
+        "hint": "Heart of Gielinor"
+      },
+      {
+        "id": "Tess",
+        "name": "Tess",
+        "media": "assets/pets/God Wars 2/Tess.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "increasedGlobalAccuracy": 1
+        },
+        "activeInRaid": false,
+        "hint": "Telos, the Warden"
+      }
+    ],
+    "attacks": [
+      {
+        "id": "Helwyr_The_Aid_Of_Nature",
+        "name": "The aid of nature",
+        "defaultChance": 10,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "MaxHit",
+                "maxPercent": 20
+              }
+            ],
+            "chance": 100
+          },
+          {
+            "effectType": "Slow",
+            "magnitude": 20,
+            "turns": 5
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Inflicts Bleed that deals ${onHitEffect0DamageMaxValue0}% of your max hit as damage over ${onHitEffect0duration}s and gives the enemy +${onHitEffect1modValue0}% Attack Interval for ${onHitEffect1turns} of the enemy's turns",
+        "descriptionGenerator": "<HitEffect>"
+      },
+      {
+        "id": "Helwyr_Rake_And_Rend",
+        "name": "Rake and rend",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 250
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 5,
+            "interval": 200,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "MaxHit",
+                "maxPercent": 50
+              }
+            ],
+            "chance": 100
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Deals ${attackDamageMaxValue0}% of your normal damage and inflicts Bleed that deals ${onHitEffect0DamageMaxValue0}% of your max hit as damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "Deals <damage> and <hitEffect>",
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
+        "id": "Helwyr_Thrash",
+        "name": "Thrash",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 5,
+            "interval": 400,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "MaxHit",
+                "maxPercent": 35
+              }
+            ],
+            "chance": 100
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Deals ${attackDamageMaxValue0}% of your normal damage ${hitCount} times. Also inflicts Bleed that deals  as damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "Deals <Damage> <count> times. Also <hitEffect>",
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
+        "id": "Twin_Furies_Wall_Charge",
+        "name": "Wall charge",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 75
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Stun",
+            "turns": 1,
+            "chance": 100,
+            "flavour": "Stun"
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 4,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Avaryss dashes between the walls. Hits ${hitCount} times for ${attackDamageMaxValue0}% of the enemy's normal damage each and applies stun for ${onHitEffect0turns} turn",
+        "descriptionGenerator": "Avaryss dashes between the walls. Hits <count> times for <damage> each and <hitEffect>",
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
+        "id": "Twin_Furies_Ceiling_Collapse",
+        "name": "Ceiling collapse",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 80
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Nymora attacks the ceiling. Stalactites hit ${hitCount} times, dealing ${attackDamageMaxValue0}% of the enemy's normal damage",
+        "descriptionGenerator": "Nymora attacks the ceiling. Stalactites hit <count> times, dealing <damage>",
+        "attackTypes": [
+          "ranged"
+        ]
+      },
+      {
+        "id": "Twin_Furies_Channelled_Bomb",
+        "name": "Channelled bomb",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 40
+          },
+          {
+            "damageType": "Normal",
+            "amplitude": 450,
+            "attackCount": 5
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 2,
+            "character": "Attacker",
+            "countsOn": "Attacker",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "increasedDamageTaken": 50
+            },
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/combat.svg"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 6,
+        "attackInterval": 300,
+        "lifesteal": 0,
+        "description": "Avaryss and Nemora charge and detonate a bomb, for a total of ${hitCount} hits across ${duration}s. First hits deal ${attackDamageMaxValue0}% of the enemy's normal damage and ${attackDamageMaxValue1}% of the enemy's normal damage on the 6th attack. Also, gives the enemy +${preHitEffect0modValue0}% more Damage taken for ${preHitEffect0turns} of the enemy's turns\n",
+        "descriptionGenerator": "Avaryss and Nemora charge and detonate a bomb, for a total of <count> hits across <duration>. First hits deal <damage>. Also, <prehitEffect>\n",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Gorvek_And_Vindicta_Hurricane",
+        "name": "Hurricane",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 250
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": true,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Spins around, dealing ${attackDamageMaxValue0}% of your normal damage (Can miss)",
+        "attackTypes": [
+          "melee"
+        ],
+        "descriptionGenerator": "Spins around, dealing <damage> (<CanMiss>)"
+      },
+      {
+        "id": "Gorvek_And_Vindicta_Fire_Wall",
+        "name": "Fire wall",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 25
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 10,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Cause a wall of fire, dealing ${hitCount} times ${attackDamageMaxValue0}% of your normal damage",
+        "attackTypes": [
+          "magic"
+        ],
+        "isDragonbreath": true,
+        "descriptionGenerator": "Cause a wall of fire, dealing <count> times <damage>"
+      },
+      {
+        "id": "Gorvek_And_Vindicta_Projectile",
+        "name": "Projectile",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 150
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": true,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": " Fire a ranged projectile, dealing  (Can't miss)",
+        "attackTypes": [
+          "ranged"
+        ],
+        "descriptionGenerator": " Fire a ranged projectile, dealing <damage> (<CanMiss>)"
+      },
+      {
+        "id": "Gregorovic_Trick_Knife",
+        "name": "Trick knife",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 75
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 3,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Throws a trick knife, dealing ${attackDamageMaxValue0}% of the enemy's normal damage ${hitCount} times (Can miss)",
+        "descriptionGenerator": "Throws a trick knife, dealing <damage> <count> times (<CanMiss>)",
+        "attackTypes": [
+          "ranged"
+        ]
+      },
+      {
+        "id": "Gregorovic_Glaive_Throw",
+        "name": "Glaive throw",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 3,
+        "attackInterval": 100,
+        "lifesteal": 0,
+        "description": "Throws globes into the air, dealing  ${hitCount} times",
+        "descriptionGenerator": "Throws globes into the air, dealing <damage> <count> times",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Telos_Discharge",
+        "name": "Discharge",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Telos_Tendrils",
+        "name": "Tendrils",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 50,
+        "description": ""
+      },
+      {
+        "id": "Telos_Uppercut",
+        "name": "Uppercut",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": ""
+      },
+      {
+        "id": "Telos_Double_Tap",
+        "name": "Double Tap",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Stun",
+            "turns": 1,
+            "chance": 100,
+            "flavour": "Stun"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 2,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "",
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
+        "id": "Telos_Anima_Bomb",
+        "name": "Anima Bomb",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": ""
+      },
+      {
+        "id": "Telos_Super_Anima_Bomb",
+        "name": "Super Anima Bomb",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": ""
+      },
+      {
+        "id": "Seren_Godbow_Crystal_Rain",
+        "name": "Crystal Rain",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 50
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Fires ${hitCount} arrows, dealing ${attackDamageMaxValue0}% of your normal damage each.",
+        "attackTypes": [
+          "ranged"
+        ],
+        "descriptionGenerator": "Fires <count> arrows, dealing <damage> each."
+      },
+      {
+        "id": "Staff_Of_Sliske_From_The_Shadows",
+        "name": "From the Shadows",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MaxHit",
+            "minPercent": 20,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": true,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Summons a wright, which attacks your enemy 5 times for ${attackDamageMinValue0}%-${attackDamageMaxValue0}% of your max hit each. The wright's attacks can't miss.",
+        "attackTypes": [
+          "magic"
+        ],
+        "descriptionGenerator": "Summons a wright, which attacks your enemy 5 times for <damage> each. The wright's attack <canMiss>."
+      },
+      {
+        "id": "Zaros_Godsword_Blackhole",
+        "name": "Blackhole",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MaxHit",
+            "minPercent": 10,
+            "maxRoll": "MaxHit",
+            "maxPercent": 20
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 7,
+            "character": "Attacker",
+            "countsOn": "Attacker",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "increasedMeleeMaxHit": 25
+            },
+            "media": "assets/_Shared/Weapon_Special_Attack.png"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 11,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Creates a swirling black hole around you. Gives you +${preHitEffect0modValue0}% Melee Max Hit for ${preHitEffect0turns} of your turns and hits the enemy for ${hitCount} times, dealing ${attackDamageMinValue0}%-${attackDamageMaxValue0}% of your max hit each.",
+        "attackTypes": [
+          "melee"
+        ],
+        "descriptionGenerator": "Creates a swirling black hole around you. <PrehitEffect> and hits the enemy for <count> times, dealing <damage> each."
+      }
+    ],
+    "shopPurchases": [
+      {
+        "id": "Telos_Dungeon_Unlock",
+        "media": "assets/items/God Wars 2/Ancient_Sigil.png",
+        "category": "runescapeEncountersInMelvor:General_Shop",
+        "contains": {
+          "items": [],
+          "modifiers": {}
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Seren",
+              "quantity": 1
+            },
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Sliske",
+              "quantity": 1
+            },
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zamorak",
+              "quantity": 1
+            },
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zaros",
+              "quantity": 1
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancient Sigil",
+        "customDescription": "Grants access to the fight against Telos, the Warden (once implemented, works retroactively)"
+      }
+    ],
+    "shopDisplayOrder": [
+      {
+        "insertAt": "End",
+        "ids": [ "runescapeEncountersInMelvor:Telos_Dungeon_Unlock" ]
+      }
+    ]
+  }
+}

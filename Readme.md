@@ -1,24 +1,58 @@
 # Summary
-This mod adds several new combat encounters from both OSRS and RS3 to the world of Melvor Idle. Of course, this comes with a multitude of new drops, including a lot of new equipment.
+This mod adds several new combat encounters from both OSRS and RS3 to the world of [Melvor Idle](https://www.melvoridle.com/). Of course, this comes with a multitude of new drops, including a lot of new equipment.
 
 # Prefice
 I will not add GWD1 for now, [as a mod for that already exists](https://mod.io/g/melvoridle/m/godwars-recreation). Maybe it keeps being its own mod, maybe it will be merged into this one, would have to contact the mod creator first to decide.
 
 # Credits
-* [Runescape](https://www.runescape.com) and [Old School Runescape](https://oldschool.runescape.com), as all content of this mod is based of those games
-* [Old School Runescape Wiki](https://oldschool.runescape.wiki/) and [Runescape Wiki](https://runescape.wiki/) for providing transparent images for all non-Melvor assets
+* [Jagex Ltd](https://www.jagex.com/de-DE/)
+  * Publisher of [Melvor Idle](https://www.melvoridle.com/), which this mod is created for
+  * Creator of [Runescape](https://www.runescape.com) and [Old School Runescape](https://oldschool.runescape.com), all content of this mod being based on those games
+* [Old School Runescape Wiki](https://oldschool.runescape.wiki/) and [Runescape Wiki](https://runescape.wiki/) for providing transparent images for all non-Melvor assets, as well as being awesome sources of information in general
 * [MaybeAsu](https://mod.io/g/melvoridle/u/maybeasu) for his [Old School Runescape GWD1](https://mod.io/g/melvoridle/m/godwars-recreation) dungeon mod, which inspired me to start this mod and was also helpful for guidance when getting started
 
 ## Contributors
-Thank you to the following people that helped in the development of this mod. The mod wouldn't be where it is now without them
+The following people contributed to this Mod and helped and being where it is now
 * DefinitelyNotMe
 
 # Mod Settings ideas (if implementable)
 * Toggling visibility of each combat area/slayer area/dungeon, to avoid cluttering the UI, if the mod happens to become bigger (alternatively/in addition, some UI customization to add new section?)
   * Probably by removing all custom entries on character load, followed by immediately recreating them through the existing "combat-area-menu" component, using a vue condition based on the respective toggle property in settings
 * Allow toggling between image paths of assets, if they exist in both OSRS and RS3, so you can choose wichever you prefer
-  * There will still be probably only one implementation respectively, with rewards based on one version (e.g. Nex would likely have the OSRS rewards, rather than RS3 and other GWD1 bosses wouldn't have items that were later added in RS3)
+  * There will still be probably only one implementation respectively, with rewards based on one version (e.g. Nex would likely have the OSRS rewards, rather than RS3, and other GWD1 bosses wouldn't have items that were later added in RS3)
 * Maybe be able to toggle whether you can see RS3/OSRS content? As there might be some people that just really don't want to deal with one version of the game...
+* Other ideas?
+
+# Plans / Ideas
+* Improve images used, as some are very small, making them very blurry
+* Improve balancing across the board
+* Possibly making some implementations more faithful to how they work in (Old School) Runescape
+  * One example would be Gregorovic currently having a passive to represent his ghost spawn special, rather than a special that continues to stack the corresponding modifiers everytime it is used
+* Improve descriptions across the board (e.g., specifying when a special uses a different attack style than the normal attack)
+* Enabling localization
+  * Can personally only provide English and German translations
+  * Updates would initially only consist those languages, having to be added by someone else (unless machine translation is used)
+* More encounters
+  * Telos
+    * I feel like just slapping some generic passives / special attacks on him isn't really doing him justice
+    * That said, there are mechanics, that do not yet seem to exist in Melvor and might be hard (or at least a lot of effort) to implement
+      * E.g. "On stun, re-roll what attack to do, if current next attack is a certain special attack"
+      * E.g. "On next attack selection, if attack is certain special, greatly lower attack interval, to simulate charging up (and allow for cancellation)"
+      * E.g. "On death/spawn, add/remove x stacks of a debuff" (I think there are already some debuffs and corresponding modifiers like that)
+  * Kbd and Chaos Elemental as part of a low level "Wilderness / Forinthy" area, if someone has ideas for rewards
+  * GWD3 (very high level)
+    * Bosses would drop T3 troves
+    * Using resonant anima to buy T1/T2 troves from shop, for additional resources
+      * Shop purchase to be able to gain Resonant anima of Bik through skilling
+      * Shop purchase to be able to buy T3 Bik troves in shop, instead of just T1/T2
+    * Scriptures / Manuscripts as Consumables
+    * Weapons being (among) the generally strongest for "Melvor Full", at least purely offensively
+    * If an idea comes to mind, then a Tzhaar combat area and Tzekhaar front would drop Tokkul to spend on something
+    * One time shop purchase per front, akin to the elemental dungeon purchases
+  * Others (any ideas? feel free to share them and we can see what we can do)
+
+# Remarks
+* Should this mod reach the realm of creating its own (combat) modifiers, then it might be worthwile to create a "Custom Modifiers" base mod, that could then be re-used by other mods as well.
 
 # Implementation ideas / notes
 
@@ -60,7 +94,7 @@ Thank you to the following people that helped in the development of this mod. Th
   * Their respective weapons
   * Keys/Key parts that can be combined to then be opened like a chest, giving several possible rewards among the drops of the 4 slayer monsters (including their weapons)
 
-## Dungeons / Boss encounters
+## Boss encounters
 
 ### OSRS
 I am not too knowledgable, so most would have to be thought of by others, I asumme. Ideas could be
@@ -83,6 +117,7 @@ I am not too knowledgable, so most would have to be thought of by others, I asum
 * Reward ideas for all bosses
   * Similar to RS3, have the niche of the weapons be (comparitively to its target level area) mediocre damage but high accuracy
   * There is no "niche" for the armour though, assuming the GWD1 rewards are based on OSRS, considering Nex would only drop armour for one combat style (as the main difference between Nex armour and GWD2 armour is that the latter does not provide prayer/hp bonus)
+    * Have the niche be low defense but accuracy in exchange for that defense
 
 ### Elder God Wars
 * Reward ideas for all fronts
@@ -104,6 +139,7 @@ I am not too knowledgable, so most would have to be thought of by others, I asum
 
 #### Croesus / The Croesus front
 * Supposed to be a skilling boss, but no idea how one would implement that into Melvor
+* Aside from a boss fight, could probably make a shop purchase using a new modifier, implementing getting anima akin to Bird's nests, and then buy t3 troves from shop
 
 #### TzKal-Zuk / The Tzekhaar front
 * This is the RS3 "farmable/more easy" version of the Zuk encounter, **not** meant to be (equal to) the Inferno of OSRS.
@@ -113,6 +149,12 @@ I am not too knowledgable, so most would have to be thought of by others, I asum
   * Ek-ZekKil
     * Special attack possibly based on RS3 version (bleed-focused)
   * Scripture of Ful (new equip slot?) or Manuscripts of Ful for the consumable slot
+  * TokKul - can be gotten here or from a new combat area (the latter being easier on the required stats) with a bunch of shop purchases requiring it (some little stat boosts, jad and har-aken pet, maybe a chest containing some loot? the last one would basically be similar to the god dungeon shards)
+  * Mechanic ideas
+    * A **lot** of floors and enemies, making it not necessarily the hardest but definitely longst encounter
+	* On every monster hit, there is a chance of Zuk doing the flame wall (what is accuracy and damage based on? Look for existing cases of this for inspiration)
+	* Sitting Zuk as enemy, with extreeemly slow attack interval, but if he attacks even once, it's lights out (Accuracy & Damage threshold) as in that case he has made up his mind not to entertain you further
+	* I wonder how Jads/Har-Aken could be integrated (Har-Aken with passives and stacks I guess, but what about the supposed Jad niche, which wouldn't fit afking the dungeon)
   
 #### Zamorakian Undercity
 * Two different implementations

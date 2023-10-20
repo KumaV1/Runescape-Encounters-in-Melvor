@@ -10,7 +10,7 @@
         "type": "Bones",
         "media": "assets/items/Dagannoth Kings/Dagannoth_bones.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Bone",
@@ -23,7 +23,7 @@
         "type": "Armour",
         "media": "assets/items/Dagannoth Kings/Archers_ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -52,7 +52,7 @@
         "type": "Armour",
         "media": "assets/items/Dagannoth Kings/Seers_ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -81,7 +81,7 @@
         "type": "Armour",
         "media": "assets/items/Dagannoth Kings/Warrior_ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -118,7 +118,7 @@
         "type": "Armour",
         "media": "assets/items/Dagannoth Kings/Berserker_ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -153,7 +153,7 @@
       {
         "id": "Dagannoth_Lair",
         "name": "Dagannoth lair",
-        "media": "assets/Dagannoth_Kings_lair.png",
+        "media": "assets/locations/Dagannoth_Kings_Lair.png",
         "difficulty": [
           1
         ],
@@ -179,27 +179,27 @@
         "name": "Royal Hide (Melee) (Sea)",
         "modifiers": {
           "meleeImmunity": 1,
-		  "rangedImmunity": 1
+          "rangedImmunity": 1
         },
-		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+        "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       },
-	  {
+      {
         "id": "Royal_Hide_Ranged_Sea",
         "name": "Royal Hide (Ranged) (Sea)",
         "modifiers": {
-		  "rangedImmunity": 1,
-		  "magicImmunity": 1
+          "rangedImmunity": 1,
+          "magicImmunity": 1
         },
-		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+        "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       },
-	  {
+      {
         "id": "Royal_Hide_Magic_Sea",
         "name": "Royal Hide (Magic) (Sea)",
         "modifiers": {
           "meleeImmunity": 1,
-		  "magicImmunity": 1
+          "magicImmunity": 1
         },
-		"customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
+        "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       }
     ],
     "monsters": [
@@ -278,7 +278,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Rex_Hatchling",
-          "quantity": 1000
+          "quantity": 5000
         }
       },
       {
@@ -368,7 +368,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Supreme_Hatchling",
-          "quantity": 1000
+          "quantity": 5000
         }
       },
       {
@@ -452,7 +452,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Prime_Hatchling",
-          "quantity": 1000
+          "quantity": 5000
         }
       }
     ],

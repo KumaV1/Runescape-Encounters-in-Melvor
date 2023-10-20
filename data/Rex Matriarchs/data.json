@@ -10,7 +10,7 @@
         "type": "Bones",
         "media": "assets/items/Rex Matriarchs/Dinosaur_Bones.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Bone",
@@ -23,7 +23,7 @@
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Stalkers_Ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -54,7 +54,7 @@
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Channellers_Ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -85,7 +85,7 @@
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Champions_Ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -124,7 +124,7 @@
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Reavers_Ring.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -160,7 +160,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Archer.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -172,7 +172,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Seer.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -184,7 +184,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Warrior.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -196,7 +196,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Berserker.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -208,7 +208,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Plume.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -220,7 +220,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Spear_Cap.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -232,7 +232,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Spear_Shaft.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -244,7 +244,7 @@
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Spear_Tip.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
@@ -257,7 +257,7 @@
         "attackType": "melee",
         "media": "assets/items/Rex Matriarchs/Laniakeas_Spear.png",
         "ignoreCompletion": false,
-        "optainFromItemLog": false,
+        "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
@@ -442,7 +442,7 @@
       {
         "id": "Rex_Matriarch_Lair",
         "name": "Rex Matriarch Lair",
-        "media": "assets/Rex_Matriarchs_lair.png",
+        "media": "assets/locations/Rex_Matriarchs_Lair.png",
         "difficulty": [
           2
         ],
@@ -579,7 +579,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Bagra",
-          "quantity": 1000
+          "quantity": 5000
         }
       },
       {
@@ -630,7 +630,7 @@
             "weight": 100
           },
           {
-            "itemID": "melvorF:Melee_Strength_Potion_II",
+            "itemID": "melvorF:Ranged_Assistance_Potion_II",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 100
@@ -689,7 +689,7 @@
           "max": 1
         },
         "canSlayer": false,
-        "isBoss": false,
+        "isBoss": true,
         "selectedSpell": "melvorD:WindStrike",
         "description": "A fierce, spiked beast. It has evolved to attack from afar, despite being a fearsome foe up close.",
         "bones": {
@@ -698,7 +698,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Corbi",
-          "quantity": 1000
+          "quantity": 5000
         }
       },
       {
@@ -749,7 +749,7 @@
             "weight": 100
           },
           {
-            "itemID": "melvorF:Melee_Strength_Potion_II",
+            "itemID": "melvorF:Magic_Assistance_Potion_II",
             "minQuantity": 1,
             "maxQuantity": 1,
             "weight": 100
@@ -817,7 +817,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Pavo",
-          "quantity": 1000
+          "quantity": 5000
         }
       }
     ],
