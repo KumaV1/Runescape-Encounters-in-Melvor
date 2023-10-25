@@ -14,18 +14,20 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
 * Rewards T30 rings
 
 ## Rex Matriarchs
-Meant to be somewhat mid-level encounters
+* Meant to be somewhat mid-level encounters
 * Rewards T60 rings (Ugrades to T30 rings) and a T60 (or T70?) melee 2h weapon with poison effect and lifesteal on poison
 
 ## God Wars Dungeon 2 - Heart of Gielinor
-* Meant to be somewhat late-mid-to-early-high-level
-* Rewards T80 armour and weapons for all combat styles (possibly having slightly lower damage/defense in exchange for more accuracy?)
+* Meant to be around the same level as God Dungeons
+* Rewards T80 armour and weapons for all combat styles
+  * Armour has slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
+  * Weapons currently have around same offense bonus as other Weapons of same tier, but with a 15% accuracy boost on top of it
 
 # Ideas (no promises)
 
 ## Mod Settings (if implementable)
 * Toggling visibility of each combat area/slayer area/dungeon, to avoid cluttering the UI, if the mod happens to become bigger (alternatively/in addition, some UI customization to add new section?)
-* Not a mod setting, but providing separate mods mod that are identical in all but the images used, 
+* Not a mod setting, but providing separate mods that are identical in all but the images used, 
   so with content that exists in both games, images would primarily use either OSRS or RS3 graphic (maybe even ~2011 era)
   * Idea of doing this is to avoid bloating a mod with a bunch of unused images
   * By having identical namespace, they should be interchangeable (just don't use them at the same time)
@@ -42,8 +44,8 @@ Meant to be somewhat mid-level encounters
   * Updates would initially only consist of those languages, other languages having to be added by someone else (unless machine translation is used)
 * More content / encounters
   * Encounters having the chance to drop ancient effigies, which would give X (scaling?) experience total across X (non-combat) skills at random (doesn't seem worth it though, considering things like "Man I hate agility" isn't an issue in an idle game; though I guess being able to train a skill through combat (and not requiring to get resources) may have some sort of niche?)
-    * Either for only mod mobs, or alternatively could also be added globally similar to signet half (with chance based on combat level for example, could even add modifiers as rewards somewhere)
-    * Toggleable through Mod settings
+    * Either for only mod mobs, or alternatively could also be added globally similar to signet ring half (with chance based on combat level for example, could even add modifiers as rewards somewhere)
+    * Mod setting to disable getting effigies
   * Possibly add fremennik armour to Dagannoth Kings, as an alternative to some early-level armour that could be obtained without skilling
   * "Void Knight's Outpost" dungeon, providing void armour (Mid-level armour, really high offense but shit defence)
   * Glacors and Automatons for higher level boots and gloves
@@ -61,7 +63,7 @@ Meant to be somewhat mid-level encounters
       * Shop purchase to be able to gain Resonant anima of Bik through skilling
       * Shop purchase to be able to buy higher tier Bik trove, also including skilling offhands (combined with above purchase, would make skilling offhands obtainable without combat)
     * Scriptures / Manuscripts as Consumables
-    * Weapons being (among) the generally strongest for "Melvor Full", at least purely offensively
+    * Weapons being (among) the strongest, at least purely offensively
     * If an idea comes to mind, then a Tzhaar combat area and Tzekhaar front would drop Tokkul to spend on something
     * One time shop purchase per front that buffs a skilling activity (or alternatively some combat stats/effects), akin to the elemental dungeon purchases
       * Idea for combat stats/effects would be "X% increased change to stun/frostbite/poison/burn"

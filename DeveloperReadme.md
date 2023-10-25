@@ -1,5 +1,4 @@
 # Introduction
-* I may or may not take a long time to actually work on this stuff, if it ever comes to fruition at all
 * I myself am basically an RS3 only player, so faithful creations of OSRS bosses/raids would likely depend on other contributors
 * I'm worried about the sheer amount of possible content that **could** be added and possibly not being able to find a place for every new type of equipment (especially with my lack of overview regarding Melvor combat progression)
 * Please take any stats (at least pre v1.0) with a huge grain of salt, as I only recently came back to Melvor Idle and do not know what kind of DR/HP/Damage etc. to expect at certain stages of the game
@@ -21,7 +20,7 @@
 game.bank.addItemByID("runescapeEncountersInMelvor:XXXXX", 1, false, true, true)
 ```
 
-# Mechanic ideas
+# Mechanical ideas
 ## Based on "The Ambassador" spinners and "TzKal Zuk" challenge waves
 Minion during dungeon fight, which have slow attack interval 
 and on attack put a stack of a debuff on you, 
