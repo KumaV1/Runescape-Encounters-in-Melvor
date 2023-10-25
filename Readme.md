@@ -4,10 +4,14 @@ This mod adds several new combat encounters from OSRS and RS3 to the world of [M
 Feel free to contribute directly or tell us your ideas, be it improvements (e.g. balancing) to existing content, or completely new content. ([Create an issue](https://github.com/KumaV1/Runescape-Encounters-in-Melvor/issues) or contact me on discord `@___kuma___`)
 
 # Prefice
-* I will not add GWD1 for now, [as a mod for that already exists](https://mod.io/g/melvoridle/m/godwars-recreation).
+* I will not add any content known to be in other mods (e.g. GWD1 or ToB), maybe migrate them, if the original creators support doing so, but not for now
+* The content of the mod is likely still unbalanced. Please feel free to let me know about any issues or suggestions
+* As always, if you want to be save, create a save file first (although the mod currently only consists of assets and data, so it shouldn't brick your game)
+
 
 # Content
-**Note: While the summary mentions OSRS, there is currently no OSRS specific content in this mod.** (though there is Dagannoth Kings at least)
+* While the summary mentions OSRS, there is currently no OSRS specific content in this mod (though there is Dagannoth Kings at least)
+* Currently all added as Combat areas
 
 ## Dagannoth Kings
 * Meant to be somewhat low-level encounters
