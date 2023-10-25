@@ -1,7 +1,7 @@
 # Summary
-This mod adds several new combat encounters from both OSRS and RS3 to the world of [Melvor Idle](https://www.melvoridle.com/). Of course, this comes with a multitude of new armour and weapons, including a lot of new equipment.
+This mod adds several new combat encounters from OSRS and RS3 to the world of [Melvor Idle](https://www.melvoridle.com/). Of course, this comes with a multitude of new armour and weapons, including a lot of new equipment.
 
-Feel free to contribute directly or tell us your ideas, be it improvements (e.g. balancing) to existing content, or completely new content. 
+Feel free to contribute directly or tell us your ideas, be it improvements (e.g. balancing) to existing content, or completely new content. ([Create an issue](https://github.com/KumaV1/Runescape-Encounters-in-Melvor/issues) or contact me on discord `@___kuma___`)
 
 # Prefice
 * I will not add GWD1 for now, [as a mod for that already exists](https://mod.io/g/melvoridle/m/godwars-recreation).
@@ -15,13 +15,13 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
 
 ## Rex Matriarchs
 * Meant to be somewhat mid-level encounters
-* Rewards T60 rings (Ugrades to T30 rings) and a T60 (or T70?) melee 2h weapon with poison effect and lifesteal on poison
+* Rewards T60 rings (Ugrades to T30 rings) and a T70 melee 2h weapon with poison effect and lifesteal on poison
 
 ## God Wars Dungeon 2 - Heart of Gielinor
 * Meant to be around the same level as God Dungeons
 * Rewards T80 armour and weapons for all combat styles
   * Armour has slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
-  * Weapons currently have around same offense bonus as other Weapons of same tier, but with a 15% accuracy boost on top of it
+  * Weapons currently have around same offense bonus as other Weapons of the same tier, but with a 15% accuracy boost on top of it
 
 # Ideas (no promises)
 
