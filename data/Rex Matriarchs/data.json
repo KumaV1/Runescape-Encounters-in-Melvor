@@ -9,12 +9,12 @@
         "category": "Misc",
         "type": "Bones",
         "media": "assets/items/Rex Matriarchs/Dinosaur_Bones.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Bone",
-        "prayerPoints": 1
+        "prayerPoints": 9
       },
       {
         "id": "Stalkers_Ring",
@@ -22,28 +22,34 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Stalkers_Ring.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
-        "equipRequirements": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
         "equipmentStats": [
           {
             "key": "rangedAttackBonus",
-            "value": 2
+            "value": 25
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 2
+            "value": 25
           }
         ],
         "modifiers": {
-          "increasedRangedCritChance": 2,
-          "increasedRangedAccuracyBonus": 2,
-          "increasedRangedMaxHit": 1
+          "increasedRangedCritChance": 3,
+          "increasedRangedAccuracyBonus": 3,
+          "increasedRangedMaxHit": 2
         },
         "itemType": "Equipment"
       },
@@ -53,28 +59,34 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Channellers_Ring.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
-        "equipRequirements": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 60
+          }
+        ],
         "equipmentStats": [
           {
             "key": "magicAttackBonus",
-            "value": 2
+            "value": 25
           },
           {
             "key": "magicDamageBonus",
-            "value": 2
+            "value": 25
           }
         ],
         "modifiers": {
-          "increasedMagicCritChance": 2,
-          "increasedMagicAccuracyBonus": 2,
-          "increasedMagicMaxHit": 1
+          "increasedMagicCritChance": 3,
+          "increasedMagicAccuracyBonus": 3,
+          "increasedMagicMaxHit": 2
         },
         "itemType": "Equipment"
       },
@@ -84,36 +96,42 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Champions_Ring.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
-        "equipRequirements": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
         "equipmentStats": [
           {
             "key": "stabAttackBonus",
-            "value": 2
+            "value": 25
           },
           {
             "key": "slashAttackBonus",
-            "value": 2
+            "value": 25
           },
           {
             "key": "blockAttackBonus",
-            "value": 2
+            "value": 25
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 2
+            "value": 25
           }
         ],
         "modifiers": {
-          "increasedMeleeCritChance": 2,
-          "increasedMeleeAccuracyBonus": 2,
-          "increasedMeleeMaxHit": 1
+          "increasedMeleeCritChance": 3,
+          "increasedMeleeAccuracyBonus": 3,
+          "increasedMeleeMaxHit": 2
         },
         "itemType": "Equipment"
       },
@@ -123,32 +141,54 @@
         "category": "Combat",
         "type": "Armour",
         "media": "assets/items/Rex Matriarchs/Reavers_Ring.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
-        "equipRequirements": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 60
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          },
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 60
+          }
+        ],
         "equipmentStats": [
           {
             "key": "rangedStrengthBonus",
-            "value": 2
+            "value": 35
           },
           {
             "key": "magicDamageBonus",
-            "value": 2
+            "value": 35
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 1
+            "value": 35
           }
         ],
         "modifiers": {
-          "increasedMeleeCritChance": 3,
-          "increasedRangedCritChance": 3,
-          "increasedMagicCritChance": 3,
+          "increasedMeleeCritChance": 5,
+          "increasedRangedCritChance": 5,
+          "increasedMagicCritChance": 5,
+          "increasedMaxHitPercent": 2,
           "decreasedGlobalAccuracy": 3
         },
         "itemType": "Equipment"
@@ -159,7 +199,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Archer.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -171,7 +211,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Seer.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -183,7 +223,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Warrior.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -195,7 +235,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Heart_Of_The_Berserker.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -207,7 +247,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Plume.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -219,7 +259,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Spear_Cap.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -231,7 +271,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Spear_Shaft.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -243,7 +283,7 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/items/Rex Matriarchs/Savage_Spear_Tip.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
@@ -256,34 +296,45 @@
         "type": "Melee Weapon",
         "attackType": "melee",
         "media": "assets/items/Rex Matriarchs/Laniakeas_Spear.png",
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "tier": "none",
         "validSlots": [ "Weapon" ],
         "occupiesSlots": [ "Shield" ],
-        "equipRequirements": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 70
+          }
+        ],
         "equipmentStats": [
           {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
             "key": "stabAttackBonus",
-            "value": 2
+            "value": 118
           },
           {
             "key": "slashAttackBonus",
-            "value": 1
+            "value": 118
           },
           {
             "key": "blockAttackBonus",
-            "value": 1
+            "value": 118
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 2
+            "value": 201
           }
         ],
         "modifiers": {
-          "increasedDamageDealtIfPoisoned": 5
+          "increasedDamageDealtIfPoisoned": 25,
+          "increasedPoisonLifesteal": 25
         },
         "specialAttacks": [ "runescapeEncountersInMelvor:Laniakeas_Spear_Poisonous_Tip" ],
         "itemType": "Equipment"
@@ -294,11 +345,11 @@
         "itemCosts": [
           {
             "id": "runescapeEncountersInMelvor:Berserker_Ring",
-            "quantity": 50
+            "quantity": 10
           },
           {
             "id": "runescapeEncountersInMelvor:Heart_Of_The_Berserker",
-            "quantity": 5
+            "quantity": 1
           }
         ],
         "gpCost": 0,
@@ -314,11 +365,11 @@
         "itemCosts": [
           {
             "id": "runescapeEncountersInMelvor:Warrior_Ring",
-            "quantity": 50
+            "quantity": 10
           },
           {
             "id": "runescapeEncountersInMelvor:Heart_Of_The_Warrior",
-            "quantity": 5
+            "quantity": 1
           }
         ],
         "gpCost": 0,
@@ -334,11 +385,11 @@
         "itemCosts": [
           {
             "id": "runescapeEncountersInMelvor:Archers_Ring",
-            "quantity": 50
+            "quantity": 10
           },
           {
             "id": "runescapeEncountersInMelvor:Heart_Of_The_Archer",
-            "quantity": 5
+            "quantity": 1
           }
         ],
         "gpCost": 0,
@@ -407,7 +458,8 @@
         "name": "Royal Hide (Jurassic) (Melee)",
         "modifiers": {
           "meleeImmunity": 1,
-          "rangedImmunity": 1
+          "rangedImmunity": 1,
+          "increasedDamageReductionPercent": 10
         },
         "customDescription": "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction"
       },
@@ -416,7 +468,8 @@
         "name": "Royal Hide (Jurassic) (Ranged)",
         "modifiers": {
           "rangedImmunity": 1,
-          "magicImmunity": 1
+          "magicImmunity": 1,
+          "increasedDamageReductionPercent": 10
         },
         "customDescription": "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction"
       },
@@ -425,7 +478,8 @@
         "name": "Royal Hide (Jurassic) (Magic)",
         "modifiers": {
           "meleeImmunity": 1,
-          "magicImmunity": 1
+          "magicImmunity": 1,
+          "increasedDamageReductionPercent": 10
         },
         "customDescription": "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction"
       },
@@ -434,7 +488,7 @@
         "name": "Poisonous Body",
         "modifiers": {
           "poisonImmunity": 100,
-          "increasedPoisonLifesteal": 50
+          "increasedPoisonLifesteal": 200
         }
       }
     ],
@@ -444,7 +498,7 @@
         "name": "Rex Matriarch Lair",
         "media": "assets/locations/Rex_Matriarchs_Lair.png",
         "difficulty": [
-          2
+          3
         ],
         "monsterIDs": [
           "runescapeEncountersInMelvor:Orikalka",
@@ -468,20 +522,20 @@
         "name": "Orikalka",
         "media": "assets/monsters/Rex Matriarchs/Orikalka.png",
         "levels": {
-          "Attack": 1,
-          "Defence": 1,
-          "Hitpoints": 1,
-          "Magic": 1,
+          "Attack": 255,
+          "Defence": 255,
+          "Hitpoints": 405,
+          "Magic": 235,
           "Ranged": 1,
-          "Strength": 1
+          "Strength": 255
         },
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2000
+            "value": 2400
           }
         ],
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "attackType": "melee",
         "specialAttacks": [
           "runescapeEncountersInMelvor:Orikalka_Frost_Storm",
@@ -495,20 +549,20 @@
           {
             "itemID": "melvorD:Sourweed_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 15,
+            "weight": 325
           },
           {
             "itemID": "melvorF:Pigtayle_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 10,
+            "weight": 200
           },
           {
             "itemID": "melvorD:Watermelon_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 5,
+            "weight": 150
           },
           {
             "itemID": "melvorF:Melee_Strength_Potion_II",
@@ -519,55 +573,55 @@
           {
             "itemID": "melvorF:Diamond_Bolts",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 25,
             "weight": 100
           },
           {
             "itemID": "melvorD:Diamond",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 5,
             "weight": 100
           },
           {
             "itemID": "runescapeEncountersInMelvor:Heart_Of_The_Berserker",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 2
           },
           {
             "itemID": "runescapeEncountersInMelvor:Heart_Of_The_Warrior",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 3
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Plume",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Cap",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Shaft",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Tip",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           }
         ],
         "gpDrops": {
-          "min": 1,
-          "max": 1
+          "min": 5000,
+          "max": 10000
         },
         "canSlayer": false,
         "isBoss": true,
@@ -579,7 +633,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Bagra",
-          "quantity": 5000
+          "quantity": 2500
         }
       },
       {
@@ -588,19 +642,19 @@
         "media": "assets/monsters/Rex Matriarchs/Rathis.png",
         "levels": {
           "Attack": 1,
-          "Defence": 1,
-          "Hitpoints": 1,
+          "Defence": 255,
+          "Hitpoints": 455,
           "Magic": 1,
-          "Ranged": 1,
+          "Ranged": 255,
           "Strength": 1
         },
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2000
+            "value": 2400
           }
         ],
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "attackType": "ranged",
         "specialAttacks": [
           "runescapeEncountersInMelvor:Rathis_Acid_Bombardment"
@@ -614,20 +668,20 @@
           {
             "itemID": "melvorD:Sourweed_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 15,
+            "weight": 325
           },
           {
             "itemID": "melvorF:Pigtayle_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 10,
+            "weight": 200
           },
           {
             "itemID": "melvorD:Watermelon_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 5,
+            "weight": 150
           },
           {
             "itemID": "melvorF:Ranged_Assistance_Potion_II",
@@ -638,55 +692,55 @@
           {
             "itemID": "melvorF:Diamond_Bolts",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 25,
             "weight": 100
           },
           {
             "itemID": "melvorD:Diamond",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 5,
             "weight": 100
           },
           {
             "itemID": "runescapeEncountersInMelvor:Heart_Of_The_Berserker",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 2
           },
           {
             "itemID": "runescapeEncountersInMelvor:Heart_Of_The_Archer",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 3
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Plume",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Cap",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Shaft",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Tip",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           }
         ],
         "gpDrops": {
-          "min": 1,
-          "max": 1
+          "min": 5000,
+          "max": 10000
         },
         "canSlayer": false,
         "isBoss": true,
@@ -698,7 +752,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Corbi",
-          "quantity": 5000
+          "quantity": 2500
         }
       },
       {
@@ -707,19 +761,19 @@
         "media": "assets/monsters/Rex Matriarchs/Pthentraken.png",
         "levels": {
           "Attack": 1,
-          "Defence": 1,
-          "Hitpoints": 1,
-          "Magic": 1,
+          "Defence": 255,
+          "Hitpoints": 455,
+          "Magic": 255,
           "Ranged": 1,
           "Strength": 1
         },
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2000
+            "value": 2400
           }
         ],
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "attackType": "magic",
         "specialAttacks": [
           "runescapeEncountersInMelvor:Pthentraken_Converging_Lightning",
@@ -733,20 +787,20 @@
           {
             "itemID": "melvorD:Sourweed_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 15,
+            "weight": 325
           },
           {
             "itemID": "melvorF:Pigtayle_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 10,
+            "weight": 200
           },
           {
             "itemID": "melvorD:Watermelon_Seed",
             "minQuantity": 1,
-            "maxQuantity": 1,
-            "weight": 100
+            "maxQuantity": 5,
+            "weight": 150
           },
           {
             "itemID": "melvorF:Magic_Assistance_Potion_II",
@@ -757,55 +811,55 @@
           {
             "itemID": "melvorF:Diamond_Bolts",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 25,
             "weight": 100
           },
           {
             "itemID": "melvorD:Diamond",
             "minQuantity": 1,
-            "maxQuantity": 1,
+            "maxQuantity": 5,
             "weight": 100
           },
           {
             "itemID": "runescapeEncountersInMelvor:Heart_Of_The_Berserker",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 2
           },
           {
             "itemID": "runescapeEncountersInMelvor:Heart_Of_The_Seer",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 3
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Plume",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Cap",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Shaft",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           },
           {
             "itemID": "runescapeEncountersInMelvor:Savage_Spear_Tip",
             "minQuantity": 1,
             "maxQuantity": 1,
-            "weight": 1
+            "weight": 5
           }
         ],
         "gpDrops": {
-          "min": 1,
-          "max": 1
+          "min": 5000,
+          "max": 10000
         },
         "canSlayer": false,
         "isBoss": true,
@@ -817,7 +871,7 @@
         },
         "pet": {
           "id": "runescapeEncountersInMelvor:Pavo",
-          "quantity": 5000
+          "quantity": 2500
         }
       }
     ],
@@ -827,7 +881,7 @@
         "name": "Bagra",
         "media": "assets/pets/Rex Matriarchs/Bagra.png",
         "scaleChanceWithMasteryPool": false,
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "modifiers": {
           "increasedMeleeMaxHit": 1
         },
@@ -839,7 +893,7 @@
         "name": "Corbi",
         "media": "assets/pets/Rex Matriarchs/Corbi.png",
         "scaleChanceWithMasteryPool": false,
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "modifiers": {
           "increasedRangedMaxHit": 1
         },
@@ -851,7 +905,7 @@
         "name": "Pavo",
         "media": "assets/pets/Rex Matriarchs/Pavo.png",
         "scaleChanceWithMasteryPool": false,
-        "ignoreCompletion": false,
+        "ignoreCompletion": true,
         "modifiers": {
           "increasedMagicMaxHit": 1
         },
@@ -863,7 +917,7 @@
       {
         "id": "Laniakeas_Spear_Poisonous_Tip",
         "name": "Poisonous tip",
-        "defaultChance": 10,
+        "defaultChance": 30,
         "damage": [
           {
             "damageType": "Normal",
@@ -894,7 +948,7 @@
         "damage": [
           {
             "damageType": "Normal",
-            "amplitude": 100
+            "amplitude": 150
           }
         ],
         "prehitEffects": [],
@@ -921,20 +975,20 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "Rathis bombards you with acid, dealing ${attackDamageMaxValue0}% damage and applying deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks). (Avoidable)",
-        "descriptionGenerator": "Rathis bombards you with acid, dealing ${attackDamageMaxValue0}% damage and applying deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks). (<Avoidable>)",
+        "description": "Rathis bombards you with acid, dealing ${attackDamageMaxValue0}% damage and applying deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks)",
+        "descriptionGenerator": "Rathis bombards you with acid, dealing ${attackDamageMaxValue0}% damage and applying deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks)",
         "attackTypes": [
           "ranged"
         ]
       },
       {
         "id": "Orikalka_Frost_Storm",
-        "name": "Frost_Storm",
+        "name": "Frost Storm",
         "defaultChance": 25,
         "damage": [
           {
             "damageType": "Normal",
-            "amplitude": 100
+            "amplitude": 150
           }
         ],
         "prehitEffects": [],
@@ -978,7 +1032,7 @@
                 "character": "Attacker",
                 "roll": false,
                 "maxRoll": "MaxHit",
-                "maxPercent": 10
+                "maxPercent": 100
               }
             ],
             "chance": 100
@@ -988,8 +1042,8 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "Orikalka sweeps her tail, generating fissures around her. Deals ${attackDamageMaxValue0}% and another 100% damage through 10 ticks of bleeds across 500ms. (Avoidable)",
-        "descriptionGenerator": "Orikalka sweeps her tail, generating fissures around her. Deals ${attackDamageMaxValue0}% and another 100% damage through 10 ticks of bleeds across 500ms. (<Avoidable>)",
+        "description": "Orikalka sweeps her tail, generating fissures around her. Deals ${attackDamageMaxValue0}% damage and another ${onHitEffect0DamageMaxValue0}% damage through bleed",
+        "descriptionGenerator": "Orikalka sweeps her tail, generating fissures around her. Deals ${attackDamageMaxValue0}% damage and another ${onHitEffect0DamageMaxValue0}% damage through bleed",
         "attackTypes": [
           "melee"
         ]
@@ -1013,7 +1067,7 @@
         "attackCount": 3,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "Pthentraken summons 3 lightning bolts, dealing ${attackDamageMaxValue0}% damage each.",
+        "description": "Pthentraken summons 3 lightning bolts, dealing ${attackDamageMaxValue0}% damage each",
         "attackTypes": [
           "magic"
         ]
@@ -1034,7 +1088,7 @@
         "attackCount": 5,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "Pthentraken creates a storm column at your current location, dealing 5x${attackDamageMaxValue0}% damage."
+        "description": "Pthentraken creates a storm column at your current location, dealing ${attackDamageMaxValue0}% damage ${hitCount} times"
       }
     ]
   }
