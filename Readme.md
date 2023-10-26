@@ -38,7 +38,6 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
 * Other ideas?
 
 ## Content
-* Improve images used, as some are very small, making them very blurry in certain menus
 * Improve balancing across the board
 * Possibly making some implementations more faithful to how they work in (Old School) Runescape
   * One example would be Gregorovic currently having a passive to represent his ghost spawn special, rather than a special (per ghost) that continues to stack the corresponding modifiers everytime the respective special is used (possibly limited at 2)
