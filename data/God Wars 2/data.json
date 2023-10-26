@@ -752,82 +752,6 @@
         "itemType": "Item"
       },
       {
-        "id": "Shadow_Glaive",
-        "name": "Shadow Glaive",
-        "category": "Combat",
-        "type": "Ranged Weapon",
-        "attackType": "melee",
-        "media": "assets/items/God Wars 2/Shadow_Glaive.png",
-        "ignoreCompletion": true,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 1,
-        "customDescription": "When equipped with Offhand Shadow Glaive, +15% Global Accurary Rating",
-        "tier": "none",
-        "validSlots": [ "Weapon" ],
-        "occupiesSlots": [],
-        "equipRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Ranged",
-            "level": 80
-          }
-        ],
-        "equipmentStats": [
-          {
-            "key": "attackSpeed",
-            "value": 2400
-          },
-          {
-            "key": "rangedAttackBonus",
-            "value": 64
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 111
-          }
-        ],
-        "modifiers": {},
-        "specialAttacks": [],
-        "itemType": "Equipment"
-      },
-      {
-        "id": "Offhand_Shadow_Glaive",
-        "name": "Offhand Shadow Glaive",
-        "category": "Combat",
-        "type": "Armour",
-        "attackType": "melee",
-        "media": "assets/items/God Wars 2/Offhand_Shadow_Glaive.png",
-        "ignoreCompletion": true,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 1,
-        "customDescription": "When equipped with Shadow Glaive, +15% Global Accurary Rating",
-        "tier": "none",
-        "validSlots": [ "Shield" ],
-        "occupiesSlots": [],
-        "equipRequirements": [
-          {
-            "type": "SkillLevel",
-            "skillID": "melvorD:Ranged",
-            "level": 80
-          }
-        ],
-        "equipmentStats": [
-          {
-            "key": "rangedAttackBonus",
-            "value": 25
-          },
-          {
-            "key": "rangedStrengthBonus",
-            "value": 20
-          }
-        ],
-        "modifiers": {},
-        "specialAttacks": [],
-        "itemType": "Equipment"
-      },
-      {
         "id": "Anima_Core_Helm_Of_Sliske",
         "name": "Anima core helm of Sliske",
         "category": "Combat",
@@ -1067,7 +991,83 @@
         ],
         "modifiers": {
           "increasedDamageDealtIfPoisoned": 10
+        },
+        "itemType": "Equipment"
       },
+      {
+        "id": "Shadow_Glaive",
+        "name": "Shadow Glaive",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Shadow_Glaive.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "When equipped with Offhand Shadow Glaive, +15% Global Accurary Rating",
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 80
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 64
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 111
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
+        "itemType": "Equipment"
+      },
+      {
+        "id": "Offhand_Shadow_Glaive",
+        "name": "Offhand Shadow Glaive",
+        "category": "Combat",
+        "type": "Armour",
+        "attackType": "melee",
+        "media": "assets/items/God Wars 2/Offhand_Shadow_Glaive.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "customDescription": "When equipped with Shadow Glaive, +15% Global Accurary Rating",
+        "tier": "none",
+        "validSlots": [ "Shield" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 80
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 25
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "modifiers": {},
+        "specialAttacks": [],
         "itemType": "Equipment"
       },
       {
@@ -1129,7 +1129,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 1,
         "itemType": "Item"
-      }      
+      }
     ],
     "itemUpgrades": [
       {

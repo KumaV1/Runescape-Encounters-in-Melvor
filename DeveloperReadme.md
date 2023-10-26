@@ -12,8 +12,63 @@
 
 # Helpful commands (use [dev.Console](https://mod.io/g/melvoridle/m/devconsole) mod)
 ## Directly add a certain item to the bank, e.g. to quickly check a new item upgrade
+_The creation of this list will surely be automated at some point (before new content I reckon)_
 ```js
 game.bank.addItemByID("runescapeEncountersInMelvor:XXXXX", 1, false, true, true)
+```
+
+```js
+game.bank.addItemByID("runescapeEncountersInMelvor:Dagannoth_Bones", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Archers_Ring", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Seers_Ring", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Warrior_Ring", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Berserker_Ring", 1, false, true, true)
+
+game.bank.addItemByID("runescapeEncountersInMelvor:Dinosaur_Bones", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Stalkers_Ring", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Channellers_Ring", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Champions_Ring", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Reavers_Ring", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Heart_Of_The_Archer", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Heart_Of_The_Seer", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Heart_Of_The_Warrior", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Heart_Of_The_Berserker", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Savage_Plume", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Savage_Spear_Cap", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Savage_Spear_Shaft", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Savage_Spear_Tip", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Laniakeas_Spear", 1, false, true, true)
+
+game.bank.addItemByID("runescapeEncountersInMelvor:Dormant_Anima_Core_Helm", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Dormant_Anima_Core_Body", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Dormant_Anima_Core_Legs", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Helm_Of_Seren", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Body_Of_Seren", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Legs_Of_Seren", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Wand_Of_The_Cywir_Elders", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Orb_Of_The_Cywir_Elders", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Crest_Of_Seren", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Helm_Of_Zamorak", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Body_Of_Zamorak", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Legs_Of_Zamorak", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Blade_Of_Nymora", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Blade_Of_Avaryss", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Crest_Of_Zamorak", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Helm_Of_Zaros", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Body_Of_Zaros", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Legs_Of_Zaros", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Dragon_Rider_Lance", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Crest_Of_Zaros", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Helm_Of_Sliske", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Body_Of_Sliske", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Anima_Core_Legs_Of_Sliske", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Shadow_Glaive", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Offhand_Shadow_Glaive", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Crest_Of_Sliske", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Ancient_Sigil_Piece_Seren", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Ancient_Sigil_Piece_Sliske", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zamorak", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zaros", 1, false, true, true)
 ```
 
 # Mechanical ideas
