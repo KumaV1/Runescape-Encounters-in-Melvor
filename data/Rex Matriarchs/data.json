@@ -12,7 +12,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 150,
         "itemType": "Bone",
         "prayerPoints": 9
       },
@@ -25,7 +25,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 400000,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
@@ -62,7 +62,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 400000,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
@@ -99,7 +99,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 400000,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
@@ -144,7 +144,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 400000,
         "tier": "none",
         "validSlots": [ "Ring" ],
         "occupiesSlots": [],
@@ -202,7 +202,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -214,7 +214,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -226,7 +226,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -238,7 +238,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -250,7 +250,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -262,7 +262,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -274,7 +274,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -286,7 +286,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 200000,
         "itemType": "Item"
       },
       {
@@ -299,7 +299,7 @@
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 1,
+        "sellsFor": 900000,
         "tier": "none",
         "validSlots": [ "Weapon" ],
         "occupiesSlots": [ "Shield" ],
