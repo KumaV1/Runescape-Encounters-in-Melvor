@@ -8,7 +8,7 @@
         "name": "Dagannoth bones",
         "category": "Misc",
         "type": "Bones",
-        "media": "assets/items/Dagannoth Kings/Dagannoth_bones.png",
+        "media": "assets/Dagannoth_bones.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -21,7 +21,7 @@
         "name": "Archer's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Dagannoth Kings/Archers_ring.png",
+        "media": "assets/Archers_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -56,7 +56,7 @@
         "name": "Seer's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Dagannoth Kings/Seers_ring.png",
+        "media": "assets/Seers_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -91,7 +91,7 @@
         "name": "Warrior Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Dagannoth Kings/Warrior_ring.png",
+        "media": "assets/Warrior_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -134,7 +134,7 @@
         "name": "Berserker Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/items/Dagannoth Kings/Berserker_ring.png",
+        "media": "assets/Berserker_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -165,7 +165,7 @@
       {
         "id": "Dagannoth_Lair",
         "name": "Dagannoth lair",
-        "media": "assets/locations/Dagannoth_Kings_Lair.png",
+        "media": "assets/Dagannoth_Kings_Lair.png",
         "difficulty": [
           2
         ],
@@ -218,7 +218,7 @@
       {
         "id": "Dagannoth_Rex",
         "name": "Dagannoth Rex",
-        "media": "assets/monsters/Dagannoth Kings/Dagannoth_Rex.png",
+        "media": "assets/Dagannoth_Rex.png",
         "levels": {
           "Attack": 155,
           "Defence": 155,
@@ -296,7 +296,7 @@
       {
         "id": "Dagannoth_Supreme",
         "name": "Dagannoth Supreme",
-        "media": "assets/monsters/Dagannoth Kings/Dagannoth Supreme.png",
+        "media": "assets/Dagannoth Supreme.png",
         "levels": {
           "Attack": 1,
           "Defence": 155,
@@ -392,7 +392,7 @@
       {
         "id": "Dagannoth_Prime",
         "name": "Dagannoth Prime",
-        "media": "assets/monsters/Dagannoth Kings/Dagannoth Prime.png",
+        "media": "assets/Dagannoth Prime.png",
         "levels": {
           "Attack": 1,
           "Defence": 155,
@@ -478,7 +478,7 @@
       {
         "id": "Rex_Hatchling",
         "name": "Rex Hatchling",
-        "media": "assets/pets/Dagannoth Kings/Rex_hatchling.png",
+        "media": "assets/Rex_hatchling.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {
@@ -490,7 +490,7 @@
       {
         "id": "Supreme_Hatchling",
         "name": "Supreme Hatchling",
-        "media": "assets/pets/Dagannoth Kings/Supreme_hatchling.png",
+        "media": "assets/Supreme_hatchling.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {
@@ -502,7 +502,7 @@
       {
         "id": "Prime_Hatchling",
         "name": "Prime Hatchling",
-        "media": "assets/pets/Dagannoth Kings/Prime_hatchling.png",
+        "media": "assets/Prime_hatchling.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {

@@ -1,14 +1,19 @@
-# Introduction
-* I myself am basically an RS3 only player, so faithful creations of OSRS bosses/raids may likely depend on other contributors
-* As of now, any effect, item, asset or what-have-you, that is used for more than one boss (folder) is put into the "_Shared" folder.
-* I should probably check whether the data-file-patch order in the manifest.js is relevant (e.g. Rex Matriarch drops upgrading DK rings)
+# Good to know 
+* As of now, any effect, item, asset or what-have-you, that is used for more than one boss (folder) is put into the "_Shared" folder
+* While assets are grouped through sub folders, the final built doesn't have sub folders, so data files have to reference "assets/IMAGE_NAME.png"
+* Assets are currently imported one by one (hopefully changed in the future) - please feel free to let me know if you add a lot of assets, as I quickly created a cmd to help me with this
+* Run `npm install` in the root directory to download all relevant packages
+* Run `npm run buildzip`, if you want to build a zip file (can be used for both testinmg through Creator Toolkit and mod update uploads)
+  * The zip can be found in the `package` folder
 
 # Remarks
+* I myself am basically an RS3 only player, so faithful creations of OSRS bosses/raids may likely depend on other contributors
 * Should this mod reach the realm of creating its own (combat) modifiers, then it might be worthwile to create a "Custom Modifiers" base mod, that could then be re-used by other mods as well.
 * Regarding the idea of ancient effigies, implementation would be based on mastery tokens, being:
   * Create a custom modifier (named "ancientEffigy" for example)	
   * Create effigy item as "Token" type and add to its modifier property this newly created modifier
   * Patch the "bank.claimItemOnClick" function, to also check for this modifier and "consume" this item
+  * Maybe implement a custom "increasedSkillXp" (flat) modifier, to be able to add dragonkin lamps as consumable
 
 # Helpful commands (use [dev.Console](https://mod.io/g/melvoridle/m/devconsole) mod)
 ## Directly add a certain item to the bank, e.g. to quickly check a new item upgrade
