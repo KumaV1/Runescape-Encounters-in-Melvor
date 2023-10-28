@@ -1,3 +1,3 @@
-//export class Constants {
-//    static readonly NAMESPACE = "runescapeEncountersInMelvor";
-//}
+export class Constants {
+    static readonly NAMESPACE = "runescapeEncountersInMelvor";
+}

@@ -6,7 +6,7 @@
       {
         "id": "General_Shop",
         "name": "Runescape",
-        "media": "assets/_Shared/Shop.png"
+        "media": "assets/Shop.png"
       }
     ],
     "shopCategoryOrder": [
