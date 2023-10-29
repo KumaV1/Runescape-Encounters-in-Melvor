@@ -1,6 +1,8 @@
 // Modules
 // You can import script modules and have full type completion
 import { Constants } from './Constants';
+import { Translation } from './translation/Translation';
+import { languages } from './translation/languages'
 
 // Data
 // Game data for registration
@@ -92,7 +94,7 @@ import '../assets/_Shared/Weapon_Special_Attack.png'
 
 export async function setup(ctx: Modding.ModContext) {
     // Register our GameData
-    // @ts-ignore: Supposed non-matching type (e.g. "InsertEnd" vs. "InsertAfter" shop category order)
+    // @ts-ignore: Supposedly non-matching type (e.g. "InsertEnd" vs. "InsertAfter" shop category order)
     await ctx.gameData.addPackage(SharedModData);
 
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
@@ -104,19 +106,56 @@ export async function setup(ctx: Modding.ModContext) {
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(Gwd2ModData);
 
-    console.log("If it worked then the following should be the namespace: " + Constants.NAMESPACE);
+    // Register translation patches and localized texts
+    initTranslation(ctx);
+    initLanguage(ctx);
+}
 
-    // Because we're loading our templates.min.html file via the manifest.json,
-    // the templates aren't available until after the setup() function runs
-    //ctx.onModsLoaded(() => {
-    //    const root = document.createElement('div');
-    //    ui.create(Greeter({ name: 'Melvor' }), root);
+/**
+ * TODO: Explain
+ * @param ctx
+ */
+function initTranslation(ctx: Modding.ModContext) {
+    const translation = new Translation(ctx);
 
-    //    sidebar.category('Modding').item('Mod Boilerplate', {
-    //        icon: ctx.getResourceUrl('img/icon.png'),
-    //        onClick() {
-    //            open(ctx, root);
-    //        },
-    //    });
-    //});
+    translation.init();
+}
+
+/**
+ * TODO: Explain
+ * @param ctx
+ */
+function initLanguage(ctx: Modding.ModContext) {
+    let lang = setLang;
+
+    if (lang === 'lemon' || lang === 'carrot') {
+        lang = 'en';
+    }
+
+    // Melvor includes functionality to automatically retrieve translations by category (see "LanguageCategory" in the schema)
+    // and entity id - for those calls, a mod prefix isn't necessary, which is why we create this const array
+    const keysToNotPrefix = [
+        'PET_NAME',
+        'ITEM_NAME',
+        'ITEM_DESCRIPTION',
+        'SHOP_NAME',
+        'SHOP_DESCRIPTION',
+        'MONSTER_NAME',
+        'COMBAT_AREA_NAME',
+        'COMBAT_SLAYER_NAME',
+        'COMBAT_DUNGEON_NAME',
+        'SPECIAL_ATTACK_NAME',
+        'SPECIAL_ATTACK_DESCRIPTION',
+        'PASSIVES_NAME'
+    ];
+    
+    // Based on how translation is retrieved, 
+    // we may or may not have to specify the mod namespace
+    for (const [key, value] of Object.entries<string>(languages[lang])) {
+        if (keysToNotPrefix.some(prefix => key.includes(prefix))) {
+            loadedLangJson[key] = value;
+        } else {
+            loadedLangJson[`${Constants.MOD_NAMESPACE}_${key}`] = value;
+        }
+    }
 }

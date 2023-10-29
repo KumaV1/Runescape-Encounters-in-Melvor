@@ -77,6 +77,14 @@ game.bank.addItemByID("runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zaros", 1
 ```
 
 # Mechanical ideas
+## Custom modifiers applying the given modifier to X following enemies in same dungeon
+For example, a monster could have a "shield" special attack, that if being able to cast it before dying, 
+all monsters on the same floor of a dungeon will have 25% more damage reduction
+
+Applying the modifier on special attack, and checking it during the "OnEnemyDeath" event, would be easy enough.
+The question would be, how much the CombatManager can be enhanced, 
+without having to customize it to an extent that would increase likelyhood of not being compatible with other mods.
+
 ## Based on "The Ambassador" spinners and "TzKal Zuk" challenge waves
 Minion during dungeon fight, which have slow attack interval 
 and on attack put a stack of a debuff on you, 

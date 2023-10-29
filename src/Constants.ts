@@ -1,3 +1,3 @@
 export class Constants {
-    static readonly NAMESPACE = "runescapeEncountersInMelvor";
+    static readonly MOD_NAMESPACE = "runescapeEncountersInMelvor";
 }
