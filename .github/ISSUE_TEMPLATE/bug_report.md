@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear and concise description of what the bug is. If you got an error message from the game, adding that to the report will be much appreciated and can help track down the issue.
 
 **To Reproduce**
 Steps to reproduce the behavior:

@@ -18,7 +18,7 @@ A clear and concise description of what you want to happen. For example, while "
 * Possibly an idea about the difficulty when compared to other encounters
 * Already have any ideas about how to implement certain mechanics? (e.g., "the boss has healing mechanics. so a passive, or some modifier on certain attacks would be nice")
 
-** References that may help **
+**References that may help**
 For example, links to helpful entries of the Runescape Wikis.
 
 **Describe alternatives you've considered**
