@@ -230,7 +230,7 @@
         ],
         "modifiers": {},
         "specialAttacks": [],
-        "itemType": "Equipment"
+        "itemType": "Weapon"
       },
       {
         "id": "Orb_Of_The_Cywir_Elders",
@@ -262,7 +262,7 @@
         ],
         "modifiers": {},
         "specialAttacks": [],
-        "itemType": "Equipment"
+        "itemType": "Weapon"
       },
       {
         "id": "Crest_Of_Seren",
@@ -469,7 +469,7 @@
         ],
         "modifiers": {},
         "specialAttacks": [],
-        "itemType": "Equipment"
+        "itemType": "Weapon"
       },
       {
         "id": "Blade_Of_Avaryss",
@@ -501,7 +501,7 @@
         ],
         "modifiers": {},
         "specialAttacks": [],
-        "itemType": "Equipment"
+        "itemType": "Weapon"
       },
       {
         "id": "Crest_Of_Zamorak",
@@ -703,7 +703,7 @@
         "sellsFor": 1750000,
         "tier": "none",
         "validSlots": [ "Weapon" ],
-        "occupiesSlots": [],
+        "occupiesSlots": [ "Shield" ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -737,7 +737,7 @@
           "increasedGlobalAccuracy": 15
         },
         "specialAttacks": [],
-        "itemType": "Equipment"
+        "itemType": "Weapon"
       },
       {
         "id": "Crest_Of_Zaros",
@@ -999,7 +999,7 @@
         "name": "Shadow Glaive",
         "category": "Combat",
         "type": "Ranged Weapon",
-        "attackType": "melee",
+        "attackType": "ranged",
         "media": "assets/Shadow_Glaive.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
@@ -1032,14 +1032,14 @@
         ],
         "modifiers": {},
         "specialAttacks": [],
-        "itemType": "Equipment"
+        "itemType": "Weapon"
       },
       {
         "id": "Offhand_Shadow_Glaive",
         "name": "Offhand Shadow Glaive",
         "category": "Combat",
         "type": "Armour",
-        "attackType": "melee",
+        "attackType": "ranged",
         "media": "assets/Offhand_Shadow_Glaive.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
@@ -1068,7 +1068,7 @@
         ],
         "modifiers": {},
         "specialAttacks": [],
-        "itemType": "Equipment"
+        "itemType": "Weapon"
       },
       {
         "id": "Crest_Of_Sliske",
