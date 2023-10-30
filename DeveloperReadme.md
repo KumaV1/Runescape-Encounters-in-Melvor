@@ -14,7 +14,9 @@
   * Create effigy item as "Token" type and add to its modifier property this newly created modifier
   * Patch the "bank.claimItemOnClick" function, to also check for this modifier and "consume" this item
   * Maybe implement a custom "increasedSkillXp" (flat) modifier, to be able to add dragonkin lamps as consumable
-
+* Custom modifiers
+  * If dependant on enemy/battle state, overwrite "character.getMaxHitModifier"
+	* It calls "modifiers.getMaxHitModifier(type)", but also checks for battle states, which we can add custom stuff to
 # Helpful commands (use [dev.Console](https://mod.io/g/melvoridle/m/devconsole) mod)
 ## Directly add a certain item to the bank, e.g. to quickly check a new item upgrade
 _The creation of this list will surely be automated at some point (before new content I reckon)_

@@ -1,6 +1,6 @@
 export const en = {
     // === Shop entries ===
-    SHOP_NAME_General_Shop: 'Runescape',
+    SHOP_NAME_Telos_Dungeon_Unlock: 'Telos, the Warden',
     SHOP_DESCRIPTION_Telos_Dungeon_Unlock: 'Grants access to the fight against Telos, the Warden (once implemented, works retroactively)',
 
     // === Item names and descriptions ===
@@ -107,7 +107,7 @@ export const en = {
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Poisonous tip',
     SPECIAL_ATTACK_DESCRIPTION_Laniakeas_Spear_Poisonous_Tip: "Deals ${attackDamageMaxValue0}% of your normal damage and inflicts Poison that deals ${onHitEffect0DamageMaxValue0}% of the enemy's max hitpoints as damage over ${onHitEffect0duration}s",
     SPECIAL_ATTACK_NAME_Rathis_Acid_Bombardment: 'Acid Bombardment',
-    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombards you with acid, dealing ${attackDamageMaxValue0}% damage and applying deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks)',
+    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombards you with acid. Deals ${attackDamageMaxValue0}% damage and applying deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks)',
     SPECIAL_ATTACK_NAME_Orikalka_Frost_Storm: 'Frost Storm',
     SPECIAL_ATTACK_DESCRIPTION_Orikalka_Frost_Storm: 'Orikalka generates an icy tornado, dealing ${attackDamageMaxValue0}% magic damage and applying Frostbite for ${onHitEffect0turns} turns (25% reduced attack interval). (Avoidable)',
     SPECIAL_ATTACK_NAME_Orikalka_Pyroclastic_Shock: 'Pyroclastic Shock',
@@ -137,20 +137,20 @@ export const en = {
     SPECIAL_ATTACK_NAME_Gregorovic_Trick_Knife: 'Trick knife',
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Trick_Knife: "Throws a trick knife, dealing ${attackDamageMaxValue0}% of the enemy's normal damage ${hitCount} times",
     SPECIAL_ATTACK_NAME_Gregorovic_Glaive_Throw: 'Glaive throw',
-    SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Throws gloves into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times',
+    SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Throws glaives into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times',
 
     // === Passives names and descriptions ===
-    PASSIVES_NAME_Royal_Hide_Meele_Sea: 'Royal Hide (Melee) (Sea)',
-    PASSIVES_DESCRIPTION_Royal_Hide_Meele_Sea: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
-    PASSIVES_NAME_Royal_Hide_Ranged_Sea: 'Royal Hide (Ranged) (Sea)',
-    PASSIVES_DESCRIPTION_Royal_Hide_Ranged_Sea: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
-    PASSIVES_NAME_Royal_Hide_Magic_Sea: 'Royal Hide (Magic) (Sea)',
-    PASSIVES_DESCRIPTION_Royal_Hide_Magic_Sea: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
-    PASSIVES_NAME_Orikalka_Royal_Hide: 'Royal Hide (Jurassic) (Melee)',
-    PASSIVES_DESCRIPTION_Orikalka_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVES_NAME_Rathis_Royal_Hide: 'Royal Hide (Jurassic) (Ranged)',
-    PASSIVES_DESCRIPTION_Rathis_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVES_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
-    PASSIVES_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVES_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits'
+    PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
+    PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royal Hide (Sea) (Ranged)',
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Ranged: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
+    PASSIVE_NAME_Royal_Hide_Sea_Magic: 'Royal Hide (Sea) (Magic)',
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Magic: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
+    PASSIVE_NAME_Orikalka_Royal_Hide: 'Royal Hide (Jurassic) (Melee)',
+    PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+    PASSIVE_NAME_Rathis_Royal_Hide: 'Royal Hide (Jurassic) (Ranged)',
+    PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+    PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
+    PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits'
 };

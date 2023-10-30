@@ -187,8 +187,8 @@
     ],
     "combatPassives": [
       {
-        "id": "Royal_Hide_Meele_Sea",
-        "name": "Royal Hide (Melee) (Sea)",
+        "id": "Royal_Hide_Sea_Melee",
+        "name": "Royal Hide (Sea) (Melee)",
         "modifiers": {
           "meleeImmunity": 1,
           "rangedImmunity": 1
@@ -196,8 +196,8 @@
         "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       },
       {
-        "id": "Royal_Hide_Ranged_Sea",
-        "name": "Royal Hide (Ranged) (Sea)",
+        "id": "Royal_Hide_Sea_Ranged",
+        "name": "Royal Hide (Sea) (Ranged)",
         "modifiers": {
           "rangedImmunity": 1,
           "magicImmunity": 1
@@ -205,8 +205,8 @@
         "customDescription": "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against"
       },
       {
-        "id": "Royal_Hide_Magic_Sea",
-        "name": "Royal Hide (Magic) (Sea)",
+        "id": "Royal_Hide_Sea_Magic",
+        "name": "Royal Hide (Sea) (Magic)",
         "modifiers": {
           "meleeImmunity": 1,
           "magicImmunity": 1
@@ -236,7 +236,7 @@
         "ignoreCompletion": true,
         "attackType": "melee",
         "specialAttacks": [],
-        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Meele_Sea" ],
+        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Sea_Melee" ],
         "lootChance": 100,
         "lootTable": [
           {
@@ -314,7 +314,7 @@
         "ignoreCompletion": true,
         "attackType": "ranged",
         "specialAttacks": [],
-        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Ranged_Sea" ],
+        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Sea_Ranged" ],
         "lootChance": 100,
         "lootTable": [
           {
@@ -410,7 +410,7 @@
         "ignoreCompletion": true,
         "attackType": "magic",
         "specialAttacks": [],
-        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Magic_Sea" ],
+        "passives": [ "runescapeEncountersInMelvor:Royal_Hide_Sea_Magic" ],
         "lootChance": 100,
         "lootTable": [
           {

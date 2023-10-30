@@ -135,18 +135,20 @@ function initLanguage(ctx: Modding.ModContext) {
     // Melvor includes functionality to automatically retrieve translations by category (see "LanguageCategory" in the schema)
     // and entity id - for those calls, a mod prefix isn't necessary, which is why we create this const array
     const keysToNotPrefix = [
-        'PET_NAME',
-        'ITEM_NAME',
-        'ITEM_DESCRIPTION',
         'SHOP_NAME',
         'SHOP_DESCRIPTION',
-        'MONSTER_NAME',
+        'ITEM_NAME',
+        'ITEM_DESCRIPTION',
         'COMBAT_AREA_NAME',
         'COMBAT_SLAYER_NAME',
         'COMBAT_DUNGEON_NAME',
+        'MONSTER_NAME',
+        'MONSTER_DESCRIPTION',
+        'PET_NAME',
         'SPECIAL_ATTACK_NAME',
         'SPECIAL_ATTACK_DESCRIPTION',
-        'PASSIVES_NAME'
+        'PASSIVE_NAME',
+        'PASSIVE_DESCRIPTION',
     ];
     
     // Based on how translation is retrieved, 

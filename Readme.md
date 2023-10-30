@@ -1,5 +1,6 @@
 # Summary
-This mod adds several new combat encounters from OSRS and RS3 to the world of [Melvor Idle](https://www.melvoridle.com/). Of course, this comes with a multitude of new armour and weapons, including a lot of new equipment.
+This mod adds several new combat encounters from OSRS and RS3 to the world of [Melvor Idle](https://www.melvoridle.com/). 
+Of course, this comes with a multitude of new armour and weapons.
 
 Feel free to contribute directly or tell us your ideas, be it improvements (e.g. balancing) to existing content, or completely new content. ([Create an issue](https://github.com/KumaV1/Runescape-Encounters-in-Melvor/issues) or contact me on discord `@___kuma___`)
 

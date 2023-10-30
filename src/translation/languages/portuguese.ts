@@ -1,7 +1,7 @@
 /** CURRENTLY NO TRANSLATION AVAILABLE - FEEL FREE TO UPDATE THIS FILE */
 export const pt = {
     // === Shop entries ===
-    SHOP_NAME_General_Shop: 'Runescape',
+    SHOP_NAME_Telos_Dungeon_Unlock: 'Telos, the Warden',
     SHOP_DESCRIPTION_Telos_Dungeon_Unlock: 'Grants access to the fight against Telos, the Warden (once implemented, works retroactively)',
 
     // === Item names and descriptions ===
@@ -39,6 +39,7 @@ export const pt = {
     ITEM_DESCRIPTION_Wand_Of_The_Cywir_Elders: 'When equipped with Orb of the Cywir elders, +15% Global Accurary Rating',
     ITEM_NAME_Orb_Of_The_Cywir_Elders: 'Orb of the Cywir elders',
     ITEM_DESCRIPTIONE_Orb_Of_The_Cywir_Elders: 'When equipped with Wand of the Cywir elders, +15% Global Accurary Rating',
+    ITEM_NAME_Crest_Of_Seren: 'Crest of Seren',
     ITEM_NAME_Anima_Core_Helm_Of_Zamorak: 'Anima core helm of Zamorak',
     ITEM_NAME_Anima_Core_Body_Of_Zamorak: 'Anima core body of Zamorak',
     ITEM_NAME_Anima_Core_Legs_Of_Zamorak: 'Anima core legs of Zamorak',
@@ -138,20 +139,20 @@ export const pt = {
     SPECIAL_ATTACK_NAME_Gregorovic_Trick_Knife: 'Trick knife',
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Trick_Knife: "Throws a trick knife, dealing ${attackDamageMaxValue0}% of the enemy's normal damage ${hitCount} times",
     SPECIAL_ATTACK_NAME_Gregorovic_Glaive_Throw: 'Glaive throw',
-    SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Throws gloves into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times',
+    SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Throws glaives into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times',
 
     // === Passives names and descriptions ===
-    PASSIVES_NAME_Royal_Hide_Meele_Sea: 'Royal Hide (Melee) (Sea)',
-    PASSIVES_DESCRIPTION_Royal_Hide_Meele_Sea: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
-    PASSIVES_NAME_Royal_Hide_Ranged_Sea: 'Royal Hide (Ranged) (Sea)',
-    PASSIVES_DESCRIPTION_Royal_Hide_Ranged_Sea: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
-    PASSIVES_NAME_Royal_Hide_Magic_Sea: 'Royal Hide (Magic) (Sea)',
-    PASSIVES_DESCRIPTION_Royal_Hide_Magic_Sea: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
-    PASSIVES_NAME_Orikalka_Royal_Hide: 'Royal Hide (Jurassic) (Melee)',
-    PASSIVES_DESCRIPTION_Orikalka_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVES_NAME_Rathis_Royal_Hide: 'Royal Hide (Jurassic) (Ranged)',
-    PASSIVES_DESCRIPTION_Rathis_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVES_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
-    PASSIVES_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVES_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits'
+    PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
+    PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royal Hide (Sea) (Ranged)',
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Ranged: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
+    PASSIVE_NAME_Royal_Hide_Sea_Magic: 'Royal Hide (Sea) (Magic)',
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Magic: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
+    PASSIVE_NAME_Orikalka_Royal_Hide: 'Royal Hide (Jurassic) (Melee)',
+    PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+    PASSIVE_NAME_Rathis_Royal_Hide: 'Royal Hide (Jurassic) (Ranged)',
+    PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+    PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
+    PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits'
 };

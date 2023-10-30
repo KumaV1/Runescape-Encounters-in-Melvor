@@ -2363,8 +2363,8 @@
         "attackCount": 3,
         "attackInterval": 100,
         "lifesteal": 0,
-        "description": "Throws gloves into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times",
-        "descriptionGenerator": "Throws gloves into the air, dealing <damage> <count> times",
+        "description": "Throws glaives into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times",
+        "descriptionGenerator": "Throws glaives into the air, dealing <damage> <count> times",
         "attackTypes": [
           "magic"
         ]
