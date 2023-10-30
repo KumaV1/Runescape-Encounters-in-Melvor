@@ -79,6 +79,14 @@ export class Translation {
         });
 
         // === CUSTOM ONES (NOT FROM MYTH MUSIC) ===
+        this.context.patch(Monster, 'description').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`MONSTER_DESCRIPTION_${this.localID}`);
+            }
+
+            return patch();
+        });
+
         this.context.patch(SlayerArea, 'name').get(function (patch) {
             if (this.namespace === Constants.MOD_NAMESPACE) {
                 return getLangString(`SLAYER_AREA_NAME_${this.localID}`);
