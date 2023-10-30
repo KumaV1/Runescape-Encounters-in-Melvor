@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.2.0
+* Migration to Webpack
+* Weapon configuration fixes
+  * Fixed item types for weapons
+  * Fixed asset path for Blade of Nymora
+  * Fixed Dragon Rider Lance not occupying the shield slot
+
 ## v0.1.1
 * Removed telos data and unused images
 * Updated item images to be bigger and have standardized aspect ratio
