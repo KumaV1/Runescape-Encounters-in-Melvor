@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1
+* Fixed wrong language category for Laniakea's spear
+* Updated names of DKs and Rex Matriarch passives
+
 ## v1.0.0
 * Added localization supported
 * Added german translation
