@@ -23,7 +23,7 @@
     ITEM_NAME_Savage_Spear_Cap: 'Brutaler Speeraufsatz',
     ITEM_NAME_Savage_Spear_Shaft: 'Brutaler Speerschaft',
     ITEM_NAME_Savage_Spear_Tip: 'Brutale Speerspitze',
-    ITEM_DESCRIPTION_Laniakeas_Spear: "Laniakeas Speer",
+    ITEM_NAME_Laniakeas_Spear: "Laniakeas Speer",
 
     ITEM_NAME_Dormant_Anima_Core_Helm: 'Inaktiver Weltkernhelm',
     ITEM_NAME_Dormant_Anima_Core_Body: 'Inaktives Weltkernoberteil',
@@ -141,17 +141,17 @@
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Wirft Glefen in die Luft, welche ${hitCount} mal ${attackDamageMaxValue0}% Schaden anrichten',
 
     // === Passives names and descriptions ===
-    PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (See) (Nahkampf)',
+    PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royale Haut (See) (Nahkampf)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
-    PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royal Hide (See) (Fernkampf)',
+    PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royale Haut (See) (Fernkampf)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Ranged: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
-    PASSIVE_NAME_Royal_Hide_Sea_Magic: 'Royal Hide (See) (Magie)',
+    PASSIVE_NAME_Royal_Hide_Sea_Magic: 'Royale Haut (See) (Magie)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Magic: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
-    PASSIVE_NAME_Orikalka_Royal_Hide: 'Royal Hide (Jura) (Nahkampf)',
+    PASSIVE_NAME_Orikalka_Royal_Hide: 'Royale Haut (Jura) (Nahkampf)',
     PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
-    PASSIVE_NAME_Rathis_Royal_Hide: 'Royal Hide (Jura) (Fernkampf)',
+    PASSIVE_NAME_Rathis_Royal_Hide: 'Royale Haut (Jura) (Fernkampf)',
     PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
-    PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jura) (Magie)',
+    PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royale Haut (Jura) (Magie)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Beschworene Geister'
 };
