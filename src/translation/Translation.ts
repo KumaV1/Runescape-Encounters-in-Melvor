@@ -1,11 +1,10 @@
-import { Constants } from '../Constants'
+﻿import { Constants } from '../Constants'
 
 /**
- * Patches a couple of language implementation structures, to run localization for custom text
- * TODO: Explain better
+ * Patches a couple name/description getters, so they access our integrated localization
  * 
- * IMPORTANT: For certain descriptions, those are only replaced if a custom description has been defined,
- * as otherwise it's an auto generated one (like modifier effects), which are handled by the game's own translations already
+ * IMPORTANT: For certain descriptions, they only run our custom logic, if a custom description has been defined,
+ * as otherwise it's an auto generated descriütion (like modifier effects), which are handled by the game's own translations already
  */
 export class Translation {
     constructor(private readonly context: Modding.ModContext) { }
@@ -51,9 +50,33 @@ export class Translation {
             return patch();
         });
 
+        this.context.patch(Monster, 'description').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`MONSTER_DESCRIPTION_${this.localID}`);
+            }
+
+            return patch();
+        });
+
         this.context.patch(CombatArea, 'name').get(function (patch) {
             if (this.namespace === Constants.MOD_NAMESPACE) {
                 return getLangString(`COMBAT_AREA_NAME_${this.localID}`);
+            }
+
+            return patch();
+        });
+
+        this.context.patch(SlayerArea, 'name').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`SLAYER_AREA_NAME_${this.localID}`);
+            }
+
+            return patch();
+        });
+
+        this.context.patch(Dungeon, 'name').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`DUNGEON_NAME_${this.localID}`);
             }
 
             return patch();
@@ -78,31 +101,6 @@ export class Translation {
             return patch();
         });
 
-        // === CUSTOM ONES (NOT FROM MYTH MUSIC) ===
-        this.context.patch(Monster, 'description').get(function (patch) {
-            if (this.namespace === Constants.MOD_NAMESPACE) {
-                return getLangString(`MONSTER_DESCRIPTION_${this.localID}`);
-            }
-
-            return patch();
-        });
-
-        this.context.patch(SlayerArea, 'name').get(function (patch) {
-            if (this.namespace === Constants.MOD_NAMESPACE) {
-                return getLangString(`SLAYER_AREA_NAME_${this.localID}`);
-            }
-
-            return patch();
-        });
-
-        this.context.patch(Dungeon, 'name').get(function (patch) {
-            if (this.namespace === Constants.MOD_NAMESPACE) {
-                return getLangString(`DUNGEON_NAME_${this.localID}`);
-            }
-
-            return patch();
-        });
-
         this.context.patch(CombatPassive, 'name').get(function (patch) {
             if (this.namespace === Constants.MOD_NAMESPACE) {
                 return getLangString(`PASSIVE_NAME_${this.localID}`);
@@ -114,15 +112,6 @@ export class Translation {
         this.context.patch(CombatPassive, 'description').get(function (patch) {
             if (this.namespace === Constants.MOD_NAMESPACE && this._customDescription !== undefined) {
                 return getLangString(`PASSIVE_DESCRIPTION_${this.localID}`);
-            }
-
-            return patch();
-        });
-        // === CUSTOM ONES (NOT FROM MYTH MUSIC) ===
-
-        this.context.patch(HerbloreRecipe, 'name').get(function (patch) {
-            if (this.namespace === Constants.MOD_NAMESPACE) {
-                return getLangString(`POTION_NAME_${this.localID}`);
             }
 
             return patch();

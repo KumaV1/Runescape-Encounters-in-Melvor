@@ -112,7 +112,7 @@ export async function setup(ctx: Modding.ModContext) {
 }
 
 /**
- * TODO: Explain
+ * Patches multiple name/description getters, so they check our custom injected translations
  * @param ctx
  */
 function initTranslation(ctx: Modding.ModContext) {
@@ -122,7 +122,7 @@ function initTranslation(ctx: Modding.ModContext) {
 }
 
 /**
- * TODO: Explain
+ * Creates a list of translations for the current languages and registers it
  * @param ctx
  */
 function initLanguage(ctx: Modding.ModContext) {
