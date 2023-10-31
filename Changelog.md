@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0
+* Added localization supported
+* Added german translation
+
 ## v0.2.0
 * Migration to Webpack
 * Weapon configuration fixes
