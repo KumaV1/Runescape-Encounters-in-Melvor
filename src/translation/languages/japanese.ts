@@ -24,7 +24,7 @@ export const ja = {
     ITEM_NAME_Savage_Spear_Cap: 'Savage spear cap',
     ITEM_NAME_Savage_Spear_Shaft: 'Savage spear shaft',
     ITEM_NAME_Savage_Spear_Tip: 'Savage spear tip',
-    ITEM_DESCRIPTION_Laniakeas_Spear: "Laniakea's Spear",
+    ITEM_NAME_Laniakeas_Spear: "Laniakea's Spear",
 
     ITEM_NAME_Dormant_Anima_Core_Helm: 'Dormant anima core helm',
     ITEM_NAME_Dormant_Anima_Core_Body: 'Dormant anima core body',
