@@ -14,7 +14,9 @@
   * Create effigy item as "Token" type and add to its modifier property this newly created modifier
   * Patch the "bank.claimItemOnClick" function, to also check for this modifier and "consume" this item
   * Maybe implement a custom "increasedSkillXp" (flat) modifier, to be able to add dragonkin lamps as consumable
-
+* Custom modifiers
+  * If dependant on enemy/battle state, overwrite "character.getMaxHitModifier"
+	* It calls "modifiers.getMaxHitModifier(type)", but also checks for battle states, which we can add custom stuff to
 # Helpful commands (use [dev.Console](https://mod.io/g/melvoridle/m/devconsole) mod)
 ## Directly add a certain item to the bank, e.g. to quickly check a new item upgrade
 _The creation of this list will surely be automated at some point (before new content I reckon)_
@@ -77,6 +79,14 @@ game.bank.addItemByID("runescapeEncountersInMelvor:Ancient_Sigil_Piece_Zaros", 1
 ```
 
 # Mechanical ideas
+## Custom modifiers applying the given modifier to X following enemies in same dungeon
+For example, a monster could have a "shield" special attack, that if being able to cast it before dying, 
+all monsters on the same floor of a dungeon will have 25% more damage reduction
+
+Applying the modifier on special attack, and checking it during the "OnEnemyDeath" event, would be easy enough.
+The question would be, how much the CombatManager can be enhanced, 
+without having to customize it to an extent that would increase likelyhood of not being compatible with other mods.
+
 ## Based on "The Ambassador" spinners and "TzKal Zuk" challenge waves
 Minion during dungeon fight, which have slow attack interval 
 and on attack put a stack of a debuff on you, 

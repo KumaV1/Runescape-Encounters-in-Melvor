@@ -1095,18 +1095,6 @@
         "itemType": "Item"
       },
       {
-        "id": "Ancient_Sigil_Piece_Sliske",
-        "name": "Ancient Sigil Piece (Sliske)",
-        "category": "Misc",
-        "type": "Misc",
-        "media": "assets/Ancient_Sigil_Piece_Sliske.png",
-        "ignoreCompletion": true,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 500000,
-        "itemType": "Item"
-      },
-      {
         "id": "Ancient_Sigil_Piece_Zamorak",
         "name": "Ancient Sigil Piece (Zamorak)",
         "category": "Misc",
@@ -1124,6 +1112,18 @@
         "category": "Misc",
         "type": "Misc",
         "media": "assets/Ancient_Sigil_Piece_Zaros.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500000,
+        "itemType": "Item"
+      },
+      {
+        "id": "Ancient_Sigil_Piece_Sliske",
+        "name": "Ancient Sigil Piece (Sliske)",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/Ancient_Sigil_Piece_Sliske.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -2363,8 +2363,8 @@
         "attackCount": 3,
         "attackInterval": 100,
         "lifesteal": 0,
-        "description": "Throws gloves into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times",
-        "descriptionGenerator": "Throws gloves into the air, dealing <damage> <count> times",
+        "description": "Throws glaives into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times",
+        "descriptionGenerator": "Throws glaives into the air, dealing <damage> <count> times",
         "attackTypes": [
           "magic"
         ]
