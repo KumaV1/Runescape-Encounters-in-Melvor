@@ -61,7 +61,7 @@ export const es = {
     ITEM_NAME_Offhand_Shadow_Glaive: 'Offhand Shadow Glaive',
     ITEM_DESCRIPTION_Offhand_Shadow_Glaive: 'When equipped with Shadow Glaive, +15% Global Accurary Rating',
     ITEM_NAME_Crest_Of_Sliske: 'Crest of Sliske',
-    ITEM_NAME_Ancient_Sigil_Piece_Seren: 'Ancient_Sigil_Piece_Zamorak',
+    ITEM_NAME_Ancient_Sigil_Piece_Seren: 'Ancient Sigil Piece (Seren)',
     ITEM_NAME_Ancient_Sigil_Piece_Zamorak: 'Ancient Sigil Piece (Zamorak)',
     ITEM_NAME_Ancient_Sigil_Piece_Zaros: 'Ancient Sigil Piece (Zaros)',
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Ancient Sigil Piece (Sliske)',

@@ -39,11 +39,11 @@
         "equipmentStats": [
           {
             "key": "rangedAttackBonus",
-            "value": 25
+            "value": 20
           },
           {
             "key": "rangedStrengthBonus",
-            "value": 25
+            "value": 20
           }
         ],
         "modifiers": {
@@ -76,11 +76,11 @@
         "equipmentStats": [
           {
             "key": "magicAttackBonus",
-            "value": 25
+            "value": 20
           },
           {
             "key": "magicDamageBonus",
-            "value": 25
+            "value": 20
           }
         ],
         "modifiers": {
@@ -113,19 +113,19 @@
         "equipmentStats": [
           {
             "key": "stabAttackBonus",
-            "value": 25
+            "value": 20
           },
           {
             "key": "slashAttackBonus",
-            "value": 25
+            "value": 20
           },
           {
             "key": "blockAttackBonus",
-            "value": 25
+            "value": 20
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 25
+            "value": 20
           }
         ],
         "modifiers": {
@@ -173,15 +173,15 @@
         "equipmentStats": [
           {
             "key": "rangedStrengthBonus",
-            "value": 35
+            "value": 25
           },
           {
             "key": "magicDamageBonus",
-            "value": 35
+            "value": 25
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 35
+            "value": 25
           }
         ],
         "modifiers": {
@@ -189,7 +189,7 @@
           "increasedRangedCritChance": 5,
           "increasedMagicCritChance": 5,
           "increasedMaxHitPercent": 2,
-          "decreasedGlobalAccuracy": 3
+          "decreasedGlobalAccuracy": 5
         },
         "itemType": "Equipment"
       },
