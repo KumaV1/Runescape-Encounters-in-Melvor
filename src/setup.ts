@@ -13,6 +13,20 @@ import Gwd2ModData from '../data/God Wars 2/data.json';
 
 // Images
 // #region Image imports
+import '../assets/items/_Shared/Ancient_Effigy.png'
+import '../assets/items/_Shared/Draconic_Visage.png'
+import '../assets/items/_Shared/Dragonfire_Deflector.png'
+import '../assets/items/_Shared/Dragonfire_Ward.png'
+import '../assets/items/_Shared/Dragonkin_Lamp.png'
+import '../assets/items/_Shared/Salve_Amulet.png'
+import '../assets/items/_Shared/Salve_Amulet_Enhanced.png'
+import '../assets/items/_Shared/Spirit_Diamond.png'
+import '../assets/items/_Shared/Spirit_Dragonstone.png'
+import '../assets/items/_Shared/Spirit_Emerald.png'
+import '../assets/items/_Shared/Spirit_Gem_Bag.png'
+import '../assets/items/_Shared/Spirit_Onyx.png'
+import '../assets/items/_Shared/Spirit_Ruby.png'
+import '../assets/items/_Shared/Spirit_Sapphire.png'
 import '../assets/items/Dagannoth Kings/Archers_ring.png'
 import '../assets/items/Dagannoth Kings/Berserker_ring.png'
 import '../assets/items/Dagannoth Kings/Dagannoth_bones.png'
@@ -150,8 +164,8 @@ function initLanguage(ctx: Modding.ModContext) {
         'PASSIVE_NAME',
         'PASSIVE_DESCRIPTION',
     ];
-    
-    // Based on how translation is retrieved, 
+
+    // Based on how translation is retrieved,
     // we may or may not have to specify the mod namespace
     for (const [key, value] of Object.entries<string>(languages[lang])) {
         if (keysToNotPrefix.some(prefix => key.includes(prefix))) {

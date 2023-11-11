@@ -1,9 +1,24 @@
 export const en = {
-    // === Shop entries ===
+    // #### Shop entries
     SHOP_NAME_Telos_Dungeon_Unlock: 'Telos, the Warden',
     SHOP_DESCRIPTION_Telos_Dungeon_Unlock: 'Grants access to the fight against Telos, the Warden (once implemented, works retroactively)',
 
-    // === Item names and descriptions ===
+    // #### Item names and descriptions
+    ITEM_NAME_Ancient_Effigy: "Ancient Effigy",
+    ITEM_NAME_Dragonkin_Lamp: "Dragonkin Lamp",
+    ITEM_NAME_Draconic_Visage: "Draconic Visage",
+    ITEM_NAME_Dragonfire_Deflector: "Dragonfire Deflector",
+    ITEM_NAME_Dragonfire_Ward: "Dragonfire Ward",
+    ITEM_NAME_Salve_Amulet: "Salve Amulet",
+    ITEM_NAME_Salve_Amulet_Enhanced: "Salve Amulet (e)",
+    ITEM_NAME_Spirit_Sapphire: "Spirit Sapphire",
+    ITEM_NAME_Spirit_Emerald: "Spirit Emerald",
+    ITEM_NAME_Spirit_Ruby: "Spirit Ruby",
+    ITEM_NAME_Spirit_Diamond: "Spirit Diamond",
+    ITEM_NAME_Spirit_Dragonstone: "Spirit Dragonstone",
+    ITEM_NAME_Spirit_Onyx: "Spirit Onyx",
+    ITEM_NAME_Spirit_Gem_Bag: "Spirit Gem Bag",
+
     ITEM_NAME_Dagannoth_Bones: 'Dagannoth Bones',
     ITEM_NAME_Archers_Ring: "Archer's Ring",
     ITEM_NAME_Seers_Ring: "Seer's Ring",
@@ -65,12 +80,12 @@ export const en = {
     ITEM_NAME_Ancient_Sigil_Piece_Zaros: 'Ancient Sigil Piece (Zaros)',
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Ancient Sigil Piece (Sliske)',
 
-    // === Area names and descriptions ===
+    // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth lair',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Rex Matriarch Lair',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Godwars Dungeon 2 - Heart of Gielinor',
 
-    // === Monster names and descriptions ===
+    // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
     MONSTER_DESCRIPTION_Dagannoth_Rex: 'Firstborn of the legendary dagannoth kings.',
     MONSTER_NAME_Dagannoth_Supreme: 'Dagannoth Supreme',
@@ -92,7 +107,7 @@ export const en = {
     MONSTER_NAME_Gregorovic: 'Gregorovic',
     MONSTER_DESCRIPTION_Gregorovic: "Sliske's secret weapon, an undead creature housing the mind of a madman.",
 
-    // === Pet names ===
+    // #### Pet names
     PET_NAME_Rex_Hatchling: 'Rex Hatchling',
     PET_NAME_Supreme_Hatchling: 'Supreme Hatchling',
     PET_NAME_Prime_Hatchling: 'Prime Hatchling',
@@ -104,7 +119,7 @@ export const en = {
     PET_NAME_Rawrvek_And_Vindiddy: 'Rawrvek and Vindiddy',
     PET_NAME_Greg: 'Greg',
 
-    // === Special attack names and descriptions ===
+    // #### Special attack names and descriptions
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Poisonous tip',
     SPECIAL_ATTACK_DESCRIPTION_Laniakeas_Spear_Poisonous_Tip: "Deals ${attackDamageMaxValue0}% of your normal damage and inflicts Poison that deals ${onHitEffect0DamageMaxValue0}% of the enemy's max hitpoints as damage over ${onHitEffect0duration}s",
     SPECIAL_ATTACK_NAME_Rathis_Acid_Bombardment: 'Acid Bombardment',
@@ -140,7 +155,7 @@ export const en = {
     SPECIAL_ATTACK_NAME_Gregorovic_Glaive_Throw: 'Glaive throw',
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Throws glaives into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times',
 
-    // === Passives names and descriptions ===
+    // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
     PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royal Hide (Sea) (Ranged)',

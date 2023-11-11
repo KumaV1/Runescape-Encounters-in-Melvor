@@ -8,7 +8,7 @@
         "name": "Dagannoth bones",
         "category": "Misc",
         "type": "Bones",
-        "media": "assets/Dagannoth_bones.png",
+        "media": "assets/runescapeEncountersInMelvor/Dagannoth_bones.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -21,7 +21,7 @@
         "name": "Archer's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Archers_ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Archers_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -56,7 +56,7 @@
         "name": "Seer's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Seers_ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Seers_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -91,7 +91,7 @@
         "name": "Warrior Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Warrior_ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Warrior_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -134,7 +134,7 @@
         "name": "Berserker Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Berserker_ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Berserker_ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -165,7 +165,7 @@
       {
         "id": "Dagannoth_Lair",
         "name": "Dagannoth lair",
-        "media": "assets/Dagannoth_Kings_Lair.png",
+        "media": "assets/runescapeEncountersInMelvor/Dagannoth_Kings_Lair.png",
         "difficulty": [
           2
         ],
@@ -218,7 +218,7 @@
       {
         "id": "Dagannoth_Rex",
         "name": "Dagannoth Rex",
-        "media": "assets/Dagannoth_Rex.png",
+        "media": "assets/runescapeEncountersInMelvor/Dagannoth_Rex.png",
         "levels": {
           "Attack": 155,
           "Defence": 155,
@@ -296,7 +296,7 @@
       {
         "id": "Dagannoth_Supreme",
         "name": "Dagannoth Supreme",
-        "media": "assets/Dagannoth Supreme.png",
+        "media": "assets/runescapeEncountersInMelvor/Dagannoth Supreme.png",
         "levels": {
           "Attack": 1,
           "Defence": 155,
@@ -392,7 +392,7 @@
       {
         "id": "Dagannoth_Prime",
         "name": "Dagannoth Prime",
-        "media": "assets/Dagannoth Prime.png",
+        "media": "assets/runescapeEncountersInMelvor/Dagannoth Prime.png",
         "levels": {
           "Attack": 1,
           "Defence": 155,
@@ -478,7 +478,7 @@
       {
         "id": "Rex_Hatchling",
         "name": "Rex Hatchling",
-        "media": "assets/Rex_hatchling.png",
+        "media": "assets/runescapeEncountersInMelvor/Rex_hatchling.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {
@@ -490,7 +490,7 @@
       {
         "id": "Supreme_Hatchling",
         "name": "Supreme Hatchling",
-        "media": "assets/Supreme_hatchling.png",
+        "media": "assets/runescapeEncountersInMelvor/Supreme_hatchling.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {
@@ -502,7 +502,7 @@
       {
         "id": "Prime_Hatchling",
         "name": "Prime Hatchling",
-        "media": "assets/Prime_hatchling.png",
+        "media": "assets/runescapeEncountersInMelvor/Prime_hatchling.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {

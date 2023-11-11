@@ -2,11 +2,755 @@
   "$schema": "https://melvoridle.com/assets/schema/gameData.json",
   "namespace": "runescapeEncountersInMelvor",
   "data": {
+    "items": [
+      {
+        "id": "Ancient_Effigy",
+        "name": "Ancient Effigy",
+        "category": "Misc",
+        "type": "Token",
+        "media": "assets/runescapeEncountersInMelvor/Ancient_Effigy.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10000,
+        "itemType": "Token",
+        "modifiers": {
+
+        }
+      },
+      {
+        "id": "Dragonkin_Lamp",
+        "name": "Dragonkin Lamp",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Dragonkin_Lamp.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10000,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "increasedFlatGlobalSkillXPPerSkillLevel": 300
+        },
+        "consumesOn": [
+          {
+            "type": "WoodcuttingAction",
+            "succesful": true
+          },
+          {
+            "type": "FishingAction",
+            "succesful": true
+          },
+          {
+            "type": "FiremakingAction",
+            "succesful": true
+          },
+          {
+            "type": "CookingAction",
+            "succesful": true
+          },
+          {
+            "type": "MiningAction",
+            "succesful": true
+          },
+          {
+            "type": "SmithingAction",
+            "succesful": true
+          },
+          {
+            "type": "ThievingAction",
+            "succesful": true
+          },
+          {
+            "type": "FarmingPlantAction",
+            "succesful": true
+          },
+          {
+            "type": "FarmingHarvestAction",
+            "succesful": true
+          },
+          {
+            "type": "FletchingAction",
+            "succesful": true
+          },
+          {
+            "type": "CraftingAction",
+            "succesful": true
+          },
+          {
+            "type": "RunecraftingAction",
+            "succesful": true
+          },
+          {
+            "type": "HerbloreAction",
+            "succesful": true
+          },
+          {
+            "type": "AgilityAction",
+            "succesful": true
+          },
+          {
+            "type": "SummoningAction",
+            "succesful": true
+          },
+          {
+            "type": "AstrologyAction",
+            "succesful": true
+          },
+          {
+            "type": "AltMagicAction",
+            "succesful": true
+          },
+          {
+            "type": "PlayerAttack",
+            "succesful": true
+          },
+          {
+            "type": "PrayerPointConsumption",
+            "succesful": true
+          },
+          {
+            "type": "SummonTabletUsed",
+            "succesful": true
+          }
+        ]
+      },
+      {
+        "id": "Draconic_Visage",
+        "name": "Draconic Visage",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Draconic_Visage.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300000,
+        "itemType": "Item"
+      },
+      {
+        "id": "Dragonfire_Deflector",
+        "name": "Dragonfire Deflector",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Dragonfire_Deflector.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 357050,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Shield" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 0
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 15
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 46
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 46
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 36
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "increasedFlatMaxHitpoints": 3,
+          "decreasedDragonBreathDamage": 30
+        }
+      },
+      {
+        "id": "Dragonfire_Ward",
+        "name": "Dragonfire Ward",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Dragonfire_Ward.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 357050,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Shield" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 70
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": -10
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 5
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 59
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 8
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 28
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "increasedFlatMaxHitpoints": 3,
+          "decreasedDragonBreathDamage": 30
+        }
+      },
+      {
+        "id": "Salve_Amulet",
+        "name": "Salve Amulet",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Salve_Amulet.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Amulet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 4
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 4
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 4
+          }
+        ],
+        "modifiers": {
+          "increasedDamageAgainstUndead": 15
+        }
+      },
+      {
+        "id": "Salve_Amulet_Enhanced",
+        "name": "Salve Amulet (e)",
+        "category": "Combat",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Salve_Amulet_Enhanced.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Amulet" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 8
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 8
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "increasedDamageAgainstUndead": 20,
+          "increasedMinHitBasedOnMaxHitAgainstUndead": 5
+        }
+      },
+      {
+        "id": "Spirit_Sapphire",
+        "name": "Spirit Sapphire",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Spirit_Sapphire.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "increasedSkillPreservationChance": [
+            {
+              "skillID": "melvorD:Summoning",
+              "value": 3
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "SummoningAction"
+          }
+        ]
+      },
+      {
+        "id": "Spirit_Emerald",
+        "name": "Spirit Emerald",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Spirit_Emerald.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "increasedSkillPreservationChance": [
+            {
+              "skillID": "melvorD:Summoning",
+              "value": 6
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "SummoningAction"
+          }
+        ]
+      },
+      {
+        "id": "Spirit_Ruby",
+        "name": "Spirit Ruby",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Spirit_Ruby.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 300,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "increasedSkillPreservationChance": [
+            {
+              "skillID": "melvorD:Summoning",
+              "value": 10
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "SummoningAction"
+          }
+        ]
+      },
+      {
+        "id": "Spirit_Diamond",
+        "name": "Spirit Diamond",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Spirit_Diamond.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 400,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "increasedSummoningCreationCharges": 3,
+          "increasedSkillPreservationChance": [
+            {
+              "skillID": "melvorD:Summoning",
+              "value": 10
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "SummoningAction"
+          }
+        ]
+      },
+      {
+        "id": "Spirit_Dragonstone",
+        "name": "Spirit Dragonstone",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Spirit_Dragonstone.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "increasedSummoningCreationCharges": 5,
+          "increasedSkillPreservationChance": [
+            {
+              "skillID": "melvorD:Summoning",
+              "value": 12
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "SummoningAction"
+          }
+        ]
+      },
+      {
+        "id": "Spirit_Onyx",
+        "name": "Spirit Onyx",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Spirit_Onyx.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 600,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+          "increasedSummoningCreationCharges": 10,
+          "increasedSkillPreservationChance": [
+            {
+              "skillID": "melvorD:Summoning",
+              "value": 15
+            }
+          ]
+        },
+        "consumesOn": [
+          {
+            "type": "SummoningAction"
+          }
+        ]
+      },
+      {
+        "id": "Spirit_Gem_Bag",
+        "name": "Spirit Gem Bag",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Spirit_Gem_Bag.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1000,
+        "itemType": "Openable",
+        "dropTable": [
+          {
+            "itemID": "runescapeEncountersInMelvor:Spirit_Sapphire",
+            "minQuantity": 1,
+            "maxQuantity": 30,
+            "weight": 40
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Spirit_Emerald",
+            "minQuantity": 1,
+            "maxQuantity": 25,
+            "weight": 29
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Spirit_Ruby",
+            "minQuantity": 1,
+            "maxQuantity": 20,
+            "weight": 15
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Spirit_Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 15,
+            "weight": 10
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Spirit_Dragonstone",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 5
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Spirit_Onyx",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "itemUpgrades": [
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Spirit_Sapphire",
+            "quantity": 3
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Spirit_Sapphire"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Spirit_Emerald",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Spirit_Emerald",
+            "quantity": 3
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Spirit_Emerald"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Spirit_Ruby",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Spirit_Ruby",
+            "quantity": 3
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Spirit_Ruby"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Spirit_Diamond",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Spirit_Diamond",
+            "quantity": 3
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Spirit_Diamond"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Spirit_Dragonstone",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Spirit_Dragonstone",
+            "quantity": 3
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Spirit_Dragonstone"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Spirit_Onyx",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Draconic_Visage",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Ancient_Shield_T_G",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 1000000,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Draconic_Visage",
+          "melvorD:Ancient_Shield_T_G"
+        ],
+        "upgradedItemID": "melvorD:Dragonfire_Shield",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Draconic_Visage",
+            "quantity": 1
+          },
+          {
+            "id": "melvorF:Black_Dhide_Shield",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 1000000,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Draconic_Visage",
+          "melvorF:Black_Dhide_Shield"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Dragonfire_Deflector",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Draconic_Visage",
+            "quantity": 1
+          },
+          {
+            "id": "melvorF:Miolite_Shield",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 1000000,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Draconic_Visage",
+          "melvorF:Miolite_Shield"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Dragonfire_Ward",
+        "isDowngrade": false
+      }
+    ],
     "shopCategories": [
       {
         "id": "General_Shop",
         "name": "Runescape",
-        "media": "assets/Shop.png"
+        "media": "assets/runescapeEncountersInMelvor/Shop.png"
       }
     ],
     "shopCategoryOrder": [

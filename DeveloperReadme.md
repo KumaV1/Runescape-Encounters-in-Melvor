@@ -25,6 +25,21 @@ game.bank.addItemByID("runescapeEncountersInMelvor:XXXXX", 1, false, true, true)
 ```
 
 ```js
+game.bank.addItemByID("runescapeEncountersInMelvor:Ancient_Effigy", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Draconic_Visage", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Dragonfire_Deflector", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Dragonfire_Ward", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Dragonkin_Lamp", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Salve_Amulet", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Salve_Amulet_Enhanced", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Spirit_Diamond", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Spirit_Dragonstone", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Spirit_Emerald", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Spirit_Gem_Bag", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Spirit_Onyx", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Spirit_Ruby", 1, false, true, true)
+game.bank.addItemByID("runescapeEncountersInMelvor:Spirit_Sapphire", 1, false, true, true)
+
 game.bank.addItemByID("runescapeEncountersInMelvor:Dagannoth_Bones", 1, false, true, true)
 game.bank.addItemByID("runescapeEncountersInMelvor:Archers_Ring", 1, false, true, true)
 game.bank.addItemByID("runescapeEncountersInMelvor:Seers_Ring", 1, false, true, true)
