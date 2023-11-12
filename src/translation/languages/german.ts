@@ -8,9 +8,6 @@
     SHOP_NAME_Ancient_Effigies_Wisdom_IV: "Weisheit uralter Skulpturen IV",
     SHOP_NAME_Ancient_Effigies_Wisdom_V: "Weisheit uralter Skulpturen V",
 
-    // #### Modifiers
-    MODIFIER_DATA_ancientEffigy: "Gewährt 100/125/150/175 xp mal die jeweilige Fertigkeitsstufe in zufällig ausgewählten Fertigkeiten. Gewährt außerdem eine Ahnendrachenlampe",
-
     // #### Item names and descriptions
     ITEM_NAME_Ancient_Effigy: "Uralte Skulptur",
     ITEM_NAME_Dragonkin_Lamp: "Ahnendrachen-Lampe",

@@ -2,7 +2,6 @@
 // You can import script modules and have full type completion
 import { Constants } from './Constants';
 import { Translation } from './translation/Translation';
-import { CustomModifiersManager } from './modifiers/CustomModifiersManager'
 import { languages } from './translation/languages'
 
 // Data
@@ -108,7 +107,6 @@ import '../assets/_Shared/Weapon_Special_Attack.png'
 // #endregion
 
 export async function setup(ctx: Modding.ModContext) {
-    initCustomModifiers(ctx);
     initTranslation(ctx);
     initLanguage(ctx);
 
@@ -124,17 +122,6 @@ export async function setup(ctx: Modding.ModContext) {
 
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(Gwd2ModData);
-}
-
-/**
- * Patches methods to integrate logic of custom modifiers
- * @param ctx
- */
-function initCustomModifiers(ctx: Modding.ModContext) {
-    const cmm = new CustomModifiersManager(ctx);
-
-    cmm.registerModifiers();
-    cmm.patchMethods();
 }
 
 /**

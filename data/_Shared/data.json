@@ -13,10 +13,7 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 10000,
-        "itemType": "Token",
-        "modifiers": {
-          "ancientEffigy": 1
-        }
+        "itemType": "Item"
       },
       {
         "id": "Dragonkin_Lamp",
@@ -35,7 +32,7 @@
         "equipRequirements": [],
         "equipmentStats": [],
         "modifiers": {
-          "increasedFlatGlobalSkillXPPerSkillLevel": 200
+          "increasedFlatGlobalSkillXPPerSkillLevel": 100
         },
         "consumesOn": [
           {
@@ -610,6 +607,21 @@
       }
     ],
     "itemUpgrades": [
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+            "quantity": 4
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Ancient_Effigy"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Dragonkin_Lamp",
+        "isDowngrade": false
+      },
       {
         "itemCosts": [
           {

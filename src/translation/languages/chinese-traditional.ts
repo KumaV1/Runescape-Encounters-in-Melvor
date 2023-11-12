@@ -8,9 +8,6 @@ export const zhTW = {
     SHOP_NAME_Ancient_Effigies_Wisdom_IV: "Ancient Effigies' Wisdom IV",
     SHOP_NAME_Ancient_Effigies_Wisdom_V: "Ancient Effigies' Wisdom V",
 
-    // #### Modifiers
-    MODIFIER_DATA_ancientEffigy: "Grants 100/125/150/175 xp times the respective skill level in skills selected at random. Also grants a dragonkin lamp",
-
     // #### Item names and descriptions
     ITEM_NAME_Ancient_Effigy: "Ancient Effigy",
     ITEM_NAME_Dragonkin_Lamp: "Dragonkin Lamp",
