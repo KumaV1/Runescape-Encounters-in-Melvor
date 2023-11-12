@@ -15,7 +15,7 @@
         "sellsFor": 10000,
         "itemType": "Token",
         "modifiers": {
-
+          "ancientEffigy": 1
         }
       },
       {
@@ -35,7 +35,7 @@
         "equipRequirements": [],
         "equipmentStats": [],
         "modifiers": {
-          "increasedFlatGlobalSkillXPPerSkillLevel": 300
+          "increasedFlatGlobalSkillXPPerSkillLevel": 200
         },
         "consumesOn": [
           {
@@ -744,6 +744,244 @@
         ],
         "upgradedItemID": "runescapeEncountersInMelvor:Dragonfire_Ward",
         "isDowngrade": false
+      }
+    ],
+    "shopPurchases": [
+      {
+        "id": "Ancient_Effigies_Wisdom_I",
+        "media": "assets/runescapeEncountersInMelvor/Ancient_Effigy.png",
+        "category": "runescapeEncountersInMelvor:General_Shop",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "increasedGlobalSkillXP": 1
+          }
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+              "quantity": 100
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancient Effigies' Wisdom I"
+      },
+      {
+        "id": "Ancient_Effigies_Wisdom_II",
+        "media": "assets/runescapeEncountersInMelvor/Ancient_Effigy.png",
+        "category": "runescapeEncountersInMelvor:General_Shop",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "increasedGlobalSkillXP": 1
+          }
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+              "quantity": 500
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_I",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancient Effigies' Wisdom II"
+      },
+      {
+        "id": "Ancient_Effigies_Wisdom_III",
+        "media": "assets/runescapeEncountersInMelvor/Ancient_Effigy.png",
+        "category": "runescapeEncountersInMelvor:General_Shop",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "increasedGlobalSkillXP": 1
+          }
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+              "quantity": 1000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_II",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancient Effigies' Wisdom III"
+      },
+      {
+        "id": "Ancient_Effigies_Wisdom_IV",
+        "media": "assets/runescapeEncountersInMelvor/Ancient_Effigy.png",
+        "category": "runescapeEncountersInMelvor:General_Shop",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "increasedGlobalSkillXP": 1
+          }
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+              "quantity": 2500
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_III",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancient Effigies' Wisdom IV"
+      },
+      {
+        "id": "Ancient_Effigies_Wisdom_V",
+        "media": "assets/runescapeEncountersInMelvor/Ancient_Effigy.png",
+        "category": "runescapeEncountersInMelvor:General_Shop",
+        "contains": {
+          "items": [],
+          "modifiers": {
+            "increasedGlobalSkillXP": 1
+          }
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [
+            {
+              "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+              "quantity": 5000
+            }
+          ]
+        },
+        "allowQuantityPurchase": false,
+        "unlockRequirements": [
+          {
+            "type": "ShopPurchase",
+            "purchaseID": "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_IV",
+            "count": 1
+          }
+        ],
+        "purchaseRequirements": [],
+        "defaultBuyLimit": 1,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false,
+        "customName": "Ancient Effigies' Wisdom V"
+      }
+    ],
+    "shopDisplayOrder": [
+      {
+        "insertAt": "End",
+        "ids": [ "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_I" ]
+      },
+      {
+        "insertAt": "End",
+        "ids": [ "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_II" ]
+      },
+      {
+        "insertAt": "End",
+        "ids": [ "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_III" ]
+      },
+      {
+        "insertAt": "End",
+        "ids": [ "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_IV" ]
+      },
+      {
+        "insertAt": "End",
+        "ids": [ "runescapeEncountersInMelvor:Ancient_Effigies_Wisdom_V" ]
       }
     ],
     "shopCategories": [

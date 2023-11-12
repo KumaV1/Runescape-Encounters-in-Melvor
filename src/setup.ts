@@ -2,6 +2,7 @@
 // You can import script modules and have full type completion
 import { Constants } from './Constants';
 import { Translation } from './translation/Translation';
+import { CustomModifiersManager } from './modifiers/CustomModifiersManager'
 import { languages } from './translation/languages'
 
 // Data
@@ -107,6 +108,10 @@ import '../assets/_Shared/Weapon_Special_Attack.png'
 // #endregion
 
 export async function setup(ctx: Modding.ModContext) {
+    initCustomModifiers(ctx);
+    initTranslation(ctx);
+    initLanguage(ctx);
+
     // Register our GameData
     // @ts-ignore: Supposedly non-matching type (e.g. "InsertEnd" vs. "InsertAfter" shop category order)
     await ctx.gameData.addPackage(SharedModData);
@@ -119,10 +124,17 @@ export async function setup(ctx: Modding.ModContext) {
 
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(Gwd2ModData);
+}
 
-    // Register translation patches and localized texts
-    initTranslation(ctx);
-    initLanguage(ctx);
+/**
+ * Patches methods to integrate logic of custom modifiers
+ * @param ctx
+ */
+function initCustomModifiers(ctx: Modding.ModContext) {
+    const cmm = new CustomModifiersManager(ctx);
+
+    cmm.registerModifiers();
+    cmm.patchMethods();
 }
 
 /**
@@ -156,6 +168,7 @@ function initLanguage(ctx: Modding.ModContext) {
         'COMBAT_AREA_NAME',
         'COMBAT_SLAYER_NAME',
         'COMBAT_DUNGEON_NAME',
+        'MODIFIER_DATA',
         'MONSTER_NAME',
         'MONSTER_DESCRIPTION',
         'PET_NAME',
@@ -174,4 +187,12 @@ function initLanguage(ctx: Modding.ModContext) {
             loadedLangJson[`${Constants.MOD_NAMESPACE}_${key}`] = value;
         }
     }
+}
+
+/**
+ *
+ * @param ctx
+ */
+function initDataPackages(ctx: Modding.ModContext) {
+
 }

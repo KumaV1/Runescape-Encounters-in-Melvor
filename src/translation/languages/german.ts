@@ -2,6 +2,14 @@
     // #### Shop entries
     SHOP_NAME_Telos_Dungeon_Unlock: 'Telos, der Wächter',
     SHOP_DESCRIPTION_Telos_Dungeon_Unlock: 'Ermöglicht Zutritt zum Kampf gegen Telos, den Wächter (sobald er implementiert wird, funktioniert rückwirkend)',
+    SHOP_NAME_Ancient_Effigies_Wisdom_I: "Weisheit uralter Skulpturen I",
+    SHOP_NAME_Ancient_Effigies_Wisdom_II: "Weisheit uralter Skulpturen II",
+    SHOP_NAME_Ancient_Effigies_Wisdom_III: "Weisheit uralter Skulpturen III",
+    SHOP_NAME_Ancient_Effigies_Wisdom_IV: "Weisheit uralter Skulpturen IV",
+    SHOP_NAME_Ancient_Effigies_Wisdom_V: "Weisheit uralter Skulpturen V",
+
+    // #### Modifiers
+    MODIFIER_DATA_ancientEffigy: "Gewährt 100/125/150/175 xp mal die jeweilige Fertigkeitsstufe in zufällig ausgewählten Fertigkeiten. Gewährt außerdem eine Ahnendrachenlampe",
 
     // #### Item names and descriptions
     ITEM_NAME_Ancient_Effigy: "Uralte Skulptur",

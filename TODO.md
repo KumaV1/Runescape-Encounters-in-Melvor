@@ -3,9 +3,10 @@
 * Add translations for item names [DONE]
 * Add upgrades for spirit gems and dragonfire shields [DONE]
 * Add custom modifier for consuming effigies (CustomModifiersManager) (including translation)
+* Add shop purchases for effigies (4-5, giving 1% global skill xp each; 100, 500, 1000, 2500, 5000 cost?)
 * Add global droptable on enemy death (GlobalDroptableManager)
+* Add tiny icon for ancient effigy modifier (compatibility)
 * Add dragon type to Vindicta (compatiblity)
-* Add shop purchases for effigies (4-5, giving 1% global skill xp each; 100, 500, 1000, 5000, 10000 cost?)
 
 # Automata
 
@@ -22,8 +23,11 @@
     * The only somewhat sensical seems to be "increasedMaxHitBasedOnPrayerCost" or "increasedDamageReductionWithActivePrayer" (but decreased)
     * I guess, depending of state of the game, nullifying "increasedChanceToPreservePrayerPoints" could also have a use (by applying a huge negative value, that couldn't possibly get back to positive)
 
+The glacyte effects might be configurable through a "Compound Effect", aka "Defines a custom compound effect. A meta-effect, randomly applys one of the subsequent effects in the effect array."
+
 # Lost Grove
-* Elven ritual shard possibly being a gem-slot item, which doesn't require AoD
+* Elven ritual shard possibly being a gem-slot item, which doesn't require AoD (-1 prayer point cost or something)
+  * Maybe with "Upgrade" to a bone-type-item, so additional ritual shards still have a use
 
 # FINDINGS
 "increasedGlobalSkillXPPerLevel" doesn't seem to work (?), at least not as modifier on a consumable item?
