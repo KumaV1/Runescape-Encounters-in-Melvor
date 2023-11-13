@@ -8,7 +8,7 @@
         "name": "Dinosaur bones",
         "category": "Misc",
         "type": "Bones",
-        "media": "assets/Dinosaur_Bones.png",
+        "media": "assets/runescapeEncountersInMelvor/Dinosaur_Bones.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -21,7 +21,7 @@
         "name": "Stalker's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Stalkers_Ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Stalkers_Ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -58,7 +58,7 @@
         "name": "Channeller's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Channellers_Ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Channellers_Ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -95,7 +95,7 @@
         "name": "Champion's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Champions_Ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Champions_Ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -140,7 +140,7 @@
         "name": "Reaver's Ring",
         "category": "Combat",
         "type": "Armour",
-        "media": "assets/Reavers_Ring.png",
+        "media": "assets/runescapeEncountersInMelvor/Reavers_Ring.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -198,7 +198,7 @@
         "name": "Heart of the Archer",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Heart_Of_The_Archer.png",
+        "media": "assets/runescapeEncountersInMelvor/Heart_Of_The_Archer.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -210,7 +210,7 @@
         "name": "Heart of the Seer",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Heart_Of_The_Seer.png",
+        "media": "assets/runescapeEncountersInMelvor/Heart_Of_The_Seer.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -222,7 +222,7 @@
         "name": "Heart of the Warrior",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Heart_Of_The_Warrior.png",
+        "media": "assets/runescapeEncountersInMelvor/Heart_Of_The_Warrior.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -234,7 +234,7 @@
         "name": "Heart of the Berserker",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Heart_Of_The_Berserker.png",
+        "media": "assets/runescapeEncountersInMelvor/Heart_Of_The_Berserker.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -246,7 +246,7 @@
         "name": "Savage plume",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Savage_Plume.png",
+        "media": "assets/runescapeEncountersInMelvor/Savage_Plume.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -258,7 +258,7 @@
         "name": "Savage spear cap",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Savage_Spear_Cap.png",
+        "media": "assets/runescapeEncountersInMelvor/Savage_Spear_Cap.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -270,7 +270,7 @@
         "name": "Savage spear shaft",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Savage_Spear_Shaft.png",
+        "media": "assets/runescapeEncountersInMelvor/Savage_Spear_Shaft.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -282,7 +282,7 @@
         "name": "Savage spear tip",
         "category": "Misc",
         "type": "Misc",
-        "media": "assets/Savage_Spear_Tip.png",
+        "media": "assets/runescapeEncountersInMelvor/Savage_Spear_Tip.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -295,7 +295,7 @@
         "category": "Combat",
         "type": "Melee Weapon",
         "attackType": "melee",
-        "media": "assets/Laniakeas_Spear.png",
+        "media": "assets/runescapeEncountersInMelvor/Laniakeas_Spear.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -496,7 +496,7 @@
       {
         "id": "Rex_Matriarch_Lair",
         "name": "Rex Matriarch Lair",
-        "media": "assets/Rex_Matriarchs_Lair.png",
+        "media": "assets/runescapeEncountersInMelvor/Rex_Matriarchs_Lair.png",
         "difficulty": [
           3
         ],
@@ -520,7 +520,7 @@
       {
         "id": "Orikalka",
         "name": "Orikalka",
-        "media": "assets/Orikalka.png",
+        "media": "assets/runescapeEncountersInMelvor/Orikalka.png",
         "levels": {
           "Attack": 255,
           "Defence": 255,
@@ -639,7 +639,7 @@
       {
         "id": "Rathis",
         "name": "Rathis",
-        "media": "assets/Rathis.png",
+        "media": "assets/runescapeEncountersInMelvor/Rathis.png",
         "levels": {
           "Attack": 1,
           "Defence": 255,
@@ -758,7 +758,7 @@
       {
         "id": "Pthentraken",
         "name": "Pthentraken",
-        "media": "assets/Pthentraken.png",
+        "media": "assets/runescapeEncountersInMelvor/Pthentraken.png",
         "levels": {
           "Attack": 1,
           "Defence": 255,
@@ -879,7 +879,7 @@
       {
         "id": "Bagra",
         "name": "Bagra",
-        "media": "assets/Bagra.png",
+        "media": "assets/runescapeEncountersInMelvor/Bagra.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {
@@ -891,7 +891,7 @@
       {
         "id": "Corbi",
         "name": "Corbi",
-        "media": "assets/Corbi.png",
+        "media": "assets/runescapeEncountersInMelvor/Corbi.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {
@@ -903,7 +903,7 @@
       {
         "id": "Pavo",
         "name": "Pavo",
-        "media": "assets/Pavo.png",
+        "media": "assets/runescapeEncountersInMelvor/Pavo.png",
         "scaleChanceWithMasteryPool": false,
         "ignoreCompletion": true,
         "modifiers": {
@@ -964,7 +964,7 @@
             "modifiers": {
               "increasedDamageTaken": 20
             },
-            "media": "assets/Corrosion.png"
+            "media": "assets/runescapeEncountersInMelvor/Corrosion.png"
           },
           {
             "effectType": "DeadlyPoison",

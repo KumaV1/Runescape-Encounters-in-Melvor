@@ -3,6 +3,9 @@
 import { Constants } from './Constants';
 import { Translation } from './translation/Translation';
 import { languages } from './translation/languages'
+import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
+import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
+import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
 
 // Data
 // Game data for registration
@@ -13,6 +16,20 @@ import Gwd2ModData from '../data/God Wars 2/data.json';
 
 // Images
 // #region Image imports
+import '../assets/items/_Shared/Ancient_Effigy.png'
+import '../assets/items/_Shared/Draconic_Visage.png'
+import '../assets/items/_Shared/Dragonfire_Deflector.png'
+import '../assets/items/_Shared/Dragonfire_Ward.png'
+import '../assets/items/_Shared/Dragonkin_Lamp.png'
+import '../assets/items/_Shared/Salve_Amulet.png'
+import '../assets/items/_Shared/Salve_Amulet_Enhanced.png'
+import '../assets/items/_Shared/Spirit_Diamond.png'
+import '../assets/items/_Shared/Spirit_Dragonstone.png'
+import '../assets/items/_Shared/Spirit_Emerald.png'
+import '../assets/items/_Shared/Spirit_Gem_Bag.png'
+import '../assets/items/_Shared/Spirit_Onyx.png'
+import '../assets/items/_Shared/Spirit_Ruby.png'
+import '../assets/items/_Shared/Spirit_Sapphire.png'
 import '../assets/items/Dagannoth Kings/Archers_ring.png'
 import '../assets/items/Dagannoth Kings/Berserker_ring.png'
 import '../assets/items/Dagannoth Kings/Dagannoth_bones.png'
@@ -90,9 +107,14 @@ import '../assets/status/Rex Matriarchs/Corrosion.png'
 import '../assets/_Shared/Logo.png'
 import '../assets/_Shared/Shop.png'
 import '../assets/_Shared/Weapon_Special_Attack.png'
+
+import '../src/globalDroptable/globalDroptableOverview.css'
 // #endregion
 
 export async function setup(ctx: Modding.ModContext) {
+    initTranslation(ctx);
+    initLanguage(ctx);
+
     // Register our GameData
     // @ts-ignore: Supposedly non-matching type (e.g. "InsertEnd" vs. "InsertAfter" shop category order)
     await ctx.gameData.addPackage(SharedModData);
@@ -106,9 +128,9 @@ export async function setup(ctx: Modding.ModContext) {
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(Gwd2ModData);
 
-    // Register translation patches and localized texts
-    initTranslation(ctx);
-    initLanguage(ctx);
+    initGlobalDroptable(ctx);
+    initOverviewContainer(ctx);
+    initModCompatibility(ctx);
 }
 
 /**
@@ -147,11 +169,12 @@ function initLanguage(ctx: Modding.ModContext) {
         'PET_NAME',
         'SPECIAL_ATTACK_NAME',
         'SPECIAL_ATTACK_DESCRIPTION',
+        'PAGE_NAME',
         'PASSIVE_NAME',
         'PASSIVE_DESCRIPTION',
     ];
-    
-    // Based on how translation is retrieved, 
+
+    // Based on how translation is retrieved,
     // we may or may not have to specify the mod namespace
     for (const [key, value] of Object.entries<string>(languages[lang])) {
         if (keysToNotPrefix.some(prefix => key.includes(prefix))) {
@@ -160,4 +183,41 @@ function initLanguage(ctx: Modding.ModContext) {
             loadedLangJson[`${Constants.MOD_NAMESPACE}_${key}`] = value;
         }
     }
+}
+
+/**
+ *
+ * @param ctx
+ */
+function initGlobalDroptable(ctx: Modding.ModContext) {
+    const gdm = new GlobalDroptableManager(ctx);
+
+    gdm.patchMethods();
+}
+
+/**
+ * Initializes the container that is then accessed through an entry in the sidebar
+ * @param ctx
+ */
+function initOverviewContainer(ctx: Modding.ModContext) {
+    // Because we're loading our templates.min.html file via the manifest.json,
+    // the templates aren't available until after the setup() function runs
+    ctx.onInterfaceReady(() => {
+        // @ts-ignore: The container is guaranteed to exist
+        const contentContainerElement: Element = document.getElementById('main-container');
+
+        // Add template to container
+        // Create overview by using component and template definitions
+        ui.create(GlobalDroptableOverview(), contentContainerElement);
+    });
+}
+
+/**
+ * Initializes certain functionality, to enable/inject specialized compatibility
+ * based on other mods
+ * @param ctx
+ */
+function initModCompatibility(ctx: Modding.ModContext) {
+    const cmimCompatiblity = new CustomModifiersInMelvorCompatibility(ctx);
+    cmimCompatiblity.patch();
 }

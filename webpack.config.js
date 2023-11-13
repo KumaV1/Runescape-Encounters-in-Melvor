@@ -28,8 +28,8 @@ module.exports = {
     module: {
         generator: {
             'asset/resource': {
-                publicPath: 'assets/',
-                outputPath: 'assets/',
+                publicPath: 'assets/runescapeEncountersInMelvor/',
+                outputPath: 'assets/runescapeEncountersInMelvor/',
                 filename: '[name][ext]',
             },
         },

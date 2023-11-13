@@ -1,9 +1,37 @@
 ﻿export const de = {
-    // === Shop entries ===
+    // #### Global droptable overview
+    PAGE_NAME_Global_Droptable_Overview: "Globale Beuteliste (Runescape)",
+    Global_Droptable_Overview_Functionality: "Diese Gegenstände werden separat gerollt und ersetzen keine andere Beute. Sie werden außerdem direkt aufgehoben und in der Bank abgelegt",
+    Global_Droptable_Overview_Base_Droprate: "Basischance",
+    Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Die Chance erhöht sich gegen stärkere Gegner. Der Zähler erhöht sich (im Durchschnitt) alle ${averageCbPerNumerator} Kampfstufen",
+    Global_Droptable_Overview_Limitation_Dragons_Only: "Wird nur von Drachen fallen gelassen",
+    Global_Droptable_Overview_Limitation_Undead_Only: "Wird nur von Untoten fallen gelassen",
+
+    // #### Shop entries
     SHOP_NAME_Telos_Dungeon_Unlock: 'Telos, der Wächter',
     SHOP_DESCRIPTION_Telos_Dungeon_Unlock: 'Ermöglicht Zutritt zum Kampf gegen Telos, den Wächter (sobald er implementiert wird, funktioniert rückwirkend)',
+    SHOP_NAME_Ancient_Effigies_Wisdom_I: "Weisheit uralter Skulpturen I",
+    SHOP_NAME_Ancient_Effigies_Wisdom_II: "Weisheit uralter Skulpturen II",
+    SHOP_NAME_Ancient_Effigies_Wisdom_III: "Weisheit uralter Skulpturen III",
+    SHOP_NAME_Ancient_Effigies_Wisdom_IV: "Weisheit uralter Skulpturen IV",
+    SHOP_NAME_Ancient_Effigies_Wisdom_V: "Weisheit uralter Skulpturen V",
 
-    // === Item names and descriptions ===
+    // #### Item names and descriptions
+    ITEM_NAME_Ancient_Effigy: "Uralte Skulptur",
+    ITEM_NAME_Dragonkin_Lamp: "Ahnendrachen-Lampe",
+    ITEM_NAME_Draconic_Visage: "Drachen-Antlitz",
+    ITEM_NAME_Dragonfire_Deflector: "Drachenfeuer-Deflektor",
+    ITEM_NAME_Dragonfire_Ward: "Drachenfeuer-Beschützer",
+    ITEM_NAME_Salve_Amulet: "Amulett der Salve",
+    ITEM_NAME_Salve_Amulet_Enhanced: "Amulett der Salve (vz)",
+    ITEM_NAME_Spirit_Sapphire: "Beschwörungs-Saphir",
+    ITEM_NAME_Spirit_Emerald: "Beschwörungs-Smaragd",
+    ITEM_NAME_Spirit_Ruby: "Beschwörungs-Rubin",
+    ITEM_NAME_Spirit_Diamond: "Beschwörungs-Diamant",
+    ITEM_NAME_Spirit_Dragonstone: "Beschwörungs-Drachenstein",
+    ITEM_NAME_Spirit_Onyx: "Beschwörungs-Onyx",
+    ITEM_NAME_Spirit_Gem_Bag: "Beschwörungsstein-Tasche",
+
     ITEM_NAME_Dagannoth_Bones: 'Dagannoth-Knochen',
     ITEM_NAME_Archers_Ring: "Ring des Bogenschützen",
     ITEM_NAME_Seers_Ring: "Ring des Sehers",
@@ -65,12 +93,12 @@
     ITEM_NAME_Ancient_Sigil_Piece_Zaros: 'Uraltes Siegelstück (Zaros)',
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Uraltes Siegelstück (Sliske)',
 
-    // === Area names and descriptions ===
+    // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth-Höhle',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Höhle der Rex-Matriarchinnen',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Verlies der Götterkriege 2 - Herz von Gielinor',
 
-    // === Monster names and descriptions ===
+    // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
     MONSTER_DESCRIPTION_Dagannoth_Rex: 'Der Erstgeborene, der legendären Dagannoth-Könige.',
     MONSTER_NAME_Dagannoth_Supreme: 'Dagannoth Supreme',
@@ -92,7 +120,7 @@
     MONSTER_NAME_Gregorovic: 'Gregorovic',
     MONSTER_DESCRIPTION_Gregorovic: "Sliskes Geheimwaffe, eine untote Kreatur, der der Geist eines Verrückten innewohnt.",
 
-    // === Pet names ===
+    // #### Pet names
     PET_NAME_Rex_Hatchling: 'Küken Rex',
     PET_NAME_Supreme_Hatchling: 'Küken Supreme',
     PET_NAME_Prime_Hatchling: 'Küken Prime',
@@ -104,11 +132,11 @@
     PET_NAME_Rawrvek_And_Vindiddy: 'Rawrvek und Vindiddy',
     PET_NAME_Greg: 'Greg',
 
-    // === Special attack names and descriptions ===
+    // #### Special attack names and descriptions
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Giftige Spitze',
     SPECIAL_ATTACK_DESCRIPTION_Laniakeas_Spear_Poisonous_Tip: "Verursacht ${attackDamageMaxValue0}% deines normalen Angriffsschadens und fügt Gift zu, welches ${onHitEffect0DamageMaxValue0}% der maximalen Trefferpunkte des Gegners als Schaden über ${onHitEffect0duration}s hinweg verursacht",
     SPECIAL_ATTACK_NAME_Rathis_Acid_Bombardment: 'Säureschauer',
-    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombadiert dich mit Säure. Verursacards ${attackDamageMaxValue0}% Schaden und fügt tödliches Gift zu, sowie einen Stapel Korrosion für ${onHitEffect0turns} Runden (Maximal ${onHitEffect0maxStacks} Stapel)',
+    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombadiert dich mit Säure. Verursacht ${attackDamageMaxValue0}% Schaden und fügt tödliches Gift zu, sowie einen Stapel Korrosion für ${onHitEffect0turns} Runden (Maximal ${onHitEffect0maxStacks} Stapel)',
     SPECIAL_ATTACK_NAME_Orikalka_Frost_Storm: 'Froststurm',
     SPECIAL_ATTACK_DESCRIPTION_Orikalka_Frost_Storm: 'Orikalka erzeugt einen eisigen Tornado, welcher ${attackDamageMaxValue0}% magischen Schaden und einen Stapel Erfrierung für ${onHitEffect0turns} Runden verursacht (25% verringertes Angriffsintervall). (Vermeidbar)',
     SPECIAL_ATTACK_NAME_Orikalka_Pyroclastic_Shock: 'Pyroklastischer schock',
@@ -140,7 +168,7 @@
     SPECIAL_ATTACK_NAME_Gregorovic_Glaive_Throw: 'Glefenwurf',
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Wirft Glefen in die Luft, welche ${hitCount} mal ${attackDamageMaxValue0}% Schaden anrichten',
 
-    // === Passives names and descriptions ===
+    // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royale Haut (See) (Nahkampf)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
     PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royale Haut (See) (Fernkampf)',
@@ -151,6 +179,7 @@
     PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
     PASSIVE_NAME_Rathis_Royal_Hide: 'Royale Haut (Jura) (Fernkampf)',
     PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
+    PASSIVE_NAME_Rathis_Poisonous_Body: "Giftiger Körper",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royale Haut (Jura) (Magie)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Beschworene Geister'
