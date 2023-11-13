@@ -105,6 +105,7 @@ import '../assets/_Shared/Logo.png'
 import '../assets/_Shared/Shop.png'
 import '../assets/_Shared/Weapon_Special_Attack.png'
 import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
+import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
 // #endregion
 
 export async function setup(ctx: Modding.ModContext) {
@@ -125,6 +126,7 @@ export async function setup(ctx: Modding.ModContext) {
     await ctx.gameData.addPackage(Gwd2ModData);
 
     initGlobalDroptable(ctx);
+    initModCompatibility(ctx);
 }
 
 /**
@@ -187,4 +189,14 @@ function initGlobalDroptable(ctx: Modding.ModContext) {
     const gdm = new GlobalDroptableManager(ctx);
 
     gdm.patchMethods();
+}
+
+/**
+ * Initializes certain functionality, to enable/inject specialized compatibility
+ * based on other mods
+ * @param ctx
+ */
+function initModCompatibility(ctx: Modding.ModContext) {
+    const cmimCompatiblity = new CustomModifiersInMelvorCompatibility(ctx);
+    cmimCompatiblity.patch();
 }
