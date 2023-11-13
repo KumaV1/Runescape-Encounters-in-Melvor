@@ -171,6 +171,7 @@
     PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
     PASSIVE_NAME_Rathis_Royal_Hide: 'Royale Haut (Jura) (Fernkampf)',
     PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
+    PASSIVE_NAME_Rathis_Poisonous_Body: "Giftiger Körper",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royale Haut (Jura) (Magie)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Beschworene Geister'

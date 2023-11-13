@@ -625,6 +625,29 @@
       {
         "itemCosts": [
           {
+            "id": "runescapeEncountersInMelvor:Salve_Amulet",
+            "quantity": 3
+          },
+          {
+            "id": "melvorD:Amulet_of_Glory",
+            "quantity": 5
+          },
+          {
+            "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Salve_Amulet"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Salve_Amulet_Enhanced",
+        "isDowngrade": false
+      },
+      {
+        "itemCosts": [
+          {
             "id": "runescapeEncountersInMelvor:Spirit_Sapphire",
             "quantity": 3
           }
@@ -766,7 +789,7 @@
         "contains": {
           "items": [],
           "modifiers": {
-            "increasedGlobalSkillXP": 1
+            "increasedGlobalSkillXP": 0.5
           }
         },
         "cost": {
@@ -804,7 +827,7 @@
         "contains": {
           "items": [],
           "modifiers": {
-            "increasedGlobalSkillXP": 1
+            "increasedGlobalSkillXP": 0.5
           }
         },
         "cost": {
@@ -848,7 +871,7 @@
         "contains": {
           "items": [],
           "modifiers": {
-            "increasedGlobalSkillXP": 1
+            "increasedGlobalSkillXP": 0.5
           }
         },
         "cost": {
@@ -892,7 +915,7 @@
         "contains": {
           "items": [],
           "modifiers": {
-            "increasedGlobalSkillXP": 1
+            "increasedGlobalSkillXP": 0.5
           }
         },
         "cost": {
@@ -911,7 +934,7 @@
           "items": [
             {
               "id": "runescapeEncountersInMelvor:Ancient_Effigy",
-              "quantity": 2500
+              "quantity": 2000
             }
           ]
         },
@@ -936,7 +959,7 @@
         "contains": {
           "items": [],
           "modifiers": {
-            "increasedGlobalSkillXP": 1
+            "increasedGlobalSkillXP": 0.5
           }
         },
         "cost": {
@@ -955,7 +978,7 @@
           "items": [
             {
               "id": "runescapeEncountersInMelvor:Ancient_Effigy",
-              "quantity": 5000
+              "quantity": 3000
             }
           ]
         },

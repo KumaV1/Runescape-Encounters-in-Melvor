@@ -38,7 +38,7 @@ export const zhTW = {
     ITEM_NAME_Heart_Of_The_Archer: 'Heart of the Archer',
     ITEM_NAME_Heart_Of_The_Seer: 'Heart of the Seer',
     ITEM_NAME_Heart_Of_The_Warrior: 'Heart of the Warrior',
-    ITEM_NAME_Heart_Of_The_Berserker: 'Heart_Of_The_Berserker',
+    ITEM_NAME_Heart_Of_The_Berserker: 'Heart of the Berserker',
     ITEM_NAME_Savage_Plume: 'Savage plume',
     ITEM_NAME_Savage_Spear_Cap: 'Savage spear cap',
     ITEM_NAME_Savage_Spear_Shaft: 'Savage spear shaft',
@@ -171,6 +171,7 @@ export const zhTW = {
     PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
     PASSIVE_NAME_Rathis_Royal_Hide: 'Royal Hide (Jurassic) (Ranged)',
     PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+    PASSIVE_NAME_Rathis_Poisonous_Body: "Poisonous Body",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits'

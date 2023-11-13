@@ -104,6 +104,7 @@ import '../assets/status/Rex Matriarchs/Corrosion.png'
 import '../assets/_Shared/Logo.png'
 import '../assets/_Shared/Shop.png'
 import '../assets/_Shared/Weapon_Special_Attack.png'
+import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
 // #endregion
 
 export async function setup(ctx: Modding.ModContext) {
@@ -122,6 +123,8 @@ export async function setup(ctx: Modding.ModContext) {
 
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(Gwd2ModData);
+
+    initGlobalDroptable(ctx);
 }
 
 /**
@@ -180,6 +183,8 @@ function initLanguage(ctx: Modding.ModContext) {
  *
  * @param ctx
  */
-function initDataPackages(ctx: Modding.ModContext) {
+function initGlobalDroptable(ctx: Modding.ModContext) {
+    const gdm = new GlobalDroptableManager(ctx);
 
+    gdm.patchMethods();
 }

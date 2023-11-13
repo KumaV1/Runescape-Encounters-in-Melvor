@@ -1,12 +1,12 @@
 # GLobal droptable
-* Finish up items (full config) [DONE, except for the custom modifier on effigy]
+* Finish up items (full config) [DONE]
 * Add translations for item names [DONE]
 * Add upgrades for spirit gems and dragonfire shields [DONE]
-* Add custom modifier for consuming effigies (CustomModifiersManager) (including translation)
-* Add shop purchases for effigies (4-5, giving 1% global skill xp each; 100, 500, 1000, 2500, 5000 cost?)
-* Add global droptable on enemy death (GlobalDroptableManager)
-* Add tiny icon for ancient effigy modifier (compatibility)
+* Add custom modifier for consuming effigies (CustomModifiersManager) (including translation) [DONE]
+* Add shop purchases for effigies (4-5, giving 1% global skill xp each; 100, 500, 1000, 2500, 5000 cost?) [DONE]
+* Add global droptable on enemy death (GlobalDroptableManager) [DONE]
 * Add dragon type to Vindicta (compatiblity)
+* Test all equipment, if they load properly after having been offline
 
 # Automata
 
@@ -16,7 +16,8 @@
   * 25% chance for normal attack (mage)
   * 25% chance for ranged special (same damage as range)
   * 20% chance for special that deals 50% of current HP and applies slow+freeze for one turn
-  * 10% chance for special that deals 99% of current HP (can kill if freeze is also still applied)
+  * 10% chance for special that deals 99% of current HP (can kill if freeze is also still applied, so you gotta be fast)
+    * When determining glacor attack speed, keep existence of "negative area effect" negation in mind
   * 10% chance for +3 turns of endurance (also mage normal attack)
   * 10% change for +3 turns of prayer sapping one (also mage normal attack)
     * Could possibly adjust "addPrayerPoints" (or rather, call it with negative value), but that will technically (wrongfully?) reduce the prayer-points-earned stat of the player 
