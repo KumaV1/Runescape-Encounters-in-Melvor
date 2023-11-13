@@ -164,7 +164,6 @@ function initLanguage(ctx: Modding.ModContext) {
         'COMBAT_AREA_NAME',
         'COMBAT_SLAYER_NAME',
         'COMBAT_DUNGEON_NAME',
-        'MODIFIER_DATA',
         'MONSTER_NAME',
         'MONSTER_DESCRIPTION',
         'PET_NAME',

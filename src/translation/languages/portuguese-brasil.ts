@@ -136,7 +136,7 @@ export const ptBR = {
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Poisonous tip',
     SPECIAL_ATTACK_DESCRIPTION_Laniakeas_Spear_Poisonous_Tip: "Deals ${attackDamageMaxValue0}% of your normal damage and inflicts Poison that deals ${onHitEffect0DamageMaxValue0}% of the enemy's max hitpoints as damage over ${onHitEffect0duration}s",
     SPECIAL_ATTACK_NAME_Rathis_Acid_Bombardment: 'Acid Bombardment',
-    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombards you with acid. Deals ${attackDamageMaxValue0}% damage and applying deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks)',
+    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombards you with acid. Deals ${attackDamageMaxValue0}% damage and applies deadly poison as well as one stack of Corrosion for ${onHitEffect0turns} turns (Maximum ${onHitEffect0maxStacks} stacks)',
     SPECIAL_ATTACK_NAME_Orikalka_Frost_Storm: 'Frost Storm',
     SPECIAL_ATTACK_DESCRIPTION_Orikalka_Frost_Storm: 'Orikalka generates an icy tornado, dealing ${attackDamageMaxValue0}% magic damage and applying Frostbite for ${onHitEffect0turns} turns (25% reduced attack interval). (Avoidable)',
     SPECIAL_ATTACK_NAME_Orikalka_Pyroclastic_Shock: 'Pyroclastic Shock',

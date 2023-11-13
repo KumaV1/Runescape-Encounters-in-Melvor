@@ -136,7 +136,7 @@
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Giftige Spitze',
     SPECIAL_ATTACK_DESCRIPTION_Laniakeas_Spear_Poisonous_Tip: "Verursacht ${attackDamageMaxValue0}% deines normalen Angriffsschadens und fügt Gift zu, welches ${onHitEffect0DamageMaxValue0}% der maximalen Trefferpunkte des Gegners als Schaden über ${onHitEffect0duration}s hinweg verursacht",
     SPECIAL_ATTACK_NAME_Rathis_Acid_Bombardment: 'Säureschauer',
-    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombadiert dich mit Säure. Verursacards ${attackDamageMaxValue0}% Schaden und fügt tödliches Gift zu, sowie einen Stapel Korrosion für ${onHitEffect0turns} Runden (Maximal ${onHitEffect0maxStacks} Stapel)',
+    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombadiert dich mit Säure. Verursacht ${attackDamageMaxValue0}% Schaden und fügt tödliches Gift zu, sowie einen Stapel Korrosion für ${onHitEffect0turns} Runden (Maximal ${onHitEffect0maxStacks} Stapel)',
     SPECIAL_ATTACK_NAME_Orikalka_Frost_Storm: 'Froststurm',
     SPECIAL_ATTACK_DESCRIPTION_Orikalka_Frost_Storm: 'Orikalka erzeugt einen eisigen Tornado, welcher ${attackDamageMaxValue0}% magischen Schaden und einen Stapel Erfrierung für ${onHitEffect0turns} Runden verursacht (25% verringertes Angriffsintervall). (Vermeidbar)',
     SPECIAL_ATTACK_NAME_Orikalka_Pyroclastic_Shock: 'Pyroklastischer schock',

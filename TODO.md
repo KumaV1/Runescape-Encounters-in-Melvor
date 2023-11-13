@@ -1,13 +1,3 @@
-# GLobal droptable
-* Finish up items (full config) [DONE]
-* Add translations for item names [DONE]
-* Add upgrades for spirit gems and dragonfire shields [DONE]
-* Add custom modifier for consuming effigies (CustomModifiersManager) (including translation) [DONE]
-* Add shop purchases for effigies (4-5, giving 1% global skill xp each; 100, 500, 1000, 2500, 5000 cost?) [DONE]
-* Add global droptable on enemy death (GlobalDroptableManager) [DONE]
-* Add dragon type to Vindicta (compatiblity)
-* Test all equipment, if they load properly after having been offline
-
 # Automata
 
 # Glacors
@@ -31,8 +21,6 @@ The glacyte effects might be configurable through a "Compound Effect", aka "Defi
   * Maybe with "Upgrade" to a bone-type-item, so additional ritual shards still have a use
 
 # FINDINGS
-"increasedGlobalSkillXPPerLevel" doesn't seem to work (?), at least not as modifier on a consumable item?
-
 "BaseEquipmentItemModificationData" currently doesn't allow to patch the "consumeOn" property. 
 Because of that, the dragonkin lamp currently doesn't support actions specific to the AoD expansion, 
 as adding them would result in errors for those without the expansion.
