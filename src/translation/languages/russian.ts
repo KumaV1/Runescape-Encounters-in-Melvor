@@ -1,4 +1,12 @@
 export const ru = {
+    // #### Global droptable overview
+    PAGE_NAME_Global_Droptable_Overview: "Global Droptable (Runescape)",
+    Global_Droptable_Overview_Functionality: "These items are rolled separately and do not replace any other loot. They are also immediately picked up and placed in the bank",
+    Global_Droptable_Overview_Base_Droprate: "Base chance",
+    Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Chance increases against stronger enemies. The numerator increases (on average) once every ${averageCbPerNumerator} combat levels",
+    Global_Droptable_Overview_Limitation_Dragons_Only: "Only dropped by Dragons",
+    Global_Droptable_Overview_Limitation_Undead_Only: "Only dropped by Undead",
+
     // #### Shop entries
     SHOP_NAME_Telos_Dungeon_Unlock: 'Telos, the Warden',
     SHOP_DESCRIPTION_Telos_Dungeon_Unlock: 'Grants access to the fight against Telos, the Warden (once implemented, works retroactively)',

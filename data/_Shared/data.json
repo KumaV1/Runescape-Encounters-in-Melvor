@@ -1031,6 +1031,21 @@
         "insertAt": "End",
         "ids": [ "runescapeEncountersInMelvor:General_Shop" ]
       }
+    ],
+    "pages": [
+      {
+        "id": "Global_Droptable_Overview",
+        "customName": "Global Droptable (Runescape)",
+        "media": "https://cdn.melvor.net/core/v018/assets/media/main/bank_header.svg",
+        "containerID": "runescape-Encounters-in-Melvor__global-droptable-overview-container",
+        "headerBgClass": "bg-statistics",
+        "hasGameGuide": false,
+        "canBeDefault": false,
+        "sidebarItem": {
+          "categoryID": "Modding",
+          "icon": "https://cdn.melvor.net/core/v018/assets/media/main/bank_header.svg"
+        }
+      }
     ]
   }
 }

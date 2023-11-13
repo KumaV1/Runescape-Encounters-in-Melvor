@@ -1,4 +1,12 @@
 ﻿export const de = {
+    // #### Global droptable overview
+    PAGE_NAME_Global_Droptable_Overview: "Globale Beuteliste (Runescape)",
+    Global_Droptable_Overview_Functionality: "Diese Gegenstände werden separat gerollt und ersetzen keine andere Beute. Sie werden außerdem direkt aufgehoben und in der Bank abgelegt",
+    Global_Droptable_Overview_Base_Droprate: "Basischance",
+    Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Die Chance erhöht sich gegen stärkere Gegner. Der Zähler erhöht sich (im Durchschnitt) alle ${averageCbPerNumerator} Kampfstufen",
+    Global_Droptable_Overview_Limitation_Dragons_Only: "Wird nur von Drachen fallen gelassen",
+    Global_Droptable_Overview_Limitation_Undead_Only: "Wird nur von Untoten fallen gelassen",
+
     // #### Shop entries
     SHOP_NAME_Telos_Dungeon_Unlock: 'Telos, der Wächter',
     SHOP_DESCRIPTION_Telos_Dungeon_Unlock: 'Ermöglicht Zutritt zum Kampf gegen Telos, den Wächter (sobald er implementiert wird, funktioniert rückwirkend)',

@@ -1,5 +1,6 @@
 {
   "namespace": "runescapeEncountersInMelvor",
   "icon": "assets/runescapeEncountersInMelvor/Logo.png",
+  "load": [ "templates.min.html" ],
   "setup": "setup.mjs"
 }

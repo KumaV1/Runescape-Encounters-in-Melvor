@@ -3,6 +3,9 @@
 import { Constants } from './Constants';
 import { Translation } from './translation/Translation';
 import { languages } from './translation/languages'
+import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
+import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
+import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
 
 // Data
 // Game data for registration
@@ -104,8 +107,8 @@ import '../assets/status/Rex Matriarchs/Corrosion.png'
 import '../assets/_Shared/Logo.png'
 import '../assets/_Shared/Shop.png'
 import '../assets/_Shared/Weapon_Special_Attack.png'
-import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
-import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
+
+import '../src/globalDroptable/globalDroptableOverview.css'
 // #endregion
 
 export async function setup(ctx: Modding.ModContext) {
@@ -126,6 +129,7 @@ export async function setup(ctx: Modding.ModContext) {
     await ctx.gameData.addPackage(Gwd2ModData);
 
     initGlobalDroptable(ctx);
+    initOverviewContainer(ctx);
     initModCompatibility(ctx);
 }
 
@@ -166,6 +170,7 @@ function initLanguage(ctx: Modding.ModContext) {
         'PET_NAME',
         'SPECIAL_ATTACK_NAME',
         'SPECIAL_ATTACK_DESCRIPTION',
+        'PAGE_NAME',
         'PASSIVE_NAME',
         'PASSIVE_DESCRIPTION',
     ];
@@ -189,6 +194,23 @@ function initGlobalDroptable(ctx: Modding.ModContext) {
     const gdm = new GlobalDroptableManager(ctx);
 
     gdm.patchMethods();
+}
+
+/**
+ * Initializes the container that is then accessed through an entry in the sidebar
+ * @param ctx
+ */
+function initOverviewContainer(ctx: Modding.ModContext) {
+    // Because we're loading our templates.min.html file via the manifest.json,
+    // the templates aren't available until after the setup() function runs
+    ctx.onInterfaceReady(() => {
+        // @ts-ignore: The container is guaranteed to exist
+        const contentContainerElement: Element = document.getElementById('main-container');
+
+        // Add template to container
+        // Create overview by using component and template definitions
+        ui.create(GlobalDroptableOverview(), contentContainerElement);
+    });
 }
 
 /**
