@@ -1,7 +1,9 @@
 export const tr = {
     // #### Global droptable overview
     PAGE_NAME_Global_Droptable_Overview: "Global Droptable (Runescape)",
-    Global_Droptable_Overview_Functionality: "These items are rolled separately and do not replace any other loot. They are also immediately picked up and placed in the bank",
+    Global_Droptable_Overview_General_Functionality: "Each item on the global droptable has its own roll. These rolls are separate from the regular droptable and do not replace any other loot",
+    Global_Droptable_Overview_Item_Pickup_Info: "Items are not put in the loot container, but instead placed into the bank immediately. That is, if free space is available",
+    Global_Droptable_Overview_Dungeon_Limitation: "In dungeons, the global droptable is only rolled for the last monster",
     Global_Droptable_Overview_Base_Droprate: "Base chance",
     Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Chance increases against stronger enemies. The numerator increases (on average) once every ${averageCbPerNumerator} combat levels",
     Global_Droptable_Overview_Limitation_Dragons_Only: "Only dropped by Dragons",

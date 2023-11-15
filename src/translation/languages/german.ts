@@ -2,6 +2,9 @@
     // #### Global droptable overview
     PAGE_NAME_Global_Droptable_Overview: "Globale Beuteliste (Runescape)",
     Global_Droptable_Overview_Functionality: "Diese Gegenstände werden separat gerollt und ersetzen keine andere Beute. Sie werden außerdem direkt aufgehoben und in der Bank abgelegt",
+    Global_Droptable_Overview_General_Functionality: "Jeder Gegenstand auf der globalen Beuteliste wird separat gerollt. Dies passiert separat von der gewöhnlichen Beuteliste und ersetzt keinerlei andere Beute",
+    Global_Droptable_Overview_Item_Pickup_Info: "Gegenstände werden nicht in den Beutecontainer gelegt, sondern sofort in der Bank verstaut. Allerdings nur, wenn freier Platz in der Bank vorhanden ist",
+    Global_Droptable_Overview_Dungeon_Limitation: "In Verließen wird die globale Beuteliste nur vom letzten Monster aufgerufen",
     Global_Droptable_Overview_Base_Droprate: "Basischance",
     Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Die Chance erhöht sich gegen stärkere Gegner. Der Zähler erhöht sich (im Durchschnitt) alle ${averageCbPerNumerator} Kampfstufen",
     Global_Droptable_Overview_Limitation_Dragons_Only: "Wird nur von Drachen fallen gelassen",

@@ -11,6 +11,6 @@ export class Constants {
     public static SALVE_AMULET_BASE_DROPRATE = 0.04; // 1 per 2500
     public static SALVE_AMULET_CHANCE_INCREASE_PER_COMBAT_LEVEL = 0.0002; // +1 per 2500 every 200 combat lvls
 
-    public static DRACONIC_VISAGE_BASE_DROPRATE = 0.04; // 1 per 2500
-    public static DRACONIC_VISAGE_CHANCE_INCREASE_PER_COMBAT_LEVEL = 0.00016; // +1 per 2000 every 250 combat lvls
+    public static DRACONIC_VISAGE_BASE_DROPRATE = 0.02; // 1 per 5000
+    public static DRACONIC_VISAGE_CHANCE_INCREASE_PER_COMBAT_LEVEL = 0.00008; // +1 per 5000 every 250 combat lvls
 }
