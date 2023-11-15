@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.1
+* Version bump for game version 1.2.2
+
 ## v1.1.0
 * Added monster typing based on "CustomModifiersInMelvor"
 * Added new global droptable and items obtained through it
