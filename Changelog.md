@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.0
+* Added monster typing based on "CustomModifiersInMelvor"
+* Added new global droptable and items obtained through it
+* Added an overview page giving info about this droptable
+* Minor text fixes
+
 ## v1.0.2
 * Fixed translation of crest and sigil piece of Seren
 * Slightly nerfed rex rings (25 -> 20; 35 -> 25)
