@@ -67,7 +67,7 @@ export const fr = {
     ITEM_NAME_Wand_Of_The_Cywir_Elders: 'Wand of the Cywir elders',
     ITEM_DESCRIPTION_Wand_Of_The_Cywir_Elders: 'When equipped with Orb of the Cywir elders, +15% Global Accurary Rating',
     ITEM_NAME_Orb_Of_The_Cywir_Elders: 'Orb of the Cywir elders',
-    ITEM_DESCRIPTIONE_Orb_Of_The_Cywir_Elders: 'When equipped with Wand of the Cywir elders, +15% Global Accurary Rating',
+    ITEM_DESCRIPTION_Orb_Of_The_Cywir_Elders: 'When equipped with Wand of the Cywir elders, +15% Global Accurary Rating',
     ITEM_NAME_Crest_Of_Seren: "Crest of Seren",
     ITEM_NAME_Anima_Core_Helm_Of_Zamorak: 'Anima core helm of Zamorak',
     ITEM_NAME_Anima_Core_Body_Of_Zamorak: 'Anima core body of Zamorak',

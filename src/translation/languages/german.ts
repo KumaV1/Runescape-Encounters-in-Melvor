@@ -68,7 +68,7 @@
     ITEM_NAME_Wand_Of_The_Cywir_Elders: 'Zauberstab der Cywir-Ältesten',
     ITEM_DESCRIPTION_Wand_Of_The_Cywir_Elders: 'Wenn die Kugel der Cywir-Ältesten ebenfalls getragen wird, +15% Genauigkeit',
     ITEM_NAME_Orb_Of_The_Cywir_Elders: 'Kugel der Cywir-Ältesten',
-    ITEM_DESCRIPTIONE_Orb_Of_The_Cywir_Elders: 'Wenn der Zauberstab der Cywir-Ältesten ebenfalls getragen wird, +15% Genauigkeit',
+    ITEM_DESCRIPTION_Orb_Of_The_Cywir_Elders: 'Wenn der Zauberstab der Cywir-Ältesten ebenfalls getragen wird, +15% Genauigkeit',
     ITEM_NAME_Crest_Of_Seren: 'Serenwappen',
     ITEM_NAME_Anima_Core_Helm_Of_Zamorak: 'Zamorak-Weltkernhelm',
     ITEM_NAME_Anima_Core_Body_Of_Zamorak: 'Zamorak-Weltkernoberteil',

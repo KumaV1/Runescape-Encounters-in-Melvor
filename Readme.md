@@ -14,6 +14,9 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
 * While the summary mentions OSRS, there is currently no OSRS specific content in this mod (though there is Dagannoth Kings at least)
 * Currently all added as Combat areas
 
+## Global droptable
+* Several items separately rolled for by all or a certain group of monsters
+
 ## Dagannoth Kings
 * Meant to be somewhat low-level encounters
 * Rewards T30 rings
