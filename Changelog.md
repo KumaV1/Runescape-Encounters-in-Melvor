@@ -1,5 +1,10 @@
 # Changelog
 
+## v.1.1.2
+* Added accuracy bonus to salve amulets
+* Changed how the base mod is loaded and interacted with
+  * Things shouldn't break and instead "only" end up disabled
+
 ## v1.1.1
 * Version bump for game version 1.2.2
 * Fixed translation for "Orb of the Cywir elders"
