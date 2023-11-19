@@ -38,14 +38,17 @@ export class GlobalDroptableManager {
     }
 
     /**
-     *
+     * Roll to possible get one or more additional drops
      * @param cm
      */
     private static rollGlobalDroptable(cm: CombatManager): void {
         GlobalDroptableManager.rollForAncientEffigy(cm);
         GlobalDroptableManager.rollForSpiritGemBag(cm);
-        GlobalDroptableManager.rollForSalveAmulet(cm);
-        GlobalDroptableManager.rollForDraconicVisage(cm);
+
+        if (mod.api.customModifiersInMelvor) {
+            GlobalDroptableManager.rollForSalveAmulet(cm);
+            GlobalDroptableManager.rollForDraconicVisage(cm);
+        }
     }
 
     /**

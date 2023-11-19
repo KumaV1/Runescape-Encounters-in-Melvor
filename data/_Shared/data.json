@@ -32,7 +32,7 @@
         "equipRequirements": [],
         "equipmentStats": [],
         "modifiers": {
-          "increasedFlatGlobalSkillXPPerSkillLevel": 100
+
         },
         "consumesOn": [
           {
@@ -315,7 +315,7 @@
           }
         ],
         "modifiers": {
-          "increasedDamageAgainstUndead": 15
+
         }
       },
       {
@@ -368,8 +368,7 @@
           }
         ],
         "modifiers": {
-          "increasedDamageAgainstUndead": 20,
-          "increasedMinHitBasedOnMaxHitAgainstUndead": 5
+
         }
       },
       {

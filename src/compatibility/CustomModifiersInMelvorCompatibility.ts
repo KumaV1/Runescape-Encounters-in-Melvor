@@ -1,3 +1,5 @@
+import CmimSharedModData from '../../data/_Shared/cmim-data.json'
+
 export class CustomModifiersInMelvorCompatibility {
     constructor(private readonly context: Modding.ModContext) { }
 
@@ -12,6 +14,7 @@ export class CustomModifiersInMelvorCompatibility {
         }
 
         cmim.addDragons(["runescapeEncountersInMelvor:Gorvek_And_Vindicta"]);
+        this.context.gameData.addPackage(CmimSharedModData);
     }
 
     private isLoaded() {

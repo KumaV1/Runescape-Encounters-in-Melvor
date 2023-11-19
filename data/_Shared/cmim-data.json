@@ -1,0 +1,35 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "modifications": {
+    "items": [
+      {
+        "id": "runescapeEncountersInMelvor:Dragonkin_Lamp",
+        "modifiers": {
+          "add": {
+            "increasedFlatGlobalSkillXPPerSkillLevel": 100
+          }
+        }
+      },
+      {
+        "id": "runescapeEncountersInMelvor:Salve_Amulet",
+        "modifiers": {
+          "add": {
+            "increasedDamageAgainstUndead": 15,
+            "increasedGlobalAccuracyAgainstUndead": 15
+          }
+        }
+      },
+      {
+        "id": "runescapeEncountersInMelvor:Salve_Amulet_Enhanced",
+        "modifiers": {
+          "add": {
+            "increasedDamageAgainstUndead": 20,
+            "increasedGlobalAccuracyAgainstUndead": 20,
+            "increasedMinHitBasedOnMaxHitAgainstUndead": 5
+          }
+        }
+      }
+    ]
+  }
+}
