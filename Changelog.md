@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.3
+* Greatly reduced file size of images (~65% overall)
+
 ## v1.1.2
 * Added accuracy bonus to salve amulets
 * Changed how the base mod is loaded and interacted with
