@@ -1,6 +1,6 @@
 # Changelog
 
-## v.1.1.2
+## v1.1.2
 * Added accuracy bonus to salve amulets
 * Changed how the base mod is loaded and interacted with
   * Things shouldn't break and instead "only" end up disabled
