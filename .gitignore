@@ -7,4 +7,5 @@ package
 build
 package-lock.json
 _modIoImages
+_cmimDefinitions
 Notes.md

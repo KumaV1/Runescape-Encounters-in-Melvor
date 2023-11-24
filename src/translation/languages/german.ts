@@ -3,6 +3,7 @@
     PAGE_NAME_Global_Droptable_Overview: "Globale Beuteliste (Runescape)",
     Global_Droptable_Overview_Functionality: "Diese Gegenstände werden separat gerollt und ersetzen keine andere Beute. Sie werden außerdem direkt aufgehoben und in der Bank abgelegt",
     Global_Droptable_Overview_General_Functionality: "Jeder Gegenstand auf der globalen Beuteliste wird separat gerollt. Dies passiert separat von der gewöhnlichen Beuteliste und ersetzt keinerlei andere Beute",
+    Global_Droptable_Overview_Type_Limitation: 'Gegenstände, welche nur von bestimmten Monsterarten fallen gelassen werden, können nur fallen gelassen werden, wenn der "Custom Modifiers in Melvor"-Mod geladen worden ist. Wenn dem so ist, könnt ihr die Monsterarten-Übersicht prüfen, um zu sehen welche Monster der/den relevanten Art(en) zugewiesen ist',
     Global_Droptable_Overview_Item_Pickup_Info: "Gegenstände werden nicht in den Beutecontainer gelegt, sondern sofort in der Bank verstaut. Allerdings nur, wenn freier Platz in der Bank vorhanden ist",
     Global_Droptable_Overview_Dungeon_Limitation: "In Verließen wird die globale Beuteliste nur vom letzten Monster aufgerufen",
     Global_Droptable_Overview_Base_Droprate: "Basischance",
