@@ -1,15 +1,6 @@
 import { Constants } from '../Constants'
 import { Constants as GlobalDroptableConstants } from './Constants'
 
-/** From "CustomModifiersInMelvor" base mod */
-declare global {
-    interface Monster {
-        isHuman: boolean,
-        isDragon: boolean,
-        isUndead: boolean
-    }
-}
-
 export class GlobalDroptableManager {
     constructor(private readonly context: Modding.ModContext) { }
 
@@ -26,7 +17,6 @@ export class GlobalDroptableManager {
          * Conditions mimic the patched method, as it's hard to patch right in-between
          */
         this.context.patch(CombatManager, "onEnemyDeath").after(function () {
-            this.enemy
             if ((this.selectedArea instanceof Dungeon)) {
                 if (this.dungeonProgress === this.selectedArea.monsters.length) {
                     GlobalDroptableManager.rollGlobalDroptable(this);
@@ -42,53 +32,54 @@ export class GlobalDroptableManager {
      * @param cm
      */
     private static rollGlobalDroptable(cm: CombatManager): void {
-        GlobalDroptableManager.rollForAncientEffigy(cm);
-        GlobalDroptableManager.rollForSpiritGemBag(cm);
+        const doubleLoot: Boolean = rollPercentage(cm.player.modifiers.combatLootDoubleChance);
 
-        if (mod.api.customModifiersInMelvor) {
-            GlobalDroptableManager.rollForSalveAmulet(cm);
-            GlobalDroptableManager.rollForDraconicVisage(cm);
-        }
+        GlobalDroptableManager.rollForAncientEffigy(cm, doubleLoot);
+        GlobalDroptableManager.rollForSpiritGemBag(cm, doubleLoot);
+        GlobalDroptableManager.rollForSalveAmulet(cm, doubleLoot);
+        GlobalDroptableManager.rollForDraconicVisage(cm, doubleLoot);
     }
 
     /**
      *
      * @param cm
+     * @param doubleLoot
      * @returns
      */
-    private static rollForAncientEffigy(cm: CombatManager): void {
+    private static rollForAncientEffigy(cm: CombatManager, doubleLoot: Boolean): void {
         if (!this.rollCbLevelScalingChance(cm.enemy.monster!,
             GlobalDroptableConstants.ANCIENT_EFFIGY_BASE_DROPRATE,
             GlobalDroptableConstants.ANCIENT_EFFIGY_CHANCE_INCREASE_PER_COMBAT_LEVEL)) {
             return;
         }
 
-        GlobalDroptableManager.grantItem("Ancient_Effigy", cm);
+        GlobalDroptableManager.grantItem("Ancient_Effigy", cm, doubleLoot);
     }
 
     /**
      *
      * @param cm
+     * @param doubleLoot
      * @returns
      */
-    private static rollForSpiritGemBag(cm: CombatManager): void {
+    private static rollForSpiritGemBag(cm: CombatManager, doubleLoot: Boolean): void {
         if (!this.rollCbLevelScalingChance(cm.enemy.monster!,
             GlobalDroptableConstants.SPIRIT_GEM_BAG_BASE_DROPRATE,
             GlobalDroptableConstants.SPIRIT_GEM_BAG_CHANCE_INCREASE_PER_COMBAT_LEVEL)) {
             return;
         }
 
-        GlobalDroptableManager.grantItem("Spirit_Gem_Bag", cm);
+        GlobalDroptableManager.grantItem("Spirit_Gem_Bag", cm, doubleLoot);
     }
 
     /**
      *
      * @param cm
+     * @param doubleLoot
      * @returns
      */
-    private static rollForSalveAmulet(cm: CombatManager): void {
-        // @ts-ignore Based on "Custom Modifiers in Melvor" mod
-        if (!mod.api.customModifiersInMelvor.monsterIsUndead(cm.enemy.monster)) {
+    private static rollForSalveAmulet(cm: CombatManager, doubleLoot: Boolean): void {
+        if (!cm.player.target.isUndead) {
             return;
         }
 
@@ -98,17 +89,17 @@ export class GlobalDroptableManager {
             return;
         }
 
-        GlobalDroptableManager.grantItem("Salve_Amulet", cm);
+        GlobalDroptableManager.grantItem("Salve_Amulet", cm, doubleLoot);
     }
 
     /**
      *
      * @param cm
+     * @param doubleLoot
      * @returns
      */
-    private static rollForDraconicVisage(cm: CombatManager): void {
-        // @ts-ignore Based on "Custom Modifiers in Melvor" mod
-        if (!mod.api.customModifiersInMelvor.monsterIsDragon(cm.enemy.monster)) {
+    private static rollForDraconicVisage(cm: CombatManager, doubleLoot: Boolean): void {
+        if (!cm.player.target.isDragon) {
             return;
         }
 
@@ -118,7 +109,7 @@ export class GlobalDroptableManager {
             return;
         }
 
-        GlobalDroptableManager.grantItem("Draconic_Visage", cm);
+        GlobalDroptableManager.grantItem("Draconic_Visage", cm, doubleLoot);
     }
 
     /**
@@ -137,12 +128,12 @@ export class GlobalDroptableManager {
      * @param localItemId
      * @param cm
      */
-    private static grantItem(localItemId: string, cm: CombatManager) {
+    private static grantItem(localItemId: string, cm: CombatManager, doubleLoot: Boolean) {
         const item = cm.game.items.getObjectByID(`${Constants.MOD_NAMESPACE}:${localItemId}`);
         if (item === undefined) {
             throw new Error(`Invalid item ID ${localItemId}`);
         }
 
-        cm.bank.addItem(item, 1, true, true, false);
+        cm.bank.addItem(item, doubleLoot ? 2 : 1, true, true, false);
     }
 }

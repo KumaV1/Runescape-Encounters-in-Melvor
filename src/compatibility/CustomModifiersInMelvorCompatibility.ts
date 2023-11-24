@@ -13,7 +13,11 @@ export class CustomModifiersInMelvorCompatibility {
             return;
         }
 
-        cmim.addDragons(["runescapeEncountersInMelvor:Gorvek_And_Vindicta"]);
+        cmim.addMonsters("Dragon", ["runescapeEncountersInMelvor:Gorvek_And_Vindicta"]);
+        cmim.addMonsters("Demon", ["runescapeEncountersInMelvor:Avaryss_And_Nymora"]);
+        cmim.forceBaseModTypeActive("Dragon");
+        cmim.forceBaseModTypeActive("Undead");
+
         this.context.gameData.addPackage(CmimSharedModData);
     }
 
