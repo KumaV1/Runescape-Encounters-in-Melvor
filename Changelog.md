@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.4
+* Updated mod compatibility with [CMiM mod](https://github.com/KumaV1/Custom-Modifiers-in-Melvor)
+* Increased upgrade cost for enhanced salve amulet (5 -> 10 amulets of glory)
+
 ## v1.1.3
 * Greatly reduced file size of images (~65% overall)
 
