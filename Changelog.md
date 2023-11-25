@@ -1,8 +1,13 @@
 # Changelog
 
+## v1.1.5
+* Ancient effigies and spirit gem bags now also roll for dungeon minions, while also having effect of enemy combat level on droprate doubled
+* Halfed cost of ancient effigies for effigy wisdom shop purchases
+
 ## v1.1.4
 * Updated mod compatibility with [CMiM mod](https://github.com/KumaV1/Custom-Modifiers-in-Melvor)
 * Increased upgrade cost for enhanced salve amulet (5 -> 10 amulets of glory)
+* Items on the global droptable can now be doubled as well (though the global droptable has a separate roll)
 
 ## v1.1.3
 * Greatly reduced file size of images (~65% overall)
