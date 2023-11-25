@@ -17,25 +17,36 @@ export class GlobalDroptableManager {
          * Conditions mimic the patched method, as it's hard to patch right in-between
          */
         this.context.patch(CombatManager, "onEnemyDeath").after(function () {
+            const doubleLoot: Boolean = rollPercentage(this.player.modifiers.combatLootDoubleChance);
             if ((this.selectedArea instanceof Dungeon)) {
+                GlobalDroptableManager.rollGlobalDroptableAnyDeath(this, doubleLoot);
                 if (this.dungeonProgress === this.selectedArea.monsters.length) {
-                    GlobalDroptableManager.rollGlobalDroptable(this);
+                    GlobalDroptableManager.rollGlobalDroptableNonDungeonMinionDeath(this, doubleLoot);
                 }
             } else if (this.activeEvent === undefined) {
-                GlobalDroptableManager.rollGlobalDroptable(this);
+                GlobalDroptableManager.rollGlobalDroptableAnyDeath(this, doubleLoot);
+                GlobalDroptableManager.rollGlobalDroptableNonDungeonMinionDeath(this, doubleLoot);
             }
         });
     }
 
     /**
-     * Roll to possible get one or more additional drops
+     * Roll items, that are dropped by absolutely every monster
      * @param cm
+     * @param doubleLoot
      */
-    private static rollGlobalDroptable(cm: CombatManager): void {
-        const doubleLoot: Boolean = rollPercentage(cm.player.modifiers.combatLootDoubleChance);
-
+    private static rollGlobalDroptableAnyDeath(cm: CombatManager, doubleLoot: Boolean): void {
         GlobalDroptableManager.rollForAncientEffigy(cm, doubleLoot);
         GlobalDroptableManager.rollForSpiritGemBag(cm, doubleLoot);
+    }
+
+    /**
+     * Roll items, that can be dropped by most monsters,
+     * except in dungeons where it can only drop from the last monster
+     * @param cm
+     * @param doubleLoot
+     */
+    private static rollGlobalDroptableNonDungeonMinionDeath(cm: CombatManager, doubleLoot: Boolean): void {
         GlobalDroptableManager.rollForSalveAmulet(cm, doubleLoot);
         GlobalDroptableManager.rollForDraconicVisage(cm, doubleLoot);
     }

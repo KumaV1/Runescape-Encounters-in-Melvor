@@ -5,9 +5,9 @@
     Global_Droptable_Overview_General_Functionality: "Jeder Gegenstand auf der globalen Beuteliste wird separat gerollt. Dies passiert separat von der gewöhnlichen Beuteliste und ersetzt keinerlei andere Beute",
     Global_Droptable_Overview_Type_Limitation: 'Gegenstände, welche nur von bestimmten Monsterarten fallen gelassen werden, können nur fallen gelassen werden, wenn der "Custom Modifiers in Melvor"-Mod geladen worden ist. Wenn dem so ist, könnt ihr die Monsterarten-Übersicht prüfen, um zu sehen welche Monster der/den relevanten Art(en) zugewiesen ist',
     Global_Droptable_Overview_Item_Pickup_Info: "Gegenstände werden nicht in den Beutecontainer gelegt, sondern sofort in der Bank verstaut. Allerdings nur, wenn freier Platz in der Bank vorhanden ist",
-    Global_Droptable_Overview_Dungeon_Limitation: "In Verließen wird die globale Beuteliste nur vom letzten Monster aufgerufen",
     Global_Droptable_Overview_Base_Droprate: "Basischance",
     Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Die Chance erhöht sich gegen stärkere Gegner. Der Zähler erhöht sich (im Durchschnitt) alle ${averageCbPerNumerator} Kampfstufen",
+    Global_Droptable_Overview_Limitation_Only_Last_In_Dungeons: "Wird in Verließen nur vom letzten Monster fallen gelassen",
     Global_Droptable_Overview_Limitation_Dragons_Only: "Wird nur von Drachen fallen gelassen",
     Global_Droptable_Overview_Limitation_Undead_Only: "Wird nur von Untoten fallen gelassen",
 

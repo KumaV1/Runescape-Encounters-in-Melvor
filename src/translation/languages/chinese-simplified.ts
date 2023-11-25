@@ -3,10 +3,10 @@ export const zhCN = {
     PAGE_NAME_Global_Droptable_Overview: "Global Droptable (Runescape)",
     Global_Droptable_Overview_General_Functionality: "Each item on the global droptable has its own roll. These rolls are separate from the regular droptable and do not replace any other loot",
     Global_Droptable_Overview_Item_Pickup_Info: "Items are not put in the loot container, but instead placed into the bank immediately. That is, if free space is available",
-    Global_Droptable_Overview_Type_Limitation: 'Items only dropped by certain types of monsters will only be able to drop, if the "Custom Modifiers in Melvor" mod is loaded. If loaded, check the overview page to see which monsters exactly are allocated as the respective type(s)',
-    Global_Droptable_Overview_Dungeon_Limitation: "In dungeons, the global droptable is only rolled for the last monster",
+    Global_Droptable_Overview_Type_Limitation: 'Items only dropped by certain types of monsters will only be able to drop, if the "Custom Modifiers in Melvor" mod is loaded. If loaded, check the overview page to see which monsters exactly are allocated to the respective type(s)',
     Global_Droptable_Overview_Base_Droprate: "Base chance",
     Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Chance increases against stronger enemies. The numerator increases (on average) once every ${averageCbPerNumerator} combat levels",
+    Global_Droptable_Overview_Limitation_Only_Last_In_Dungeons: "In dungeons, only rolled for the last monster",
     Global_Droptable_Overview_Limitation_Dragons_Only: "Only dropped by Dragons",
     Global_Droptable_Overview_Limitation_Undead_Only: "Only dropped by Undead",
 

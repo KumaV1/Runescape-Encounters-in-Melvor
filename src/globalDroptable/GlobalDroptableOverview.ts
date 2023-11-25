@@ -6,7 +6,7 @@ interface GlobalDroptableOverviewItem {
     name: string,
     baseChanceDenominator: number,
     chanceIncreaseInfo: string,
-    limitation?: string | undefined
+    limitations: string[]
 }
 
 interface GlobalDroptableOverviewProps {
@@ -19,12 +19,36 @@ export function GlobalDroptableOverview(): Component<GlobalDroptableOverviewProp
         items: []
     };
 
-    addObject("Ancient_Effigy", GlobalDroptableConstants.ANCIENT_EFFIGY_BASE_DROPRATE, GlobalDroptableConstants.ANCIENT_EFFIGY_CHANCE_INCREASE_PER_COMBAT_LEVEL);
-    addObject("Spirit_Gem_Bag", GlobalDroptableConstants.SPIRIT_GEM_BAG_BASE_DROPRATE, GlobalDroptableConstants.SPIRIT_GEM_BAG_CHANCE_INCREASE_PER_COMBAT_LEVEL);
-    addObject("Salve_Amulet", GlobalDroptableConstants.SALVE_AMULET_BASE_DROPRATE, GlobalDroptableConstants.SALVE_AMULET_CHANCE_INCREASE_PER_COMBAT_LEVEL, getLangString(`${Constants.MOD_NAMESPACE}_Global_Droptable_Overview_Limitation_Undead_Only`));
-    addObject("Draconic_Visage", GlobalDroptableConstants.DRACONIC_VISAGE_BASE_DROPRATE, GlobalDroptableConstants.DRACONIC_VISAGE_CHANCE_INCREASE_PER_COMBAT_LEVEL, getLangString(`${Constants.MOD_NAMESPACE}_Global_Droptable_Overview_Limitation_Dragons_Only`));
+    addObject(
+        "Ancient_Effigy",
+        GlobalDroptableConstants.ANCIENT_EFFIGY_BASE_DROPRATE,
+        GlobalDroptableConstants.ANCIENT_EFFIGY_CHANCE_INCREASE_PER_COMBAT_LEVEL
+    );
+    addObject(
+        "Spirit_Gem_Bag",
+        GlobalDroptableConstants.SPIRIT_GEM_BAG_BASE_DROPRATE,
+        GlobalDroptableConstants.SPIRIT_GEM_BAG_CHANCE_INCREASE_PER_COMBAT_LEVEL
+    );
+    addObject(
+        "Salve_Amulet",
+        GlobalDroptableConstants.SALVE_AMULET_BASE_DROPRATE,
+        GlobalDroptableConstants.SALVE_AMULET_CHANCE_INCREASE_PER_COMBAT_LEVEL,
+        [
+            getLangString(`${Constants.MOD_NAMESPACE}_Global_Droptable_Overview_Limitation_Undead_Only`),
+            getLangString(`${Constants.MOD_NAMESPACE}_Global_Droptable_Overview_Limitation_Only_Last_In_Dungeons`)
+        ]
+    );
+    addObject(
+        "Draconic_Visage",
+        GlobalDroptableConstants.DRACONIC_VISAGE_BASE_DROPRATE,
+        GlobalDroptableConstants.DRACONIC_VISAGE_CHANCE_INCREASE_PER_COMBAT_LEVEL,
+        [
+            getLangString(`${Constants.MOD_NAMESPACE}_Global_Droptable_Overview_Limitation_Dragons_Only`),
+            getLangString(`${Constants.MOD_NAMESPACE}_Global_Droptable_Overview_Limitation_Only_Last_In_Dungeons`)
+        ]
+    );
 
-    function addObject(localItemId: string, baseChance: number, chanceIncreasePerCb: number, limitation?: string | undefined) {
+    function addObject(localItemId: string, baseChance: number, chanceIncreasePerCb: number, limitations?: string[] | undefined) {
         const item = game.items.getObjectByID(`${Constants.MOD_NAMESPACE}:${localItemId}`);
         if (item) {
             const itemObj: GlobalDroptableOverviewItem = {
@@ -32,7 +56,7 @@ export function GlobalDroptableOverview(): Component<GlobalDroptableOverviewProp
                 name: getLangString(`ITEM_NAME_${item.localID}`),
                 baseChanceDenominator: (1 / baseChance) * 100,
                 chanceIncreaseInfo: templateLangString(`${Constants.MOD_NAMESPACE}_Global_Droptable_Overview_Chance_Increase_Per_Cb_Info`, { averageCbPerNumerator: formatNumber(Math.ceil(baseChance / chanceIncreasePerCb)) }),
-                limitation: limitation
+                limitations: limitations ??= []
             };
             props.items.push(itemObj);
         }

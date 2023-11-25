@@ -807,7 +807,7 @@
           "items": [
             {
               "id": "runescapeEncountersInMelvor:Ancient_Effigy",
-              "quantity": 100
+              "quantity": 50
             }
           ]
         },
@@ -845,7 +845,7 @@
           "items": [
             {
               "id": "runescapeEncountersInMelvor:Ancient_Effigy",
-              "quantity": 500
+              "quantity": 250
             }
           ]
         },
@@ -889,7 +889,7 @@
           "items": [
             {
               "id": "runescapeEncountersInMelvor:Ancient_Effigy",
-              "quantity": 1000
+              "quantity": 500
             }
           ]
         },
@@ -933,7 +933,7 @@
           "items": [
             {
               "id": "runescapeEncountersInMelvor:Ancient_Effigy",
-              "quantity": 2000
+              "quantity": 1000
             }
           ]
         },
@@ -977,7 +977,7 @@
           "items": [
             {
               "id": "runescapeEncountersInMelvor:Ancient_Effigy",
-              "quantity": 3000
+              "quantity": 1500
             }
           ]
         },
