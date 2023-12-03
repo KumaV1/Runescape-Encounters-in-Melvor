@@ -93,9 +93,13 @@
     ITEM_DESCRIPTION_Offhand_Shadow_Glaive: 'Wenn die Schattenglefe ebenfalls getragen wird, +15% Genauigkeit',
     ITEM_NAME_Crest_Of_Sliske: 'Sliskewappen',
     ITEM_NAME_Ancient_Sigil_Piece_Seren: 'Uraltes Siegelstück (Seren)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Seren: 'Teil eines alten Siegels. Es sieht so aus, als ob die Kanten mit etwas verbunden werden sollten. Es könnte sich lohnen, ein Exemplar zu behalten, falls es in der Zukunft nützlich wird',
     ITEM_NAME_Ancient_Sigil_Piece_Zamorak: 'Uraltes Siegelstück (Zamorak)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Zamorak: 'Teil eines alten Siegels. Es sieht so aus, als ob die Kanten mit etwas verbunden werden sollten. Es könnte sich lohnen, ein Exemplar zu behalten, falls es in der Zukunft nützlich wird',
     ITEM_NAME_Ancient_Sigil_Piece_Zaros: 'Uraltes Siegelstück (Zaros)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Zaros: 'Teil eines alten Siegels. Es sieht so aus, als ob die Kanten mit etwas verbunden werden sollten. Es könnte sich lohnen, ein Exemplar zu behalten, falls es in der Zukunft nützlich wird',
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Uraltes Siegelstück (Sliske)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Sliske: 'Teil eines alten Siegels. Es sieht so aus, als ob die Kanten mit etwas verbunden werden sollten. Es könnte sich lohnen, ein Exemplar zu behalten, falls es in der Zukunft nützlich wird',
 
     // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth-Höhle',

@@ -92,9 +92,13 @@ export const it = {
     ITEM_DESCRIPTION_Offhand_Shadow_Glaive: 'When equipped with Shadow Glaive, +15% Global Accurary Rating',
     ITEM_NAME_Crest_Of_Sliske: 'Crest of Sliske',
     ITEM_NAME_Ancient_Sigil_Piece_Seren: 'Ancient Sigil Piece (Seren)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Seren: 'Part of an ancient sigil. It looks like the edges should connect to something. It may be worthwhile to keep one, in case it becomes useful in the future',
     ITEM_NAME_Ancient_Sigil_Piece_Zamorak: 'Ancient Sigil Piece (Zamorak)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Zamorak: 'Part of an ancient sigil. It looks like the edges should connect to something. It may be worthwhile to keep one, in case it becomes useful in the future',
     ITEM_NAME_Ancient_Sigil_Piece_Zaros: 'Ancient Sigil Piece (Zaros)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Zaros: 'Part of an ancient sigil. It looks like the edges should connect to something. It may be worthwhile to keep one, in case it becomes useful in the future',
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Ancient Sigil Piece (Sliske)',
+    ITEM_DESCRIPTION_Ancient_Sigil_Piece_Sliske: 'Part of an ancient sigil. It looks like the edges should connect to something. It may be worthwhile to keep one, in case it becomes useful in the future',
 
     // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth lair',
