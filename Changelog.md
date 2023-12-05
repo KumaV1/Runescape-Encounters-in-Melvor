@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.6
+* Removed "Telos Dungeon Unlock" from shop purchase display, to avoid confusion
+  * Purchase still exists technically, so already made purchases aren't lost
+
 ## v1.1.5
 * Ancient effigies and spirit gem bags now also roll for dungeon minions, while also having effect of enemy combat level on droprate doubled
 * Halfed cost of ancient effigies for effigy wisdom shop purchases
