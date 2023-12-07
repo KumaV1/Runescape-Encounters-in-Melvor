@@ -101,6 +101,15 @@
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Uraltes Siegelstück (Sliske)',
     ITEM_DESCRIPTION_Ancient_Sigil_Piece_Sliske: 'Teil eines alten Siegels. Es sieht so aus, als ob die Kanten mit etwas verbunden werden sollten. Es könnte sich lohnen, ein Exemplar zu behalten, falls es in der Zukunft nützlich wird',
 
+    ITEM_NAME_Armadyl_Rune: 'Armadyl-Rune',
+    ITEM_NAME_Dust_Of_Armadyl: 'Armadyl-Staub',
+    ITEM_NAME_Shards_Of_Armadyl: 'Armadyl-Splitter',
+    ITEM_NAME_Orb_Of_Armadyl: 'Armadyl-Kugel',
+    ITEM_NAME_Armadyl_Battlestaff: 'Armadyl-Kampfstab',
+    ITEM_NAME_Steadfast_Boots: 'Stiefel der Sturmfestigkeit',
+    ITEM_NAME_Glaiven_Boots: 'Glefen-Stiefel',
+    ITEM_NAME_Ragefire_Boots: 'Zornfeuer-Stiefel',
+
     // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth-Höhle',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Höhle der Rex-Matriarchinnen',

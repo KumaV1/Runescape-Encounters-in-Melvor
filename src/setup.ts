@@ -13,6 +13,7 @@ import SharedModData from '../data/_Shared/data.json'
 import DkModData from '../data/Dagannoth Kings/data.json';
 import RmModData from '../data/Rex Matriarchs/data.json';
 import Gwd2ModData from '../data/God Wars 2/data.json';
+import GlacorModData from '../data/Glacors/data.json'
 
 // Images
 // #region Image imports
@@ -80,6 +81,14 @@ import '../assets/items/Rex Matriarchs/Savage_Spear_Cap.png'
 import '../assets/items/Rex Matriarchs/Savage_Spear_Shaft.png'
 import '../assets/items/Rex Matriarchs/Savage_Spear_Tip.png'
 import '../assets/items/Rex Matriarchs/Stalkers_Ring.png'
+import '../assets/items/Glacors/Armadyl_Battlestaff.png'
+import '../assets/items/Glacors/Armadyl_Rune.png'
+import '../assets/items/Glacors/Dust_Of_Armadyl.png'
+import '../assets/items/Glacors/Glaiven_Boots.png'
+import '../assets/items/Glacors/Orb_Of_Armadyl.png'
+import '../assets/items/Glacors/Ragefire_Boots.png'
+import '../assets/items/Glacors/Shards_Of_Armadyl.png'
+import '../assets/items/Glacors/Steadfast_Boots.png'
 import '../assets/locations/Dagannoth_Kings_Lair.png'
 import '../assets/locations/Godwars_Dungeon_2_Lair.png'
 import '../assets/locations/Rex_Matriarchs_Lair.png'
@@ -127,6 +136,9 @@ export async function setup(ctx: Modding.ModContext) {
 
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(Gwd2ModData);
+
+    // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
+    await ctx.gameData.addPackage(GlacorModData);
 
     initGlobalDroptable(ctx);
     initOverviewContainer(ctx);

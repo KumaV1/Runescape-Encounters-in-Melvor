@@ -1,0 +1,300 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "items": [
+      {
+        "name": "Armadyl rune",
+        "category": "Misc",
+        "itemType": "Item",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Armadyl_Rune.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "isArtefact": false,
+        "id": "Armadyl_Rune"
+      },
+      {
+        "name": "Dust of Armadyl",
+        "category": "Misc",
+        "itemType": "Item",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Dust_Of_Armadyl.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100,
+        "isArtefact": false,
+        "id": "Dust_Of_Armadyl"
+      },
+      {
+        "name": "Shards of Armadyl",
+        "category": "Misc",
+        "itemType": "Item",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Shards_Of_Armadyl.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1000,
+        "isArtefact": false,
+        "id": "Shards_Of_Armadyl"
+      },
+      {
+        "name": "Orb of Armadyl",
+        "category": "Misc",
+        "itemType": "Item",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Orb_Of_Armadyl.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 100000,
+        "isArtefact": false,
+        "id": "Orb_Of_Armadyl"
+      },
+      {
+        "attackType": "magic",
+        "tier": "none",
+        "validSlots": [ "Weapon" ],
+        "occupiesSlots": [ "Shield" ],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Magic",
+            "level": 77,
+            "type": "SkillLevel"
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 25
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 3
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 24
+          }
+        ],
+        "modifiers": { "increasedMaxAirSpellDmg": 20 },
+        "name": "Armadyl battlestaff",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Melee/Ranged/Magic Weapon",
+        "media": "assets/runescapeEncountersInMelvor/Armadyl_Battlestaff.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "isArtefact": false,
+        "id": "Armadyl_Battlestaff"
+      },
+      {
+        "tier": "none",
+        "validSlots": [ "Boots" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Attack",
+            "level": 80,
+            "type": "SkillLevel"
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 19
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 21
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 8
+          }
+        ],
+        "name": "Steadfast boots",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Steadfast_Boots.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "isArtefact": false,
+        "id": "Steadfast_Boots"
+      },
+      {
+        "tier": "none",
+        "validSlots": [ "Boots" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Ranged",
+            "level": 80,
+            "type": "SkillLevel"
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 6
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 5
+          }
+        ],
+        "name": "Glaiven boots",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Glaiven_Boots.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "isArtefact": false,
+        "id": "Glaiven_Boots"
+      },
+      {
+        "tier": "none",
+        "validSlots": [ "Boots" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Magic",
+            "level": 80,
+            "type": "SkillLevel"
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 7
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 8
+          }
+        ],
+        "modifiers": {
+          "increasedMinAirSpellDmg": 3,
+          "increasedMinWaterSpellDmg": 3,
+          "increasedMinEarthSpellDmg": 3,
+          "increasedMinFireSpellDmg": 3
+        },
+        "name": "Ragefire boots",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Ragefire_Boots.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "isArtefact": false,
+        "id": "Ragefire_Boots"
+      }
+    ],
+    "itemUpgrades": [
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Shards_Of_Armadyl",
+            "quantity": 1
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [ "runescapeEncountersInMelvor:Shards_Of_Armadyl" ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Dust_Of_Armadyl",
+        "isDowngrade": true,
+        "quantity": 8
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Shards_Of_Armadyl",
+            "quantity": 100
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [ "runescapeEncountersInMelvor:Shards_Of_Armadyl" ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Orb_Of_Armadyl",
+        "isDowngrade": false,
+        "quantity": 1
+      },
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Orb_Of_Armadyl",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Air_Battlestaff",
+            "quantity": 1000
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [ "runescapeEncountersInMelvor:Orb_Of_Armadyl" ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Armadyl_Battlestaff",
+        "isDowngrade": false,
+        "quantity": 1
+      }
+    ]
+  }
+}

@@ -100,6 +100,15 @@ export const it = {
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Ancient Sigil Piece (Sliske)',
     ITEM_DESCRIPTION_Ancient_Sigil_Piece_Sliske: 'Part of an ancient sigil. It looks like the edges should connect to something. It may be worthwhile to keep one, in case it becomes useful in the future',
 
+    ITEM_NAME_Armadyl_Rune: 'Armadyl rune',
+    ITEM_NAME_Dust_Of_Armadyl: 'Dust of Armadyl',
+    ITEM_NAME_Shards_Of_Armadyl: 'Shards of Armadyl',
+    ITEM_NAME_Orb_Of_Armadyl: 'Orb of Armadyl',
+    ITEM_NAME_Armadyl_Battlestaff: 'Armadyl battlestaff',
+    ITEM_NAME_Steadfast_Boots: 'Steadfast boots',
+    ITEM_NAME_Glaiven_Boots: 'Glaiven boots',
+    ITEM_NAME_Ragefire_Boots: 'Ragefire boots',
+
     // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth lair',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Rex Matriarch Lair',
