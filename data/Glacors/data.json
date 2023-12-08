@@ -861,8 +861,8 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "The glacyte does a normal attack, while also channelling its energy, which grants it ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of your turns",
-        "descriptionGenerator": "The glacyte does a normal attack, while also channelling its energy, which <prehitEffect>",
+        "description": "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which grants it ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of your turns",
+        "descriptionGenerator": "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which <prehitEffect>",
         "attackTypes": [
           "magic"
         ]
@@ -902,8 +902,8 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "The glacyte does a normal attack, while also channelling its energy, which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
-        "descriptionGenerator": "The glacyte does a normal attack, while also channelling its energy, which <prehitEffect>",
+        "description": "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
+        "descriptionGenerator": "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which <prehitEffect>",
         "attackTypes": [
           "magic"
         ]

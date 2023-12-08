@@ -212,11 +212,11 @@ export const en = {
     SPECIAL_ATTACK_NAME_Glacor_Unstable_Glacyte: "Channeled Unstable glacyte",
     SPECIAL_ATTACK_DESCRIPTION_Glacor_Unstable_Glacyte: "Channels the powers of an unstable glacyte, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
     SPECIAL_ATTACK_NAME_Enduring_Glacyte_Channeled_Energy: "Channeled energy",
-    SPECIAL_ATTACK_DESCRIPTION_Enduring_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy, which grants it ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of your turns",
+    SPECIAL_ATTACK_DESCRIPTION_Enduring_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which grants it ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of your turns",
     SPECIAL_ATTACK_NAME_Sapping_Glacyte_Channeled_Energy: "Channeled energy",
-    SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy, which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
+    SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
     SPECIAL_ATTACK_NAME_Unstable_Glacyte_Channeled_Energy: "Channeled energy",
-    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your normal damage, while ignoring all boosts to DR%",
+    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
 
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',

@@ -114,6 +114,7 @@
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth-Höhle',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Höhle der Rex-Matriarchinnen',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Verlies der Götterkriege 2 - Herz von Gielinor',
+    SLAYER_AREA_NAME_Glacor_Cave: 'Höhle der Glazioren',
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
@@ -137,6 +138,15 @@
     MONSTER_NAME_Gregorovic: 'Gregorovic',
     MONSTER_DESCRIPTION_Gregorovic: "Sliskes Geheimwaffe, eine untote Kreatur, der der Geist eines Verrückten innewohnt.",
 
+    MONSTER_NAME_Glacor: 'Glazior',
+    MONSTER_DESCRIPTION_Glacor: "Ein geheimnissvolles Eisgeschöpf",
+    MONSTER_NAME_Enduring_Glacyte: 'Standhafter Glazyt',
+    MONSTER_DESCRIPTION_Enduring_Glacyte: "Ein Eiswesen, das seine Kraft wohl aus dem Glazior in seiner Nähe schöpft",
+    MONSTER_NAME_Sapping_Glacyte: 'Zehrender Glazyt',
+    MONSTER_DESCRIPTION_Sapping_Glacyte: "Ein Eiswesen, das dir jegliche Hoffnung entziehen wird",
+    MONSTER_NAME_Unstable_Glacyte: 'Instabiler Glazyt',
+    MONSTER_DESCRIPTION_Unstable_Glacyte: "Ein Eiswesen, das äußerst unbeständig wirkt",
+
     // #### Pet names
     PET_NAME_Rex_Hatchling: 'Küken Rex',
     PET_NAME_Supreme_Hatchling: 'Küken Supreme',
@@ -148,6 +158,10 @@
     PET_NAME_Nylessa_And_Ava: 'Nylessa und Ava',
     PET_NAME_Rawrvek_And_Vindiddy: 'Rawrvek und Vindiddy',
     PET_NAME_Greg: 'Greg',
+
+    // #### Spells
+    MAGIC_SPELL_NAME_Storm_Of_Armadyl: 'Sturm des Armadyl',
+    MAGIC_AURORA_NAME_Blessing_Of_Armadyl: 'Segen des Armadyl',
 
     // #### Special attack names and descriptions
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Giftige Spitze',
@@ -162,6 +176,7 @@
     SPECIAL_ATTACK_DESCRIPTION_Pthentraken_Converging_Lightning: 'Pthentraken beschwärt 3 Blitze, welche jeweils ${attackDamageMaxValue0}% Schaden verursachen',
     SPECIAL_ATTACK_NAME_Pthentraken_Storm_Column: 'Sturmsäule',
     SPECIAL_ATTACK_DESCRIPTION_Pthentraken_Storm_Column: 'Pthentraken erzeugt eine Sturmsäule an deinem aktuellen Standort, welche ${hitCount}x ${attackDamageMaxValue0}% Schaden verursacht',
+
     SPECIAL_ATTACK_NAME_Helwyr_The_Aid_Of_Nature: 'Die Hilfe der Natur',
     SPECIAL_ATTACK_DESCRIPTION_Helwyr_The_Aid_Of_Nature: "Verursacht Blutung, welche ${onHitEffect0DamageMaxValue0}% Schaden über eine Laufzeit von ${onHitEffect0duration}s verursacht. Fügt außerdem +${onHitEffect1modValue0}% Angriffsintervall für ${onHitEffect1turns} Runden zu",
     SPECIAL_ATTACK_NAME_Helwyr_Rake_And_Rend: 'Rechen',
@@ -185,10 +200,30 @@
     SPECIAL_ATTACK_NAME_Gregorovic_Glaive_Throw: 'Glefenwurf',
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Wirft Glefen in die Luft, welche ${hitCount} mal ${attackDamageMaxValue0}% Schaden anrichten',
 
+    SPECIAL_ATTACK_NAME_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Unwetter des Armadyl",
+    SPECIAL_ATTACK_DESCRIPTION_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Führt einen Angriff aus der ${hitCount} Treffer über ${duration}s hinweg verursacht, von denen jeder ${attackDamageMaxValue0}% deines maximalen Angriffsschaden verursacht. Bei einem Treffer erhählst du -${onHitEffect0modValue0}% Angriffsintervall für ${onHitEffect0turns} deiner Runden",
+    SPECIAL_ATTACK_NAME_Glacor_Ranged_Projectile: "Fernkampfgeschoss",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Ranged_Projectile: "Greift mit einem normalen Angriff im Fernkampfstil an",
+    SPECIAL_ATTACK_NAME_Glacor_Icicle_Slam: "Eiszapfen-Schlag",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Wirft einen Eiszapfen auf den Spieler, der ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden versucht, wobei jedwede Schadensreduzierung-Boni ignoriert werden. Verursacht außerdem für ${onHitEffect0turns} Runde Frost",
+    SPECIAL_ATTACK_NAME_Glacor_Enduring_Glacyte: "Kanalysierung (Standhafter Glazyt)",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Enduring_Glacyte: "Der Glazior führt einen normalen Angriff aus, welcher gleichzeitig die Kraft eines Standhaften Glazyt kanalisiert (unabhängig davon, ob der Angriff trifft). Erleidet für ${preHitEffect0turns} Runden ${preHitEffect0modValue0}% weniger Schaden",
+    SPECIAL_ATTACK_NAME_Glacor_Sapping_Glacyte: "Kanalysierung (Zehrender Glazyt)",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Sapping_Glacyte: "Der Glazior führt einen normalen Angriff aus, welcher gleichzeitig die Kraft eines Zehrenden Glazyt kanalisiert (unabhängig davon, ob der Angriff trifft). Erhöht für ${preHitEffect0turns} Runden die Gebetspunkte-Kosten um +${preHitEffect0modValue0} und verursacht für die selbe Anzahö Runden -${preHitEffect0modValue1}% Wahrscheinlichkeit Gebetspunkte zu sparen",
+    SPECIAL_ATTACK_NAME_Glacor_Unstable_Glacyte: "Kanalysierung (Instabiler Glazyt)",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Unstable_Glacyte: "Kanalisiert die Kraft eines Instabilen Glazyt, was eine gewaltige, unvermeidbare Explosion auslöst, welche ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden verursacht, wobei jedwede Schadensreduzierungs-Boni ignoriert werden",
+    SPECIAL_ATTACK_NAME_Enduring_Glacyte_Channeled_Energy: "Kanalysierte Energie",
+    SPECIAL_ATTACK_DESCRIPTION_Enduring_Glacyte_Channeled_Energy: "Der Glazyt führt einen normalen Angriff aus, welcher gleichzeitig seine Kraft kanalisiert (unabhängig davon, ob der Angriff trifft). Erleidet für ${preHitEffect0turns} Runden ${preHitEffect0modValue0}% weniger Schaden",
+    SPECIAL_ATTACK_NAME_Sapping_Glacyte_Channeled_Energy: "Kanalysierte Energie",
+    SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "Der Glazyt führt einen normalen Angriff aus, welcher gleichzeitig seine Kraft kanalisiert (unabhängig davon, ob der Angriff trifft). Erhöht für ${preHitEffect0turns} Runden die Gebetspunkte-Kostem um +${preHitEffect0modValue0}",
+    SPECIAL_ATTACK_NAME_Unstable_Glacyte_Channeled_Energy: "Kanalysierte Energie",
+    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "Der Glazyt kanalisiert seine Energie, was eine gewaltige, unvermeidbare Explosion auslöst, welche ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden verursacht, wobei jedwede Schadensreduzierungs-Boni ignoriert werden",
+
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royale Haut (See) (Nahkampf)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
     PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royale Haut (See) (Fernkampf)',
+
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Ranged: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
     PASSIVE_NAME_Royal_Hide_Sea_Magic: 'Royale Haut (See) (Magie)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Magic: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
@@ -199,5 +234,8 @@
     PASSIVE_NAME_Rathis_Poisonous_Body: "Giftiger Körper",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royale Haut (Jura) (Magie)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
-    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Beschworene Geister'
+
+    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Beschworene Geister',
+
+    PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elementarer Schwachpunkt'
 };
