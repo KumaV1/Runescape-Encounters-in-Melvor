@@ -304,6 +304,294 @@
         "quantity": 1
       }
     ],
+    "monsters": [
+      {
+        "id": "Glacor",
+        "name": "Glacor",
+        "media": "assets/runescapeEncountersInMelvor/Glacor.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 250,
+          "Hitpoints": 1000,
+          "Magic": 450,
+          "Ranged": 375,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          }
+        ],
+        "ignoreCompletion": true,
+        "attackType": "magic",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Glacor_Ranged_Projectile",
+          "runescapeEncountersInMelvor:Glacor_Icicle_Slam",
+          "runescapeEncountersInMelvor:Glacor_Enduring_Glacyte",
+          "runescapeEncountersInMelvor:Glacor_Sapping_Glacyte",
+          "runescapeEncountersInMelvor:Glacor_Unstable_Glacyte"
+        ],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Adamant_Arrowtips",
+            "minQuantity": 19,
+            "maxQuantity": 49,
+            "weight": 85
+          },
+          {
+            "itemID": "melvorD:Headless_Arrows",
+            "minQuantity": 50,
+            "maxQuantity": 300,
+            "weight": 60
+          },
+          {
+            "itemID": "melvorD:Rune_Essence",
+            "minQuantity": 31,
+            "maxQuantity": 50,
+            "weight": 40
+          },
+          {
+            "itemID": "melvorD:Death_Rune",
+            "minQuantity": 16,
+            "maxQuantity": 25,
+            "weight": 30
+          },
+          {
+            "itemID": "melvorD:Watermelon_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Herb",
+            "minQuantity": 2,
+            "maxQuantity": 4,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Oak_Tree_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 17
+          },
+          {
+            "itemID": "melvorD:Shark",
+            "minQuantity": 1,
+            "maxQuantity": 6,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Raw_Shark",
+            "minQuantity": 4,
+            "maxQuantity": 10,
+            "weight": 20
+          },
+          {
+            "itemID": "melvorD:Blue_Dragonhide",
+            "minQuantity": 5,
+            "maxQuantity": 10,
+            "weight": 15
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 2,
+            "weight": 15
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 15
+          },
+          {
+            "itemID": "melvorF:Magic_Assistance_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 25
+          },
+          {
+            "itemID": "melvorF:Magic_Damage_Potion_II",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 25
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Shards_Of_Armadyl",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 50
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Steadfast_Boots",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Glaiven_Boots",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Ragefire_Boots",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 250,
+          "max": 2000
+        },
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WaterWave",
+        "description": "A mysterious ice creature"
+      },
+      {
+        "id": "Enduring_Glacyte",
+        "name": "Enduring glacyte",
+        "media": "assets/runescapeEncountersInMelvor/Enduring_Glacyte.png",
+        "levels": {
+          "Attack": 275,
+          "Defence": 200,
+          "Hitpoints": 300,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 275
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          }
+        ],
+        "ignoreCompletion": true,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Enduring_Glacyte_Channeled_Energy"
+        ],
+        "passives": [],
+        "lootChance": 4,
+        "lootTable": [
+          {
+            "itemID": "runescapeEncountersInMelvor:Shards_Of_Armadyl",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 50,
+          "max": 500
+        },
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "An ice creature. It looks to be drawing its strength from the nearby glacor."
+      },
+      {
+        "id": "Sapping_Glacyte",
+        "name": "Sapping glacyte",
+        "media": "assets/runescapeEncountersInMelvor/Sapping_Glacyte.png",
+        "levels": {
+          "Attack": 275,
+          "Defence": 200,
+          "Hitpoints": 300,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 275
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          }
+        ],
+        "ignoreCompletion": true,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Sapping_Glacyte_Channeled_Energy"
+        ],
+        "passives": [],
+        "lootChance": 4,
+        "lootTable": [
+          {
+            "itemID": "runescapeEncountersInMelvor:Shards_Of_Armadyl",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 50,
+          "max": 500
+        },
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "An ice creature, ready to drain you of all hope."
+      },
+      {
+        "id": "Unstable_Glacyte",
+        "name": "Unstable glacyte",
+        "media": "assets/runescapeEncountersInMelvor/Unstable_Glacyte.png",
+        "levels": {
+          "Attack": 275,
+          "Defence": 200,
+          "Hitpoints": 300,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 275
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          }
+        ],
+        "ignoreCompletion": true,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Unstable_Glacyte_Channeled_Energy"
+        ],
+        "passives": [],
+        "lootChance": 4,
+        "lootTable": [
+          {
+            "itemID": "runescapeEncountersInMelvor:Shards_Of_Armadyl",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 50,
+          "max": 500
+        },
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "description": "An ice creature. It looks highly unstable!"
+      }
+    ],
     "attacks": [
       {
         "id": "Armadyl_Battlestaff_Tempest_Of_Armadyl",
@@ -340,6 +628,363 @@
           "magic"
         ],
         "descriptionGenerator": "Launches an attack causing ${hitCount} hits across ${duration}s, each dealing <damage>. On a hit, <hitEffect>"
+      },
+      {
+        "id": "Glacor_Ranged_Projectile",
+        "name": "Ranged projectile",
+        "defaultChance": 25,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 1,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Attacks with a ranged-style normal attack",
+        "attackTypes": [
+          "ranged"
+        ]
+      },
+      {
+        "id": "Glacor_Icicle_Slam",
+        "name": "Icicle Slam",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Target",
+            "roll": false,
+            "maxRoll": "CurrentHP",
+            "maxPercent": 50
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 0,
+            "character": "Target",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedDamageReduction": 500
+            },
+            "media": "assets/runescapeEncountersInMelvor/Glacor.png"
+          }
+        ],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Stun",
+            "turns": 1,
+            "chance": 100,
+            "flavour": "Freeze"
+          },
+          {
+            "effectType": "Slow",
+            "magnitude": 30,
+            "turns": 1
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Throws an icicle at the player, dealing ${attackDamageMaxValue0}% of the enemy's current hitpoints, while ignoring all boosts to DR%. Also applies freeze for ${onHitEffect0turns} turn",
+        "attackTypes": [
+          "magic"
+        ],
+        "descriptionGenerator": "Throws an icicle at the player, dealing <damage>, while ignoring all boosts to DR%. Also <hitEffect>"
+      },
+      {
+        "id": "Glacor_Enduring_Glacyte",
+        "name": "Channeled Enduring Glacyte",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 1,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 3,
+            "character": "Attacker",
+            "countsOn": "Attacker",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedDamageTaken": 35
+            },
+            "media": "assets/runescapeEncountersInMelvor/Enduring_Glacyte.png"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "The glacor does a normal attack, while also channelling the power of an Enduring glacyte (regardless of whether the attack lands), which gives the enemy ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of the enemy's turns",
+        "descriptionGenerator": "The glacor does a normal attack, while also channelling the power of an Enduring glacyte (regardless of whether the attack lands), which <prehitEffect>",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Glacor_Sapping_Glacyte",
+        "name": "Channeled Sapping glacyte",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 1,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 3,
+            "character": "Target",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedFlatPrayerCostReduction": 3,
+              "decreasedChanceToPreservePrayerPoints": 500
+            },
+            "media": "assets/runescapeEncountersInMelvor/Sapping_Glacyte.png"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "The glacor does a normal attack, while also channelling the power of a Sapping glacyte (regardless of whether the attack lands), which gives you +${preHitEffect0modValue0} Prayer Point Cost for Prayers and -${preHitEffect0modValue1}% Chance To Preserve Prayer Points for ${preHitEffect0turns} of your turns",
+        "descriptionGenerator": "The glacor does a normal attack, while also channelling the power of a Sapping glacyte (regardless of whether the attack lands), which <prehitEffect>",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Glacor_Unstable_Glacyte",
+        "name": "Channeled Unstable glacyte",
+        "defaultChance": 10,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Target",
+            "roll": false,
+            "maxRoll": "CurrentHP",
+            "maxPercent": 99
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 0,
+            "character": "Target",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedDamageReduction": 500
+            },
+            "media": "assets/runescapeEncountersInMelvor/Unstable_Glacyte.png"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": true,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Channels the powers of an unstable glacyte, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
+        "descriptionGenerator": "Channels the powers of an unstable glacyte, causing a massive <avoidable> explosion dealing <damage>, while ignoring all boosts to DR%"
+      },
+      {
+        "id": "Enduring_Glacyte_Channeled_Energy",
+        "name": "Channeled energy",
+        "defaultChance": 25,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 1,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 3,
+            "character": "Attacker",
+            "countsOn": "Attacker",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedDamageTaken": 25
+            },
+            "media": "assets/runescapeEncountersInMelvor/Enduring_Glacyte.png"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "The glacyte does a normal attack, while also channelling its energy, which grants it ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of your turns",
+        "descriptionGenerator": "The glacyte does a normal attack, while also channelling its energy, which <prehitEffect>",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Sapping_Glacyte_Channeled_Energy",
+        "name": "Channeled energy",
+        "defaultChance": 25,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 1,
+            "maxRoll": "MaxHit",
+            "maxPercent": 100
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 3,
+            "character": "Target",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedFlatPrayerCostReduction": 2
+            },
+            "media": "assets/runescapeEncountersInMelvor/Sapping_Glacyte.png"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "The glacyte does a normal attack, while also channelling its energy, which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
+        "descriptionGenerator": "The glacyte does a normal attack, while also channelling its energy, which <prehitEffect>",
+        "attackTypes": [
+          "magic"
+        ]
+      },
+      {
+        "id": "Unstable_Glacyte_Channeled_Energy",
+        "name": "Channeled energy",
+        "defaultChance": 25,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Target",
+            "roll": false,
+            "maxRoll": "CurrentHP",
+            "maxPercent": 90
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 0,
+            "character": "Target",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedDamageReduction": 500
+            },
+            "media": "assets/runescapeEncountersInMelvor/Unstable_Glacyte.png"
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": true,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your normal damage, while ignoring all boosts to DR%",
+        "descriptionGenerator": "The glacyte channels its energy, causing a massive unavoidable explosion dealing <damage>, while ignoring all boosts to DR%",
+        "attackTypes": [
+          "magic"
+        ]
+      }
+    ],
+    "slayerAreas": [
+      {
+        "id": "Glacor_Cave",
+        "name": "Glacor Cave",
+        "media": "assets/runescapeEncountersInMelvor/Glacor.png",
+        "difficulty": [
+          3,
+          4
+        ],
+        "monsterIDs": [
+          "runescapeEncountersInMelvor:Unstable_Glacyte",
+          "runescapeEncountersInMelvor:Sapping_Glacyte",
+          "runescapeEncountersInMelvor:Enduring_Glacyte",
+          "runescapeEncountersInMelvor:Glacor"
+        ],
+        "entryRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Slayer",
+            "level": 75
+          }
+        ],
+        "areaEffect": {
+          "target": "Player",
+          "modifier": "increasedAttackIntervalPercent",
+          "magnitude": 35
+        },
+        "areaEffectDescription": "-${effectValue}% attack interval"
+      }
+    ],
+    "slayerAreaDisplayOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Perilous_Peaks",
+        "ids": [
+          "runescapeEncountersInMelvor:Glacor_Cave"
+        ]
       }
     ]
   }

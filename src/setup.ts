@@ -103,6 +103,10 @@ import '../assets/monsters/God Wars 2/Helwyr.png'
 import '../assets/monsters/Rex Matriarchs/Orikalka.png'
 import '../assets/monsters/Rex Matriarchs/Pthentraken.png'
 import '../assets/monsters/Rex Matriarchs/Rathis.png'
+import '../assets/monsters/Glacors/Glacor.png'
+import '../assets/monsters/Glacors/Enduring_Glacyte.png'
+import '../assets/monsters/Glacors/Sapping_Glacyte.png'
+import '../assets/monsters/Glacors/Unstable_Glacyte.png'
 import '../assets/pets/Dagannoth Kings/Prime_hatchling.png'
 import '../assets/pets/Dagannoth Kings/Rex_hatchling.png'
 import '../assets/pets/Dagannoth Kings/Supreme_hatchling.png'
@@ -176,8 +180,8 @@ function initLanguage(ctx: Modding.ModContext) {
         'ITEM_NAME',
         'ITEM_DESCRIPTION',
         'COMBAT_AREA_NAME',
-        'COMBAT_SLAYER_NAME',
-        'COMBAT_DUNGEON_NAME',
+        'SLAYER_AREA_NAME',
+        'DUNGEON_NAME',
         'MONSTER_NAME',
         'MONSTER_DESCRIPTION',
         'PET_NAME',

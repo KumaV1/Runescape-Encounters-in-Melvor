@@ -114,6 +114,7 @@ export const en = {
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth lair',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Rex Matriarch Lair',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Godwars Dungeon 2 - Heart of Gielinor',
+    SLAYER_AREA_NAME_Glacor_Cave: 'Glacor Cave',
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
@@ -136,6 +137,15 @@ export const en = {
     MONSTER_DESCRIPTION_Gorvek_And_Vindicta: "If one wasn't enough...",
     MONSTER_NAME_Gregorovic: 'Gregorovic',
     MONSTER_DESCRIPTION_Gregorovic: "Sliske's secret weapon, an undead creature housing the mind of a madman.",
+
+    MONSTER_NAME_Glacor: 'Glacor',
+    MONSTER_DESCRIPTION_Glacor: "A mysterious ice creature",
+    MONSTER_NAME_Enduring_Glacyte: 'Enduring glacyte',
+    MONSTER_DESCRIPTION_Enduring_Glacyte: "An ice creature. It looks to be drawing its strength from the nearby glacor",
+    MONSTER_NAME_Sapping_Glacyte: 'Sapping glacyte',
+    MONSTER_DESCRIPTION_Sapping_Glacyte: "An ice creature, ready to drain you of all hope",
+    MONSTER_NAME_Unstable_Glacyte: 'Unstable glacyte',
+    MONSTER_DESCRIPTION_Unstable_Glacyte: "An ice creature. It looks highly unstable",
 
     // #### Pet names
     PET_NAME_Rex_Hatchling: 'Rex Hatchling',
@@ -187,6 +197,22 @@ export const en = {
 
     SPECIAL_ATTACK_NAME_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Tempest of Armadyl",
     SPECIAL_ATTACK_DESCRIPTION_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Launches an attack causing ${hitCount} hits across ${duration}s, each dealing ${attackDamageMaxValue0}% of your normal damage. On a hit, gives you -${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of your turns",
+    SPECIAL_ATTACK_NAME_Glacor_Ranged_Projectile: "Ranged projectile",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Ranged_Projectile: "Attacks with a ranged-style normal attack",
+    SPECIAL_ATTACK_NAME_Glacor_Icicle_Slam: "Icicle Slam",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Throws an icicle at the player, dealing ${attackDamageMaxValue0}% of the enemy's current hitpoints, while ignoring all boosts to DR%. Also applies freeze for ${onHitEffect0turns} turn",
+    SPECIAL_ATTACK_NAME_Glacor_Enduring_Glacyte: "Channeled Enduring Glacyte",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Enduring_Glacyte: "The glacor does a normal attack, while also channelling the power of an Enduring glacyte (regardless of whether the attack lands), which gives the enemy ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of the enemy's turns",
+    SPECIAL_ATTACK_NAME_Glacor_Sapping_Glacyte: "Channeled Sapping glacyte",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Sapping_Glacyte: "The glacor does a normal attack, while also channelling the power of a Sapping glacyte (regardless of whether the attack lands), which gives you +${preHitEffect0modValue0} Prayer Point Cost for Prayers and -${preHitEffect0modValue1}% Chance To Preserve Prayer Points for ${preHitEffect0turns} of your turns",
+    SPECIAL_ATTACK_NAME_Glacor_Unstable_Glacyte: "Channeled Unstable glacyte",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Unstable_Glacyte: "Channels the powers of an unstable glacyte, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
+    SPECIAL_ATTACK_NAME_Enduring_Glacyte_Channeled_Energy: "Channeled energy",
+    SPECIAL_ATTACK_DESCRIPTION_Enduring_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy, which grants it ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of your turns",
+    SPECIAL_ATTACK_NAME_Sapping_Glacyte_Channeled_Energy: "Channeled energy",
+    SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy, which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
+    SPECIAL_ATTACK_NAME_Unstable_Glacyte_Channeled_Energy: "Channeled energy",
+    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your normal damage, while ignoring all boosts to DR%",
 
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',
@@ -202,5 +228,6 @@ export const en = {
     PASSIVE_NAME_Rathis_Poisonous_Body: "Poisonous Body",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits'
+    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits',
+    PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elemental Weakness'
 };
