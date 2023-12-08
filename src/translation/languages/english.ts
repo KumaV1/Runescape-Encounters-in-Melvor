@@ -105,6 +105,7 @@ export const en = {
     ITEM_NAME_Shards_Of_Armadyl: 'Shards of Armadyl',
     ITEM_NAME_Orb_Of_Armadyl: 'Orb of Armadyl',
     ITEM_NAME_Armadyl_Battlestaff: 'Armadyl battlestaff',
+    ITEM_DESCRIPTION_Armadyl_Battlestaff: '${modifierTinyIcons0}+200 Maximum Air Spell Dmg. Reduces the Air Rune cost of Magic Spells by 7 when equipped as a Weapon',
     ITEM_NAME_Steadfast_Boots: 'Steadfast boots',
     ITEM_NAME_Glaiven_Boots: 'Glaiven boots',
     ITEM_NAME_Ragefire_Boots: 'Ragefire boots',
@@ -183,6 +184,9 @@ export const en = {
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Trick_Knife: "Throws a trick knife, dealing ${attackDamageMaxValue0}% of the enemy's normal damage ${hitCount} times",
     SPECIAL_ATTACK_NAME_Gregorovic_Glaive_Throw: 'Glaive throw',
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Throws glaives into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times',
+
+    SPECIAL_ATTACK_NAME_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Tempest of Armadyl",
+    SPECIAL_ATTACK_DESCRIPTION_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Launches an attack causing ${hitCount} hits across ${duration}s, each dealing ${attackDamageMaxValue0}% of your normal damage. On a hit, gives you -${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of your turns",
 
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',

@@ -89,18 +89,26 @@
             "value": 24
           }
         ],
+        "specialAttacks": [ "runescapeEncountersInMelvor:Armadyl_Battlestaff_Tempest_Of_Armadyl" ],
         "modifiers": { "increasedMaxAirSpellDmg": 20 },
+        "providedRunes": [
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 7
+          }
+        ],
         "name": "Armadyl battlestaff",
         "category": "Combat",
-        "itemType": "Equipment",
-        "type": "Melee/Ranged/Magic Weapon",
+        "itemType": "Weapon",
+        "type": "Magic Weapon",
         "media": "assets/runescapeEncountersInMelvor/Armadyl_Battlestaff.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
         "isArtefact": false,
-        "id": "Armadyl_Battlestaff"
+        "id": "Armadyl_Battlestaff",
+        "customDescription": "+200 Maximum Air Spell Dmg. Reduces the Air Rune cost of Magic Spells by 97 when equipped as a Weapon"
       },
       {
         "tier": "none",
@@ -294,6 +302,44 @@
         "upgradedItemID": "runescapeEncountersInMelvor:Armadyl_Battlestaff",
         "isDowngrade": false,
         "quantity": 1
+      }
+    ],
+    "attacks": [
+      {
+        "id": "Armadyl_Battlestaff_Tempest_Of_Armadyl",
+        "name": "Tempest of Armadyl",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 40
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 3,
+            "character": "Attacker",
+            "countsOn": "Attacker",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedAttackIntervalPercent": 20
+            },
+            "media": "assets/runescapeEncountersInMelvor/Storm_Of_Armadyl.png"
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Launches an attack causing ${hitCount} hits across ${duration}s, each dealing ${attackDamageMaxValue0}% of your normal damage. On a hit, gives you -${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of your turns",
+        "attackTypes": [
+          "magic"
+        ],
+        "descriptionGenerator": "Launches an attack causing ${hitCount} hits across ${duration}s, each dealing <damage>. On a hit, <hitEffect>"
       }
     ]
   }

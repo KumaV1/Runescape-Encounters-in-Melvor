@@ -1,11 +1,12 @@
 // Modules
 // You can import script modules and have full type completion
 import { Constants } from './Constants';
+import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
+import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
+import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
+import { TinyIconsCompatibility } from './compatibility/TinyIconsCompatibility';
 import { Translation } from './translation/Translation';
 import { languages } from './translation/languages'
-import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
-import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
-import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
 
 // Data
 // Game data for registration
@@ -113,6 +114,7 @@ import '../assets/pets/Rex Matriarchs/Bagra.png'
 import '../assets/pets/Rex Matriarchs/Corbi.png'
 import '../assets/pets/Rex Matriarchs/Pavo.png'
 import '../assets/status/Rex Matriarchs/Corrosion.png'
+import '../assets/spells/Glacors/Storm_Of_Armadyl.png'
 import '../assets/_Shared/Logo.png'
 import '../assets/_Shared/Shop.png'
 import '../assets/_Shared/Weapon_Special_Attack.png'
@@ -232,4 +234,6 @@ function initOverviewContainer(ctx: Modding.ModContext) {
 function initModCompatibility(ctx: Modding.ModContext) {
     const cmimCompatiblity = new CustomModifiersInMelvorCompatibility(ctx);
     cmimCompatiblity.patch();
+
+    TinyIconsCompatibility.initialize(ctx);
 }
