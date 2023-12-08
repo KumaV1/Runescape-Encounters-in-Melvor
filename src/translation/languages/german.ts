@@ -106,6 +106,7 @@
     ITEM_NAME_Shards_Of_Armadyl: 'Armadyl-Splitter',
     ITEM_NAME_Orb_Of_Armadyl: 'Armadyl-Kugel',
     ITEM_NAME_Armadyl_Battlestaff: 'Armadyl-Kampfstab',
+    ITEM_DESCRIPTION_Armadyl_Battlestaff: '${modifierTinyIcons0}+200 Maximalschaden bei Luftzaubern. Wenn als Waffe ausgerüstet, werden die Luft-Runen-Kosten von Magie-Zaubern um 7 reduziert',
     ITEM_NAME_Steadfast_Boots: 'Stiefel der Sturmfestigkeit',
     ITEM_NAME_Glaiven_Boots: 'Glefen-Stiefel',
     ITEM_NAME_Ragefire_Boots: 'Zornfeuer-Stiefel',
