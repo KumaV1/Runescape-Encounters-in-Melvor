@@ -986,6 +986,83 @@
           "runescapeEncountersInMelvor:Glacor_Cave"
         ]
       }
+    ],
+    "skillData": [
+      {
+        "skillID": "melvorD:Runecrafting",
+        "data": {
+          "recipes": [
+            {
+              "id": "Armadyl_Rune",
+              "level": 72,
+              "productID": "runescapeEncountersInMelvor:Armadyl_Rune",
+              "baseQuantity": 1,
+              "baseExperience": 19,
+              "categoryID": "melvorF:StandardRunes",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Rune_Essence",
+                  "quantity": 1
+                },
+                {
+                  "id": "runescapeEncountersInMelvor:Dust_Of_Armadyl",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            }
+          ]
+        }
+      }
+    ],
+    "standardSpells": [
+      {
+        "id": "Storm_Of_Armadyl",
+        "name": "Storm of Armadyl",
+        "media": "assets/runescapeEncountersInMelvor/Storm_Of_Armadyl.png",
+        "level": 77,
+        "runesRequired": [
+          {
+            "id": "runescapeEncountersInMelvor:Armadyl_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 15
+          }
+        ],
+        "maxHit": 28.5,
+        "spellType": "Air",
+        "spellTier": "Other",
+        "requiredItemID": "runescapeEncountersInMelvor:Armadyl_Battlestaff"
+      }
+    ],
+    "auroraSpells": [
+      {
+        "id": "Blessing_Of_Armadyl",
+        "name": "Blessing of Armadyl",
+        "media": "assets/runescapeEncountersInMelvor/Storm_Of_Armadyl.png",
+        "level": 80,
+        "runesRequired": [
+          {
+            "id": "runescapeEncountersInMelvor:Armadyl_Rune",
+            "quantity": 1
+          },
+          {
+            "id": "melvorD:Light_Rune",
+            "quantity": 3
+          },
+          {
+            "id": "melvorD:Air_Rune",
+            "quantity": 10
+          }
+        ],
+        "modifiers": {
+          "decreasedAttackIntervalPercent": 20
+        },
+        "requiredItemID": "runescapeEncountersInMelvor:Armadyl_Battlestaff"
+      }
     ]
   }
 }

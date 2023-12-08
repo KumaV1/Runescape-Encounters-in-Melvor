@@ -179,6 +179,8 @@ function initLanguage(ctx: Modding.ModContext) {
         'SHOP_DESCRIPTION',
         'ITEM_NAME',
         'ITEM_DESCRIPTION',
+        'MAGIC_SPELL_NAME',
+        'MAGIC_AURORA_NAME',
         'COMBAT_AREA_NAME',
         'SLAYER_AREA_NAME',
         'DUNGEON_NAME',

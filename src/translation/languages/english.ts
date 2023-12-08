@@ -159,6 +159,10 @@ export const en = {
     PET_NAME_Rawrvek_And_Vindiddy: 'Rawrvek and Vindiddy',
     PET_NAME_Greg: 'Greg',
 
+    // #### Spells
+    MAGIC_SPELL_NAME_Storm_Of_Armadyl: 'Storm of Armadyl',
+    MAGIC_AURORA_NAME_Blessing_Of_Armadyl: 'Blessing of Armadyl',
+
     // #### Special attack names and descriptions
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Poisonous tip',
     SPECIAL_ATTACK_DESCRIPTION_Laniakeas_Spear_Poisonous_Tip: "Deals ${attackDamageMaxValue0}% of your normal damage and inflicts Poison that deals ${onHitEffect0DamageMaxValue0}% of the enemy's max hitpoints as damage over ${onHitEffect0duration}s",

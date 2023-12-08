@@ -149,5 +149,21 @@ export class Translation {
 
             return patch();
         });
+
+        this.context.patch(StandardSpell, 'name').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`MAGIC_SPELL_NAME_${this.localID}`);
+            }
+
+            return patch();
+        })
+
+        this.context.patch(AuroraSpell, 'name').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`MAGIC_AURORA_NAME_${this.localID}`);
+            }
+
+            return patch();
+        })
     }
 }
