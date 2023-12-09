@@ -4,8 +4,7 @@
 * Added glacor cave
   * New monsters
   * T80 boots
-  * T77 staff
-  * New standard spell and aurora spell
+  * T77 staff, that also enables a new standard and a new aurora spell
 
 ## v1.1.6
 * Removed "Telos Dungeon Unlock" from shop purchase display, to avoid confusion

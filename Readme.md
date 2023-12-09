@@ -9,27 +9,37 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
 * The content of the mod is likely still unbalanced. Please feel free to let me know about any issues or suggestions
 * As always, if you want to be save, create a save file first (although the mod currently only consists of assets and data, so it shouldn't brick your game)
 
-
 # Content
 * While the summary mentions OSRS, there is currently no OSRS specific content in this mod (though there is Dagannoth Kings at least)
-* Currently all added as Combat areas
 
 ## Global droptable
 * Several items separately rolled for by all or a certain group of monsters
 
 ## Dagannoth Kings
+* Combat Area
 * Meant to be somewhat low-level encounters
 * Rewards T30 rings
+* All monsters are a boss and have a pet drop
 
 ## Rex Matriarchs
+* Combat Area
 * Meant to be somewhat mid-level encounters
 * Rewards T60 rings (Ugrades to T30 rings) and a T70 melee 2h weapon with poison effect and lifesteal on poison
+* All monsters are a boss and have a pet drop
 
 ## God Wars Dungeon 2 - Heart of Gielinor
 * Meant to be around the same level as God Dungeons
-* Rewards T80 armour and weapons for all combat styles
+* Rewards T80 armour (helmet, body, legs) and weapons for all combat styles
   * Armour has slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
   * Weapons currently have around same offense bonus as other Weapons of the same tier, but with a 15% accuracy boost on top of it
+* All monsters are a boss and have a pet drop
+
+## Glacors
+* Meant be not quite GWD2 level, but also not too weak
+* Rewards
+  * T80 boots
+    * slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
+  * T77 staff, that also enables a new standard and a new aurora spell
 
 # Ideas (no promises)
 
