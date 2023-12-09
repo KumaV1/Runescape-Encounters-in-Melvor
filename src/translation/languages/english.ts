@@ -102,6 +102,7 @@ export const en = {
 
     ITEM_NAME_Armadyl_Rune: 'Armadyl rune',
     ITEM_NAME_Dust_Of_Armadyl: 'Dust of Armadyl',
+    ITEM_DESCRIPTION_Dust_Of_Armadyl: 'Useful for creating Armadyl runes',
     ITEM_NAME_Shards_Of_Armadyl: 'Shards of Armadyl',
     ITEM_NAME_Orb_Of_Armadyl: 'Orb of Armadyl',
     ITEM_NAME_Armadyl_Battlestaff: 'Armadyl battlestaff',
@@ -232,6 +233,8 @@ export const en = {
     PASSIVE_NAME_Rathis_Poisonous_Body: "Poisonous Body",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits',
+
     PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elemental Weakness'
 };

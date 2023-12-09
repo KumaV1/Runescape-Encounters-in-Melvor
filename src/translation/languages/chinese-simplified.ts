@@ -102,6 +102,7 @@ export const zhCN = {
 
     ITEM_NAME_Armadyl_Rune: 'Armadyl rune',
     ITEM_NAME_Dust_Of_Armadyl: 'Dust of Armadyl',
+    ITEM_DESCRIPTION_Dust_Of_Armadyl: 'Useful for creating Armadyl runes',
     ITEM_NAME_Shards_Of_Armadyl: 'Shards of Armadyl',
     ITEM_NAME_Orb_Of_Armadyl: 'Orb of Armadyl',
     ITEM_NAME_Armadyl_Battlestaff: 'Armadyl battlestaff',
@@ -216,7 +217,7 @@ export const zhCN = {
     SPECIAL_ATTACK_NAME_Sapping_Glacyte_Channeled_Energy: "Channeled energy",
     SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
     SPECIAL_ATTACK_NAME_Unstable_Glacyte_Channeled_Energy: "Channeled energy",
-    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your normal damage, while ignoring all boosts to DR%",
+    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
 
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',
@@ -232,6 +233,8 @@ export const zhCN = {
     PASSIVE_NAME_Rathis_Poisonous_Body: "Poisonous Body",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
+
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits',
+
     PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elemental Weakness'
 };

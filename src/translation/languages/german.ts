@@ -103,6 +103,7 @@
 
     ITEM_NAME_Armadyl_Rune: 'Armadyl-Rune',
     ITEM_NAME_Dust_Of_Armadyl: 'Armadyl-Staub',
+    ITEM_DESCRIPTION_Dust_Of_Armadyl: 'Nützlich um Armadyl-Runen herzustellen',
     ITEM_NAME_Shards_Of_Armadyl: 'Armadyl-Splitter',
     ITEM_NAME_Orb_Of_Armadyl: 'Armadyl-Kugel',
     ITEM_NAME_Armadyl_Battlestaff: 'Armadyl-Kampfstab',

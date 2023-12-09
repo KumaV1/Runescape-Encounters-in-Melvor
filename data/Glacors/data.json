@@ -27,7 +27,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 100,
         "isArtefact": false,
-        "id": "Dust_Of_Armadyl"
+        "id": "Dust_Of_Armadyl",
+        "customDescription": "Useful for creating Armadyl runes"
       },
       {
         "name": "Shards of Armadyl",
