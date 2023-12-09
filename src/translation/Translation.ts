@@ -1,4 +1,5 @@
 ﻿import { Constants } from '../Constants'
+import { TinyIconsCompatibility } from '../compatibility/TinyIconsCompatibility'
 
 /**
  * Patches a couple name/description getters, so they access our integrated localization
@@ -19,11 +20,27 @@ export class Translation {
         });
 
         this.context.patch(Item, 'description').get(function (patch) {
-            if (this.namespace === Constants.MOD_NAMESPACE && this._customDescription !== undefined) {
-                return getLangString(`ITEM_DESCRIPTION_${this.localID}`);
+            // If the item is not of this mod, or does not have a custom description (instead being auto-generated if having a description at all),
+            // then do not run any special logic
+            if (this.namespace !== Constants.MOD_NAMESPACE || this._customDescription === undefined) {
+                return patch();
             }
 
-            return patch();
+            const localized = getLangString(`ITEM_DESCRIPTION_${this.localID}`);
+
+            // If the item is not one of those that deserve/require special treatment, just return the lang string
+            if (this.localID !== "Armadyl_Battlestaff") {
+                return localized;
+            }
+
+            // Currently, said special treatment is just injecting tiny icons into custom descriptions.
+            // The tiny icons mod has an endpoint to retrieve that, which also honors its "secondary icon" setting (the value parameter is technically redundant for non SkillModifier-type modifiers, though)
+            return TinyIconsCompatibility.globalIconsEnabled()
+                ? localized.replace("${modifierTinyIcons0}", mod.api.tinyIcons.getIconHTMLForModifier("increasedMaxAirSpellDmg", 200, true) ?? "")
+                : localized.replace("${modifierTinyIcons0}", "");
+
+            // REMARK: Above code could be moved to a method, with a standardized name of placeholders
+            // and the method checking the "modifier object" and looping through it to run the replace functionality
         });
 
         this.context.patch(ShopPurchase, 'name').get(function (patch) {
@@ -132,5 +149,21 @@ export class Translation {
 
             return patch();
         });
+
+        this.context.patch(StandardSpell, 'name').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`MAGIC_SPELL_NAME_${this.localID}`);
+            }
+
+            return patch();
+        })
+
+        this.context.patch(AuroraSpell, 'name').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`MAGIC_AURORA_NAME_${this.localID}`);
+            }
+
+            return patch();
+        })
     }
 }

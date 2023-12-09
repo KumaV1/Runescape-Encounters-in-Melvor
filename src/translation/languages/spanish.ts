@@ -100,10 +100,22 @@ export const es = {
     ITEM_NAME_Ancient_Sigil_Piece_Sliske: 'Ancient Sigil Piece (Sliske)',
     ITEM_DESCRIPTION_Ancient_Sigil_Piece_Sliske: 'Part of an ancient sigil. It looks like the edges should connect to something. It may be worthwhile to keep one, in case it becomes useful in the future',
 
+    ITEM_NAME_Armadyl_Rune: 'Armadyl rune',
+    ITEM_NAME_Dust_Of_Armadyl: 'Dust of Armadyl',
+    ITEM_DESCRIPTION_Dust_Of_Armadyl: 'Useful for creating Armadyl runes',
+    ITEM_NAME_Shards_Of_Armadyl: 'Shards of Armadyl',
+    ITEM_NAME_Orb_Of_Armadyl: 'Orb of Armadyl',
+    ITEM_NAME_Armadyl_Battlestaff: 'Armadyl battlestaff',
+    ITEM_DESCRIPTION_Armadyl_Battlestaff: '${modifierTinyIcons0}+200 Maximum Air Spell Dmg. Reduces the Air Rune cost of Magic Spells by 7 when equipped as a Weapon',
+    ITEM_NAME_Steadfast_Boots: 'Steadfast boots',
+    ITEM_NAME_Glaiven_Boots: 'Glaiven boots',
+    ITEM_NAME_Ragefire_Boots: 'Ragefire boots',
+
     // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth lair',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Rex Matriarch Lair',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Godwars Dungeon 2 - Heart of Gielinor',
+    SLAYER_AREA_NAME_Glacor_Cave: 'Glacor Cave',
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
@@ -127,6 +139,15 @@ export const es = {
     MONSTER_NAME_Gregorovic: 'Gregorovic',
     MONSTER_DESCRIPTION_Gregorovic: "Sliske's secret weapon, an undead creature housing the mind of a madman.",
 
+    MONSTER_NAME_Glacor: 'Glacor',
+    MONSTER_DESCRIPTION_Glacor: "A mysterious ice creature",
+    MONSTER_NAME_Enduring_Glacyte: 'Enduring glacyte',
+    MONSTER_DESCRIPTION_Enduring_Glacyte: "An ice creature. It looks to be drawing its strength from the nearby glacor",
+    MONSTER_NAME_Sapping_Glacyte: 'Sapping glacyte',
+    MONSTER_DESCRIPTION_Sapping_Glacyte: "An ice creature, ready to drain you of all hope",
+    MONSTER_NAME_Unstable_Glacyte: 'Unstable glacyte',
+    MONSTER_DESCRIPTION_Unstable_Glacyte: "An ice creature. It looks highly unstable",
+
     // #### Pet names
     PET_NAME_Rex_Hatchling: 'Rex Hatchling',
     PET_NAME_Supreme_Hatchling: 'Supreme Hatchling',
@@ -138,6 +159,10 @@ export const es = {
     PET_NAME_Nylessa_And_Ava: 'Nylessa and Ava',
     PET_NAME_Rawrvek_And_Vindiddy: 'Rawrvek and Vindiddy',
     PET_NAME_Greg: 'Greg',
+
+    // #### Spells
+    MAGIC_SPELL_NAME_Storm_Of_Armadyl: 'Storm of Armadyl',
+    MAGIC_AURORA_NAME_Blessing_Of_Armadyl: 'Blessing of Armadyl',
 
     // #### Special attack names and descriptions
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Poisonous tip',
@@ -175,6 +200,25 @@ export const es = {
     SPECIAL_ATTACK_NAME_Gregorovic_Glaive_Throw: 'Glaive throw',
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Throws glaives into the air, dealing ${attackDamageMaxValue0}% damage ${hitCount} times',
 
+    SPECIAL_ATTACK_NAME_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Tempest of Armadyl",
+    SPECIAL_ATTACK_DESCRIPTION_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Launches an attack causing ${hitCount} hits across ${duration}s, each dealing ${attackDamageMaxValue0}% of your normal damage. On a hit, gives you -${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of your turns",
+    SPECIAL_ATTACK_NAME_Glacor_Ranged_Projectile: "Ranged projectile",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Ranged_Projectile: "Attacks with a ranged-style normal attack",
+    SPECIAL_ATTACK_NAME_Glacor_Icicle_Slam: "Icicle Slam",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Throws an icicle at the player, dealing ${attackDamageMaxValue0}% of the enemy's current hitpoints, while ignoring all boosts to DR%. Also applies freeze for ${onHitEffect0turns} turn",
+    SPECIAL_ATTACK_NAME_Glacor_Enduring_Glacyte: "Channeled Enduring Glacyte",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Enduring_Glacyte: "The glacor does a normal attack, while also channelling the power of an Enduring glacyte (regardless of whether the attack lands), which gives the enemy ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of the enemy's turns",
+    SPECIAL_ATTACK_NAME_Glacor_Sapping_Glacyte: "Channeled Sapping glacyte",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Sapping_Glacyte: "The glacor does a normal attack, while also channelling the power of a Sapping glacyte (regardless of whether the attack lands), which gives you +${preHitEffect0modValue0} Prayer Point Cost for Prayers and -${preHitEffect0modValue1}% Chance To Preserve Prayer Points for ${preHitEffect0turns} of your turns",
+    SPECIAL_ATTACK_NAME_Glacor_Unstable_Glacyte: "Channeled Unstable glacyte",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Unstable_Glacyte: "Channels the powers of an unstable glacyte, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
+    SPECIAL_ATTACK_NAME_Enduring_Glacyte_Channeled_Energy: "Channeled energy",
+    SPECIAL_ATTACK_DESCRIPTION_Enduring_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which grants it ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of your turns",
+    SPECIAL_ATTACK_NAME_Sapping_Glacyte_Channeled_Energy: "Channeled energy",
+    SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "The glacyte does a normal attack, while also channelling its energy (regardless of whether the attack lands), which gives the enemy +${preHitEffect0modValue0} Prayer Point Cost for Prayers for ${preHitEffect0turns} of the enemy's turns",
+    SPECIAL_ATTACK_NAME_Unstable_Glacyte_Channeled_Energy: "Channeled energy",
+    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
+
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
@@ -189,5 +233,8 @@ export const es = {
     PASSIVE_NAME_Rathis_Poisonous_Body: "Poisonous Body",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royal Hide (Jurassic) (Magic)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction",
-    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits'
+
+    PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits',
+
+    PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elemental Weakness'
 };

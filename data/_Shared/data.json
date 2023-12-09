@@ -7,7 +7,7 @@
         "id": "Ancient_Effigy",
         "name": "Ancient Effigy",
         "category": "Misc",
-        "type": "Token",
+        "type": "Misc",
         "media": "assets/runescapeEncountersInMelvor/Ancient_Effigy.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,

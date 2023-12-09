@@ -1,11 +1,12 @@
 // Modules
 // You can import script modules and have full type completion
 import { Constants } from './Constants';
+import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
+import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
+import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
+import { TinyIconsCompatibility } from './compatibility/TinyIconsCompatibility';
 import { Translation } from './translation/Translation';
 import { languages } from './translation/languages'
-import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
-import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
-import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
 
 // Data
 // Game data for registration
@@ -13,6 +14,7 @@ import SharedModData from '../data/_Shared/data.json'
 import DkModData from '../data/Dagannoth Kings/data.json';
 import RmModData from '../data/Rex Matriarchs/data.json';
 import Gwd2ModData from '../data/God Wars 2/data.json';
+import GlacorModData from '../data/Glacors/data.json'
 
 // Images
 // #region Image imports
@@ -80,6 +82,14 @@ import '../assets/items/Rex Matriarchs/Savage_Spear_Cap.png'
 import '../assets/items/Rex Matriarchs/Savage_Spear_Shaft.png'
 import '../assets/items/Rex Matriarchs/Savage_Spear_Tip.png'
 import '../assets/items/Rex Matriarchs/Stalkers_Ring.png'
+import '../assets/items/Glacors/Armadyl_Battlestaff.png'
+import '../assets/items/Glacors/Armadyl_Rune.png'
+import '../assets/items/Glacors/Dust_Of_Armadyl.png'
+import '../assets/items/Glacors/Glaiven_Boots.png'
+import '../assets/items/Glacors/Orb_Of_Armadyl.png'
+import '../assets/items/Glacors/Ragefire_Boots.png'
+import '../assets/items/Glacors/Shards_Of_Armadyl.png'
+import '../assets/items/Glacors/Steadfast_Boots.png'
 import '../assets/locations/Dagannoth_Kings_Lair.png'
 import '../assets/locations/Godwars_Dungeon_2_Lair.png'
 import '../assets/locations/Rex_Matriarchs_Lair.png'
@@ -93,6 +103,10 @@ import '../assets/monsters/God Wars 2/Helwyr.png'
 import '../assets/monsters/Rex Matriarchs/Orikalka.png'
 import '../assets/monsters/Rex Matriarchs/Pthentraken.png'
 import '../assets/monsters/Rex Matriarchs/Rathis.png'
+import '../assets/monsters/Glacors/Glacor.png'
+import '../assets/monsters/Glacors/Enduring_Glacyte.png'
+import '../assets/monsters/Glacors/Sapping_Glacyte.png'
+import '../assets/monsters/Glacors/Unstable_Glacyte.png'
 import '../assets/pets/Dagannoth Kings/Prime_hatchling.png'
 import '../assets/pets/Dagannoth Kings/Rex_hatchling.png'
 import '../assets/pets/Dagannoth Kings/Supreme_hatchling.png'
@@ -104,6 +118,7 @@ import '../assets/pets/Rex Matriarchs/Bagra.png'
 import '../assets/pets/Rex Matriarchs/Corbi.png'
 import '../assets/pets/Rex Matriarchs/Pavo.png'
 import '../assets/status/Rex Matriarchs/Corrosion.png'
+import '../assets/spells/Glacors/Storm_Of_Armadyl.png'
 import '../assets/_Shared/Logo.png'
 import '../assets/_Shared/Shop.png'
 import '../assets/_Shared/Weapon_Special_Attack.png'
@@ -127,6 +142,9 @@ export async function setup(ctx: Modding.ModContext) {
 
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(Gwd2ModData);
+
+    // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
+    await ctx.gameData.addPackage(GlacorModData);
 
     initGlobalDroptable(ctx);
     initOverviewContainer(ctx);
@@ -161,9 +179,11 @@ function initLanguage(ctx: Modding.ModContext) {
         'SHOP_DESCRIPTION',
         'ITEM_NAME',
         'ITEM_DESCRIPTION',
+        'MAGIC_SPELL_NAME',
+        'MAGIC_AURORA_NAME',
         'COMBAT_AREA_NAME',
-        'COMBAT_SLAYER_NAME',
-        'COMBAT_DUNGEON_NAME',
+        'SLAYER_AREA_NAME',
+        'DUNGEON_NAME',
         'MONSTER_NAME',
         'MONSTER_DESCRIPTION',
         'PET_NAME',
@@ -220,4 +240,6 @@ function initOverviewContainer(ctx: Modding.ModContext) {
 function initModCompatibility(ctx: Modding.ModContext) {
     const cmimCompatiblity = new CustomModifiersInMelvorCompatibility(ctx);
     cmimCompatiblity.patch();
+
+    TinyIconsCompatibility.initialize(ctx);
 }
