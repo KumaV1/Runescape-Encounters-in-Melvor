@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.1
+* Added missing part of description to "Icicle Slam" special attack
+
 ## v1.2.0
 * Added glacor cave
   * New monsters
