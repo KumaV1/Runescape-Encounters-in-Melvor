@@ -1,7 +1,11 @@
 export class TinyIconsCompatibility {
     private static _globalIconsEnabled: Boolean = false;
 
-    /** Register non-dynamic custom modifiers */
+    /**
+     * Cache "global icons enabled" setting of Tiny Icons mod, if the mod is found
+     * The mod requires you to reload anyway, so we don't have to worry about the value changing after the game has loaded
+     * @param ctx
+     */
     public static initialize(ctx: Modding.ModContext): void {
         ctx.onInterfaceReady(() => {
             if (!this.isLoaded()) {
