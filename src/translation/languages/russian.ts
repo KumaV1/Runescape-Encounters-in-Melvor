@@ -205,7 +205,7 @@ export const ru = {
     SPECIAL_ATTACK_NAME_Glacor_Ranged_Projectile: "Ranged projectile",
     SPECIAL_ATTACK_DESCRIPTION_Glacor_Ranged_Projectile: "Attacks with a ranged-style normal attack",
     SPECIAL_ATTACK_NAME_Glacor_Icicle_Slam: "Icicle Slam",
-    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Throws an icicle at the player, dealing ${attackDamageMaxValue0}% of the enemy's current hitpoints, while ignoring all boosts to DR%. Also applies freeze for ${onHitEffect0turns} turn",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Throws an icicle at the player, dealing ${attackDamageMaxValue0}% of the enemy's current hitpoints, while ignoring all boosts to DR%. Also applies freeze and +${onHitEffect1modValue0}% Attack Interval for ${onHitEffect1turns} turn",
     SPECIAL_ATTACK_NAME_Glacor_Enduring_Glacyte: "Channeled Enduring Glacyte",
     SPECIAL_ATTACK_DESCRIPTION_Glacor_Enduring_Glacyte: "The glacor does a normal attack, while also channelling the power of an Enduring glacyte (regardless of whether the attack lands), which gives the enemy ${preHitEffect0modValue0}% less Damage taken for ${preHitEffect0turns} of the enemy's turns",
     SPECIAL_ATTACK_NAME_Glacor_Sapping_Glacyte: "Channeled Sapping glacyte",

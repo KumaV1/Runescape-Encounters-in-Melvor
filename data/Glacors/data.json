@@ -702,7 +702,7 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "Throws an icicle at the player, dealing ${attackDamageMaxValue0}% of the enemy's current hitpoints, while ignoring all boosts to DR%. Also applies freeze for ${onHitEffect0turns} turn",
+        "description": "Throws an icicle at the player, dealing ${attackDamageMaxValue0}% of the enemy's current hitpoints, while ignoring all boosts to DR%. Also applies freeze and +${onHitEffect1modValue0}% Attack Interval for ${onHitEffect1turns} turn",
         "attackTypes": [
           "magic"
         ],

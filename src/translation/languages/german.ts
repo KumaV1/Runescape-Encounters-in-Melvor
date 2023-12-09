@@ -207,7 +207,7 @@
     SPECIAL_ATTACK_NAME_Glacor_Ranged_Projectile: "Fernkampfgeschoss",
     SPECIAL_ATTACK_DESCRIPTION_Glacor_Ranged_Projectile: "Greift mit einem normalen Angriff im Fernkampfstil an",
     SPECIAL_ATTACK_NAME_Glacor_Icicle_Slam: "Eiszapfen-Schlag",
-    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Wirft einen Eiszapfen auf den Spieler, der ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden versucht, wobei jedwede Schadensreduzierung-Boni ignoriert werden. Verursacht außerdem für ${onHitEffect0turns} Runde Frost",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Wirft einen Eiszapfen auf den Spieler, der ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden versucht, wobei jedwede Schadensreduzierung-Boni ignoriert werden. Verursacht außerdem für ${onHitEffect0turns} Runde Frost und +${onHitEffect1modValue0}% Angriffsintervall",
     SPECIAL_ATTACK_NAME_Glacor_Enduring_Glacyte: "Kanalysierung (Standhafter Glazyt)",
     SPECIAL_ATTACK_DESCRIPTION_Glacor_Enduring_Glacyte: "Der Glazior führt einen normalen Angriff aus, welcher gleichzeitig die Kraft eines Standhaften Glazyt kanalisiert (unabhängig davon, ob der Angriff trifft). Erleidet für ${preHitEffect0turns} Runden ${preHitEffect0modValue0}% weniger Schaden",
     SPECIAL_ATTACK_NAME_Glacor_Sapping_Glacyte: "Kanalysierung (Zehrender Glazyt)",

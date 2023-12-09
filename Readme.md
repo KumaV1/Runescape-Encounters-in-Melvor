@@ -34,11 +34,11 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
   * Weapons currently have around same offense bonus as other Weapons of the same tier, but with a 15% accuracy boost on top of it
 * All monsters are a boss and have a pet drop
 
-## Glacors
+## Glacor Cave
 * Meant be not quite GWD2 level, but also not too weak
 * Rewards
   * T80 boots
-    * slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
+    * Slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
   * T77 staff, that also enables a new standard and a new aurora spell
 
 # Ideas (no promises)
