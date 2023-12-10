@@ -52,6 +52,9 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
 * Other ideas?
 
 ## Content
+### More content
+Please check the [Issues](https://github.com/KumaV1/Runescape-Encounters-in-Melvor/issues) page
+
 ### Balancing across the board
 * Some monsters or items are likely too overpowered or underperforming for where they are supposed to be
 * Possibly add fremennik armour to Dagannoth Kings, as another way of obtaining some early-level armour
@@ -63,6 +66,3 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
 * Improve descriptions across the board (e.g. standardize from what viewpoint specials and passives are described, or specifying when a special uses a different attack style than the normal attack)
 * Can personally only provide English and German translations
 * Updates would initially only consist of those languages, other languages having to be added by someone else (unless machine translation is used)
-
-### More content
-Please check the [Issues](https://github.com/KumaV1/Runescape-Encounters-in-Melvor/issues) page
