@@ -189,7 +189,7 @@
           "increasedRangedCritChance": 5,
           "increasedMagicCritChance": 5,
           "increasedMaxHitPercent": 2,
-          "decreasedGlobalAccuracy": 5
+          "decreasedGlobalAccuracy": 15
         },
         "itemType": "Equipment"
       },
@@ -405,11 +405,11 @@
         "itemCosts": [
           {
             "id": "runescapeEncountersInMelvor:Seers_Ring",
-            "quantity": 50
+            "quantity": 10
           },
           {
             "id": "runescapeEncountersInMelvor:Heart_Of_The_Seer",
-            "quantity": 5
+            "quantity": 1
           }
         ],
         "gpCost": 0,
