@@ -5,9 +5,9 @@ import { TinyIconsCompatibility } from '../compatibility/TinyIconsCompatibility'
  * Patches a couple name/description getters, so they access our integrated localization
  *
  * IMPORTANT: For certain descriptions, they only run our custom logic, if a custom description has been defined,
- * as otherwise it's an auto generated descriütion (like modifier effects), which are handled by the game's own translations already
+ * as otherwise it's an auto generated description (like modifier effects), which are handled by the game's own translations already
  */
-export class Translation {
+export class TranslationManager {
     constructor(private readonly context: Modding.ModContext) { }
 
     public init() {
@@ -20,27 +20,15 @@ export class Translation {
         });
 
         this.context.patch(Item, 'description').get(function (patch) {
-            // If the item is not of this mod, or does not have a custom description (instead being auto-generated if having a description at all),
+            // If the item is not of this mod, or does not have a custom description (instead being auto-generated, if having a description at all),
             // then do not run any special logic
             if (this.namespace !== Constants.MOD_NAMESPACE || this._customDescription === undefined) {
                 return patch();
             }
 
-            const localized = getLangString(`ITEM_DESCRIPTION_${this.localID}`);
-
-            // If the item is not one of those that deserve/require special treatment, just return the lang string
-            if (this.localID !== "Armadyl_Battlestaff") {
-                return localized;
-            }
-
-            // Currently, said special treatment is just injecting tiny icons into custom descriptions.
-            // The tiny icons mod has an endpoint to retrieve that, which also honors its "secondary icon" setting (the value parameter is technically redundant for non SkillModifier-type modifiers, though)
-            return TinyIconsCompatibility.globalIconsEnabled()
-                ? localized.replace("${modifierTinyIcons0}", mod.api.tinyIcons.getIconHTMLForModifier("increasedMaxAirSpellDmg", 200, true) ?? "")
-                : localized.replace("${modifierTinyIcons0}", "");
-
-            // REMARK: Above code could be moved to a method, with a standardized name of placeholders
-            // and the method checking the "modifier object" and looping through it to run the replace functionality
+            // Otherwise, run custom logic where descriptions may contain placeholders for tiny icons
+            let localized = getLangString(`ITEM_DESCRIPTION_${this.localID}`);
+            return TinyIconsCompatibility.getModifiedItemDescription(this.localID, localized);
         });
 
         this.context.patch(ShopPurchase, 'name').get(function (patch) {

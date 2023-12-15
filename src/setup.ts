@@ -5,7 +5,7 @@ import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModi
 import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
 import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
 import { TinyIconsCompatibility } from './compatibility/TinyIconsCompatibility';
-import { Translation } from './translation/Translation';
+import { TranslationManager } from './translation/TranslationManager';
 import { languages } from './translation/languages'
 
 // Data
@@ -156,9 +156,9 @@ export async function setup(ctx: Modding.ModContext) {
  * @param ctx
  */
 function initTranslation(ctx: Modding.ModContext) {
-    const translation = new Translation(ctx);
+    const tm = new TranslationManager(ctx);
 
-    translation.init();
+    tm.init();
 }
 
 /**

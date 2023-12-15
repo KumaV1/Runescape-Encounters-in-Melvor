@@ -1,4 +1,39 @@
 export class TinyIconsCompatibility {
+    private static _specialItems: { [key: string]: string[] } = {
+        Anima_Core_Helm_Of_Seren: [
+            "increasedMinAirSpellDmg",
+            "increasedMinWaterSpellDmg",
+            "increasedMinEarthSpellDmg",
+            "increasedMinFireSpellDmg"
+        ],
+        Anima_Core_Body_Of_Seren: [
+            "increasedMinAirSpellDmg",
+            "increasedMinWaterSpellDmg",
+            "increasedMinEarthSpellDmg",
+            "increasedMinFireSpellDmg"
+        ],
+        Anima_Core_Legs_Of_Seren: [
+            "increasedMinAirSpellDmg",
+            "increasedMinWaterSpellDmg",
+            "increasedMinEarthSpellDmg",
+            "increasedMinFireSpellDmg"
+        ],
+        Wand_Of_The_Cywir_Elders: ["increasedGlobalAccuracy"],
+        Orb_Of_The_Cywir_Elders: ["increasedGlobalAccuracy"],
+        Blade_Of_Nymora: ["increasedGlobalAccuracy"],
+        Blade_Of_Avaryss: ["increasedGlobalAccuracy"],
+        Shadow_Glaive: ["increasedGlobalAccuracy"],
+        Offhand_Shadow_Glaive: ["increasedGlobalAccuracy"],
+
+        Armadyl_Battlestaff: ["increasedMaxAirSpellDmg"],
+        Ragefire_Boots: [
+            "increasedMinAirSpellDmg",
+            "increasedMinWaterSpellDmg",
+            "increasedMinEarthSpellDmg",
+            "increasedMinFireSpellDmg"
+        ]
+    };
+
     private static _globalIconsEnabled: Boolean = false;
 
     /**
@@ -29,10 +64,45 @@ export class TinyIconsCompatibility {
         });
     }
 
+    /**
+     * Retrieve item description in which tiny-icons placeholders have been replaced
+     * @param localItemId id of item by, through which relevant modifiers are determined
+     * @param description description in which to replace tiny-icons placeholders
+     */
+    public static getModifiedItemDescription(localItemId: string, description: string): string {
+        const modifiers: string[] | undefined = this._specialItems[localItemId];
+
+        // If no modifiers were found, then the item doesn't require any description adjustments
+        if (!modifiers) {
+            return description;
+        }
+
+        // Otherwise, loop through modifiers to replace placeholders
+        if (this._globalIconsEnabled) {
+            for (var i = 0; i < modifiers.length; i++) {
+                description = description.replace(`\$\{modifierTinyIcons${i}\}`, mod.api.tinyIcons.getIconHTMLForModifier(modifiers[i], 1, true) ?? "") // value is actually irrelevant for number-only modifiers
+            }
+        } else {
+            for (var i = 0; i < modifiers.length; i++) {
+                description = description.replace(`\$\{modifierTinyIcons${i}\}`, "");
+            }
+        }
+
+        return description;
+    }
+
+    /**
+     * Get cached info, whether tiny-icons have been enabled globally
+     * @returns
+     */
     public static globalIconsEnabled(): Boolean {
         return TinyIconsCompatibility._globalIconsEnabled;
     }
 
+    /**
+     * Check whether the mod has been loaded
+     * @returns
+     */
     private static isLoaded(): Boolean {
         return mod.manager.getLoadedModList().includes('Tiny Icons');
     }

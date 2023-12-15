@@ -254,7 +254,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 200000,
         "isArtefact": false,
-        "id": "Ragefire_Boots"
+        "id": "Ragefire_Boots",
+        "customDescription": "+30 Minimum Damage when using Air, Water, }Earth or Fire Spells."
       }
     ],
     "itemUpgrades": [
