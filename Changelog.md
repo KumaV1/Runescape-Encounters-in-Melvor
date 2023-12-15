@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.2
+* Fixed Channeller's Ring accidentally requiring way more materials than the other rings
+* Tripled accuracy demerit of Reaver's Ring
+* Improved [Tiny Icons](https://mod.io/g/melvoridle/m/tiny-icons) mod compatibility for items with custom descriptions
+* Minor description additions and tweaks
+
 ## v1.2.1
 * Added missing part of description to "Icicle Slam" special attack
 
