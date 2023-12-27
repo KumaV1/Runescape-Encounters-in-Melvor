@@ -14,11 +14,13 @@ export class CustomModifiersInMelvorCompatibility {
             return;
         }
 
-        cmim.addMonsters("Dragon", ["runescapeEncountersInMelvor:Gorvek_And_Vindicta"]);
-        cmim.addMonsters("Demon", ["runescapeEncountersInMelvor:Avaryss_And_Nymora"]);
-        cmim.addMonsters("Elemental", ["runescapeEncountersInMelvor:Glacor", "runescapeEncountersInMelvor:Enduring_Glacyte", "runescapeEncountersInMelvor:Sapping_Glacyte", "runescapeEncountersInMelvor:Unstable_Glacyte"]);
-        cmim.forceBaseModTypeActive("Dragon");
-        cmim.forceBaseModTypeActive("Undead");
+        cmim.addMonsters(MonsterType.Dragon, ["runescapeEncountersInMelvor:Gorvek_And_Vindicta"]);
+        cmim.addMonsters(MonsterType.Demon, ["runescapeEncountersInMelvor:Avaryss_And_Nymora"]);
+        cmim.forceBaseModTypeActive(MonsterType.Dragon);
+        cmim.forceBaseModTypeActive(MonsterType.Undead);
+
+        cmim.addMonsters("Elf", ["runescapeEncountersInMelvor:Helwyr"]);
+        cmim.addMonsters(MonsterType.Elemental, ["runescapeEncountersInMelvor:Enduring_Glacyte", "runescapeEncountersInMelvor:Sapping_Glacyte", "runescapeEncountersInMelvor:Unstable_Glacyte", "runescapeEncountersInMelvor:Glacor"]);
 
         this.context.gameData.addPackage(CmimSharedModData);
         this.context.gameData.addPackage(CmimGlacorModData);
