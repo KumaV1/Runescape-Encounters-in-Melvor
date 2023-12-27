@@ -1,0 +1,147 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "items": [
+      {
+        "id": "Dragonkin_Lamp",
+        "name": "Dragonkin Lamp",
+        "category": "Misc",
+        "type": "Misc",
+        "media": "assets/runescapeEncountersInMelvor/Dragonkin_Lamp.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10000,
+        "itemType": "Equipment",
+        "tier": "none",
+        "validSlots": [ "Consumable" ],
+        "occupiesSlots": [],
+        "equipRequirements": [],
+        "equipmentStats": [],
+        "modifiers": {
+
+        },
+        "consumesOn": [
+          {
+            "type": "WoodcuttingAction",
+            "succesful": true
+          },
+          {
+            "type": "FishingAction",
+            "succesful": true
+          },
+          {
+            "type": "FiremakingAction",
+            "succesful": true
+          },
+          {
+            "type": "CookingAction",
+            "succesful": true
+          },
+          {
+            "type": "MiningAction",
+            "succesful": true
+          },
+          {
+            "type": "SmithingAction",
+            "succesful": true
+          },
+          {
+            "type": "ThievingAction",
+            "succesful": true
+          },
+          {
+            "type": "FarmingPlantAction",
+            "succesful": true
+          },
+          {
+            "type": "FarmingHarvestAction",
+            "succesful": true
+          },
+          {
+            "type": "FletchingAction",
+            "succesful": true
+          },
+          {
+            "type": "CraftingAction",
+            "succesful": true
+          },
+          {
+            "type": "RunecraftingAction",
+            "succesful": true
+          },
+          {
+            "type": "HerbloreAction",
+            "succesful": true
+          },
+          {
+            "type": "AgilityAction",
+            "succesful": true
+          },
+          {
+            "type": "SummoningAction",
+            "succesful": true
+          },
+          {
+            "type": "AstrologyAction",
+            "succesful": true
+          },
+          {
+            "type": "AltMagicAction",
+            "succesful": true
+          },
+          {
+            "type": "PlayerAttack",
+            "succesful": true
+          },
+          {
+            "type": "PrayerPointConsumption",
+            "succesful": true
+          },
+          {
+            "type": "SummonTabletUsed",
+            "succesful": true
+          },
+          {
+            "type": "CartographySurveyEventMatcherOptions",
+            "succesful": true
+          },
+          {
+            "type": "CartographyPaperMakingEventMatcherOptions",
+            "succesful": true
+          },
+          {
+            "type": "CartographyMapUpgradeEventMatcherOptions",
+            "succesful": true
+          },
+          {
+            "type": "CartographyMapRefinementEventMatcherOptions",
+            "succesful": true
+          },
+          {
+            "type": "ArchaeologyActionEventMatcherOptions",
+            "succesful": true
+          }
+        ]
+      }
+    ],
+    "itemUpgrades": [
+      {
+        "itemCosts": [
+          {
+            "id": "runescapeEncountersInMelvor:Ancient_Effigy",
+            "quantity": 4
+          }
+        ],
+        "gpCost": 0,
+        "scCost": 0,
+        "rootItemIDs": [
+          "runescapeEncountersInMelvor:Ancient_Effigy"
+        ],
+        "upgradedItemID": "runescapeEncountersInMelvor:Dragonkin_Lamp",
+        "isDowngrade": false
+      }
+    ]
+  }
+}

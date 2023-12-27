@@ -2,10 +2,12 @@
 // You can import script modules and have full type completion
 import { Constants } from './Constants';
 import { CustomModifiersInMelvorCompatibility } from './compatibility/CustomModifiersInMelvorCompatibility';
+import { ExpansionsCompatibility } from './compatibility/ExpansionsCompatibility';
 import { GlobalDroptableManager } from './globalDroptable/GlobalDroptableManager';
 import { GlobalDroptableOverview } from './globalDroptable/GlobalDroptableOverview';
 import { TinyIconsCompatibility } from './compatibility/TinyIconsCompatibility';
 import { TranslationManager } from './translation/TranslationManager';
+
 import { languages } from './translation/languages'
 
 // Data
@@ -148,7 +150,7 @@ export async function setup(ctx: Modding.ModContext) {
 
     initGlobalDroptable(ctx);
     initOverviewContainer(ctx);
-    initModCompatibility(ctx);
+    initCompatibility(ctx);
 }
 
 /**
@@ -234,10 +236,13 @@ function initOverviewContainer(ctx: Modding.ModContext) {
 
 /**
  * Initializes certain functionality, to enable/inject specialized compatibility
- * based on other mods
+ * based on expansions and mods
  * @param ctx
  */
-function initModCompatibility(ctx: Modding.ModContext) {
+function initCompatibility(ctx: Modding.ModContext) {
+    const expansionsCompatibility = new ExpansionsCompatibility(ctx);
+    expansionsCompatibility.loadConditionalGamePackages();
+
     const cmimCompatiblity = new CustomModifiersInMelvorCompatibility(ctx);
     cmimCompatiblity.patch();
 
