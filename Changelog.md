@@ -2,7 +2,7 @@
 
 ## v1.2.3
 * Helwyr is now categorized as an elf
-* Fixed issue wirh dragonkin lamp not being consumed on AoD-expansion skills
+* Fixed issue with dragonkin lamp not being consumed on AoD-expansion skills
 
 ## v1.2.2
 * Fixed Channeller's Ring accidentally requiring way more materials than the other rings

@@ -18,12 +18,17 @@ export class GlobalDroptableManager {
          */
         this.context.patch(CombatManager, "onEnemyDeath").after(function () {
             const doubleLoot: Boolean = rollPercentage(this.player.modifiers.combatLootDoubleChance);
-            if ((this.selectedArea instanceof Dungeon)) {
+
+            // While inside a dungeon
+            if (this.selectedArea instanceof Dungeon) {
                 GlobalDroptableManager.rollGlobalDroptableAnyDeath(this, doubleLoot);
                 if (this.dungeonProgress === this.selectedArea.monsters.length) {
                     GlobalDroptableManager.rollGlobalDroptableNonDungeonMinionDeath(this, doubleLoot);
                 }
-            } else if (this.activeEvent === undefined) {
+            }
+
+            // While outside a dungeon and also not in an event (aka "Impending Darkness")
+            else if (this.activeEvent === undefined) {
                 GlobalDroptableManager.rollGlobalDroptableAnyDeath(this, doubleLoot);
                 GlobalDroptableManager.rollGlobalDroptableNonDungeonMinionDeath(this, doubleLoot);
             }
@@ -31,7 +36,7 @@ export class GlobalDroptableManager {
     }
 
     /**
-     * Roll items, that are dropped by absolutely every monster
+     * Roll items that are dropped by absolutely every monster
      * @param cm
      * @param doubleLoot
      */
@@ -41,7 +46,7 @@ export class GlobalDroptableManager {
     }
 
     /**
-     * Roll items, that can be dropped by most monsters,
+     * Roll items that can be dropped by most monsters,
      * except in dungeons where it can only drop from the last monster
      * @param cm
      * @param doubleLoot
@@ -124,10 +129,10 @@ export class GlobalDroptableManager {
     }
 
     /**
-     *
-     * @param monster
-     * @param baseChance
-     * @param chanceIncreasePerCbLvl
+     * Roll whether to drop the corresponding item
+     * @param monster the monster being fought, whose combat level has an effect on the final droprate
+     * @param baseChance the base chance for the item, without taking combat level into account at all
+     * @param chanceIncreasePerCbLvl the flat increase to the base chance per combat level
      * @returns
      */
     private static rollCbLevelScalingChance(monster: Monster, baseChance: number, chanceIncreasePerCbLvl: number): Boolean {
@@ -135,9 +140,10 @@ export class GlobalDroptableManager {
     }
 
     /**
-     *
-     * @param localItemId
-     * @param cm
+     * Adds 1 of the given item straight into the bank, as long as the bank isn't full
+     * @param localItemId id without mod namespace, as this method currently only grants items specific to this mod
+     * @param cm instance of the combat manager
+     * @param doubleLoot whether to grant 2 instead of 1 of the given item
      */
     private static grantItem(localItemId: string, cm: CombatManager, doubleLoot: Boolean) {
         const item = cm.game.items.getObjectByID(`${Constants.MOD_NAMESPACE}:${localItemId}`);
