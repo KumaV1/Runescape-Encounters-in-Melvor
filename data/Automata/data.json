@@ -159,6 +159,10 @@
           {
             "key": "attackSpeed",
             "value": 2600
+          },
+          {
+            "key": "damageReduction",
+            "value": 15
           }
         ],
         "ignoreCompletion": true,
@@ -289,6 +293,10 @@
           {
             "key": "attackSpeed",
             "value": 2600
+          },
+          {
+            "key": "damageReduction",
+            "value": 15
           }
         ],
         "ignoreCompletion": true,
@@ -419,6 +427,10 @@
           {
             "key": "attackSpeed",
             "value": 2600
+          },
+          {
+            "key": "damageReduction",
+            "value": 15
           }
         ],
         "ignoreCompletion": true,

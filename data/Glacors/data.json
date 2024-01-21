@@ -323,6 +323,10 @@
           {
             "key": "attackSpeed",
             "value": 3000
+          },
+          {
+            "key": "damageReduction",
+            "value": 15
           }
         ],
         "ignoreCompletion": true,
@@ -483,6 +487,10 @@
           {
             "key": "attackSpeed",
             "value": 3000
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
           }
         ],
         "ignoreCompletion": true,
@@ -525,6 +533,10 @@
           {
             "key": "attackSpeed",
             "value": 3000
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
           }
         ],
         "ignoreCompletion": true,
@@ -567,6 +579,10 @@
           {
             "key": "attackSpeed",
             "value": 3000
+          },
+          {
+            "key": "damageReduction",
+            "value": 8
           }
         ],
         "ignoreCompletion": true,
