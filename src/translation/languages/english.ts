@@ -113,11 +113,17 @@ export const en = {
     ITEM_NAME_Ragefire_Boots: 'Ragefire boots',
     ITEM_DESCRIPTION_Ragefire_Boots: '+30 Minimum Damage when using ${modifierTinyIcons0}Air, ${modifierTinyIcons1}Water, ${modifierTinyIcons2}Earth or ${modifierTinyIcons3}Fire Spells.',
 
+    ITEM_NAME_Pneumatic_Gloves: 'Pneumatic Gloves',
+    ITEM_NAME_Tracking_Gloves: 'Tracking Gloves',
+    ITEM_NAME_Static_Gloves: 'Static Gloves',
+    ITEM_DESCRIPTION_Static_Gloves: '+30 Minimum Damage when using ${modifierTinyIcons0}Air, ${modifierTinyIcons1}Water, ${modifierTinyIcons2}Earth or ${modifierTinyIcons3}Fire Spells.',
+
     // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth lair',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Rex Matriarch Lair',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Godwars Dungeon 2 - Heart of Gielinor',
     SLAYER_AREA_NAME_Glacor_Cave: 'Glacor Cave',
+    SLAYER_AREA_NAME_Guthix_Cave: "Guthix's Cave",
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
@@ -149,6 +155,13 @@ export const en = {
     MONSTER_DESCRIPTION_Sapping_Glacyte: "An ice creature, ready to drain you of all hope",
     MONSTER_NAME_Unstable_Glacyte: 'Unstable glacyte',
     MONSTER_DESCRIPTION_Unstable_Glacyte: "An ice creature. It looks highly unstable",
+
+    MONSTER_NAME_Automaton_Generator: 'Automaton Generator',
+    MONSTER_DESCRIPTION_Automaton_Generator: "Generates magical energy for use in battle",
+    MONSTER_NAME_Automaton_Guardian: 'Automaton Guardian',
+    MONSTER_DESCRIPTION_Automaton_Guardian: "A tough melee fighter",
+    MONSTER_NAME_Automaton_Tracer: 'Automaton Tracer',
+    MONSTER_DESCRIPTION_Automaton_Tracer: "Fires lethal projectiles",
 
     // #### Pet names
     PET_NAME_Rex_Hatchling: 'Rex Hatchling',
@@ -221,6 +234,11 @@ export const en = {
     SPECIAL_ATTACK_NAME_Unstable_Glacyte_Channeled_Energy: "Channeled energy",
     SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "The glacyte channels its energy, causing a massive unavoidable explosion dealing ${attackDamageMaxValue0}% of your current hitpoints, while ignoring all boosts to DR%",
 
+    SPECIAL_ATTACK_NAME_Automaton_Target_Weak_Point: 'Targetting weak point',
+    SPECIAL_ATTACK_DESCRIPTION_Automaton_Target_Weak_Point: "Target the enemies' weak point to further worsen bleedings. Deals ${attackDamageMaxValue0}% of your normal damage ${hitCount} times across ${duration}s. Every hit gives the enemy +${onHitEffect0modValue0}% Damage taken from Bleed that stacks up to ${onHitEffect0maxStacks} times",
+    SPECIAL_ATTACK_NAME_Automaton_Pulse: 'Pulse',
+    SPECIAL_ATTACK_DESCRIPTION_Automaton_Pulse: "You repeatedly slam the ground, causing pulses that deal ${attackDamageMaxValue0}% of your normal damage ${hitCount} times across ${duration}s and inflicts Bleed that deals ${onHitEffect0DamageMaxValue0}% of your max hit as damage over ${onHitEffect0duration}s",
+
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royal Hide (Sea) (Melee)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "The Dagannoth king's strong, protective hide protects them from all attack styles they are not weak against",
@@ -238,5 +256,8 @@ export const en = {
 
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Summoned spirits',
 
-    PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elemental Weakness'
+    PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elemental Weakness',
+
+    PASSIVE_NAME_Automaton_Ambush: 'Ambush',
+    PASSIVE_NAME_Automaton_Body: 'Automaton Body'
 };

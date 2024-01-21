@@ -16,6 +16,7 @@ import SharedModData from '../data/_Shared/data.json'
 import DkModData from '../data/Dagannoth Kings/data.json';
 import RmModData from '../data/Rex Matriarchs/data.json';
 import Gwd2ModData from '../data/God Wars 2/data.json';
+import AutomataModData from '../data/Automata/data.json';
 import GlacorModData from '../data/Glacors/data.json'
 
 // Images
@@ -92,6 +93,9 @@ import '../assets/items/Glacors/Orb_Of_Armadyl.png'
 import '../assets/items/Glacors/Ragefire_Boots.png'
 import '../assets/items/Glacors/Shards_Of_Armadyl.png'
 import '../assets/items/Glacors/Steadfast_Boots.png'
+import '../assets/items/Automata/Pneumatic_Gloves.png'
+import '../assets/items/Automata/Tracking_Gloves.png'
+import '../assets/items/Automata/Static_Gloves.png'
 import '../assets/locations/Dagannoth_Kings_Lair.png'
 import '../assets/locations/Godwars_Dungeon_2_Lair.png'
 import '../assets/locations/Rex_Matriarchs_Lair.png'
@@ -109,6 +113,9 @@ import '../assets/monsters/Glacors/Glacor.png'
 import '../assets/monsters/Glacors/Enduring_Glacyte.png'
 import '../assets/monsters/Glacors/Sapping_Glacyte.png'
 import '../assets/monsters/Glacors/Unstable_Glacyte.png'
+import '../assets/monsters/Automata/Automaton_Guardian.png'
+import '../assets/monsters/Automata/Automaton_Tracer.png'
+import '../assets/monsters/Automata/Automaton_Generator.png'
 import '../assets/pets/Dagannoth Kings/Prime_hatchling.png'
 import '../assets/pets/Dagannoth Kings/Rex_hatchling.png'
 import '../assets/pets/Dagannoth Kings/Supreme_hatchling.png'
@@ -119,11 +126,13 @@ import '../assets/pets/God Wars 2/Rawrvek_And_Vindiddy.png'
 import '../assets/pets/Rex Matriarchs/Bagra.png'
 import '../assets/pets/Rex Matriarchs/Corbi.png'
 import '../assets/pets/Rex Matriarchs/Pavo.png'
+import '../assets/pets/Automata/Cresbot.png'
 import '../assets/status/Rex Matriarchs/Corrosion.png'
 import '../assets/spells/Glacors/Storm_Of_Armadyl.png'
 import '../assets/_Shared/Logo.png'
 import '../assets/_Shared/Shop.png'
 import '../assets/_Shared/Weapon_Special_Attack.png'
+import '../assets/status/Bleed_Up_Negative.svg'
 
 import '../src/globalDroptable/globalDroptableOverview.css'
 // #endregion
@@ -147,6 +156,9 @@ export async function setup(ctx: Modding.ModContext) {
 
     // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
     await ctx.gameData.addPackage(GlacorModData);
+
+    // @ts-ignore: Supposed non-matching type (e.g. "WeaponItemData" despite not being a weapon)
+    await ctx.gameData.addPackage(AutomataModData);
 
     initGlobalDroptable(ctx);
     initOverviewContainer(ctx);
