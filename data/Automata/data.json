@@ -1,0 +1,661 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "data": {
+    "items": [
+      {
+        "tier": "none",
+        "validSlots": [ "Gloves" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Defence",
+            "level": 80,
+            "type": "SkillLevel"
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "stabAttackBonus",
+            "value": 14
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 14
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 14
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 16
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 9
+          }
+        ],
+        "name": "Pneumatic Gloves",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Pneumatic_Gloves.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "isArtefact": false,
+        "id": "Pneumatic_Gloves"
+      },
+      {
+        "tier": "none",
+        "validSlots": [ "Gloves" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Ranged",
+            "level": 80,
+            "type": "SkillLevel"
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedAttackBonus",
+            "value": 25
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 10
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 20
+          }
+        ],
+        "name": "Tracking Gloves",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Tracking_Gloves.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "isArtefact": false,
+        "id": "Tracking_Gloves"
+      },
+      {
+        "tier": "none",
+        "validSlots": [ "Gloves" ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "skillID": "melvorD:Magic",
+            "level": 80,
+            "type": "SkillLevel"
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 2
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 5
+          }
+        ],
+        "modifiers": {
+          "increasedMinAirSpellDmg": 3,
+          "increasedMinWaterSpellDmg": 3,
+          "increasedMinEarthSpellDmg": 3,
+          "increasedMinFireSpellDmg": 3
+        },
+        "name": "Static Gloves",
+        "category": "Combat",
+        "itemType": "Equipment",
+        "type": "Armour",
+        "media": "assets/runescapeEncountersInMelvor/Static_Gloves.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 200000,
+        "isArtefact": false,
+        "id": "Static_Gloves",
+        "customDescription": "+30 Minimum Damage when using Air, Water, }Earth or Fire Spells."
+      }
+    ],
+    "monsters": [
+      {
+        "id": "Automaton_Generator",
+        "name": "Automaton Generator",
+        "media": "assets/runescapeEncountersInMelvor/Automaton_Generator.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 250,
+          "Hitpoints": 1000,
+          "Magic": 450,
+          "Ranged": 1,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2600
+          }
+        ],
+        "ignoreCompletion": true,
+        "attackType": "magic",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Automaton_Target_Weak_Point",
+          "runescapeEncountersInMelvor:Automaton_Pulse"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Automaton_Ambush",
+          "runescapeEncountersInMelvor:Automaton_Body"
+        ],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Coal_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 7,
+            "weight": 85
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 18
+          },
+          {
+            "itemID": "melvorD:Earth_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorD:Compost",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Mantalyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 18
+          },
+          {
+            "itemID": "melvorD:Mantalyme_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorF:Poraxx_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 18
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Tracking_Gloves",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 200,
+          "max": 1750
+        },
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:FireWave",
+        "description": "Generates magical energy for use in battle"
+      },
+      {
+        "id": "Automaton_Guardian",
+        "name": "Automaton Guardian",
+        "media": "assets/runescapeEncountersInMelvor/Automaton_Guardian.png",
+        "levels": {
+          "Attack": 450,
+          "Defence": 250,
+          "Hitpoints": 1000,
+          "Magic": 1,
+          "Ranged": 1,
+          "Strength": 450
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2600
+          }
+        ],
+        "ignoreCompletion": true,
+        "attackType": "melee",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Automaton_Target_Weak_Point",
+          "runescapeEncountersInMelvor:Automaton_Pulse"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Automaton_Ambush",
+          "runescapeEncountersInMelvor:Automaton_Body"
+        ],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Coal_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 7,
+            "weight": 85
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 18
+          },
+          {
+            "itemID": "melvorD:Earth_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorD:Compost",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Mantalyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 18
+          },
+          {
+            "itemID": "melvorD:Mantalyme_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorF:Poraxx_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 18
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Static_Gloves",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 200,
+          "max": 1750
+        },
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:FireWave",
+        "description": "A tough melee fighter"
+      },
+      {
+        "id": "Automaton_Tracer",
+        "name": "Automaton Tracer",
+        "media": "assets/runescapeEncountersInMelvor/Automaton_Tracer.png",
+        "levels": {
+          "Attack": 1,
+          "Defence": 250,
+          "Hitpoints": 1000,
+          "Magic": 1,
+          "Ranged": 450,
+          "Strength": 1
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2600
+          }
+        ],
+        "ignoreCompletion": true,
+        "attackType": "ranged",
+        "specialAttacks": [
+          "runescapeEncountersInMelvor:Automaton_Target_Weak_Point",
+          "runescapeEncountersInMelvor:Automaton_Pulse"
+        ],
+        "passives": [
+          "runescapeEncountersInMelvor:Automaton_Ambush",
+          "runescapeEncountersInMelvor:Automaton_Body"
+        ],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "melvorD:Coal_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 7,
+            "weight": 85
+          },
+          {
+            "itemID": "melvorD:Adamantite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Runite_Ore",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 18
+          },
+          {
+            "itemID": "melvorD:Earth_Rune",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Magic_Logs",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorD:Compost",
+            "minQuantity": 1,
+            "maxQuantity": 8,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Mantalyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorF:Poraxx_Seed",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 18
+          },
+          {
+            "itemID": "melvorD:Mantalyme_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 45
+          },
+          {
+            "itemID": "melvorD:Lemontyle_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 36
+          },
+          {
+            "itemID": "melvorD:Oxilyme_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 27
+          },
+          {
+            "itemID": "melvorF:Poraxx_Herb",
+            "minQuantity": 1,
+            "maxQuantity": 5,
+            "weight": 18
+          },
+          {
+            "itemID": "runescapeEncountersInMelvor:Pneumatic_Gloves",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "gpDrops": {
+          "min": 200,
+          "max": 1750
+        },
+        "canSlayer": true,
+        "isBoss": false,
+        "selectedSpell": "melvorD:FireWave",
+        "description": "Fires lethal projectiles"
+      }
+    ],
+    "attacks": [
+      {
+        "id": "Automaton_Target_Weak_Point",
+        "name": "Targetting weak point",
+        "defaultChance": 35,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 15
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": "Infinity",
+            "character": "Target",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 20,
+            "modifiers": {
+              "increasedBleedDOTDamage": 25
+            },
+            "media": "assets/runescapeEncountersInMelvor/Bleed_Up_Negative.svg"
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 10,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Target the enemies' weak point to further worsen bleedings. Deals ${attackDamageMaxValue0}% of your normal damage ${hitCount} times across ${duration}s. Every hit gives the enemy +${onHitEffect0modValue0}% Damage taken from Bleed that stacks up to ${onHitEffect0maxStacks} times",
+        "descriptionGenerator": "Target the enemies' weak point to further worsen bleedings. Deals <damage> <count> times across <duration>. Every hit <hitEffect>   "
+      },
+      {
+        "id": "Automaton_Pulse",
+        "name": "Pulse",
+        "defaultChance": 35,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 35
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 20,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "MaxHit",
+                "maxPercent": 200
+              }
+            ],
+            "chance": 50
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 5,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "You repeatedly slam the ground, causing pulses that deal ${attackDamageMaxValue0}% of your normal damage ${hitCount} times across ${duration}s and inflicts Bleed that deals ${onHitEffect0DamageMaxValue0}% of your max hit as damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "You repeatedly slam the ground, causing pulses that deal <damage> <count> times across <duration> and <hitEffect>"
+      }
+    ],
+    "combatPassives": [
+      {
+        "id": "Automaton_Ambush",
+        "name": "Ambush",
+        "modifiers": {
+          "increasedTotalBleedDamage": 100
+        }
+      },
+      {
+        "id": "Automaton_Body",
+        "name": "Automaton Body",
+        "modifiers": {
+          "bleedImmunity": 100,
+          "increasedBurnDOTDamage": 35
+        }
+      }
+    ],
+    "slayerAreas": [
+      {
+        "id": "Guthix_Cave",
+        "name": "Guthix's Cave",
+        "media": "assets/runescapeEncountersInMelvor/Cresbot.png",
+        "difficulty": [ 4 ],
+        "monsterIDs": [
+          "runescapeEncountersInMelvor:Automaton_Guardian",
+          "runescapeEncountersInMelvor:Automaton_Tracer",
+          "runescapeEncountersInMelvor:Automaton_Generator"
+        ],
+        "entryRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Slayer",
+            "level": 67
+          }
+        ],
+        "areaEffect": {
+          "target": "Attacker",
+          "modifier": "reducedTargetDamageRedcutionIfBleeding",
+          "magnitude": 50
+        },
+        "areaEffectDescription": "-${effectValue}% reduced Damage Reduction while Bleeding"
+      }
+    ],
+    "slayerAreaDisplayOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Perilous_Peaks",
+        "ids": [
+          "runescapeEncountersInMelvor:Guthix_Cave"
+        ]
+      }
+    ]
+  }
+}

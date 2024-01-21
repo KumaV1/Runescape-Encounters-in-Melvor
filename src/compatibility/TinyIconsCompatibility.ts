@@ -31,6 +31,12 @@ export class TinyIconsCompatibility {
             "increasedMinWaterSpellDmg",
             "increasedMinEarthSpellDmg",
             "increasedMinFireSpellDmg"
+        ],
+        Static_Gloves: [
+            "increasedMinAirSpellDmg",
+            "increasedMinWaterSpellDmg",
+            "increasedMinEarthSpellDmg",
+            "increasedMinFireSpellDmg"
         ]
     };
 
