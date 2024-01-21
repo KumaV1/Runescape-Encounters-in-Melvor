@@ -955,6 +955,10 @@
         "id": "Glacor_Cave",
         "name": "Glacor Cave",
         "media": "assets/runescapeEncountersInMelvor/Glacor.png",
+        "pet": {
+          "petID": "runescapeEncountersInMelvor:Glacy",
+          "weight": 5000
+        },
         "difficulty": [
           3,
           4
@@ -987,6 +991,20 @@
         "ids": [
           "runescapeEncountersInMelvor:Glacor_Cave"
         ]
+      }
+    ],
+    "pets": [
+      {
+        "id": "Glacy",
+        "name": "Glacy",
+        "media": "assets/runescapeEncountersInMelvor/Glacy.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": true,
+        "modifiers": {
+
+        },
+        "activeInRaid": false,
+        "hint": "Glacor Cave"
       }
     ],
     "skillData": [

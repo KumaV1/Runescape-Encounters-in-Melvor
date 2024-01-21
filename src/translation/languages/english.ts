@@ -174,6 +174,8 @@ export const en = {
     PET_NAME_Nylessa_And_Ava: 'Nylessa and Ava',
     PET_NAME_Rawrvek_And_Vindiddy: 'Rawrvek and Vindiddy',
     PET_NAME_Greg: 'Greg',
+    PET_NAME_Glacy: 'Glacy',
+    PET_NAME_Cresbot: 'Cresbot',
 
     // #### Spells
     MAGIC_SPELL_NAME_Storm_Of_Armadyl: 'Storm of Armadyl',

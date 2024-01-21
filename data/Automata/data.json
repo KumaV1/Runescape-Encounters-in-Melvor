@@ -627,6 +627,10 @@
         "id": "Guthix_Cave",
         "name": "Guthix's Cave",
         "media": "assets/runescapeEncountersInMelvor/Cresbot.png",
+        "pet": {
+          "petID": "runescapeEncountersInMelvor:Cresbot",
+          "weight": 3500
+        },
         "difficulty": [ 4 ],
         "monsterIDs": [
           "runescapeEncountersInMelvor:Automaton_Guardian",
@@ -655,6 +659,20 @@
         "ids": [
           "runescapeEncountersInMelvor:Guthix_Cave"
         ]
+      }
+    ],
+    "pets": [
+      {
+        "id": "Cresbot",
+        "name": "Cresbot",
+        "media": "assets/runescapeEncountersInMelvor/Cresbot.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": true,
+        "modifiers": {
+
+        },
+        "activeInRaid": false,
+        "hint": "Guthix's Cave"
       }
     ]
   }
