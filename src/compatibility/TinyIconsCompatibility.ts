@@ -1,5 +1,5 @@
 export class TinyIconsCompatibility {
-    private static _specialItems: { [key: string]: string[] } = {
+    private static _items: { [key: string]: string[] } = {
         Anima_Core_Helm_Of_Seren: [
             "increasedMinAirSpellDmg",
             "increasedMinWaterSpellDmg",
@@ -40,6 +40,58 @@ export class TinyIconsCompatibility {
         ]
     };
 
+    private static _specialAttacks: { [key: string]: string[] } = {
+        Rathis_Acid_Bombardment: ["increasedDamageTaken"],
+        Orikalka_Frost_Storm: ["increasedAttackIntervalPercent"],
+        Helwyr_The_Aid_Of_Nature: ["increasedAttackIntervalPercent"],
+        Twin_Furies_Channelled_Bomb: ["increasedDamageTaken"],
+        Automaton_Target_Weak_Point: ["increasedBleedDOTDamage"],
+        Unstable_Glacyte_Channeled_Energy: ["decreasedDamageReduction"],
+        Sapping_Glacyte_Channeled_Energy: ["decreasedFlatPrayerCostReduction"],
+        Enduring_Glacyte_Channeled_Energy: ["decreasedDamageTaken"],
+        Glacor_Unstable_Glacyte: ["decreasedDamageReduction"],
+        Glacor_Sapping_Glacyte: [
+            "decreasedFlatPrayerCostReduction",
+            "decreasedChanceToPreservePrayerPoints"
+        ],
+        Glacor_Enduring_Glacyte: ["decreasedDamageTaken"],
+        Glacor_Icicle_Slam: [
+            "decreasedDamageReduction",
+            "increasedAttackIntervalPercent"
+        ],
+        Armadyl_Battlestaff_Tempest_Of_Armadyl: ["decreasedAttackIntervalPercent"]
+    };
+
+    private static _passives: { [key: string]: string[] } = {
+        Royal_Hide_Sea_Melee: [
+            "meleeImmunity",
+            "rangedImmunity"
+        ],
+        Royal_Hide_Sea_Ranged: [
+            "rangedImmunity",
+            "magicImmunity"
+        ],
+        Royal_Hide_Sea_Magic: [
+            "meleeImmunity",
+            "magicImmunity"
+        ],
+        Orikalka_Royal_Hide: [
+            "meleeImmunity",
+            "rangedImmunity",
+            "increasedDamageReduction"
+        ],
+        Rathis_Royal_Hide: [
+            "rangedImmunity",
+            "magicImmunity",
+            "increasedDamageReduction"
+        ],
+        Pthentraken_Royal_Hide: [
+            "meleeImmunity",
+            "magicImmunity",
+            "increasedDamageReduction"
+        ]
+    };
+
     private static _globalIconsEnabled: Boolean = false;
 
     /**
@@ -72,29 +124,29 @@ export class TinyIconsCompatibility {
 
     /**
      * Retrieve item description in which tiny-icons placeholders have been replaced
-     * @param localItemId id of item by, through which relevant modifiers are determined
+     * @param localItemId id of item, through which relevant modifiers are determined
      * @param description description in which to replace tiny-icons placeholders
      */
     public static getModifiedItemDescription(localItemId: string, description: string): string {
-        const modifiers: string[] | undefined = this._specialItems[localItemId];
+        return TinyIconsCompatibility.getModifiedDescription(description, this._items[localItemId]);
+    }
 
-        // If no modifiers were found, then the item doesn't require any description adjustments
-        if (!modifiers) {
-            return description;
-        }
+    /**
+     * Retrieve special attack description in which tiny-icons placeholders have been replaced
+     * @param localSpecialAttackId id of special, through which relevant modifiers are determined
+     * @param description description in which to replace tiny-icons placeholders
+     */
+    public static getModifiedSpecialAttackDescription(localSpecialAttackId: string, description: string): string {
+        return TinyIconsCompatibility.getModifiedDescription(description, this._specialAttacks[localSpecialAttackId]);
+    }
 
-        // Otherwise, loop through modifiers to replace placeholders
-        if (this._globalIconsEnabled) {
-            for (var i = 0; i < modifiers.length; i++) {
-                description = description.replace(`\$\{modifierTinyIcons${i}\}`, mod.api.tinyIcons.getIconHTMLForModifier(modifiers[i], 1, true) ?? "") // value is actually irrelevant for number-only modifiers
-            }
-        } else {
-            for (var i = 0; i < modifiers.length; i++) {
-                description = description.replace(`\$\{modifierTinyIcons${i}\}`, "");
-            }
-        }
-
-        return description;
+    /**
+     * Retrieve special attack description in which tiny-icons placeholders have been replaced
+     * @param localPassiveId id of passive, through which relevant modifiers are determined
+     * @param description description in which to replace tiny-icons placeholders
+     */
+    public static getModifiedPassivDescription(localPassiveId: string, description: string): string {
+        return TinyIconsCompatibility.getModifiedDescription(description, this._passives[localPassiveId]);
     }
 
     /**
@@ -111,5 +163,30 @@ export class TinyIconsCompatibility {
      */
     private static isLoaded(): Boolean {
         return mod.manager.getLoadedModList().includes('Tiny Icons');
+    }
+
+    /**
+     * Retrieve description in which tiny-icons placeholders have been replaced
+     * @param description description in which to replace tiny-icons placeholders
+     * @param modifiers modifier names found for the description
+     */
+    private static getModifiedDescription(description: string, modifiers: string[] | undefined): string {
+        // If no modifiers were provided, then the item doesn't require any description adjustments
+        if (modifiers === undefined || modifiers.length === 0) {
+            return description;
+        }
+
+        // Otherwise, loop through modifiers to replace placeholders
+        if (this._globalIconsEnabled) {
+            for (var i = 0; i < modifiers.length; i++) {
+                description = description.replace(`\$\{modifierTinyIcons${i}\}`, mod.api.tinyIcons.getIconHTMLForModifier(modifiers[i], 1, true) ?? "") // value is actually irrelevant for number-only modifiers
+            }
+        } else {
+            for (var i = 0; i < modifiers.length; i++) {
+                description = description.replace(`\$\{modifierTinyIcons${i}\}`, "");
+            }
+        }
+
+        return description;
     }
 }

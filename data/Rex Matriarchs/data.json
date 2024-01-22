@@ -960,7 +960,7 @@
             "character": "Target",
             "countsOn": "Target",
             "stacksToAdd": 1,
-            "maxStacks": 5,
+            "maxStacks": 1,
             "modifiers": {
               "increasedDamageTaken": 20
             },
