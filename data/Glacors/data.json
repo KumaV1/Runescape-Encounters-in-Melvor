@@ -997,7 +997,7 @@
           "modifier": "increasedAttackIntervalPercent",
           "magnitude": 35
         },
-        "areaEffectDescription": "-${effectValue}% attack interval"
+        "areaEffectDescription": "-${effectValue}% Attack Interval"
       }
     ],
     "slayerAreaDisplayOrder": [

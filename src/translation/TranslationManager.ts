@@ -1,6 +1,8 @@
 ﻿import { Constants } from '../Constants'
 import { TinyIconsCompatibility } from '../compatibility/TinyIconsCompatibility'
 
+import { languages } from './languages';
+
 /**
  * Patches a couple name/description getters, so they access our integrated localization
  *
@@ -10,7 +12,10 @@ import { TinyIconsCompatibility } from '../compatibility/TinyIconsCompatibility'
 export class TranslationManager {
     constructor(private readonly context: Modding.ModContext) { }
 
-    public init() {
+    /**
+     * Patches multiple name/description getters, so they check our custom injected translations
+     */
+    public patch() {
         this.context.patch(Item, 'name').get(function (patch) {
             if (this.namespace === Constants.MOD_NAMESPACE) {
                 return getLangString(`ITEM_NAME_${this.localID}`);
@@ -74,6 +79,14 @@ export class TranslationManager {
         this.context.patch(SlayerArea, 'name').get(function (patch) {
             if (this.namespace === Constants.MOD_NAMESPACE) {
                 return getLangString(`SLAYER_AREA_NAME_${this.localID}`);
+            }
+
+            return patch();
+        });
+
+        this.context.patch(SlayerArea, 'areaEffectDescription').get(function (patch) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return getLangString(`SLAYER_AREA_EFFECT_${this.localID}`);
             }
 
             return patch();
@@ -153,5 +166,49 @@ export class TranslationManager {
 
             return patch();
         })
+    }
+
+    /**
+     * Creates a list of translations for the current languages and registers it
+     */
+    public register(): void {
+        let lang = setLang;
+
+        if (lang === 'lemon' || lang === 'carrot') {
+            lang = 'en';
+        }
+
+        // Melvor includes functionality to automatically retrieve translations by category (see "LanguageCategory" in the schema)
+        // and entity id - for those calls, a mod prefix isn't necessary, which is why we create this const array
+        const keysToNotPrefix = [
+            'SHOP_NAME',
+            'SHOP_DESCRIPTION',
+            'ITEM_NAME',
+            'ITEM_DESCRIPTION',
+            'MAGIC_SPELL_NAME',
+            'MAGIC_AURORA_NAME',
+            'COMBAT_AREA_NAME',
+            'SLAYER_AREA_NAME',
+            'SLAYER_AREA_EFFECT',
+            'DUNGEON_NAME',
+            'MONSTER_NAME',
+            'MONSTER_DESCRIPTION',
+            'PET_NAME',
+            'SPECIAL_ATTACK_NAME',
+            'SPECIAL_ATTACK_DESCRIPTION',
+            'PAGE_NAME',
+            'PASSIVE_NAME',
+            'PASSIVE_DESCRIPTION',
+        ];
+
+        // Based on how translation is retrieved,
+        // we may or may not have to specify the mod namespace
+        for (const [key, value] of Object.entries<string>(languages[lang])) {
+            if (keysToNotPrefix.some(prefix => key.includes(prefix))) {
+                loadedLangJson[key] = value;
+            } else {
+                loadedLangJson[`${Constants.MOD_NAMESPACE}_${key}`] = value;
+            }
+        }
     }
 }

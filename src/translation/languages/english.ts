@@ -123,7 +123,9 @@ export const en = {
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Rex Matriarch Lair',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Godwars Dungeon 2 - Heart of Gielinor',
     SLAYER_AREA_NAME_Glacor_Cave: 'Glacor Cave',
+    SLAYER_AREA_EFFECT_Glacor_Cave: '-${effectValue}% Attack Interval',
     SLAYER_AREA_NAME_Guthix_Cave: "Guthix's Cave",
+    SLAYER_AREA_EFFECT_Guthix_Cave: "-${effectValue}% reduced Damage Reduction while Bleeding",
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
