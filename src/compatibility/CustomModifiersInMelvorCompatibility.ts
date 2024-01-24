@@ -59,13 +59,14 @@ export class CustomModifiersInMelvorCompatibility {
             return;
         }
 
-        cmim.addMonsters(MonsterType.Dragon, ["runescapeEncountersInMelvor:Gorvek_And_Vindicta"]);
-        cmim.addMonsters(MonsterType.Demon, ["runescapeEncountersInMelvor:Avaryss_And_Nymora"]);
+        cmim.addMonsters(MonsterType.Dragon, [`${Constants.MOD_NAMESPACE}:Gorvek_And_Vindicta`]);
+        cmim.addMonsters(MonsterType.Demon, [`${Constants.MOD_NAMESPACE}:Avaryss_And_Nymora`]);
         cmim.forceBaseModTypeActive(MonsterType.Dragon);
         cmim.forceBaseModTypeActive(MonsterType.Undead);
 
-        cmim.addMonsters("Elf", ["runescapeEncountersInMelvor:Helwyr"]);
-        cmim.addMonsters(MonsterType.Elemental, ["runescapeEncountersInMelvor:Enduring_Glacyte", "runescapeEncountersInMelvor:Sapping_Glacyte", "runescapeEncountersInMelvor:Unstable_Glacyte", "runescapeEncountersInMelvor:Glacor"]);
+        cmim.addMonsters("Elf", [`${Constants.MOD_NAMESPACE}:Helwyr`]);
+        cmim.addMonsters("Robot", [`${Constants.MOD_NAMESPACE}:Automaton_Guardian`, `${Constants.MOD_NAMESPACE}:Automaton_Tracer`, `${Constants.MOD_NAMESPACE}:Automaton_Generator`]);
+        cmim.addMonsters(MonsterType.Elemental, [`${Constants.MOD_NAMESPACE}:Enduring_Glacyte`, `${Constants.MOD_NAMESPACE}:Sapping_Glacyte`, `${Constants.MOD_NAMESPACE}:Unstable_Glacyte`, `${Constants.MOD_NAMESPACE}:Glacor`]);
     }
 
     /**
