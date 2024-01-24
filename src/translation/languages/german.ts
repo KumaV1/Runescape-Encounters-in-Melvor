@@ -1,10 +1,12 @@
 ﻿export const de = {
+    // #### Mod Syngergy
+    Cmim_Modifiers_Missing: 'Es fehlen ein oder mehr Modifikatoren vom "Custom Modifiers in Melvor"-Mod',
+
     // #### Global droptable overview
     PAGE_NAME_Global_Droptable_Overview: "Globale Beuteliste (Runescape)",
-    Global_Droptable_Overview_Functionality: "Diese Gegenstände werden separat gerollt und ersetzen keine andere Beute. Sie werden außerdem direkt aufgehoben und in der Bank abgelegt",
     Global_Droptable_Overview_General_Functionality: "Jeder Gegenstand auf der globalen Beuteliste wird separat gerollt. Dies passiert separat von der gewöhnlichen Beuteliste und ersetzt keinerlei andere Beute",
-    Global_Droptable_Overview_Type_Limitation: 'Gegenstände, welche nur von bestimmten Monsterarten fallen gelassen werden, können nur fallen gelassen werden, wenn der "Custom Modifiers in Melvor"-Mod geladen worden ist. Wenn dem so ist, könnt ihr die Monsterarten-Übersicht prüfen, um zu sehen welche Monster der/den relevanten Art(en) zugewiesen ist',
     Global_Droptable_Overview_Item_Pickup_Info: "Gegenstände werden nicht in den Beutecontainer gelegt, sondern sofort in der Bank verstaut. Allerdings nur, wenn freier Platz in der Bank vorhanden ist",
+    Global_Droptable_Overview_Type_Limitation: 'Gegenstände, welche nur von bestimmten Monsterarten fallen gelassen werden, können nur fallen gelassen werden, wenn der "Custom Modifiers in Melvor"-Mod geladen worden ist. Wenn dem so ist, könnt ihr die Monsterarten-Übersicht prüfen, um zu sehen welche Monster der/den relevanten Art(en) zugewiesen ist',
     Global_Droptable_Overview_Base_Droprate: "Basischance",
     Global_Droptable_Overview_Chance_Increase_Per_Cb_Info: "Die Chance erhöht sich gegen stärkere Gegner. Der Zähler erhöht sich (im Durchschnitt) alle ${averageCbPerNumerator} Kampfstufen",
     Global_Droptable_Overview_Limitation_Only_Last_In_Dungeons: "Wird in Verließen nur vom letzten Monster fallen gelassen",
@@ -114,11 +116,19 @@
     ITEM_NAME_Ragefire_Boots: 'Zornfeuer-Stiefel',
     ITEM_DESCRIPTION_Ragefire_Boots: '+30 Mindestschaden bei Nutzung von ${modifierTinyIcons0}Luft-, ${modifierTinyIcons1}Wasser-, ${modifierTinyIcons2}Erd-, oder ${modifierTinyIcons3}Feuer-Zaubern.',
 
+    ITEM_NAME_Pneumatic_Gloves: 'Druckluft-Handschuhe',
+    ITEM_NAME_Tracking_Gloves: 'Spürer-Handschuhe',
+    ITEM_NAME_Static_Gloves: 'Statische Handschuhe',
+    ITEM_DESCRIPTION_Static_Gloves: '+30 Mindestschaden bei Nutzung von ${modifierTinyIcons0}Luft-, ${modifierTinyIcons1}Wasser-, ${modifierTinyIcons2}Erd-, oder ${modifierTinyIcons3}Feuer-Zaubern.',
+
     // #### Area names and descriptions
     COMBAT_AREA_NAME_Dagannoth_Lair: 'Dagannoth-Höhle',
     COMBAT_AREA_NAME_Rex_Matriarch_Lair: 'Höhle der Rex-Matriarchinnen',
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Verlies der Götterkriege 2 - Herz von Gielinor',
     SLAYER_AREA_NAME_Glacor_Cave: 'Höhle der Glazioren',
+    SLAYER_AREA_EFFECT_Glacor_Cave: '-${effectValue}% Angriffsinterval',
+    SLAYER_AREA_NAME_Guthix_Chamber: "Guthix's Kammer",
+    SLAYER_AREA_EFFECT_Guthix_Chamber: "-${effectValue}% Schadensreduzierung während Blutungen",
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
@@ -151,6 +161,13 @@
     MONSTER_NAME_Unstable_Glacyte: 'Instabiler Glazyt',
     MONSTER_DESCRIPTION_Unstable_Glacyte: "Ein Eiswesen, das äußerst unbeständig wirkt",
 
+    MONSTER_NAME_Automaton_Generator: 'Mechanischer Generator',
+    MONSTER_DESCRIPTION_Automaton_Generator: "Generiert magische Energie, die beim Kämpfen benutzt werden kann",
+    MONSTER_NAME_Automaton_Guardian: 'Mechanischer Nahkämpfer',
+    MONSTER_DESCRIPTION_Automaton_Guardian: "Ein zäher Nahkämpfer",
+    MONSTER_NAME_Automaton_Tracer: 'Mechanischer Fernkämpfer',
+    MONSTER_DESCRIPTION_Automaton_Tracer: "Feuert tödliche Geschosse ab",
+
     // #### Pet names
     PET_NAME_Rex_Hatchling: 'Küken Rex',
     PET_NAME_Supreme_Hatchling: 'Küken Supreme',
@@ -162,6 +179,8 @@
     PET_NAME_Nylessa_And_Ava: 'Nylessa und Ava',
     PET_NAME_Rawrvek_And_Vindiddy: 'Rawrvek und Vindiddy',
     PET_NAME_Greg: 'Greg',
+    PET_NAME_Glacy: 'Glacy',
+    PET_NAME_Cresbot: 'Cresbot',
 
     // #### Spells
     MAGIC_SPELL_NAME_Storm_Of_Armadyl: 'Sturm des Armadyl',
@@ -171,9 +190,9 @@
     SPECIAL_ATTACK_NAME_Laniakeas_Spear_Poisonous_Tip: 'Giftige Spitze',
     SPECIAL_ATTACK_DESCRIPTION_Laniakeas_Spear_Poisonous_Tip: "Verursacht ${attackDamageMaxValue0}% deines normalen Angriffsschadens und fügt Gift zu, welches ${onHitEffect0DamageMaxValue0}% der maximalen Trefferpunkte des Gegners als Schaden über ${onHitEffect0duration}s hinweg verursacht",
     SPECIAL_ATTACK_NAME_Rathis_Acid_Bombardment: 'Säureschauer',
-    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombadiert dich mit Säure. Verursacht ${attackDamageMaxValue0}% Schaden und fügt tödliches Gift zu, sowie einen Stapel Korrosion für ${onHitEffect0turns} Runden (Maximal ${onHitEffect0maxStacks} Stapel)',
+    SPECIAL_ATTACK_DESCRIPTION_Rathis_Acid_Bombardment: 'Rathis bombadiert dich mit Säure. Verursacht ${attackDamageMaxValue0}% Schaden und fügt tödliches Gift zu, sowie Korrosion für ${onHitEffect0turns} Runden (${modifierTinyIcons0}+20% erhöhter genommener Schaden)',
     SPECIAL_ATTACK_NAME_Orikalka_Frost_Storm: 'Froststurm',
-    SPECIAL_ATTACK_DESCRIPTION_Orikalka_Frost_Storm: 'Orikalka erzeugt einen eisigen Tornado, welcher ${attackDamageMaxValue0}% magischen Schaden und einen Stapel Erfrierung für ${onHitEffect0turns} Runden verursacht (25% verringertes Angriffsintervall). (Vermeidbar)',
+    SPECIAL_ATTACK_DESCRIPTION_Orikalka_Frost_Storm: 'Orikalka erzeugt einen eisigen Tornado, welcher ${attackDamageMaxValue0}% magischen Schaden und einen Stapel Erfrierung für ${onHitEffect0turns} Runden verursacht (${modifierTinyIcons0}+25% Angriffsintervall). (Vermeidbar)',
     SPECIAL_ATTACK_NAME_Orikalka_Pyroclastic_Shock: 'Pyroklastischer schock',
     SPECIAL_ATTACK_DESCRIPTION_Orikalka_Pyroclastic_Shock: 'Orikalka schwingt ihren Schwanz und erzeugt dabei Risse um sie herum. Verursacht ${attackDamageMaxValue0}% Schaden und weitere ${onHitEffect0DamageMaxValue0}% durch Blutung verursachten Schaden',
     SPECIAL_ATTACK_NAME_Pthentraken_Converging_Lightning: 'Strömende Blitze',
@@ -182,7 +201,7 @@
     SPECIAL_ATTACK_DESCRIPTION_Pthentraken_Storm_Column: 'Pthentraken erzeugt eine Sturmsäule an deinem aktuellen Standort, welche ${hitCount}x ${attackDamageMaxValue0}% Schaden verursacht',
 
     SPECIAL_ATTACK_NAME_Helwyr_The_Aid_Of_Nature: 'Die Hilfe der Natur',
-    SPECIAL_ATTACK_DESCRIPTION_Helwyr_The_Aid_Of_Nature: "Verursacht Blutung, welche ${onHitEffect0DamageMaxValue0}% Schaden über eine Laufzeit von ${onHitEffect0duration}s verursacht. Fügt außerdem +${onHitEffect1modValue0}% Angriffsintervall für ${onHitEffect1turns} Runden zu",
+    SPECIAL_ATTACK_DESCRIPTION_Helwyr_The_Aid_Of_Nature: "Verursacht Blutung, welche ${onHitEffect0DamageMaxValue0}% Schaden über eine Laufzeit von ${onHitEffect0duration}s verursacht. Fügt außerdem ${modifierTinyIcons0}+${onHitEffect1modValue0}% Angriffsintervall für ${onHitEffect1turns} Runden zu",
     SPECIAL_ATTACK_NAME_Helwyr_Rake_And_Rend: 'Rechen',
     SPECIAL_ATTACK_DESCRIPTION_Helwyr_Rake_And_Rend: 'Verursacht ${attackDamageMaxValue0}% Schaden und fügt Blutung zu, welche ${onHitEffect0DamageMaxValue0}% Schaden über einen Zeitraum von ${onHitEffect0duration}s verursacht',
     SPECIAL_ATTACK_NAME_Helwyr_Thrash: 'Rundumschlag',
@@ -192,7 +211,7 @@
     SPECIAL_ATTACK_NAME_Twin_Furies_Ceiling_Collapse: 'Deckeneinsturz',
     SPECIAL_ATTACK_DESCRIPTION_Twin_Furies_Ceiling_Collapse: "Nymora greift die Decke an. Stalaktiten richten ${hitCount} mal je ${attackDamageMaxValue0}% Schaden an",
     SPECIAL_ATTACK_NAME_Twin_Furies_Channelled_Bomb: 'Kanalisierte Bombe',
-    SPECIAL_ATTACK_DESCRIPTION_Twin_Furies_Channelled_Bomb: "Avaryss und Nemora laden eine Bombe auf und detonieren sie. Fügt insgesamt ${hitCount} Treffer über  ${duration}s hinweg zu. Die ersten Treffer richten jeweils  ${attackDamageMaxValue0}% Schaden an and der letzte Treffer richtet ${attackDamageMaxValue1}% Schaden an. Sorgt außerdem dafür, dass Avaryss und Nemora für ${preHitEffect0turns} Runden +${preHitEffect0modValue0}% mehr Schaden nehmen",
+    SPECIAL_ATTACK_DESCRIPTION_Twin_Furies_Channelled_Bomb: "Avaryss und Nemora laden eine Bombe auf und detonieren sie. Fügt insgesamt ${hitCount} Treffer über  ${duration}s hinweg zu. Die ersten Treffer richten jeweils  ${attackDamageMaxValue0}% Schaden an and der letzte Treffer richtet ${attackDamageMaxValue1}% Schaden an. Sorgt außerdem dafür, dass Avaryss und Nemora für ${preHitEffect0turns} Runden ${modifierTinyIcons0}+${preHitEffect0modValue0}% mehr Schaden nehmen",
     SPECIAL_ATTACK_NAME_Gorvek_And_Vindicta_Hurricane: 'Wirbelsturm',
     SPECIAL_ATTACK_DESCRIPTION_Gorvek_And_Vindicta_Hurricane: 'Wirbelt herum und verursacht ${attackDamageMaxValue0}% Schaden',
     SPECIAL_ATTACK_NAME_Gorvek_And_Vindicta_Fire_Wall: 'Feuerwand',
@@ -205,41 +224,48 @@
     SPECIAL_ATTACK_DESCRIPTION_Gregorovic_Glaive_Throw: 'Wirft Glefen in die Luft, welche ${hitCount} mal ${attackDamageMaxValue0}% Schaden anrichten',
 
     SPECIAL_ATTACK_NAME_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Unwetter des Armadyl",
-    SPECIAL_ATTACK_DESCRIPTION_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Führt einen Angriff aus der ${hitCount} Treffer über ${duration}s hinweg verursacht, von denen jeder ${attackDamageMaxValue0}% deines maximalen Angriffsschaden verursacht. Bei einem Treffer erhählst du -${onHitEffect0modValue0}% Angriffsintervall für ${onHitEffect0turns} deiner Runden",
+    SPECIAL_ATTACK_DESCRIPTION_Armadyl_Battlestaff_Tempest_Of_Armadyl: "Führt einen Angriff aus der ${hitCount} Treffer über ${duration}s hinweg verursacht, von denen jeder ${attackDamageMaxValue0}% deines maximalen Angriffsschaden verursacht. Bei einem Treffer erhählst du ${modifierTinyIcons0}-${onHitEffect0modValue0}% Angriffsintervall für ${onHitEffect0turns} deiner Runden",
     SPECIAL_ATTACK_NAME_Glacor_Ranged_Projectile: "Fernkampfgeschoss",
     SPECIAL_ATTACK_DESCRIPTION_Glacor_Ranged_Projectile: "Greift mit einem normalen Angriff im Fernkampfstil an",
     SPECIAL_ATTACK_NAME_Glacor_Icicle_Slam: "Eiszapfen-Schlag",
-    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Wirft einen Eiszapfen auf den Spieler, der ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden versucht, wobei jedwede Schadensreduzierung-Boni ignoriert werden. Verursacht außerdem für ${onHitEffect0turns} Runde Frost und +${onHitEffect1modValue0}% Angriffsintervall",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Icicle_Slam: "Wirft einen Eiszapfen auf den Spieler, der ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden versucht, ${modifierTinyIcons0}wobei jedwede Schadensreduzierung-Boni ignoriert werden. Verursacht außerdem für ${onHitEffect0turns} Runde Frost und ${modifierTinyIcons1}+${onHitEffect1modValue0}% Angriffsintervall",
     SPECIAL_ATTACK_NAME_Glacor_Enduring_Glacyte: "Kanalysierung (Standhafter Glazyt)",
-    SPECIAL_ATTACK_DESCRIPTION_Glacor_Enduring_Glacyte: "Der Glazior führt einen normalen Angriff aus, welcher gleichzeitig die Kraft eines Standhaften Glazyt kanalisiert (unabhängig davon, ob der Angriff trifft). Erleidet für ${preHitEffect0turns} Runden ${preHitEffect0modValue0}% weniger Schaden",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Enduring_Glacyte: "Der Glazior führt einen normalen Angriff aus, welcher gleichzeitig die Kraft eines Standhaften Glazyt kanalisiert (unabhängig davon, ob der Angriff trifft). Erleidet für ${preHitEffect0turns} Runden ${modifierTinyIcons0}${preHitEffect0modValue0}% weniger Schaden",
     SPECIAL_ATTACK_NAME_Glacor_Sapping_Glacyte: "Kanalysierung (Zehrender Glazyt)",
-    SPECIAL_ATTACK_DESCRIPTION_Glacor_Sapping_Glacyte: "Der Glazior führt einen normalen Angriff aus, welcher gleichzeitig die Kraft eines Zehrenden Glazyt kanalisiert (unabhängig davon, ob der Angriff trifft). Erhöht für ${preHitEffect0turns} Runden die Gebetspunkte-Kosten um +${preHitEffect0modValue0} und verursacht für die selbe Anzahö Runden -${preHitEffect0modValue1}% Wahrscheinlichkeit Gebetspunkte zu sparen",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Sapping_Glacyte: "Der Glazior führt einen normalen Angriff aus, welcher gleichzeitig die Kraft eines Zehrenden Glazyt kanalisiert (unabhängig davon, ob der Angriff trifft). ${modifierTinyIcons0}Erhöht für ${preHitEffect0turns} Runden die Gebetspunkte-Kosten um +${preHitEffect0modValue0} und verursacht für die selbe Anzahl Runden ${modifierTinyIcons1}-${preHitEffect0modValue1}% Wahrscheinlichkeit Gebetspunkte zu sparen",
     SPECIAL_ATTACK_NAME_Glacor_Unstable_Glacyte: "Kanalysierung (Instabiler Glazyt)",
-    SPECIAL_ATTACK_DESCRIPTION_Glacor_Unstable_Glacyte: "Kanalisiert die Kraft eines Instabilen Glazyt, was eine gewaltige, unvermeidbare Explosion auslöst, welche ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden verursacht, wobei jedwede Schadensreduzierungs-Boni ignoriert werden",
+    SPECIAL_ATTACK_DESCRIPTION_Glacor_Unstable_Glacyte: "Kanalisiert die Kraft eines Instabilen Glazyt, was eine gewaltige, unvermeidbare Explosion auslöst, welche ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden verursacht, ${modifierTinyIcons0}wobei jedwede Schadensreduzierungs-Boni ignoriert werden",
     SPECIAL_ATTACK_NAME_Enduring_Glacyte_Channeled_Energy: "Kanalysierte Energie",
-    SPECIAL_ATTACK_DESCRIPTION_Enduring_Glacyte_Channeled_Energy: "Der Glazyt führt einen normalen Angriff aus, welcher gleichzeitig seine Kraft kanalisiert (unabhängig davon, ob der Angriff trifft). Erleidet für ${preHitEffect0turns} Runden ${preHitEffect0modValue0}% weniger Schaden",
+    SPECIAL_ATTACK_DESCRIPTION_Enduring_Glacyte_Channeled_Energy: "Der Glazyt führt einen normalen Angriff aus, welcher gleichzeitig seine Kraft kanalisiert (unabhängig davon, ob der Angriff trifft). ${modifierTinyIcons0}Erleidet für ${preHitEffect0turns} Runden ${preHitEffect0modValue0}% weniger Schaden",
     SPECIAL_ATTACK_NAME_Sapping_Glacyte_Channeled_Energy: "Kanalysierte Energie",
-    SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "Der Glazyt führt einen normalen Angriff aus, welcher gleichzeitig seine Kraft kanalisiert (unabhängig davon, ob der Angriff trifft). Erhöht für ${preHitEffect0turns} Runden die Gebetspunkte-Kostem um +${preHitEffect0modValue0}",
+    SPECIAL_ATTACK_DESCRIPTION_Sapping_Glacyte_Channeled_Energy: "Der Glazyt führt einen normalen Angriff aus, welcher gleichzeitig seine Kraft kanalisiert (unabhängig davon, ob der Angriff trifft). ${modifierTinyIcons0}Erhöht für ${preHitEffect0turns} Runden die Gebetspunkte-Kostem um +${preHitEffect0modValue0}",
     SPECIAL_ATTACK_NAME_Unstable_Glacyte_Channeled_Energy: "Kanalysierte Energie",
-    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "Der Glazyt kanalisiert seine Energie, was eine gewaltige, unvermeidbare Explosion auslöst, welche ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden verursacht, wobei jedwede Schadensreduzierungs-Boni ignoriert werden",
+    SPECIAL_ATTACK_DESCRIPTION_Unstable_Glacyte_Channeled_Energy: "Der Glazyt kanalisiert seine Energie, was eine gewaltige, unvermeidbare Explosion auslöst, welche ${attackDamageMaxValue0}% deiner derzeitigen Lebenspunkte als Schaden verursacht, ${modifierTinyIcons0}wobei jedwede Schadensreduzierungs-Boni ignoriert werden",
+
+    SPECIAL_ATTACK_NAME_Automaton_Target_Weak_Point: 'Schwachpunkt anvisieren',
+    SPECIAL_ATTACK_DESCRIPTION_Automaton_Target_Weak_Point: "Visiert den Schwachpunkt des Gegners an, um den Effekt von Blutung zu verschlimmern. Richtet über ${duration}s hinweg ${hitCount} mal ${attackDamageMaxValue0}% des normalen Schadens an. Jeder Treffer verursacht dabei beim Gegner ${modifierTinyIcons0}+${onHitEffect0modValue0}% erhöhten Schaden von Blutungen, mit einem Maximum von ${onHitEffect0maxStacks} Stapeln",
+    SPECIAL_ATTACK_NAME_Automaton_Pulse: 'Puls',
+    SPECIAL_ATTACK_DESCRIPTION_Automaton_Pulse: "Schlägt wiederholt auf den Boden und verursacht dabei Impulse, welche über ${duration}s hinweg ${hitCount} mal ${attackDamageMaxValue0}% des normalen Schadens austeilen und eine Blutung verursachen, die über ${onHitEffect0duration}s hinweg ${onHitEffect0DamageMaxValue0}% ihres Maximalschadens an Schaden verursacht",
 
     // #### Passives names and descriptions
     PASSIVE_NAME_Royal_Hide_Sea_Melee: 'Royale Haut (See) (Nahkampf)',
-    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "Die starke, schützende Haut der Dagannoth-Könige ${modifierTinyIcons0}${modifierTinyIcons1}hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
     PASSIVE_NAME_Royal_Hide_Sea_Ranged: 'Royale Haut (See) (Fernkampf)',
-
-    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Ranged: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Ranged: "Die starke, schützende Haut der Dagannoth-Könige ${modifierTinyIcons0}${modifierTinyIcons1}hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
     PASSIVE_NAME_Royal_Hide_Sea_Magic: 'Royale Haut (See) (Magie)',
-    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Magic: "Die starke, schützende Haut der Dagannoth-Könige hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
+    PASSIVE_DESCRIPTION_Royal_Hide_Sea_Magic: "Die starke, schützende Haut der Dagannoth-Könige ${modifierTinyIcons0}${modifierTinyIcons1}hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind",
     PASSIVE_NAME_Orikalka_Royal_Hide: 'Royale Haut (Jura) (Nahkampf)',
-    PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
+    PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen ${modifierTinyIcons0}${modifierTinyIcons1}hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. ${modifierTinyIcons2}Gewährt außerdem +10% Schadensreduzierung",
     PASSIVE_NAME_Rathis_Royal_Hide: 'Royale Haut (Jura) (Fernkampf)',
-    PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
+    PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen ${modifierTinyIcons0}${modifierTinyIcons1}hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. ${modifierTinyIcons2}Gewährt außerdem +10% Schadensreduzierung",
     PASSIVE_NAME_Rathis_Poisonous_Body: "Giftiger Körper",
     PASSIVE_NAME_Pthentraken_Royal_Hide: 'Royale Haut (Jura) (Magie)',
-    PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. Gewährt außerdem 10% Schadensreduzierung",
+    PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "Die starke, schützende Haut der Rex-Matriarchinnen ${modifierTinyIcons0}${modifierTinyIcons1}hält sie davon ab von Angriffsstilen Schaden zu nehmen, welchen sie nicht schwach gegenüber sind. ${modifierTinyIcons2}Gewährt außerdem +10% Schadensreduzierung",
 
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: 'Beschworene Geister',
 
-    PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elementarer Schwachpunkt'
+    PASSIVE_NAME_Glacor_Elemental_Weakness: 'Elementarer Schwachpunkt',
+
+    PASSIVE_NAME_Automaton_Ambush: 'Hinterhalt',
+    PASSIVE_NAME_Automaton_Body: 'Mechanischer Körper'
 };

@@ -260,7 +260,7 @@ export class TranslationManager {
             }
         }
 
-        // In a delayed fashion, register pet hints dynamically
+        // Delayed, register pet hints dynamically
         this.context.onModsLoaded(function () {
             const combatAreas: Map<string, CombatArea> | undefined = game.combatAreas.namespaceMaps.get(Constants.MOD_NAMESPACE);
             const slayerAreas: Map<string, SlayerArea> | undefined = game.slayerAreas.namespaceMaps.get(Constants.MOD_NAMESPACE);
