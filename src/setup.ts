@@ -127,6 +127,7 @@ import '../assets/pets/Rex Matriarchs/Bagra.png'
 import '../assets/pets/Rex Matriarchs/Corbi.png'
 import '../assets/pets/Rex Matriarchs/Pavo.png'
 import '../assets/pets/Automata/Cresbot.png'
+import '../assets/pets/Glacors/Glacy.png'
 import '../assets/status/Rex Matriarchs/Corrosion.png'
 import '../assets/spells/Glacors/Storm_Of_Armadyl.png'
 import '../assets/_Shared/Logo.png'
@@ -139,7 +140,6 @@ import '../src/globalDroptable/globalDroptableOverview.css'
 
 export async function setup(ctx: Modding.ModContext) {
     initTranslation(ctx);
-    initLanguage(ctx);
 
     // Register our GameData
     // @ts-ignore: Supposedly non-matching type (e.g. "InsertEnd" vs. "InsertAfter" shop category order)
@@ -167,56 +167,14 @@ export async function setup(ctx: Modding.ModContext) {
 
 /**
  * Patches multiple name/description getters, so they check our custom injected translations
+ * Also creates a list of translations for the current languages and registers it
  * @param ctx
  */
 function initTranslation(ctx: Modding.ModContext) {
     const tm = new TranslationManager(ctx);
 
-    tm.init();
-}
-
-/**
- * Creates a list of translations for the current languages and registers it
- * @param ctx
- */
-function initLanguage(ctx: Modding.ModContext) {
-    let lang = setLang;
-
-    if (lang === 'lemon' || lang === 'carrot') {
-        lang = 'en';
-    }
-
-    // Melvor includes functionality to automatically retrieve translations by category (see "LanguageCategory" in the schema)
-    // and entity id - for those calls, a mod prefix isn't necessary, which is why we create this const array
-    const keysToNotPrefix = [
-        'SHOP_NAME',
-        'SHOP_DESCRIPTION',
-        'ITEM_NAME',
-        'ITEM_DESCRIPTION',
-        'MAGIC_SPELL_NAME',
-        'MAGIC_AURORA_NAME',
-        'COMBAT_AREA_NAME',
-        'SLAYER_AREA_NAME',
-        'DUNGEON_NAME',
-        'MONSTER_NAME',
-        'MONSTER_DESCRIPTION',
-        'PET_NAME',
-        'SPECIAL_ATTACK_NAME',
-        'SPECIAL_ATTACK_DESCRIPTION',
-        'PAGE_NAME',
-        'PASSIVE_NAME',
-        'PASSIVE_DESCRIPTION',
-    ];
-
-    // Based on how translation is retrieved,
-    // we may or may not have to specify the mod namespace
-    for (const [key, value] of Object.entries<string>(languages[lang])) {
-        if (keysToNotPrefix.some(prefix => key.includes(prefix))) {
-            loadedLangJson[key] = value;
-        } else {
-            loadedLangJson[`${Constants.MOD_NAMESPACE}_${key}`] = value;
-        }
-    }
+    tm.patch();
+    tm.register();
 }
 
 /**

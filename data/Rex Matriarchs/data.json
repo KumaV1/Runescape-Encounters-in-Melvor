@@ -459,7 +459,7 @@
         "modifiers": {
           "meleeImmunity": 1,
           "rangedImmunity": 1,
-          "increasedDamageReductionPercent": 10
+          "increasedDamageReduction": 10
         },
         "customDescription": "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction"
       },
@@ -469,7 +469,7 @@
         "modifiers": {
           "rangedImmunity": 1,
           "magicImmunity": 1,
-          "increasedDamageReductionPercent": 10
+          "increasedDamageReduction": 10
         },
         "customDescription": "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction"
       },
@@ -479,7 +479,7 @@
         "modifiers": {
           "meleeImmunity": 1,
           "magicImmunity": 1,
-          "increasedDamageReductionPercent": 10
+          "increasedDamageReduction": 10
         },
         "customDescription": "The Rex Matriarch's strong, protective hide protects them from all attack styles they are not weak against. Also provides 10% damage reduction"
       },
@@ -960,7 +960,7 @@
             "character": "Target",
             "countsOn": "Target",
             "stacksToAdd": 1,
-            "maxStacks": 5,
+            "maxStacks": 1,
             "modifiers": {
               "increasedDamageTaken": 20
             },

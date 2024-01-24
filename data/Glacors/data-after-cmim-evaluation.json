@@ -1,0 +1,41 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "modifications": {
+    "monsters": [
+      {
+        "id": "runescapeEncountersInMelvor:Glacor",
+        "passives": {
+          "add": [ "runescapeEncountersInMelvor:Glacor_Elemental_Weakness" ]
+        }
+      },
+      {
+        "id": "runescapeEncountersInMelvor:Enduring_Glacyte",
+        "passives": {
+          "add": [ "runescapeEncountersInMelvor:Glacor_Elemental_Weakness" ]
+        }
+      },
+      {
+        "id": "runescapeEncountersInMelvor:Sapping_Glacyte",
+        "passives": {
+          "add": [ "runescapeEncountersInMelvor:Glacor_Elemental_Weakness" ]
+        }
+      },
+      {
+        "id": "runescapeEncountersInMelvor:Unstable_Glacyte",
+        "passives": {
+          "add": [ "runescapeEncountersInMelvor:Glacor_Elemental_Weakness" ]
+        }
+      }
+    ],
+    "slayerAreas": [
+      {
+        "id": "runescapeEncountersInMelvor:Glacor_Cave",
+        "pet": {
+          "petID": "runescapeEncountersInMelvor:Glacy",
+          "weight": 5000
+        }
+      }
+    ]
+  }
+}
