@@ -1,4 +1,7 @@
 export const en = {
+    // #### Mod Syngergy
+    Cmim_Modifiers_Missing: 'Missing one or more modifiers of "Custom Modifiers in Melvor" mod',
+
     // #### Global droptable overview
     PAGE_NAME_Global_Droptable_Overview: "Global Droptable (Runescape)",
     Global_Droptable_Overview_General_Functionality: "Each item on the global droptable has its own roll. These rolls are separate from the regular droptable and do not replace any other loot",

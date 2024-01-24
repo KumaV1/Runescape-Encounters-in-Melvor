@@ -1,4 +1,5 @@
 ﻿import { Constants } from '../Constants'
+import { CustomModifiersInMelvorCompatibility } from '../compatibility/CustomModifiersInMelvorCompatibility';
 import { TinyIconsCompatibility } from '../compatibility/TinyIconsCompatibility'
 
 import { languages } from './languages';
@@ -34,6 +35,16 @@ export class TranslationManager {
             // Otherwise, run custom logic where descriptions may contain placeholders for tiny icons
             let localized = getLangString(`ITEM_DESCRIPTION_${this.localID}`);
             return TinyIconsCompatibility.getModifiedItemDescription(this.localID, localized);
+        });
+
+        this.context.patch(EquipmentItem, 'description').get(function (original) {
+            // If the item is not of this mod, then do not run any special logic
+            if (this.namespace !== Constants.MOD_NAMESPACE) {
+                return original();
+            }
+
+            // Otherwise, we may want to append a CMiM notice at the end of the description
+            return CustomModifiersInMelvorCompatibility.getModifiedItemDescription(this.localID, original());
         });
 
         this.context.patch(ShopPurchase, 'name').get(function (original) {
@@ -114,12 +125,16 @@ export class TranslationManager {
                 return original();
             }
 
-            // Otherwise, run custom logic where descriptions may contain placeholders for tiny icons
+            // Otherwise, we want to use custom/self-defined text, which we may further modify,
+            // by replacing placeholders or appending additional texts
             let localized = templateString(
                 getLangString(`SPECIAL_ATTACK_DESCRIPTION_${this.localID}`),
                 this.descriptionTemplateData
             )
-            return TinyIconsCompatibility.getModifiedSpecialAttackDescription(this.localID, localized);
+            localized = TinyIconsCompatibility.getModifiedSpecialAttackDescription(this.localID, localized);
+            localized = CustomModifiersInMelvorCompatibility.getModifiedSpecialAttackDescription(this.localID, localized);
+
+            return localized;
         });
 
         this.context.patch(CombatPassive, 'name').get(function (original) {
@@ -131,15 +146,24 @@ export class TranslationManager {
         });
 
         this.context.patch(CombatPassive, 'description').get(function (original) {
-            // If the passive is not of this mod, or does not have a custom description (instead being auto-generated, if having a description at all),
-            // then do not run any special logic
-            if (this.namespace !== Constants.MOD_NAMESPACE || this._customDescription === undefined) {
+            // If the passive is not of this mod, then do not run any special logic
+            if (this.namespace !== Constants.MOD_NAMESPACE) {
                 return original();
             }
 
-            // Otherwise, run custom logic where descriptions may contain placeholders for tiny icons
+            // If the passive is of this mod and has a generated description (or none at all),
+            // then we may only want to append a CMiM notice at the end of the unmodified original logic
+            if (this._customDescription === undefined) {
+                return CustomModifiersInMelvorCompatibility.getModifiedPassiveDescription(this.localID, original());
+            }
+
+            // Otherwise, we want to use a custom text, which we may further modify,
+            // by replacing placeholders or appending additional text
             let localized = getLangString(`PASSIVE_DESCRIPTION_${this.localID}`);
-            return TinyIconsCompatibility.getModifiedPassivDescription(this.localID, localized);
+            localized = TinyIconsCompatibility.getModifiedPassiveDescription(this.localID, localized);
+            localized = CustomModifiersInMelvorCompatibility.getModifiedPassiveDescription(this.localID, localized);
+
+            return localized;
         });
 
         this.context.patch(Pet, 'name').get(function (original) {
@@ -148,6 +172,16 @@ export class TranslationManager {
             }
 
             return original();
+        });
+
+        this.context.patch(Pet, 'description').get(function (original) {
+            // If the pet is not of this mod, then do not run any special logic
+            if (this.namespace !== Constants.MOD_NAMESPACE) {
+                return original();
+            }
+
+            // Otherwise, we may want to append a CMiM notice at the end of the description
+            return CustomModifiersInMelvorCompatibility.getModifiedPetDescription(this.localID, original());
         });
 
         this.context.patch(Page, 'name').get(function (original) {

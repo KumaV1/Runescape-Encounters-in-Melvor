@@ -145,7 +145,7 @@ export class TinyIconsCompatibility {
      * @param localPassiveId id of passive, through which relevant modifiers are determined
      * @param description description in which to replace tiny-icons placeholders
      */
-    public static getModifiedPassivDescription(localPassiveId: string, description: string): string {
+    public static getModifiedPassiveDescription(localPassiveId: string, description: string): string {
         return TinyIconsCompatibility.getModifiedDescription(description, this._passives[localPassiveId]);
     }
 
@@ -171,7 +171,7 @@ export class TinyIconsCompatibility {
      * @param modifiers modifier names found for the description
      */
     private static getModifiedDescription(description: string, modifiers: string[] | undefined): string {
-        // If no modifiers were provided, then the item doesn't require any description adjustments
+        // If no modifiers were provided, then the description doesn't require any adjustments
         if (modifiers === undefined || modifiers.length === 0) {
             return description;
         }

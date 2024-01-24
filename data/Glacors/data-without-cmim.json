@@ -1,0 +1,29 @@
+{
+	"$schema": "https://melvoridle.com/assets/schema/gameData.json",
+	"namespace": "runescapeEncountersInMelvor",
+	"data": {
+		"combatPassives": [
+			{
+				"id": "Glacor_Elemental_Weakness",
+				"name": "Elemental weakness",
+				"modifiers": {
+
+				}
+			}
+		],
+		"pets": [
+			{
+				"id": "Glacy",
+				"name": "Glacy",
+				"media": "assets/runescapeEncountersInMelvor/Glacy.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"modifiers": {
+
+				},
+				"activeInRaid": false,
+				"hint": "Glacor Cave"
+			}
+		]
+	}
+}

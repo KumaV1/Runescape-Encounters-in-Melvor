@@ -1,0 +1,15 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "namespace": "runescapeEncountersInMelvor",
+  "modifications": {
+    "slayerAreas": [
+      {
+        "id": "runescapeEncountersInMelvor:Guthix_Cave",
+        "pet": {
+          "petID": "runescapeEncountersInMelvor:Cresbot",
+          "weight": 3500
+        }
+      }
+    ]
+  }
+}

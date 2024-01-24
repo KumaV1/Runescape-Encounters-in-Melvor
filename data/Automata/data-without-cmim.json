@@ -1,0 +1,20 @@
+{
+	"$schema": "https://melvoridle.com/assets/schema/gameData.json",
+	"namespace": "runescapeEncountersInMelvor",
+	"data": {
+		"pets": [
+			{
+				"id": "Cresbot",
+				"name": "Cresbot",
+				"media": "assets/runescapeEncountersInMelvor/Cresbot.png",
+				"scaleChanceWithMasteryPool": false,
+				"ignoreCompletion": true,
+				"modifiers": {
+
+				},
+				"activeInRaid": false,
+				"hint": "Guthix's Cave"
+			}
+		]
+	}
+}
