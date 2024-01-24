@@ -1,12 +1,12 @@
 import CmimSharedModData from '../../data/_Shared/cmim-data.json'
 
-import NoCmimAutomataModData from '../../data/Automata/data-without-cmim.json'
-import CmimAutomataModData from '../../data/Automata/data-with-cmim.json'
-import DelayedAutomataModData from '../../data/Automata/data-after-cmim-evaluation.json'
-
 import NoCmimGlacorModData from '../../data/Glacors/data-without-cmim.json'
 import CmimGlacorModData from '../../data/Glacors/data-with-cmim.json'
 import DelayedGlacorModData from '../../data/Glacors/data-after-cmim-evaluation.json'
+
+import NoCmimAutomataModData from '../../data/Automata/data-without-cmim.json'
+import CmimAutomataModData from '../../data/Automata/data-with-cmim.json'
+import DelayedAutomataModData from '../../data/Automata/data-after-cmim-evaluation.json'
 
 import { Constants } from '../Constants';
 
@@ -39,19 +39,19 @@ export class CustomModifiersInMelvorCompatibility {
     public patch() {
         // Mod loaded?
         if (!CustomModifiersInMelvorCompatibility.isLoaded()) {
-            this.context.gameData.addPackage(NoCmimAutomataModData);
-            this.context.gameData.addPackage(DelayedAutomataModData);
             this.context.gameData.addPackage(NoCmimGlacorModData);
             this.context.gameData.addPackage(DelayedGlacorModData);
+            this.context.gameData.addPackage(NoCmimAutomataModData);
+            this.context.gameData.addPackage(DelayedAutomataModData);
             return;
         }
 
         // Register data
         this.context.gameData.addPackage(CmimSharedModData);
-        this.context.gameData.addPackage(CmimAutomataModData);
-        this.context.gameData.addPackage(DelayedAutomataModData);
         this.context.gameData.addPackage(CmimGlacorModData);
         this.context.gameData.addPackage(DelayedGlacorModData);
+        this.context.gameData.addPackage(CmimAutomataModData);
+        this.context.gameData.addPackage(DelayedAutomataModData);
 
         // Use api, if available
         const cmim = mod.api.customModifiersInMelvor;

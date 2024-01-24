@@ -174,6 +174,14 @@ export class TranslationManager {
             return original();
         });
 
+        this.context.patch(Pet, 'acquiredBy').get(function (original) {
+            if (this.namespace === Constants.MOD_NAMESPACE) {
+                return TranslationManager.getPetHint(this.localID);
+            }
+
+            return original();
+        });
+
         this.context.patch(Pet, 'description').get(function (original) {
             // If the pet is not of this mod, then do not run any special logic
             if (this.namespace !== Constants.MOD_NAMESPACE) {
@@ -251,5 +259,54 @@ export class TranslationManager {
                 loadedLangJson[`${Constants.MOD_NAMESPACE}_${key}`] = value;
             }
         }
+
+        // In a delayed fashion, register pet hints dynamically
+        this.context.onModsLoaded(function () {
+            const combatAreas: Map<string, CombatArea> | undefined = game.combatAreas.namespaceMaps.get(Constants.MOD_NAMESPACE);
+            const slayerAreas: Map<string, SlayerArea> | undefined = game.slayerAreas.namespaceMaps.get(Constants.MOD_NAMESPACE);
+
+            if (combatAreas !== undefined) {
+                combatAreas.forEach(function (combatArea) {
+                    combatArea.monsters.forEach(function (monster) {
+                        if (monster.pet !== undefined) {
+                            TranslationManager.addOrUpdatePetHint(monster.pet.pet.localID, combatArea.name);
+                        }
+                    })
+                });
+            }
+            if (slayerAreas !== undefined) {
+                slayerAreas.forEach(function (slayerArea) {
+                    slayerArea.monsters.forEach(function (monster) {
+                        if (monster.pet !== undefined) {
+                            TranslationManager.addOrUpdatePetHint(monster.pet.pet.localID, slayerArea.name);
+                        }
+                    })
+                    if (slayerArea.pet !== undefined) {
+                        TranslationManager.addOrUpdatePetHint(slayerArea.pet.pet.localID, slayerArea.name);
+                    }
+                });
+            }
+        });
+    }
+
+    /**
+     * Get hint of where to get the given pet
+     * @param petLocalId
+     * @returns
+     */
+    private static getPetHint(petLocalId: string): string {
+        return loadedLangJson[`${Constants.MOD_NAMESPACE}_PET_HINT_${petLocalId}`];
+    }
+
+    /**
+     * Register, or update existing translation, for the hint of where to get a pet
+     * @param petLocalId
+     * @param source
+     */
+    private static addOrUpdatePetHint(petLocalId: string, source: string): void {
+        const existingSource = loadedLangJson[`${Constants.MOD_NAMESPACE}_PET_HINT_${petLocalId}`];
+        loadedLangJson[`${Constants.MOD_NAMESPACE}_PET_HINT_${petLocalId}`] = existingSource && existingSource.length > 0
+            ? `${existingSource}, ${source}`
+            : `${source}`;
     }
 }
