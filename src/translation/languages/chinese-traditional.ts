@@ -128,7 +128,7 @@
     SLAYER_AREA_NAME_Glacor_Cave: '格拉科爾洞穴',
     SLAYER_AREA_EFFECT_Glacor_Cave: '-${effectValue}% 攻擊間隔',
     SLAYER_AREA_NAME_Guthix_Chamber: "古西克斯的密室",
-    SLAYER_AREA_EFFECT_Guthix_Chamber: "-{effectValue}% 流血時傷害減少降低$",
+    SLAYER_AREA_EFFECT_Guthix_Chamber: "-${effectValue}% 流血時傷害減少降低$",
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: '達甘諾斯暴龍',
@@ -248,18 +248,18 @@
     SPECIAL_ATTACK_DESCRIPTION_Automaton_Pulse: "你重複猛擊地面，產生脈衝，在 ${duration} 秒內造成 ${attackDamageMaxValue0}% 的正常傷害 ${hitCount} 次，並造成流血，在 ${onHitEffect0duration 內造成最大命中 ${onHitEffect0DamageMaxValue0}% 的傷害}s",
 
     // #### Passives names and descriptions
-    PASSIVE_NAME_Royal_Hide_Sea_Melee: '皇家之皮（海）（近戰）',
+    PASSIVE_NAME_Royal_Hide_Sea_Melee: '皇家之皮（海）（近戰)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Melee: "達甘諾斯國王強大的保護性隱藏${modifierTinyIcons0}${modifierTinyIcons1}可以保護他們免受所有他們不弱的攻擊方式",
-    PASSIVE_NAME_Royal_Hide_Sea_Ranged: '皇家之皮（海）（遠程）',
+    PASSIVE_NAME_Royal_Hide_Sea_Ranged: '皇家之皮（海）（遠程)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Ranged: "達甘諾斯國王強大的保護性隱藏${modifierTinyIcons0}${modifierTinyIcons1}可以保護他們免受所有他們不弱的攻擊方式",
-    PASSIVE_NAME_Royal_Hide_Sea_Magic: '皇家之皮（海）（魔法）',
+    PASSIVE_NAME_Royal_Hide_Sea_Magic: '皇家之皮（海）（魔法)',
     PASSIVE_DESCRIPTION_Royal_Hide_Sea_Magic: "達甘諾斯國王強大的保護性隱藏${modifierTinyIcons0}${modifierTinyIcons1}可以保護他們免受所有他們不弱的攻擊方式",
-    PASSIVE_NAME_Orikalka_Royal_Hide: '皇家皮（侏羅紀）（近戰）',
+    PASSIVE_NAME_Orikalka_Royal_Hide: '皇家皮（侏羅紀）（近戰)',
     PASSIVE_DESCRIPTION_Orikalka_Royal_Hide: "霸王龍女族長強大的保護性隱藏物 ${modifierTinyIcons0}${modifierTinyIcons1} 可以保護它們免受所有它們不弱的攻擊方式的侵害。 另提供 ${modifierTinyIcons2}+10% 傷害減免",
-    PASSIVE_NAME_Rathis_Royal_Hide: '皇家隱藏（侏羅紀）（遠程）',
+    PASSIVE_NAME_Rathis_Royal_Hide: '皇家隱藏（侏羅紀）（遠程)',
     PASSIVE_DESCRIPTION_Rathis_Royal_Hide: "霸王龍女族長強大的保護性隱藏物 ${modifierTinyIcons0}${modifierTinyIcons1} 可以保護它們免受所有它們不弱的攻擊方式的侵害。 另提供 ${modifierTinyIcons2}+10% 傷害減免",
     PASSIVE_NAME_Rathis_Poisonous_Body: "毒體",
-    PASSIVE_NAME_Pthentraken_Royal_Hide: '皇家之皮（侏羅紀）（魔法）',
+    PASSIVE_NAME_Pthentraken_Royal_Hide: '皇家之皮（侏羅紀）（魔法)',
     PASSIVE_DESCRIPTION_Pthentraken_Royal_Hide: "霸王龍女族長強大的保護性隱藏物 ${modifierTinyIcons0}${modifierTinyIcons1} 可以保護它們免受所有它們不弱的攻擊方式的侵害。 另提供 ${modifierTinyIcons2}+10% 傷害減免",
 
     PASSIVE_NAME_Gregorovic_Summoned_Spirits: '召喚的靈魂',
