@@ -137,12 +137,14 @@ export const en = {
     MONSTER_DESCRIPTION_Dagannoth_Supreme: 'The dagannoth king responsible for the death of the Bukalla.',
     MONSTER_NAME_Dagannoth_Prime: 'Dagannoth Prime',
     MONSTER_DESCRIPTION_Dagannoth_Prime: 'A legendary dagannoth king, rumoured to fly on the North winds.',
+
     MONSTER_NAME_Orikalka: 'Orikalka',
     MONSTER_DESCRIPTION_Orikalka: 'A plated behemoth, armoured to the teeth.',
     MONSTER_NAME_Rathis: 'Rathis',
     MONSTER_DESCRIPTION_Rathis: 'A fierce, spiked beast. It has evolved to attack from afar, despite being a fearsome foe up close.',
     MONSTER_NAME_Pthentraken: 'Pthentraken',
     MONSTER_DESCRIPTION_Pthentraken: 'A ferocious hunter, crackling with magical energy.',
+
     MONSTER_NAME_Helwyr: 'Helwyr',
     MONSTER_DESCRIPTION_Helwyr: 'Leader of the Cywir hunters, possessing ancient powers of transformation.',
     MONSTER_NAME_Avaryss_And_Nymora: 'Avaryss and Nymora',

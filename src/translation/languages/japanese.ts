@@ -137,12 +137,14 @@ export const ja = {
     "MONSTER_DESCRIPTION_Dagannoth_Supreme": "ブカラの死の原因となったダガノス王。",
     "MONSTER_NAME_Dagannoth_Prime": "ダガノス・プライム",
     "MONSTER_DESCRIPTION_Dagannoth_Prime": "北風に乗って飛ぶと噂される伝説のダガノス王。",
+
     "MONSTER_NAME_Orikalka": "オリカルカ",
     "MONSTER_DESCRIPTION_Orikalka": "メッキを施した巨大な鎧。",
     "MONSTER_NAME_Rathis": "ラティス",
     "MONSTER_DESCRIPTION_Rathis": "獰猛なトゲのある獣。近くで見ると恐ろしい敵だが、遠くから攻撃するように進化した。",
     "MONSTER_NAME_Pthentraken": "プテントラーケン",
     "MONSTER_DESCRIPTION_Pthentraken": "獰猛なハンターで、魔法のエネルギーに満ちている。",
+
     "MONSTER_NAME_Helwyr": "ヘルウィア",
     "MONSTER_DESCRIPTION_Helwyr": "古代の変身能力を持つサイウィアハンターのリーダー。",
     "MONSTER_NAME_Avaryss_And_Nymora": "アバリスとナイモラ",

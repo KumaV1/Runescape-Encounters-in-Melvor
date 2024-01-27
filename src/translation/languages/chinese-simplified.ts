@@ -137,12 +137,14 @@
     "MONSTER_DESCRIPTION_Dagannoth_Supreme": "造成布卡拉人死亡的达干诺国王。",
     "MONSTER_NAME_Dagannoth_Prime": "达甘诺斯主峰",
     "MONSTER_DESCRIPTION_Dagannoth_Prime": "传说中的达甘诺斯之王，传说他能乘着北风飞行。",
+
     "MONSTER_NAME_Orikalka": "奥里卡尔卡",
     "MONSTER_DESCRIPTION_Orikalka": "电镀巨兽，装甲满身。",
     "MONSTER_NAME_Rathis": "拉蒂斯",
     "MONSTER_DESCRIPTION_Rathis": "一种凶猛的尖刺野兽。它进化成了远距离攻击，尽管近距离也是可怕的敌人。",
     "MONSTER_NAME_Pthentraken": "豌豆",
     "MONSTER_DESCRIPTION_Pthentraken": "一个凶猛的猎人，浑身散发着神奇的能量。",
+
     "MONSTER_NAME_Helwyr": "赫尔维",
     "MONSTER_DESCRIPTION_Helwyr": "赛维尔 猎人的首领，拥有古老的变形能力。",
     "MONSTER_NAME_Avaryss_And_Nymora": "阿瓦瑞斯和尼莫拉",

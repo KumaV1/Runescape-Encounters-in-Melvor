@@ -137,12 +137,14 @@
     MONSTER_DESCRIPTION_Dagannoth_Supreme: '達甘諾斯國王對布卡拉的死亡負有責任。',
     MONSTER_NAME_Dagannoth_Prime: '達甘諾斯主要的',
     MONSTER_DESCRIPTION_Dagannoth_Prime: '傳說中的達甘諾斯國王，據說能乘北風飛行。',
+
     MONSTER_NAME_Orikalka: '奧里卡爾卡',
     MONSTER_DESCRIPTION_Orikalka: '一個披著鎧甲的龐然大物，全身鎧甲到牙齒。',
     MONSTER_NAME_Rathis: '拉蒂斯',
     MONSTER_DESCRIPTION_Rathis: '兇猛、長滿尖刺的野獸。 儘管它是近距離的可怕敵人，但它已經進化到可以從遠處攻擊。',
     MONSTER_NAME_Pthentraken: '普滕特拉肯',
     MONSTER_DESCRIPTION_Pthentraken: '兇猛的獵人，充滿魔法能量。',
+
     MONSTER_NAME_Helwyr: '赫爾維爾',
     MONSTER_DESCRIPTION_Helwyr: '賽維爾獵人的首領，擁有古老的變形能力。',
     MONSTER_NAME_Avaryss_And_Nymora: '阿瓦里斯和尼摩拉',

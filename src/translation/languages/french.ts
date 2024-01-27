@@ -137,12 +137,14 @@
     "MONSTER_DESCRIPTION_Dagannoth_Supreme": "Le roi dagannoth responsable de la mort des Bukalla.",
     "MONSTER_NAME_Dagannoth_Prime": "Dagannoth Prime",
     "MONSTER_DESCRIPTION_Dagannoth_Prime": "Un roi dagannoth légendaire, dont la rumeur dit qu'il vole sur les vents du Nord.",
+
     "MONSTER_NAME_Orikalka": "Orikalka",
     "MONSTER_DESCRIPTION_Orikalka": "Un mastodonte plaqué, blindé jusqu'aux dents.",
     "MONSTER_NAME_Rathis": "Rathis",
     "MONSTER_DESCRIPTION_Rathis": "Une bête féroce, hérissée de pointes. Elle a évolué pour attaquer de loin, bien qu'elle soit un ennemi redoutable de près.",
     "MONSTER_NAME_Pthentraken": "Pthentraken",
     "MONSTER_DESCRIPTION_Pthentraken": "Un chasseur féroce, crépitant d'énergie magique.",
+
     "MONSTER_NAME_Helwyr": "Helwyr",
     "MONSTER_DESCRIPTION_Helwyr": "Chef des chasseurs de Cywir, possédant d'anciens pouvoirs de transformation.",
     "MONSTER_NAME_Avaryss_And_Nymora": "Avaryss et Nymora",
