@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.3.0
+* New
+  * Guthix's Chamber (Slayer area)
+  * Pet for both Glacor Cave and Guthix's Chamber (bonus requires `CMiM` mod, though)
+  * Machine translation for languages other than English and German
+* Fixes and adjustments
+  * Localization support for Slayer area effects and Pet hints
+  * Most monsters now have DR% (including Rex Matriarchs which were already supposed to have some)
+  * Improved `Tiny Icons` support for custom descriptions
+  * Items, Pets, Attacks and Passives that (would) utilize `CMiM` modifiers, will now inform you of that, if the mod isn't loaded
+
 ## v1.2.3
 * Helwyr is now categorized as an elf
 * Fixed issue with dragonkin lamp not being consumed on AoD-expansion skills

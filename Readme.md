@@ -40,6 +40,14 @@ Feel free to contribute directly or tell us your ideas, be it improvements (e.g.
   * T80 boots
     * Slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
   * T77 staff, that also enables a new standard and a new aurora spell
+  * Pet (bonus requires [Custom Modifiers in Melvor](https://mod.io/g/melvoridle/m/custom-modifiers-in-melvor))
+
+## Guthix's Chamber
+* Meant be not quite GWD2 level, but also not too weak
+* Rewards
+  * T80 boots
+    * Slightly higher offense than God Dungeon armour, in exchange for no Damage reduction
+  * Pet (bonus requires [Custom Modifiers in Melvor](https://mod.io/g/melvoridle/m/custom-modifiers-in-melvor))
 
 # Ideas (no promises)
 
