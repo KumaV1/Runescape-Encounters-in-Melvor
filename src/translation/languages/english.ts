@@ -69,9 +69,9 @@ export const en = {
     ITEM_NAME_Anima_Core_Legs_Of_Seren: 'Anima core legs of Seren',
     ITEM_DESCRIPTION_Anima_Core_Legs_Of_Seren: '+30 Minimum Damage when using ${modifierTinyIcons0}Air, ${modifierTinyIcons1}Water, ${modifierTinyIcons2}Earth or ${modifierTinyIcons3}Fire Spells.',
     ITEM_NAME_Wand_Of_The_Cywir_Elders: 'Wand of the Cywir elders',
-    ITEM_DESCRIPTION_Wand_Of_The_Cywir_Elders: 'When equipped with Orb of the Cywir elders, +15% ${modifierTinyIcons0}Global Accurary Rating',
+    ITEM_DESCRIPTION_Wand_Of_The_Cywir_Elders: 'When equipped with Orb of the Cywir elders, ${modifierTinyIcons0}+15% Global Accurary Rating',
     ITEM_NAME_Orb_Of_The_Cywir_Elders: 'Orb of the Cywir elders',
-    ITEM_DESCRIPTION_Orb_Of_The_Cywir_Elders: 'When equipped with Wand of the Cywir elders, +15% ${modifierTinyIcons0}Global Accurary Rating',
+    ITEM_DESCRIPTION_Orb_Of_The_Cywir_Elders: 'When equipped with Wand of the Cywir elders, ${modifierTinyIcons0}+15% Global Accurary Rating',
     ITEM_NAME_Crest_Of_Seren: "Crest of Seren",
     ITEM_NAME_Anima_Core_Helm_Of_Zamorak: 'Anima core helm of Zamorak',
     ITEM_NAME_Anima_Core_Body_Of_Zamorak: 'Anima core body of Zamorak',
@@ -127,8 +127,8 @@ export const en = {
     COMBAT_AREA_NAME_Godwars_Dungeon_2_Heart_Of_Gielinor: 'Godwars Dungeon 2 - Heart of Gielinor',
     SLAYER_AREA_NAME_Glacor_Cave: 'Glacor Cave',
     SLAYER_AREA_EFFECT_Glacor_Cave: '-${effectValue}% Attack Interval',
-    SLAYER_AREA_NAME_Guthix_Cave: "Guthix's Cave",
-    SLAYER_AREA_EFFECT_Guthix_Cave: "-${effectValue}% reduced Damage Reduction while Bleeding",
+    SLAYER_AREA_NAME_Guthix_Chamber: "Guthix's Chamber",
+    SLAYER_AREA_EFFECT_Guthix_Chamber: "-${effectValue}% reduced Damage Reduction while Bleeding",
 
     // #### Monster names and descriptions
     MONSTER_NAME_Dagannoth_Rex: 'Dagannoth Rex',
@@ -137,12 +137,14 @@ export const en = {
     MONSTER_DESCRIPTION_Dagannoth_Supreme: 'The dagannoth king responsible for the death of the Bukalla.',
     MONSTER_NAME_Dagannoth_Prime: 'Dagannoth Prime',
     MONSTER_DESCRIPTION_Dagannoth_Prime: 'A legendary dagannoth king, rumoured to fly on the North winds.',
+
     MONSTER_NAME_Orikalka: 'Orikalka',
     MONSTER_DESCRIPTION_Orikalka: 'A plated behemoth, armoured to the teeth.',
     MONSTER_NAME_Rathis: 'Rathis',
     MONSTER_DESCRIPTION_Rathis: 'A fierce, spiked beast. It has evolved to attack from afar, despite being a fearsome foe up close.',
     MONSTER_NAME_Pthentraken: 'Pthentraken',
     MONSTER_DESCRIPTION_Pthentraken: 'A ferocious hunter, crackling with magical energy.',
+
     MONSTER_NAME_Helwyr: 'Helwyr',
     MONSTER_DESCRIPTION_Helwyr: 'Leader of the Cywir hunters, possessing ancient powers of transformation.',
     MONSTER_NAME_Avaryss_And_Nymora: 'Avaryss and Nymora',

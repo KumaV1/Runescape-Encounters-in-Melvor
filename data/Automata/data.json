@@ -636,7 +636,7 @@
     ],
     "slayerAreas": [
       {
-        "id": "Guthix_Cave",
+        "id": "Guthix_Chamber",
         "name": "Guthix's Cave",
         "media": "assets/runescapeEncountersInMelvor/Cresbot.png",
         "difficulty": [ 4 ],
@@ -665,7 +665,7 @@
         "insertAt": "After",
         "afterID": "melvorF:Perilous_Peaks",
         "ids": [
-          "runescapeEncountersInMelvor:Guthix_Cave"
+          "runescapeEncountersInMelvor:Guthix_Chamber"
         ]
       }
     ]

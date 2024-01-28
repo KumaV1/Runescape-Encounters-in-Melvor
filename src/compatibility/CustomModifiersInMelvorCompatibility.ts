@@ -70,7 +70,7 @@ export class CustomModifiersInMelvorCompatibility {
     }
 
     /**
-     * Retrieve item description, which may or may not get appended with a CMiM notice
+     * Check item, to possibly append its description with a CMiM notice
      * @param localItemId id of item, through which to check whether a CMiM notice should be added
      * @param description description to possibly modify
      */
@@ -79,7 +79,7 @@ export class CustomModifiersInMelvorCompatibility {
     }
 
     /**
-     * Retrieve item description, which may or may not get appended with a CMiM notice
+     * Check pet, to possibly append its description with a CMiM notice
      * @param localPetId id of pet, through which to check whether a CMiM notice should be added
      * @param description description to possibly modify
      */
@@ -88,7 +88,7 @@ export class CustomModifiersInMelvorCompatibility {
     }
 
     /**
-     * Retrieve item description, which may or may not get appended with a CMiM notice
+     * Check special attack, to possibly append its description with a CMiM notice
      * @param localSpecialAttackId id of special attack, through which to check whether a CMiM notice should be added
      * @param description description to possibly modify
      */
@@ -97,7 +97,7 @@ export class CustomModifiersInMelvorCompatibility {
     }
 
     /**
-     * Retrieve item description, which may or may not get appended with a CMiM notice
+     * Check passive, to possibly append its description with a CMiM notice
      * @param localPassiveId id of passive, through which to check whether a CMiM notice should be added
      * @param description description to possibly modify
      */
