@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.1
+* Fixed encoding issues for some language files
+
 ## v1.3.0
 * New
   * Guthix's Chamber (Slayer area)
@@ -9,7 +12,7 @@
   * Localization support for Slayer area effects and Pet hints
   * Most monsters now have DR% (including Rex Matriarchs which were already supposed to have some)
   * Improved `Tiny Icons` support for custom descriptions
-  * Items, Pets, Attacks and Passives that (would) utilize `CMiM` modifiers, will now inform you of that, if the mod isn't loaded
+  * Items, Pets, Attacks and Passives that (would) utilize `CMiM` modifiers now mention that in their description, if the mod isn't loaded
 
 ## v1.2.3
 * Helwyr is now categorized as an elf
